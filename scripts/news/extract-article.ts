@@ -11,7 +11,12 @@ export interface ExtractedArticle {
 const MIN_EXTRACTED_TEXT_LENGTH = 300;
 
 export function parseArticleHtml(html: string, url: string): ExtractedArticle | null {
-  const dom = new JSDOM(html, { url });
+  const cleanedHtml = html
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<noscript[\s\S]*?<\/noscript>/gi, "");
+
+  const dom = new JSDOM(cleanedHtml, { url });
   const parsed = new Readability(dom.window.document).parse();
   const textContent = parsed?.textContent.replace(/\s+/g, " ").trim();
 

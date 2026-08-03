@@ -2,16 +2,25 @@
 const year = new Date().getFullYear();
 ---
 
-<footer class="border-t border-line bg-white">
-  <div class="mx-auto grid max-w-6xl gap-6 px-4 py-8 text-sm text-muted sm:px-6 md:grid-cols-[1fr_auto]">
-    <div>
-      <p class="font-semibold text-ink">ทันเทค</p>
-      <p class="mt-1 max-w-2xl">สรุปข่าวเทคสำคัญ ให้คุณทันทุกวัน พร้อมลิงก์กลับไปยังต้นฉบับเพื่อการตรวจสอบ.</p>
+<footer class="border-t border-line bg-white" role="contentinfo">
+  <div class="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+    <div class="grid gap-6 md:grid-cols-[1fr_auto]">
+      <div>
+        <p class="text-lg font-bold text-ink">ทันเทค</p>
+        <p class="mt-1 max-w-2xl text-sm text-muted">
+          สรุปข่าวเทคสำคัญ ให้คุณทันทุกวัน พร้อมลิงก์กลับไปยังต้นฉบับเพื่อการตรวจสอบ.
+          ข่าวทุกบทความสร้างโดย AI และผ่านการตรวจสอบโดยบรรณาธิการ.
+        </p>
+      </div>
+      <nav aria-label="ลิงก์ท้ายเว็บ" class="flex flex-wrap gap-4 text-sm md:justify-end">
+        <a class="font-semibold text-muted hover:text-ink transition-colors" href="/rss.xml">RSS</a>
+        <a class="font-semibold text-muted hover:text-ink transition-colors" href="/sitemap.xml">Sitemap</a>
+        <a class="font-semibold text-muted hover:text-ink transition-colors" href="/archive/">คลังข่าว</a>
+        <a class="font-semibold text-muted hover:text-ink transition-colors" href="/category/">หมวดหมู่</a>
+      </nav>
     </div>
-    <div class="flex flex-wrap gap-4 md:justify-end">
-      <a class="font-semibold hover:text-ink" href="/rss.xml">RSS</a>
-      <a class="font-semibold hover:text-ink" href="/sitemap.xml">Sitemap</a>
-      <span>© {year} TanTech News</span>
+    <div class="mt-6 border-t border-line pt-4">
+      <p class="text-xs text-muted">© {year} TanTech News. สงวนลิขสิทธิ์.</p>
     </div>
   </div>
 </footer>

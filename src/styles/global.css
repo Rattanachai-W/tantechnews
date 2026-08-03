@@ -41,6 +41,8 @@ a {
 .prose-news {
   color: #1f2937;
   line-height: 1.85;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .prose-news h2 {

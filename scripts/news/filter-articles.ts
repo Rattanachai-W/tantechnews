@@ -2,7 +2,19 @@ import { readFile } from "node:fs/promises";
 import { hoursAgo, isWithinWindow } from "../shared/date";
 import type { RawArticle } from "../../src/types/article";
 
-const BLOCKED_TITLE_PATTERNS = [/sponsored/i, /advertorial/i, /deal of the day/i];
+const BLOCKED_TITLE_PATTERNS = [
+  /sponsored/i,
+  /advertorial/i,
+  /deal of the day/i,
+  // Non-tech content filters
+  /\bmusic\b.*\b(review|album|song|band|festival)\b/i,
+  /\b(game|gaming)\b.*\b(review|trailer|release)\b/i,
+  /\b(movie|film|tv|television)\b.*\b(review|trailer)\b/i,
+  /\b(recipe|cooking|food)\b.*\b(review|best)\b/i,
+  /\bsports?\b.*\b(team|player|game|match)\b/i,
+  /\b(opinion|editorial|column)\b/i,
+  /\b(interview|q&a|qa)\b.*\b(with|:)\b/i,
+];
 
 interface BlockedDomainsConfig {
   domains: string[];

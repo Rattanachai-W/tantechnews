@@ -1,3 +1,123 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "id": "4f7ba0173228deb1e3167824b1e052025771a0295dffc4e3b6f4ab9d2a9a3c28",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "slug": "alibaba-qwen3-8-max-ai",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-03T11:42:32.764Z"
+    },
+    {
+      "id": "34ee2c0fc6ac46c2a72f3d24a117b264e53fbd9bfc3b8ab07a262e6bdcd6624e",
+      "url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
+      "slug": "qwen-3-8-max-ai-gateway-vercel",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-03T11:42:31.763Z"
+    },
+    {
+      "id": "d0601037cbc8406aa034ffd36e5734693aea7cdf7ef1fba77f00f5e80a6ad881",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "slug": "ai",
+      "sourceName": "MIT Technology Review",
+      "processedAt": "2026-08-03T11:42:34.388Z"
+    },
+    {
+      "id": "ae4e2aba061a2c2c5c6de641fa74fa16cfbaf645d7416594a2b723f71fcd97d4",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "slug": "xai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-03T11:42:43.999Z"
+    },
+    {
+      "id": "0651b9953801944e48ff8964995109fb00403c54b1d0cc529cbbf8e36716dd60",
+      "url": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
+      "slug": "microsoft-xbox-200-170",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-03T11:42:43.285Z"
+    },
+    {
+      "id": "196d3fcdba2e15c3216985972ee5143d014a5163d4bfd8721d0cd33c8cddd1ce",
+      "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
+      "slug": "196d3fcdba2e",
+      "sourceName": "WIRED",
+      "processedAt": "2026-08-03T11:43:15.293Z"
+    },
+    {
+      "id": "b8d158559b2144432ce3cf158b5c04a40d399121e4006bd8ca50abf29241af07",
+      "url": "https://blog.cloudflare.com/agents-week-welcome/",
+      "slug": "b8d158559b21",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-08-03T11:43:11.875Z"
+    },
+    {
+      "id": "09cf17eb199a2ae7f3865c7e4182db290ae9029daafefcf9f06ab72c5f0cec90",
+      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "slug": "june-marc-benioff-20-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-03T11:43:25.722Z"
+    },
+    {
+      "id": "49652da6738479fbb8f74d5e8367ddc8ea61b390faa97e7b603d86eea797f8ba",
+      "url": "https://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak",
+      "slug": "pixel-11",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-03T11:43:28.873Z"
+    },
+    {
+      "id": "31505aa3adc0cdab3bda34d9af727e7bec7e177b1df296d0e5c9cba0224b5a4c",
+      "url": "https://www.docker.com/blog/docker-ai-governance-audit-logs-now-where-your-security-team-already-works/",
+      "slug": "docker-ai-governance-audit-logs-now-where-your-security-team",
+      "sourceName": "Docker Blog",
+      "processedAt": "2026-08-03T15:25:00.893Z"
+    },
+    {
+      "id": "b257783a343d87b86f6cd50bd87a604478a00f57aae7d85c95b34fc43c4fa348",
+      "url": "https://www.theverge.com/gadgets/974391/samsung-nvme-ssd-2tb-steelseries-arctis-omni-pixel-10a-deal-sale",
+      "slug": "samsung-s-2tb-9100-pro-ssd-is-actually-somewhat-reasonably-p",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-03T15:25:00.449Z"
+    },
+    {
+      "id": "eaa0372b22c5242a6f0dc8849e98ca9d1e6185e83b912934e6aa8a582e8873ad",
+      "url": "https://blog.cloudflare.com/cloudflare-computer/",
+      "slug": "your-agent-needs-a-computer-not-a-container-introducing-clou",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-08-03T15:25:02.839Z"
+    },
+    {
+      "id": "21f729a6ef3dc7f87de896b1179ff4aad8f22527b8ce968f8855313d637624b0",
+      "url": "https://blog.cloudflare.com/grpc-workers/",
+      "slug": "cloudflare-workers-and-containers-now-support-inbound-tcp-co",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-08-03T15:25:04.355Z"
+    },
+    {
+      "id": "9546411ce5bafb1fe2d15c49bd326274be9f1f18570dd6eb4940b1345e7d70cc",
+      "url": "https://blog.cloudflare.com/billable-usage-api/",
+      "slug": "introducing-the-billable-usage-api-programmatic-cost-visibil",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-08-03T15:25:05.801Z"
+    },
+    {
+      "id": "7715502a336380e591d72e626f6ff64fc4678698b8716423931f21a7559359d3",
+      "url": "https://www.docker.com/blog/empty-sandboxes-break-developer-experience/",
+      "slug": "empty-sandboxes-break-developer-experience",
+      "sourceName": "Docker Blog",
+      "processedAt": "2026-08-03T15:25:05.895Z"
+    },
+    {
+      "id": "2080e3a392660eb80fd7b2adcfdfd6bb2f8c52b64f6d58e536c9728781707fe1",
+      "url": "https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/",
+      "slug": "horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-t",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-03T15:25:06.711Z"
+    },
+    {
+      "id": "6f1a19fc2f233dbb3aa3e86b05bc5cb1e9a9c64b670f7bc2926d0fa39ad57c7d",
+      "url": "https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/",
+      "slug": "the-global-memory-shortage-hits-the-macbook-air",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-03T15:25:07.008Z"
+    }
+  ]
 }

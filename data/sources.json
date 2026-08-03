@@ -11,6 +11,16 @@
       "language": "en"
     },
     {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "type": "rss",
+      "enabled": false,
+      "tier": 1,
+      "categories": ["AI"],
+      "language": "en"
+    },
+    {
       "id": "github-blog",
       "name": "GitHub Blog",
       "url": "https://github.blog/feed/",
@@ -31,6 +41,66 @@
       "language": "en"
     },
     {
+      "id": "aws-blog",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["Cloud"],
+      "language": "en"
+    },
+    {
+      "id": "microsoft-blog",
+      "name": "Microsoft Blog",
+      "url": "https://blogs.microsoft.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["Cloud", "AI", "Business"],
+      "language": "en"
+    },
+    {
+      "id": "vercel-blog",
+      "name": "Vercel Blog",
+      "url": "https://vercel.com/atom",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["Programming", "Cloud"],
+      "language": "en"
+    },
+    {
+      "id": "mozilla-blog",
+      "name": "Mozilla Blog",
+      "url": "https://blog.mozilla.org/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["Open Source", "Cybersecurity"],
+      "language": "en"
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["AI", "Hardware"],
+      "language": "en"
+    },
+    {
+      "id": "docker-blog",
+      "name": "Docker Blog",
+      "url": "https://www.docker.com/blog/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["Programming", "Cloud"],
+      "language": "en"
+    },
+    {
       "id": "techcrunch",
       "name": "TechCrunch",
       "url": "https://techcrunch.com/feed/",
@@ -38,6 +108,76 @@
       "enabled": true,
       "tier": 2,
       "categories": ["Startup", "Business"],
+      "language": "en"
+    },
+    {
+      "id": "ars-technica",
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Programming", "Cybersecurity", "Science"],
+      "language": "en"
+    },
+    {
+      "id": "the-verge",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Mobile", "Hardware", "Business"],
+      "language": "en"
+    },
+    {
+      "id": "wired",
+      "name": "WIRED",
+      "url": "https://www.wired.com/feed/rss",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["AI", "Science", "Cybersecurity"],
+      "language": "en"
+    },
+    {
+      "id": "mit-tech-review",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["AI", "Science", "Data"],
+      "language": "en"
+    },
+    {
+      "id": "ieee-spectrum",
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Hardware", "Science", "AI"],
+      "language": "en"
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage?count=30",
+      "type": "rss",
+      "enabled": true,
+      "tier": 3,
+      "categories": ["Programming", "Startup", "Open Source"],
+      "language": "en"
+    },
+    {
+      "id": "lobsters",
+      "name": "Lobsters",
+      "url": "https://lobste.rs/rss",
+      "type": "rss",
+      "enabled": true,
+      "tier": 3,
+      "categories": ["Programming", "Open Source"],
       "language": "en"
     }
   ]

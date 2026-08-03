@@ -3,7 +3,7 @@ import BaseLayout from "./BaseLayout.astro";
 import JsonLd from "../components/seo/json-ld.astro";
 import { formatDateTime } from "../utils/format-date";
 import type { NewsEntry } from "../utils/content";
-import { getArticleJsonLd } from "../utils/seo";
+import { getArticleJsonLd, getBreadcrumbJsonLd, seoDefaults } from "../utils/seo";
 
 interface Props {
   article: NewsEntry;
@@ -12,6 +12,17 @@ interface Props {
 const { article } = Astro.props;
 const { Content } = await article.render();
 const canonical = new URL(`/news/${article.slug}/`, Astro.site).href;
+const primaryCategory = article.data.categories[0] ?? "AI";
+const categoryHref = `/category/${primaryCategory.toLowerCase().replace(/\s+/g, "-")}/`;
+
+const breadcrumbs = [
+  { name: "หน้าแรก", url: `${seoDefaults.siteUrl}/` },
+  { name: primaryCategory, url: `${seoDefaults.siteUrl}${categoryHref}` },
+  { name: article.data.title, url: canonical }
+];
+
+const breadcrumbJsonLd = getBreadcrumbJsonLd(breadcrumbs);
+const articleJsonLd = getArticleJsonLd(article, canonical);
 ---
 
 <BaseLayout
@@ -42,11 +53,28 @@ const canonical = new URL(`/news/${article.slug}/`, Astro.site).href;
         <meta property="article:tag" content={tag} />
       ))
     }
-    <JsonLd data={getArticleJsonLd(article, canonical)} />
+    <JsonLd data={articleJsonLd} />
+    <JsonLd data={breadcrumbJsonLd} />
   </Fragment>
 
-  <article class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
-    <div class="mb-7 border-b border-line pb-7">
+  <article class="mx-auto max-w-3xl px-4 py-10 sm:px-6" itemscope itemtype="https://schema.org/NewsArticle">
+    <!-- Breadcrumb navigation -->
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex flex-wrap items-center gap-1.5 text-sm text-muted">
+        {breadcrumbs.map((crumb, index) => (
+          <li class="flex items-center gap-1.5">
+            {index > 0 && <span aria-hidden="true" class="text-line">/</span>}
+            {index < breadcrumbs.length - 1 ? (
+              <a class="font-medium hover:text-brand" href={crumb.url}>{crumb.name}</a>
+            ) : (
+              <span class="font-semibold text-ink" aria-current="page">{crumb.name}</span>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+
+    <header class="mb-7 border-b border-line pb-7">
       <div class="flex flex-wrap gap-2 text-xs font-semibold text-muted">
         {
           article.data.draft && (
@@ -57,9 +85,12 @@ const canonical = new URL(`/news/${article.slug}/`, Astro.site).href;
         }
         {
           article.data.categories.map((category) => (
-            <span class="rounded-md bg-brand-light px-2.5 py-1 text-brand-dark">
+            <a
+              class="rounded-md bg-brand-light px-2.5 py-1 text-brand-dark hover:bg-brand hover:text-white transition-colors"
+              href={`/category/${category.toLowerCase().replace(/\s+/g, "-")}/`}
+            >
               {category}
-            </span>
+            </a>
           ))
         }
       </div>
@@ -68,22 +99,36 @@ const canonical = new URL(`/news/${article.slug}/`, Astro.site).href;
           <p
             class="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm font-semibold text-amber-900"
             data-pagefind-ignore
+            role="alert"
           >
-            บทความนี้ยังเป็น draft สำหรับ editorial review และยังไม่ควรเผยแพร่บน
-            production.
+            บทความนี้ยังเป็น draft สำหรับ editorial review และยังไม่ควรเผยแพร่บน production.
           </p>
         )
       }
       <h1
         class="mt-5 text-3xl font-extrabold leading-tight text-ink sm:text-4xl"
+        itemprop="headline"
       >
         {article.data.title}
       </h1>
-      <p class="mt-4 text-lg leading-8 text-muted">{article.data.excerpt}</p>
-      <dl class="mt-6 grid gap-2 text-sm text-muted sm:grid-cols-2">
+      <p class="mt-4 text-lg leading-8 text-muted" itemprop="description">
+        {article.data.excerpt}
+      </p>
+      <dl class="mt-6 grid gap-3 text-sm text-muted sm:grid-cols-3">
         <div>
           <dt class="font-semibold text-ink">เผยแพร่</dt>
-          <dd>{formatDateTime(article.data.publishedAt)}</dd>
+          <dd>
+            <time
+              datetime={article.data.publishedAt.toISOString()}
+              itemprop="datePublished"
+            >
+              {formatDateTime(article.data.publishedAt)}
+            </time>
+          </dd>
+        </div>
+        <div>
+          <dt class="font-semibold text-ink">เวลาอ่าน</dt>
+          <dd>{article.data.readingTimeMinutes} นาที</dd>
         </div>
         <div>
           <dt class="font-semibold text-ink">แหล่งข่าว</dt>
@@ -91,14 +136,36 @@ const canonical = new URL(`/news/${article.slug}/`, Astro.site).href;
             <a
               class="text-brand underline underline-offset-2"
               href={article.data.sourceUrl}
-              rel="noreferrer"
-              target="_blank">{article.data.sourceName}</a>
+              rel="noopener noreferrer"
+              target="_blank"
+            >{article.data.sourceName}</a>
           </dd>
         </div>
       </dl>
-    </div>
-    <div class="prose-news">
+      <!-- Hidden structured data fields -->
+      <meta itemprop="dateModified" content={article.data.publishedAt.toISOString()} />
+      <span itemprop="author" itemscope itemtype="https://schema.org/Organization" class="hidden">
+        <meta itemprop="name" content={article.data.author ?? "TanTech AI Desk"} />
+      </span>
+      <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization" class="hidden">
+        <meta itemprop="name" content="TanTech News" />
+      </span>
+      <link itemprop="mainEntityOfPage" href={canonical} />
+    </header>
+    <div class="prose-news" itemprop="articleBody">
       <Content />
     </div>
+    <footer class="mt-10 border-t border-line pt-6">
+      <p class="text-sm text-muted">
+        บทความนี้สร้างโดยระบบ AI ของทันเทค และผ่านการตรวจสอบโดยบรรณาธิการ.
+        อ่านต้นฉบับได้ที่{" "}
+        <a
+          class="text-brand underline underline-offset-2"
+          href={article.data.sourceUrl}
+          rel="noopener noreferrer"
+          target="_blank"
+        >{article.data.sourceName}</a>
+      </p>
+    </footer>
   </article>
 </BaseLayout>

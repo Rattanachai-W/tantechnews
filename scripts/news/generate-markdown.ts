@@ -48,7 +48,7 @@ export async function generateMarkdown(article: ScoredArticle, summary: ArticleS
   filePath: string;
   slug: string;
 }> {
-  const baseSlug = slugify(summary.titleTh || article.title).slice(0, 80) || article.id.slice(0, 12);
+  const baseSlug = slugify(summary.titleTh || article.title).slice(0, 60) || article.id.slice(0, 12);
   const { year, month } = getBangkokDateParts();
   const directory = join("src", "content", "news", year, month);
   const slug = await createUniqueSlug(baseSlug, directory);

@@ -33,7 +33,8 @@ describe("SEO structured data", () => {
     const jsonLd = getOrganizationJsonLd();
 
     assert.equal(jsonLd["@type"], "Organization");
-    assert.match(jsonLd.logo, /\/logo\.svg$/);
+    assert.equal(typeof jsonLd.logo, "object");
+    assert.match(jsonLd.logo.url, /\/logo\.svg$/);
   });
 
   it("builds NewsArticle JSON-LD from article metadata", () => {

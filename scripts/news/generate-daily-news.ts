@@ -37,6 +37,7 @@ async function processSelectedArticle(article: ScoredArticle): Promise<Generated
       return null;
     }
 
+    // Pass source content to summarizer for verification
     const summary = await summarizeArticle(article, extracted.textContent);
     const validation = articleSummarySchema.safeParse(summary);
     if (!validation.success) {

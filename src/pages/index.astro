@@ -7,10 +7,9 @@ import { getCategoryHref, getPublishedNews } from "../utils/content";
 import { getOrganizationJsonLd, getSiteJsonLd } from "../utils/seo";
 
 const articles = await getPublishedNews();
-const featured = articles[0];
-const rest = articles.slice(1, 8);
-const leftArticles = rest.slice(0, 2);
-const rightArticles = rest.slice(2, 5);
+const half = Math.ceil(articles.length / 2);
+const leftArticles = articles.slice(0, half);
+const rightArticles = articles.slice(half, half + 3);
 ---
 
 <BaseLayout>
@@ -37,13 +36,13 @@ const rightArticles = rest.slice(2, 5);
           แยกข้อเท็จจริงออกจากบทวิเคราะห์ และพากลับไปอ่านต้นฉบับได้เสมอ.
         </p>
       </div>
-      <div class="rounded-lg border border-line bg-paper p-5">
+      <nav class="rounded-lg border border-line bg-paper p-5" aria-label="หมวดหมู่ข่าว">
         <p class="text-sm font-bold text-ink">หมวดข่าวหลัก</p>
         <div class="mt-4 flex flex-wrap gap-2">
           {
             ARTICLE_CATEGORIES.map((category) => (
               <a
-                class="rounded-md border border-line bg-white px-3 py-2 text-sm font-semibold text-muted hover:border-brand hover:text-brand"
+                class="rounded-md border border-line bg-white px-3 py-2 text-sm font-semibold text-muted hover:border-brand hover:text-brand transition-colors"
                 href={getCategoryHref(category)}
               >
                 {category}
@@ -51,31 +50,31 @@ const rightArticles = rest.slice(2, 5);
             ))
           }
         </div>
-      </div>
+      </nav>
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+  <section class="mx-auto max-w-6xl px-4 py-10 sm:px-6" aria-labelledby="latest-heading">
     <div class="mb-6 flex items-end justify-between gap-4">
       <div>
         <p class="text-sm font-bold text-brand">ข่าวล่าสุด</p>
-        <h2 class="mt-1 text-2xl font-bold text-ink">เรื่องที่ควรรู้ตอนนี้</h2>
+        <h2 id="latest-heading" class="mt-1 text-2xl font-bold text-ink">เรื่องที่ควรรู้ตอนนี้</h2>
       </div>
       <a
         class="text-sm font-bold text-brand hover:text-brand-dark"
-        href="/archive/">ดูทั้งหมด</a
-      >
+        href="/archive/"
+      >ดูทั้งหมด</a>
     </div>
 
     {
-      featured ? (
-        <div class="grid gap-5 lg:grid-cols-2">
-          <div class="grid gap-5">
+      articles.length > 0 ? (
+        <div class="grid min-w-0 gap-5 lg:grid-cols-2">
+          <div class="grid min-w-0 gap-5">
             {leftArticles.map((article) => (
               <ArticleCard article={article} />
             ))}
           </div>
-          <div class="grid gap-5">
+          <div class="grid min-w-0 gap-5">
             {rightArticles.map((article) => (
               <ArticleCard article={article} />
             ))}
@@ -91,5 +90,22 @@ const rightArticles = rest.slice(2, 5);
         </div>
       )
     }
+  </section>
+
+  <section class="border-t border-line bg-white" aria-labelledby="categories-heading">
+    <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+      <h2 id="categories-heading" class="text-2xl font-bold text-ink">สำรวจตามหมวดหมู่</h2>
+      <p class="mt-2 text-muted">เลือกหมวดที่สนใจเพื่อดูข่าวเฉพาะด้าน</p>
+      <div class="mt-6 grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {ARTICLE_CATEGORIES.map((category) => (
+          <a
+            class="flex items-center gap-3 rounded-lg border border-line bg-paper p-4 transition hover:border-brand hover:shadow-sm"
+            href={getCategoryHref(category)}
+          >
+            <span class="text-lg font-bold text-ink">{category}</span>
+          </a>
+        ))}
+      </div>
+    </div>
   </section>
 </BaseLayout>

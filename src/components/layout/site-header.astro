@@ -1,5 +1,5 @@
 ---
-import { Search, Menu } from "lucide-astro";
+import { Search, Menu, X } from "lucide-astro";
 
 const navItems = [
   { href: "/", label: "ล่าสุด" },
@@ -8,12 +8,14 @@ const navItems = [
   { href: "/category/", label: "หมวดหมู่" },
   { href: "/search/", label: "ค้นหา" }
 ];
+
+const currentPath = Astro.url.pathname;
 ---
 
-<header class="border-b border-line bg-white">
+<header class="border-b border-line bg-white" role="banner">
   <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
-    <a href="/" class="flex items-center gap-3" aria-label="TanTech News">
-      <img src="/logo.svg" alt="" class="h-10 w-10" />
+    <a href="/" class="flex items-center gap-3" aria-label="TanTech News — หน้าแรก">
+      <img src="/logo.svg" alt="โลโก้ทันเทค" class="h-10 w-10" width="40" height="40" loading="eager" />
       <div>
         <p class="text-xl font-bold leading-tight text-ink">ทันเทค</p>
         <p class="text-xs font-medium uppercase tracking-wide text-muted">TanTech News</p>
@@ -21,36 +23,92 @@ const navItems = [
     </a>
 
     <nav class="hidden items-center gap-1 md:flex" aria-label="เมนูหลัก">
-      {navItems.map((item) => (
-        <a class="rounded-md px-3 py-2 text-sm font-semibold text-muted hover:bg-paper hover:text-ink" href={item.href}>
-          {item.label}
-        </a>
-      ))}
+      {navItems.map((item) => {
+        const isActive = item.href === "/"
+          ? currentPath === "/"
+          : currentPath.startsWith(item.href);
+        return (
+          <a
+            class:list={[
+              "rounded-md px-3 py-2 text-sm font-semibold transition-colors",
+              isActive
+                ? "bg-brand-light text-brand-dark"
+                : "text-muted hover:bg-paper hover:text-ink"
+            ]}
+            href={item.href}
+            aria-current={isActive ? "page" : undefined}
+          >
+            {item.label}
+          </a>
+        );
+      })}
     </nav>
 
     <div class="flex items-center gap-2">
-      <a class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-line bg-white text-ink hover:bg-paper" href="/search/" aria-label="ค้นหา">
-        <Search size={18} />
+      <a
+        class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-line bg-white text-ink hover:bg-paper transition-colors"
+        href="/search/"
+        aria-label="ค้นหาข่าว"
+      >
+        <Search size={18} aria-hidden="true" />
       </a>
-      <button class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-line bg-white text-ink md:hidden" type="button" aria-label="เปิดเมนู" data-menu-button>
-        <Menu size={20} />
+      <button
+        class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-line bg-white text-ink md:hidden transition-colors hover:bg-paper"
+        type="button"
+        aria-label="เปิดเมนู"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        data-menu-button
+      >
+        <Menu size={20} class="icon-open" aria-hidden="true" />
+        <X size={20} class="icon-close hidden" aria-hidden="true" />
       </button>
     </div>
   </div>
-  <nav class="mx-auto hidden max-w-6xl border-t border-line px-4 py-2 sm:px-6 md:hidden" aria-label="เมนูมือถือ" data-mobile-menu>
-    {navItems.map((item) => (
-      <a class="block rounded-md px-3 py-2 text-sm font-semibold text-muted hover:bg-paper hover:text-ink" href={item.href}>
-        {item.label}
-      </a>
-    ))}
-  </nav>
+  <div
+    id="mobile-menu"
+    class="hidden overflow-hidden border-t border-line bg-white md:hidden"
+    data-mobile-menu
+  >
+    <nav class="mx-auto max-w-6xl px-4 py-3 sm:px-6" aria-label="เมนูมือถือ">
+      <ul class="flex flex-col gap-1">
+        {navItems.map((item) => {
+          const isActive = item.href === "/"
+            ? currentPath === "/"
+            : currentPath.startsWith(item.href);
+          return (
+            <li>
+              <a
+                class:list={[
+                  "block rounded-md px-3 py-2.5 text-sm font-semibold transition-colors",
+                  isActive
+                    ? "bg-brand-light text-brand-dark"
+                    : "text-muted hover:bg-paper hover:text-ink"
+                ]}
+                href={item.href}
+                aria-current={isActive ? "page" : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <script>
   const button = document.querySelector("[data-menu-button]");
   const menu = document.querySelector("[data-mobile-menu]");
+  const iconOpen = button?.querySelector(".icon-open");
+  const iconClose = button?.querySelector(".icon-close");
 
   button?.addEventListener("click", () => {
+    const isHidden = menu?.classList.contains("hidden");
     menu?.classList.toggle("hidden");
+    iconOpen?.classList.toggle("hidden");
+    iconClose?.classList.toggle("hidden");
+    button.setAttribute("aria-expanded", String(isHidden));
   });
 </script>

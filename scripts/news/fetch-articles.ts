@@ -48,6 +48,10 @@ const parser = new Parser({
   }
 });
 
+// Limit how many items we take from a single source to avoid
+// processing huge feeds (some feeds return 1000+ items).
+const MAX_ITEMS_PER_SOURCE = 100;
+
 export async function loadSources(path = "data/sources.json"): Promise<NewsSource[]> {
   const raw = await readFile(path, "utf8");
   const parsed = sourceConfigSchema.parse(JSON.parse(raw)) as NewsSourceConfig;
@@ -60,18 +64,20 @@ async function fetchRssSource(source: RssNewsSource): Promise<RawArticle[]> {
     label: `rss:${source.id}`
   });
 
-  return feed.items
+  const items = (feed.items ?? [])
     .filter((item) => item.title && item.link && (item.isoDate || item.pubDate))
-    .map((item) =>
-      normalizeArticle({
-        title: item.title ?? "",
-        url: item.link ?? "",
-        publishedAt: item.isoDate ?? item.pubDate ?? new Date().toISOString(),
-        source,
-        description: item.contentSnippet,
-        author: item.creator ?? item.author
-      })
-    );
+    .slice(0, MAX_ITEMS_PER_SOURCE);
+
+  return items.map((item) =>
+    normalizeArticle({
+      title: item.title ?? "",
+      url: item.link ?? "",
+      publishedAt: item.isoDate ?? item.pubDate ?? new Date().toISOString(),
+      source,
+      description: item.contentSnippet,
+      author: item.creator ?? item.author
+    })
+  );
 }
 
 function getPathValue(value: unknown, path: string | undefined): unknown {

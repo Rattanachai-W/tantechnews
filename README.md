@@ -21,16 +21,22 @@ pnpm build
 
 Daily news generation is designed to create review pull requests, not push directly to `main`. After generating Markdown, the workflow runs content validation, unit tests, and the production build before it opens a draft PR.
 
-Optional AI summarization is configured with environment variables:
+Optional AI summarization is configured with environment variables.
+For OpenRouter, set either the `AI_*` or `OPENROUTER_*` variants.
 
 ```bash
-AI_API_ENDPOINT=
+AI_API_ENDPOINT=https://openrouter.ai/api/v1/chat/completions
+OPENROUTER_API_ENDPOINT=https://openrouter.ai/api/v1/chat/completions
 AI_API_KEY=
-AI_MODEL=
-AI_SCORING_MODEL=
-AI_SUMMARY_MODEL=
+OPENROUTER_API_KEY=
+AI_MODEL=openai/gpt-5.6-luna
+OPENROUTER_MODEL=openai/gpt-5.6-luna
+AI_SCORING_MODEL=openai/gpt-5.6-luna
+AI_SUMMARY_MODEL=openai/gpt-5.6-luna
 AI_TIMEOUT_MS=45000
+OPENROUTER_TIMEOUT_MS=45000
 AI_MAX_RETRIES=2
+OPENROUTER_MAX_RETRIES=2
 ```
 
 The scoring and summarization clients expect the API to return JSON objects that match their Zod schemas. If AI configuration is missing or validation fails, generation falls back to rule-based scoring or a conservative extractive draft and keeps the workflow moving for human review.
