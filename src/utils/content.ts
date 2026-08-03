@@ -62,7 +62,7 @@ export function countArticlesByCategory(entries: NewsEntry[]): Map<ArticleCatego
 }
 
 export function getArticleHref(entry: NewsEntry): string {
-  return `/news/${entry.slug}/`;
+  return `/news/${encodeURIComponent(entry.slug)}/`;
 }
 
 export function getDailyHref(entry: DailyEntry): string {

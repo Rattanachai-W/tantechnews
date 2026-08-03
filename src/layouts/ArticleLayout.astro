@@ -3,7 +3,11 @@ import BaseLayout from "./BaseLayout.astro";
 import JsonLd from "../components/seo/json-ld.astro";
 import { formatDateTime } from "../utils/format-date";
 import type { NewsEntry } from "../utils/content";
-import { getArticleJsonLd, getBreadcrumbJsonLd, seoDefaults } from "../utils/seo";
+import {
+  getArticleJsonLd,
+  getBreadcrumbJsonLd,
+  seoDefaults,
+} from "../utils/seo";
 
 interface Props {
   article: NewsEntry;
@@ -11,14 +15,17 @@ interface Props {
 
 const { article } = Astro.props;
 const { Content } = await article.render();
-const canonical = new URL(`/news/${article.slug}/`, Astro.site).href;
+const canonical = new URL(
+  `/news/${encodeURIComponent(article.slug)}/`,
+  Astro.site,
+).href;
 const primaryCategory = article.data.categories[0] ?? "AI";
 const categoryHref = `/category/${primaryCategory.toLowerCase().replace(/\s+/g, "-")}/`;
 
 const breadcrumbs = [
   { name: "หน้าแรก", url: `${seoDefaults.siteUrl}/` },
   { name: primaryCategory, url: `${seoDefaults.siteUrl}${categoryHref}` },
-  { name: article.data.title, url: canonical }
+  { name: article.data.title, url: canonical },
 ];
 
 const breadcrumbJsonLd = getBreadcrumbJsonLd(breadcrumbs);
@@ -57,20 +64,34 @@ const articleJsonLd = getArticleJsonLd(article, canonical);
     <JsonLd data={breadcrumbJsonLd} />
   </Fragment>
 
-  <article class="mx-auto max-w-3xl px-4 py-10 sm:px-6" itemscope itemtype="https://schema.org/NewsArticle">
+  <article
+    class="mx-auto max-w-3xl px-4 py-10 sm:px-6"
+    itemscope
+    itemtype="https://schema.org/NewsArticle"
+  >
     <!-- Breadcrumb navigation -->
     <nav aria-label="Breadcrumb" class="mb-6">
       <ol class="flex flex-wrap items-center gap-1.5 text-sm text-muted">
-        {breadcrumbs.map((crumb, index) => (
-          <li class="flex items-center gap-1.5">
-            {index > 0 && <span aria-hidden="true" class="text-line">/</span>}
-            {index < breadcrumbs.length - 1 ? (
-              <a class="font-medium hover:text-brand" href={crumb.url}>{crumb.name}</a>
-            ) : (
-              <span class="font-semibold text-ink" aria-current="page">{crumb.name}</span>
-            )}
-          </li>
-        ))}
+        {
+          breadcrumbs.map((crumb, index) => (
+            <li class="flex items-center gap-1.5">
+              {index > 0 && (
+                <span aria-hidden="true" class="text-line">
+                  /
+                </span>
+              )}
+              {index < breadcrumbs.length - 1 ? (
+                <a class="font-medium hover:text-brand" href={crumb.url}>
+                  {crumb.name}
+                </a>
+              ) : (
+                <span class="font-semibold text-ink" aria-current="page">
+                  {crumb.name}
+                </span>
+              )}
+            </li>
+          ))
+        }
       </ol>
     </nav>
 
@@ -101,7 +122,8 @@ const articleJsonLd = getArticleJsonLd(article, canonical);
             data-pagefind-ignore
             role="alert"
           >
-            บทความนี้ยังเป็น draft สำหรับ editorial review และยังไม่ควรเผยแพร่บน production.
+            บทความนี้ยังเป็น draft สำหรับ editorial review และยังไม่ควรเผยแพร่บน
+            production.
           </p>
         )
       }
@@ -137,17 +159,33 @@ const articleJsonLd = getArticleJsonLd(article, canonical);
               class="text-brand underline underline-offset-2"
               href={article.data.sourceUrl}
               rel="noopener noreferrer"
-              target="_blank"
-            >{article.data.sourceName}</a>
+              target="_blank">{article.data.sourceName}</a
+            >
           </dd>
         </div>
       </dl>
       <!-- Hidden structured data fields -->
-      <meta itemprop="dateModified" content={article.data.publishedAt.toISOString()} />
-      <span itemprop="author" itemscope itemtype="https://schema.org/Organization" class="hidden">
-        <meta itemprop="name" content={article.data.author ?? "TanTech AI Desk"} />
+      <meta
+        itemprop="dateModified"
+        content={article.data.publishedAt.toISOString()}
+      />
+      <span
+        itemprop="author"
+        itemscope
+        itemtype="https://schema.org/Organization"
+        class="hidden"
+      >
+        <meta
+          itemprop="name"
+          content={article.data.author ?? "TanTech AI Desk"}
+        />
       </span>
-      <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization" class="hidden">
+      <span
+        itemprop="publisher"
+        itemscope
+        itemtype="https://schema.org/Organization"
+        class="hidden"
+      >
         <meta itemprop="name" content="TanTech News" />
       </span>
       <link itemprop="mainEntityOfPage" href={canonical} />
@@ -163,8 +201,8 @@ const articleJsonLd = getArticleJsonLd(article, canonical);
           class="text-brand underline underline-offset-2"
           href={article.data.sourceUrl}
           rel="noopener noreferrer"
-          target="_blank"
-        >{article.data.sourceName}</a>
+          target="_blank">{article.data.sourceName}</a
+        >
       </p>
     </footer>
   </article>
