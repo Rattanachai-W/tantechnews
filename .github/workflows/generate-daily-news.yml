@@ -1,0 +1,60 @@
+name: Generate daily news
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm news:generate
+        env:
+          AI_API_ENDPOINT: ${{ secrets.AI_API_ENDPOINT }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+          AI_SCORING_MODEL: ${{ secrets.AI_SCORING_MODEL }}
+          AI_SUMMARY_MODEL: ${{ secrets.AI_SUMMARY_MODEL }}
+          AI_TIMEOUT_MS: "45000"
+          AI_MAX_RETRIES: "2"
+      - run: pnpm validate:content
+      - run: pnpm test
+      - run: pnpm build
+      - name: Create review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automated/daily-news
+          title: "Daily tech news draft"
+          body: |
+            Automated draft for editorial review.
+
+            ## Editorial checklist
+
+            - [ ] Facts are supported by the original source.
+            - [ ] Analysis is clearly separated from reported facts.
+            - [ ] Thai copy is concise, natural, and not clickbait.
+            - [ ] Source links are original sources and do not contain tracking parameters.
+            - [ ] Categories and tags are relevant and limited in scope.
+            - [ ] No prompt text, JSON fragments, placeholders, or fake citations are present.
+
+            ## Automated validation
+
+            - `pnpm validate:content`
+            - `pnpm test`
+            - `pnpm build`
+          commit-message: "Generate daily news draft"
+          draft: true

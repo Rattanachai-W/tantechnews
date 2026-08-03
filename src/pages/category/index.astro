@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { ARTICLE_CATEGORIES } from "../../types/article";
+import { getPublishedNews } from "../../utils/content";
+import { countCategories, getCategoryHref } from "../../utils/categories";
+
+const articles = await getPublishedNews();
+const counts = countCategories(articles);
+---
+
+<BaseLayout title="หมวดหมู่ข่าว" description="รวมหมวดหมู่ข่าวเทคโนโลยีของ TanTech News">
+  <section class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <h1 class="text-3xl font-extrabold text-ink">หมวดหมู่ข่าว</h1>
+    <p class="mt-3 max-w-2xl text-muted">เลือกอ่านข่าวตามหัวข้อหลักของทันเทค โดยแต่ละบทความมีหมวดหลักไม่เกิน 3 หมวด.</p>
+
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {ARTICLE_CATEGORIES.map((category) => (
+        <a class="rounded-lg border border-line bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-brand hover:shadow-md" href={getCategoryHref(category)}>
+          <p class="text-sm font-bold text-brand">หมวด</p>
+          <h2 class="mt-2 text-xl font-bold text-ink">{category}</h2>
+          <p class="mt-3 text-sm text-muted">{counts.get(category) ?? 0} ข่าวที่เผยแพร่แล้ว</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

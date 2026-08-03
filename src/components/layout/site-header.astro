@@ -1,0 +1,56 @@
+---
+import { Search, Menu } from "lucide-astro";
+
+const navItems = [
+  { href: "/", label: "ล่าสุด" },
+  { href: "/daily/", label: "ประจำวัน" },
+  { href: "/archive/", label: "คลังข่าว" },
+  { href: "/category/", label: "หมวดหมู่" },
+  { href: "/search/", label: "ค้นหา" }
+];
+---
+
+<header class="border-b border-line bg-white">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
+    <a href="/" class="flex items-center gap-3" aria-label="TanTech News">
+      <img src="/logo.svg" alt="" class="h-10 w-10" />
+      <div>
+        <p class="text-xl font-bold leading-tight text-ink">ทันเทค</p>
+        <p class="text-xs font-medium uppercase tracking-wide text-muted">TanTech News</p>
+      </div>
+    </a>
+
+    <nav class="hidden items-center gap-1 md:flex" aria-label="เมนูหลัก">
+      {navItems.map((item) => (
+        <a class="rounded-md px-3 py-2 text-sm font-semibold text-muted hover:bg-paper hover:text-ink" href={item.href}>
+          {item.label}
+        </a>
+      ))}
+    </nav>
+
+    <div class="flex items-center gap-2">
+      <a class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-line bg-white text-ink hover:bg-paper" href="/search/" aria-label="ค้นหา">
+        <Search size={18} />
+      </a>
+      <button class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-line bg-white text-ink md:hidden" type="button" aria-label="เปิดเมนู" data-menu-button>
+        <Menu size={20} />
+      </button>
+    </div>
+  </div>
+  <nav class="mx-auto hidden max-w-6xl border-t border-line px-4 py-2 sm:px-6 md:hidden" aria-label="เมนูมือถือ" data-mobile-menu>
+    {navItems.map((item) => (
+      <a class="block rounded-md px-3 py-2 text-sm font-semibold text-muted hover:bg-paper hover:text-ink" href={item.href}>
+        {item.label}
+      </a>
+    ))}
+  </nav>
+</header>
+
+<script>
+  const button = document.querySelector("[data-menu-button]");
+  const menu = document.querySelector("[data-mobile-menu]");
+
+  button?.addEventListener("click", () => {
+    menu?.classList.toggle("hidden");
+  });
+</script>

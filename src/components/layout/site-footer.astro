@@ -1,0 +1,17 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-line bg-white">
+  <div class="mx-auto grid max-w-6xl gap-6 px-4 py-8 text-sm text-muted sm:px-6 md:grid-cols-[1fr_auto]">
+    <div>
+      <p class="font-semibold text-ink">ทันเทค</p>
+      <p class="mt-1 max-w-2xl">สรุปข่าวเทคสำคัญ ให้คุณทันทุกวัน พร้อมลิงก์กลับไปยังต้นฉบับเพื่อการตรวจสอบ.</p>
+    </div>
+    <div class="flex flex-wrap gap-4 md:justify-end">
+      <a class="font-semibold hover:text-ink" href="/rss.xml">RSS</a>
+      <a class="font-semibold hover:text-ink" href="/sitemap.xml">Sitemap</a>
+      <span>© {year} TanTech News</span>
+    </div>
+  </div>
+</footer>

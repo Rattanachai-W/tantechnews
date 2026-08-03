@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "id": "openai-blog",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/news/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["AI"],
+      "language": "en"
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["Programming", "Open Source"],
+      "language": "en"
+    },
+    {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rss/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["Cloud", "Cybersecurity"],
+      "language": "en"
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Startup", "Business"],
+      "language": "en"
+    }
+  ]
+}

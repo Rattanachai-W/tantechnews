@@ -1,0 +1,35 @@
+---
+import ArticleCard from "../../components/news/article-card.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { ARTICLE_CATEGORIES } from "../../types/article";
+import { categoryFromParam, getPublishedNews } from "../../utils/content";
+
+export function getStaticPaths() {
+  return ARTICLE_CATEGORIES.map((category) => ({
+    params: { category: category.toLowerCase().replace(/\s+/g, "-") }
+  }));
+}
+
+const category = categoryFromParam(Astro.params.category ?? "");
+if (!category) {
+  return Astro.redirect("/archive/");
+}
+
+const articles = (await getPublishedNews()).filter((article) =>
+  article.data.categories.includes(category)
+);
+---
+
+<BaseLayout title={`หมวด ${category}`} description={`ข่าวเทคโนโลยีหมวด ${category}`}>
+  <section class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <h1 class="text-3xl font-extrabold text-ink">หมวด {category}</h1>
+    <p class="mt-3 max-w-2xl text-muted">ข่าวที่เกี่ยวข้องกับ {category} จากแหล่งข่าวที่ตรวจสอบย้อนกลับได้.</p>
+    <div class="mt-8 grid gap-5 md:grid-cols-2">
+      {articles.length > 0 ? (
+        articles.map((article) => <ArticleCard article={article} />)
+      ) : (
+        <p class="rounded-lg border border-dashed border-line bg-white p-6 text-muted md:col-span-2">ยังไม่มีข่าวเผยแพร่ในหมวดนี้.</p>
+      )}
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,36 @@
+{
+  "name": "tantechnews",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "astro": "astro",
+    "validate:content": "tsx scripts/content/validate-content.ts",
+    "build:site": "astro build",
+    "news:generate": "tsx scripts/news/generate-daily-news.ts",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/tailwind": "^5.1.5",
+    "@mozilla/readability": "^0.5.0",
+    "astro": "^4.16.18",
+    "gray-matter": "^4.0.3",
+    "jsdom": "^25.0.1",
+    "lucide-astro": "^0.468.0",
+    "rss-parser": "^3.13.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.10.2",
+    "pagefind": "^1.3.0",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

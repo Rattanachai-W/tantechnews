@@ -1,0 +1,56 @@
+---
+import ArticleCard from "../../components/news/article-card.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  getDailyHref,
+  getPublishedDailyDigests,
+  getPublishedNews,
+} from "../../utils/content";
+import { formatDate } from "../../utils/format-date";
+
+export async function getStaticPaths() {
+  const digests = await getPublishedDailyDigests();
+  return digests.map((digest) => ({
+    params: { date: digest.id.replace(/\.md$/, "") },
+    props: { digest },
+  }));
+}
+
+const { digest } = Astro.props;
+const articles = await getPublishedNews();
+const digestArticles = digest.data.articleSlugs
+  .map((slug) => articles.find((article) => article.slug === slug))
+  .filter((article) => article !== undefined);
+
+if (getDailyHref(digest) !== `/daily/${Astro.params.date}/`) {
+  return Astro.redirect(getDailyHref(digest));
+}
+---
+
+<BaseLayout
+  title={digest.data.title}
+  description={`สรุปข่าวเทคประจำวันที่ ${formatDate(digest.data.date)}`}
+>
+  <section class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <p class="text-sm font-bold text-brand">Daily Digest</p>
+    <h1 class="mt-2 text-3xl font-extrabold leading-tight text-ink sm:text-4xl">
+      {digest.data.title}
+    </h1>
+    <p class="mt-3 text-muted">
+      สรุปรวมข่าวที่ผ่านการคัดเลือกประจำวัน
+      โดยลิงก์ไปยังบทความแต่ละเรื่องแทนการทำสำเนาเนื้อหา.
+    </p>
+
+    <div class="mt-8 grid gap-5 md:grid-cols-2">
+      {
+        digestArticles.length > 0 ? (
+          digestArticles.map((article) => <ArticleCard article={article} />)
+        ) : (
+          <p class="rounded-lg border border-dashed border-line bg-white p-6 text-muted md:col-span-2">
+            ยังไม่มีข่าวที่เผยแพร่ใน digest นี้.
+          </p>
+        )
+      }
+    </div>
+  </section>
+</BaseLayout>

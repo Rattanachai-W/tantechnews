@@ -1,0 +1,35 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import { getArticleHref, getPublishedNews } from "../../utils/content";
+
+export async function getStaticPaths() {
+    const articles = await getPublishedNews();
+    const paths = [];
+
+    for (const article of articles) {
+        const date = article.data.publishedAt;
+        const year = String(date.getFullYear());
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+
+        // short slug: /news/<slug>/
+        paths.push({ params: { slug: article.slug }, props: { article } });
+
+        // dated slug: /news/YYYY/MM/<slug>/ (as a string param)
+        paths.push({
+            params: { slug: `${year}/${month}/${article.slug}` },
+            props: { article },
+        });
+    }
+
+    return paths;
+}
+
+const { article } = Astro.props;
+const requestedPath = `/news/${Astro.params.slug}/`;
+
+if (getArticleHref(article) !== requestedPath) {
+    return Astro.redirect(getArticleHref(article));
+}
+---
+
+<ArticleLayout article={article} />
