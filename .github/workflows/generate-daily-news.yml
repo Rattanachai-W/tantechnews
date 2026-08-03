@@ -4,6 +4,21 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      date:
+        description: "News date in YYYY-MM-DD"
+        required: false
+        type: string
+      dry_run:
+        description: "Generate content without persisting processed state"
+        required: false
+        type: boolean
+        default: true
+      max_articles:
+        description: "Maximum number of articles to generate"
+        required: false
+        type: string
+        default: "5"
 
 permissions:
   contents: write
@@ -31,6 +46,9 @@ jobs:
           AI_SUMMARY_MODEL: ${{ secrets.AI_SUMMARY_MODEL }}
           AI_TIMEOUT_MS: "45000"
           AI_MAX_RETRIES: "2"
+          NEWS_DATE: ${{ github.event.inputs.date || '' }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run != '' && github.event.inputs.dry_run || 'false' }}
+          MAX_ARTICLES: ${{ github.event.inputs.max_articles || '10' }}
       - run: pnpm validate:content
       - run: pnpm test
       - run: pnpm build

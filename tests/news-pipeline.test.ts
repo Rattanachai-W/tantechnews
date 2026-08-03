@@ -21,6 +21,7 @@ import { scoreArticles } from "../scripts/news/score-articles";
 import { selectTopArticles } from "../scripts/news/select-top-articles";
 import { buildScoringPrompt } from "../scripts/news/scoring-prompt";
 import { aiScoringResponseSchema } from "../scripts/news/validate-score";
+import { resolveGenerationOptions } from "../scripts/news/workflow-options";
 import type { ArticleCategory, ArticleSummary, RawArticle, ScoredArticle } from "../src/types/article";
 import { groupArticlesByPublishedMonth } from "../src/utils/archive";
 import { countCategories } from "../src/utils/categories";
@@ -105,6 +106,20 @@ const summary: ArticleSummary = {
 };
 
 describe("news pipeline helpers", () => {
+  it("resolves workflow generation options from environment variables", () => {
+    const options = resolveGenerationOptions({
+      NEWS_DATE: "2026-08-03",
+      MAX_ARTICLES: "7",
+      DRY_RUN: "true"
+    });
+
+    assert.deepEqual(options, {
+      date: new Date("2026-08-03T00:00:00.000Z"),
+      maxArticles: 7,
+      dryRun: true
+    });
+  });
+
   it("normalizes URLs by removing tracking parameters but keeping identity parameters", () => {
     const normalized = normalizeUrl(
       "https://example.com/article?id=123&utm_source=newsletter&fbclid=abc#section"

@@ -16,6 +16,7 @@ import { scoreArticlesWithAi } from "./score-articles";
 import { selectTopArticles } from "./select-top-articles";
 import { summarizeArticle } from "./summarize-article";
 import { articleSummarySchema } from "./validate-summary";
+import { resolveGenerationOptions } from "./workflow-options";
 import type { ScoredArticle } from "../../src/types/article";
 
 const MAX_ARTICLES_PER_DAY = 10;
@@ -71,6 +72,7 @@ async function processSelectedArticle(article: ScoredArticle): Promise<Generated
 }
 
 async function main(): Promise<void> {
+  const options = resolveGenerationOptions();
   const fetched = await fetchArticles();
   const processedState = await loadProcessedState();
   const blockedDomains = await loadBlockedDomains();
@@ -79,7 +81,7 @@ async function main(): Promise<void> {
     (article) => !hasProcessedArticle(processedState, article.id)
   );
   const scored = selectTopArticles(await scoreArticlesWithAi(filtered), {
-    maxArticles: MAX_ARTICLES_PER_DAY,
+    maxArticles: Math.min(options.maxArticles, MAX_ARTICLES_PER_DAY),
     maxPerCategory: MAX_ARTICLES_PER_CATEGORY
   });
 
@@ -99,10 +101,12 @@ async function main(): Promise<void> {
   const generatedSlugs = generated.map((result) => result.slug);
   const processedRecords = generated.map((result) => result.record);
 
-  await saveProcessedState(processedRecords);
-  const digestPath = await generateDailyDigest(generatedSlugs);
+  if (!options.dryRun) {
+    await saveProcessedState(processedRecords);
+  }
+  const digestPath = await generateDailyDigest(generatedSlugs, options.date);
   if (digestPath) {
-    logger.info("Generated daily digest", { digestPath, articles: generatedSlugs.length });
+    logger.info("Generated daily digest", { digestPath, articles: generatedSlugs.length, dryRun: options.dryRun });
   }
 }
 
