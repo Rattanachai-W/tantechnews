@@ -1,4 +1,5 @@
 ---
+import SpeedInsights from "@vercel/speed-insights/astro";
 import SiteFooter from "../components/layout/site-footer.astro";
 import SiteHeader from "../components/layout/site-header.astro";
 import { shouldIncludeDraftContent } from "../utils/drafts";
@@ -72,5 +73,6 @@ const shouldNoindex = noindex || includeDrafts;
       <slot />
     </main>
     <SiteFooter />
+    <SpeedInsights />
   </body>
 </html>
