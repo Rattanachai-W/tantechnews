@@ -12,7 +12,7 @@ import {
   saveProcessedState,
   type ProcessedArticleRecord
 } from "./processed-state";
-import { scoreArticlesWithAi } from "./score-articles";
+import { scoreArticles } from "./score-articles";
 import { selectTopArticles } from "./select-top-articles";
 import { summarizeArticle } from "./summarize-article";
 import { articleSummarySchema } from "./validate-summary";
@@ -21,7 +21,7 @@ import type { ScoredArticle } from "../../src/types/article";
 
 const MAX_ARTICLES_PER_DAY = 10;
 const MAX_ARTICLES_PER_CATEGORY = 3;
-const MAX_CONCURRENT_ARTICLE_PROCESSING = 3;
+const MAX_CONCURRENT_ARTICLE_PROCESSING = 1;
 
 interface GeneratedArticleResult {
   slug: string;
@@ -80,7 +80,7 @@ async function main(): Promise<void> {
   const filtered = filterArticles(unique, 48, blockedDomains).filter(
     (article) => !hasProcessedArticle(processedState, article.id)
   );
-  const scored = selectTopArticles(await scoreArticlesWithAi(filtered), {
+  const scored = selectTopArticles(scoreArticles(filtered), {
     maxArticles: Math.min(options.maxArticles, MAX_ARTICLES_PER_DAY),
     maxPerCategory: MAX_ARTICLES_PER_CATEGORY
   });

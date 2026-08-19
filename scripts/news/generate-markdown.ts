@@ -47,12 +47,17 @@ async function createUniqueSlug(baseSlug: string, directory: string): Promise<st
   return slug;
 }
 
-export async function generateMarkdown(article: ScoredArticle, summary: ArticleSummary): Promise<{
+export async function generateMarkdown(
+  article: ScoredArticle,
+  summary: ArticleSummary,
+  targetDate?: Date
+): Promise<{
   filePath: string;
   slug: string;
 }> {
-  const baseSlug = slugify(summary.titleTh || article.title).slice(0, 60) || article.id.slice(0, 12);
-  const { year, month } = getBangkokDateParts();
+  const baseSlug = (slugify(summary.titleTh || article.title).slice(0, 60).replace(/-+$/, "")) || article.id.slice(0, 12);
+  const articleDate = targetDate ?? new Date(article.publishedAt);
+  const { year, month } = getBangkokDateParts(isNaN(articleDate.getTime()) ? new Date() : articleDate);
   const directory = join("src", "content", "news", year, month);
   const slug = await createUniqueSlug(baseSlug, directory);
   const filePath = join(directory, `${slug}.md`);
@@ -87,11 +92,12 @@ ${summary.tantechView}
 [อ่านต้นฉบับ](${article.url})
 `;
 
+  const publishedIso = new Date(articleDate.getTime() + 7 * 60 * 60 * 1000).toISOString().replace("Z", "+07:00");
   const body = `---
 title: "${escapeYaml(summary.titleTh)}"
 slug: "${slug}"
 excerpt: "${escapeYaml(summary.excerpt)}"
-publishedAt: "${bangkokIsoNow()}"
+publishedAt: "${publishedIso}"
 sourcePublishedAt: "${article.publishedAt}"
 sourceName: "${escapeYaml(article.sourceName)}"
 sourceUrl: "${article.url}"

@@ -11,18 +11,34 @@ interface AiSummaryRequest {
     role: "system" | "user";
     content: string;
   }>;
+  temperature?: number;
+  max_tokens?: number;
   response_format: {
     type: "json_object";
   };
 }
 
 function parseJsonObject(text: string): unknown {
+  const cleaned = text
+    .replace(/^```(?:json)?\s*/i, "")
+    .replace(/\s*```$/i, "")
+    .trim();
+
   try {
-    return JSON.parse(text);
+    return JSON.parse(cleaned);
   } catch {
-    const match = text.match(/\{[\s\S]*\}/);
-    if (!match) throw new Error("AI response did not contain a JSON object");
-    return JSON.parse(match[0]);
+    const firstBrace = text.indexOf("{");
+    const lastBrace = text.lastIndexOf("}");
+    if (firstBrace !== -1 && lastBrace > firstBrace) {
+      const jsonCandidate = text.slice(firstBrace, lastBrace + 1);
+      try {
+        return JSON.parse(jsonCandidate);
+      } catch (err) {
+        logger.warn("Failed to parse JSON candidate", { sample: jsonCandidate.slice(0, 200) });
+      }
+    }
+
+    throw new Error("AI response did not contain a JSON object");
   }
 }
 
@@ -35,13 +51,33 @@ function extractResponseText(payload: unknown): string {
     if (typeof record.output_text === "string") return record.output_text;
     if (typeof record.text === "string") return record.text;
     if (typeof record.content === "string") return record.content;
+    if (typeof record.response === "string") return record.response;
 
     const choices = record.choices;
-    if (Array.isArray(choices)) {
+    if (Array.isArray(choices) && choices.length > 0) {
       const first = choices[0] as Record<string, unknown> | undefined;
       const message = first?.message as Record<string, unknown> | undefined;
       if (typeof message?.content === "string") return message.content;
+      if (Array.isArray(message?.content)) {
+        const textParts = (message.content as Array<Record<string, unknown>>)
+          .map((part) => (typeof part?.text === "string" ? part.text : ""))
+          .filter(Boolean);
+        if (textParts.length > 0) return textParts.join("\n");
+      }
       if (typeof first?.text === "string") return first.text;
+    }
+
+    const candidates = record.candidates;
+    if (Array.isArray(candidates) && candidates.length > 0) {
+      const first = candidates[0] as Record<string, unknown> | undefined;
+      const content = first?.content as Record<string, unknown> | undefined;
+      if (Array.isArray(content?.parts)) {
+        const text = (content.parts as Array<Record<string, unknown>>)
+          .map((p) => (typeof p?.text === "string" ? p.text : ""))
+          .filter(Boolean)
+          .join("\n");
+        if (text) return text;
+      }
     }
 
     const output = record.output;
@@ -61,6 +97,7 @@ function extractResponseText(payload: unknown): string {
     }
   }
 
+  logger.warn("Unknown AI payload structure", { payload: JSON.stringify(payload).slice(0, 500) });
   throw new Error("AI response shape is unsupported");
 }
 
@@ -70,8 +107,10 @@ export async function requestAiSummary(
 ): Promise<ArticleSummary | null> {
   const body: AiSummaryRequest = {
     model: config.model,
+    temperature: 0.2,
+    max_tokens: 6000,
     messages: [
-      { role: "system", content: prompt.system },
+      { role: "system", content: prompt.system + "\n\nThink concisely and output only the complete JSON." },
       { role: "user", content: prompt.user }
     ],
     response_format: {

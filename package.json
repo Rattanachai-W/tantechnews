@@ -11,6 +11,7 @@
     "validate:content": "tsx scripts/content/validate-content.ts",
     "build:site": "astro build",
     "news:generate": "tsx scripts/news/generate-daily-news.ts",
+    "news:backfill": "tsx scripts/news/backfill-news.ts",
     "test": "tsx --test tests/**/*.test.ts"
   },
   "dependencies": {
