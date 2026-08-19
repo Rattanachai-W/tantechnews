@@ -2,6 +2,7 @@ node_modules/
 .pnpm-store/
 dist/
 .astro/
+.vercel/
 .env
 .env.*
 !.env.example
