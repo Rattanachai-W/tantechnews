@@ -21,9 +21,9 @@ tags:
   - "บริการทางการเงิน"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -59,3 +59,4 @@ OpenAI ประกาศแต่งตั้ง David Vélez ผู้ก่�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/david-velez-robin-vince-join-openai-boards)
+

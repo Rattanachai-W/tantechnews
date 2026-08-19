@@ -24,9 +24,9 @@ tags:
   - "Microsoft Foundry"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -62,3 +62,4 @@ Microsoft สรุปว่าในปีก่อนหน้าลูกค�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://blogs.microsoft.com/blog/2026/07/28/looking-back-on-microsofts-fy26-from-ai-experimentation-to-frontier-transformation/)
+

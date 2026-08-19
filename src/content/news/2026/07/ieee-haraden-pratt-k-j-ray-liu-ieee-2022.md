@@ -22,9 +22,9 @@ tags:
   - "เซมิคอนดักเตอร์"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -60,3 +60,4 @@ Origin Wireless และ ADT: Origin Wireless ซึ่ง Liu เป็นป�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://spectrum.ieee.org/ieee-president-ray-liu-award)
+

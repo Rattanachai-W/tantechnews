@@ -18,9 +18,9 @@ tags:
   - "นโยบาย AI"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -60,3 +60,4 @@ OpenAI ทำงานร่วมกับ American Psychological Association (
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai)
+

@@ -19,9 +19,9 @@ tags:
   - "โมเดลภาษา"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -57,4 +57,5 @@ OpenAI: OpenAI จะทบทวนแนวทางทดสอบโดย�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/third-party-cyber-evaluations-involving-openai-models)
+
 

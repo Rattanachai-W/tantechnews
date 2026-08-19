@@ -22,9 +22,9 @@ tags:
   - "จอร์เจีย"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -68,3 +68,4 @@ OpenAI กำลังออกแบบและพัฒนา Project Camelli
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community)
+

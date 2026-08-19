@@ -22,9 +22,9 @@ tags:
   - "การพิสูจน์แหล่งที่มา"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -64,3 +64,4 @@ OpenAI ระบุว่าผู้ใช้หลายล้านคนท�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/advancing-responsible-ai-across-europe)
+

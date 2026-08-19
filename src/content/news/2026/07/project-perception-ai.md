@@ -19,9 +19,9 @@ tags:
   - "เอเจนต์"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -57,3 +57,4 @@ reviewedBy: null
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/)
+

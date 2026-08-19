@@ -20,9 +20,9 @@ tags:
   - "SpaceX"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -62,3 +62,4 @@ Cursor ขยายจาก AI Code Editor สู่แพลตฟอร์ม
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/)
+

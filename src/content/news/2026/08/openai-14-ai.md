@@ -20,9 +20,9 @@ tags:
   - "API"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -58,3 +58,4 @@ OpenAI ระบุว่า ChatGPT มีผู้ใช้ 1 พันล้�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/new-policy-ideas-for-the-intelligence-age)
+

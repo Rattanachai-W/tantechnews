@@ -19,9 +19,9 @@ tags:
   - "Wolf Games"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -61,3 +61,4 @@ Peacock เป็นบริการสตรีมมิงที่ราย
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/)
+

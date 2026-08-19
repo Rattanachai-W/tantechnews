@@ -507,7 +507,7 @@ describe("news pipeline helpers", () => {
 
       const content = await readFile(filePath, "utf8");
       assert.match(content, /articleSlugs:\n  - "one"\n  - "two"/);
-      assert.match(content, /draft: true/);
+      assert.match(content, /draft: false/);
     } finally {
       process.chdir(cwd);
       await rm(dir, { recursive: true, force: true });

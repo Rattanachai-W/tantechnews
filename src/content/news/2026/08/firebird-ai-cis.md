@@ -24,9 +24,9 @@ tags:
   - "CoreWeave"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -74,3 +74,4 @@ Firebird ซึ่งเป็นคลาวด์ AI ที่กำลัง�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/)
+

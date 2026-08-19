@@ -20,9 +20,9 @@ tags:
   - "อินเทอร์เน็ต"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -58,3 +58,4 @@ Cloudflare ประกาศปรับปรุงโปรแกรมชุ
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://blog.cloudflare.com/community-program-refresh/)
+

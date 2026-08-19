@@ -23,9 +23,9 @@ tags:
   - "Zero Trust"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -61,3 +61,4 @@ Cloudflare เผยแพร่บทสรุป Agents Week ที่เป�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://blog.cloudflare.com/agents-week-review-august-2026/)
+

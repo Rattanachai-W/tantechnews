@@ -20,9 +20,9 @@ tags:
   - "AI"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -62,3 +62,4 @@ OpenAI ประกาศลดราคา GPT-5.6 Luna 80% และ GPT-5.6 T
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6)
+

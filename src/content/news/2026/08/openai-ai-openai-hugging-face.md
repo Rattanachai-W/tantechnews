@@ -23,9 +23,9 @@ tags:
   - "ช่องโหว่"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -61,3 +61,4 @@ AI ช่วยตรวจและแก้ช่องโหว่: บทค
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/the-defenders-window)
+

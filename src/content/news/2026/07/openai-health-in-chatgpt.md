@@ -22,9 +22,9 @@ tags:
   - "ความเป็นส่วนตัว"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -64,3 +64,4 @@ OpenAI และผู้ใช้แผนต่าง ๆ: OpenAI เปิด
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/health-in-chatgpt)
+

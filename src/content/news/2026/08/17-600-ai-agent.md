@@ -22,9 +22,9 @@ tags:
   - "ความปลอดภัยไซเบอร์"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -64,3 +64,4 @@ Hugging Face ระบุว่าได้สร้างลำดับเห�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://www.docker.com/blog/ai-agent-security-systems-problem/)
+

@@ -22,9 +22,9 @@ tags:
   - "ESP32"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -60,3 +60,4 @@ Docker Blog เผยแพร่บทความเรื่อง Docker AI 
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://www.docker.com/blog/docker-ai-governance-audit-logs-now-where-your-security-team-already-works/)
+

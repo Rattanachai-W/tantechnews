@@ -24,9 +24,9 @@ tags:
   - "ความปลอดภัยโอเพนซอร์ส"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -62,3 +62,4 @@ GitHub Secure Open Source Fund ดำเนิน Session 4 โดยลงท�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/)
+

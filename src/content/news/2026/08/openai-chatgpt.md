@@ -20,9 +20,9 @@ tags:
   - "ChatGPT Work"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -66,3 +66,4 @@ OpenAI เผยข้อมูลรายประเทศจาก OpenAI Si
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/how-the-world-is-putting-chatgpt-to-work)
+

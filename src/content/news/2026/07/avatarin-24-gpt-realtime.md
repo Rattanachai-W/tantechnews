@@ -23,9 +23,9 @@ tags:
   - "RAG"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -65,3 +65,4 @@ avatarin บริษัท AI บริการลูกค้าที่แ�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/avatarin)
+

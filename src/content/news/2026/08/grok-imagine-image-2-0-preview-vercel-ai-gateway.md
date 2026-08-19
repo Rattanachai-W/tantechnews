@@ -22,9 +22,9 @@ tags:
   - "หน้าชื่อ"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -60,3 +60,4 @@ Vercel ประกาศว่า Grok Imagine Image 2.0 Preview จาก xAI 
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway)
+

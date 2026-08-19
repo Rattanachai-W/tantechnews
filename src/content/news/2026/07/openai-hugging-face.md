@@ -23,9 +23,9 @@ tags:
   - "Trusted Access for Cyber Program"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -61,3 +61,4 @@ Hugging Face กระทบระดับแพลตฟอร์ม: Hugging 
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/hugging-face-model-evaluation-security-incident)
+

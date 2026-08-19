@@ -21,9 +21,9 @@ tags:
   - "Flags Explorer"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -55,3 +55,4 @@ LaunchDarkly ใช้งานผ่าน Vercel Marketplace ได้แล�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace)
+

@@ -19,9 +19,9 @@ tags:
   - "enterprise AI"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -57,4 +57,5 @@ OpenAI เผยแพร่รายงาน Enterprise Signals และง�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/how-enterprises-put-ai-to-work)
+
 

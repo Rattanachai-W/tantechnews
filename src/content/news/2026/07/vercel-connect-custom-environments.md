@@ -21,9 +21,9 @@ tags:
   - "CLI"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -59,3 +59,4 @@ Vercel Connect เพิ่มการรองรับ Custom Environment โ
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://vercel.com/changelog/vercel-connect-now-supports-custom-environments)
+

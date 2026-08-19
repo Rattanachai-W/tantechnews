@@ -21,9 +21,9 @@ tags:
   - "คอมพิวเตอร์สมรรถนะสูง"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -59,3 +59,4 @@ OpenAI ประกาศสนับสนุนภารกิจ Genesis ข�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/advancing-the-next-era-of-national-science)
+

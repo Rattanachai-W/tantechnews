@@ -18,7 +18,6 @@ export const GET: APIRoute = async ({ site }) => {
   );
   const articlePaths = articles.map((article) => getArticleHref(article).slice(1));
   const dailyPaths = digests.map((digest) => getDailyHref(digest).slice(1));
-  const paths = [...staticPaths, ...categoryPaths, ...dailyPaths, ...articlePaths];
 
   // Build entries with lastmod and priority for better crawl efficiency.
   const staticEntries = staticPaths.map((p) => ({ path: p, priority: "1.0", lastmod: now }));

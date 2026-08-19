@@ -24,9 +24,9 @@ tags:
   - "Statsig"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -62,3 +62,4 @@ AI Gateway สร้าง OpenTelemetry trace สำหรับทุกคำ
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains)
+

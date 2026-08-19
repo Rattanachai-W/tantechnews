@@ -21,9 +21,9 @@ tags:
   - "การประเมิน AI"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -59,3 +59,4 @@ OpenAI รายงานว่า GPT-5.6 Sol ได้คะแนน 13.3% �
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores)
+

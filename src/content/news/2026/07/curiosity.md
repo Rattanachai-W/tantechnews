@@ -19,9 +19,9 @@ tags:
   - "ภารกิจดาวอังคาร"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -53,3 +53,4 @@ IEEE Spectrum เผยแพร่บทความชื่อ Poetry for Eng
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://spectrum.ieee.org/poem-martian-rover)
+

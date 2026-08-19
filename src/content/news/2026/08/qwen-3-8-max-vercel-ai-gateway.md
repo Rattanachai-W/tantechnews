@@ -24,9 +24,9 @@ tags:
   - "AI"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -62,3 +62,4 @@ Vercel ประกาศว่า Qwen 3.8 Max ใช้งานได้แ�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway)
+

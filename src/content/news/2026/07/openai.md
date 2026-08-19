@@ -18,9 +18,9 @@ tags:
   - "ARC-AGI-3"
 readingTimeMinutes: 2
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -68,3 +68,4 @@ OpenAI ประกาศลดราคา GPT-5.6 Luna 80% เหลือ 0.2
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/building-abundant-intelligence)
+

@@ -22,9 +22,9 @@ tags:
   - "การพิสูจน์อัตโนมัติ"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -60,3 +60,4 @@ OpenAI เผย 10 ผลลัพธ์จากโมเดลภายใน
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/ten-advances-in-mathematics)
+

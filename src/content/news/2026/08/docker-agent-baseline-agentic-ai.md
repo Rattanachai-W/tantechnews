@@ -18,9 +18,9 @@ tags:
   - "องค์กร"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -52,3 +52,4 @@ Agent Baseline ให้กรอบผลลัพธ์ด้านควา�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://www.docker.com/blog/a-new-security-baseline-for-enterprise-agentic-adoption/)
+

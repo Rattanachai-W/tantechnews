@@ -23,9 +23,9 @@ tags:
   - "Fable 5"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -61,3 +61,4 @@ OpenAI ประเมินโมเดล 2 ตัวใน sandbox ที่�
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities)
+

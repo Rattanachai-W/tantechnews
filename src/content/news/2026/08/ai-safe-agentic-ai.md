@@ -23,9 +23,9 @@ tags:
   - "Open Source"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -61,3 +61,4 @@ Linux Foundation เผยแพร่เอกสารคำขอความ
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/)
+

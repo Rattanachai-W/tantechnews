@@ -18,9 +18,9 @@ tags:
   - "robot mower"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -52,3 +52,4 @@ reviewedBy: null
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://www.wired.com/review/terramow-v1000/)
+

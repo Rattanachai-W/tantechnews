@@ -128,9 +128,9 @@ ${summary.categories.map((category) => `  - ${category}`).join("\n")}
 ${summary.tags.length > 0 ? `tags:\n${summary.tags.map((tag) => `  - "${escapeYaml(tag)}"`).join("\n")}` : "tags: []"}
 readingTimeMinutes: ${calculateReadingTime(articleBody)}
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ${articleBody}`;

@@ -23,7 +23,7 @@ title: "สรุปข่าวเทคประจำวันที่ ${tit
 date: "${isoDate}"
 articleSlugs:
 ${uniqueSlugs.map((slug) => `  - "${slug}"`).join("\n")}
-draft: true
+draft: false
 ---
 `;
 

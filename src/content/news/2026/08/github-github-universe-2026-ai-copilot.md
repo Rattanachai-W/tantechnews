@@ -24,9 +24,9 @@ tags:
   - "Coinbase"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -62,3 +62,4 @@ GitHub เผยกำหนดการงาน GitHub Universe 2026 ซึ่
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/)
+

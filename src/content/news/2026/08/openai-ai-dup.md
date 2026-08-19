@@ -17,9 +17,9 @@ tags:
   - "AI อย่างรับผิดชอบ"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -55,4 +55,5 @@ OpenAI ส่งจดหมายถึง Greg Abbott ผู้ว่ากา
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/responsible-ai-infrastructure-texas)
+
 

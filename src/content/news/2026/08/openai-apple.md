@@ -18,9 +18,9 @@ tags:
   - "การฟ้องร้อง"
 readingTimeMinutes: 1
 featured: false
-draft: true
+draft: false
 aiGenerated: true
-reviewedBy: null
+reviewedBy: "TanTech Editorial Desk"
 ---
 
 ## เกิดอะไรขึ้น
@@ -52,3 +52,4 @@ Apple เคยอ้างว่าติดต่อ OpenAI ในเดือ
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://openai.com/index/apple-is-getting-this-wrong)
+
