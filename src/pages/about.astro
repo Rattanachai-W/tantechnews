@@ -20,39 +20,6 @@ const jsonLd = {
   }
 };
 
-const pipeline = [
-  {
-    step: "01",
-    title: "ดึงข่าวจากแหล่งต้นทาง",
-    desc: "ระบบดึงข้อมูลจาก RSS Feed ของแหล่งข่าวระดับโลกกว่า 20 แหล่ง ครอบคลุมทั้ง Official Blog จาก OpenAI, GitHub, Cloudflare และสำนักข่าวอย่าง TechCrunch, Ars Technica, IEEE Spectrum"
-  },
-  {
-    step: "02",
-    title: "คัดกรองและล้างข้อมูล",
-    desc: "ตัดข่าวซ้ำ บทความโฆษณา เนื้อหาที่ไม่เกี่ยวข้อง และข่าวเก่าที่เกิน 48 ชั่วโมงออกก่อนส่งให้ AI"
-  },
-  {
-    step: "03",
-    title: "AI ให้คะแนนความสำคัญ",
-    desc: "AI ประเมินทุกบทความด้วยสี่เกณฑ์ ได้แก่ Importance × 0.4, Relevance × 0.3, Novelty × 0.2 และ Credibility × 0.1 แล้วเลือกข่าวที่คะแนนรวมสูงสุด 3–10 เรื่อง"
-  },
-  {
-    step: "04",
-    title: "AI สรุปเป็นภาษาไทย",
-    desc: "AI อ่านบทความต้นฉบับเต็ม แล้วเขียนสรุปที่แยกข้อเท็จจริง บทวิเคราะห์ และผลกระทบต่อกลุ่มต่างๆ พร้อม link กลับต้นฉบับทุกครั้ง"
-  },
-  {
-    step: "05",
-    title: "บรรณาธิการตรวจสอบ",
-    desc: "ระบบเปิด Pull Request ให้บรรณาธิการตรวจข้อเท็จจริง ความถูกต้อง และภาษาก่อน merge — บทความไม่มีทางขึ้นเว็บโดยตรงจาก Bot"
-  },
-  {
-    step: "06",
-    title: "เผยแพร่และสร้าง Static Site",
-    desc: "เมื่อผ่านการอนุมัติ ระบบ build เว็บและ deploy ขึ้น Cloudflare Pages โดยอัตโนมัติ ผู้อ่านได้รับหน้าเว็บที่โหลดเร็วและพร้อมอ่านทันที"
-  }
-];
-
 const values = [
   {
     icon: "🎯",
@@ -131,41 +98,14 @@ const categories = [
     </div>
   </section>
 
-  <!-- Pipeline -->
-  <section class="border-b border-line bg-white" aria-labelledby="pipeline-heading">
-    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
-      <h2 id="pipeline-heading" class="text-2xl font-bold text-ink">ข่าวแต่ละบทความมาจากไหน?</h2>
-      <p class="mt-2 text-muted">กระบวนการสร้างข่าว 6 ขั้นตอนที่เกิดขึ้นทุกวัน</p>
-      <ol class="mt-10 space-y-6" role="list">
-        {pipeline.map((p, i) => (
-          <li class="flex gap-5">
-            <div
-              class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-light text-sm font-bold text-brand-dark"
-              aria-hidden="true"
-            >
-              {p.step}
-            </div>
-            <div class="pt-1">
-              <h3 class="font-bold text-ink">{p.title}</h3>
-              <p class="mt-1.5 text-sm leading-7 text-muted">{p.desc}</p>
-              {i < pipeline.length - 1 && (
-                <div class="ml-[-29px] mt-4 h-4 w-px bg-line" aria-hidden="true" />
-              )}
-            </div>
-          </li>
-        ))}
-      </ol>
-    </div>
-  </section>
-
   <!-- Categories -->
-  <section class="border-b border-line bg-paper" aria-labelledby="categories-heading">
+  <section class="border-b border-line bg-white" aria-labelledby="categories-heading">
     <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
       <h2 id="categories-heading" class="text-2xl font-bold text-ink">หมวดข่าวที่ครอบคลุม</h2>
       <p class="mt-2 text-muted">ทันเทคติดตาม 11 หมวดเทคโนโลยีหลัก</p>
       <dl class="mt-8 grid gap-3 sm:grid-cols-2">
         {categories.map((cat) => (
-          <div class="rounded-lg border border-line bg-white px-5 py-4">
+          <div class="rounded-lg border border-line bg-paper px-5 py-4">
             <dt>
               <a
                 href={`/category/${cat.name.toLowerCase().replace(/\s+/g, "-")}/`}

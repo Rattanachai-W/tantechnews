@@ -45,8 +45,8 @@ jobs:
           AI_MODEL: ${{ secrets.AI_MODEL }}
           AI_SCORING_MODEL: ${{ secrets.AI_SCORING_MODEL }}
           AI_SUMMARY_MODEL: ${{ secrets.AI_SUMMARY_MODEL }}
-          AI_TIMEOUT_MS: "45000"
-          AI_MAX_RETRIES: "2"
+          AI_TIMEOUT_MS: "120000"
+          AI_MAX_RETRIES: "3"
           NEWS_DATE: ${{ github.event.inputs.date || '' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run != '' && github.event.inputs.dry_run || 'false' }}
           MAX_ARTICLES: ${{ github.event.inputs.max_articles || '10' }}
