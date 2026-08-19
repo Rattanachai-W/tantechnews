@@ -6,15 +6,23 @@ on:
     - cron: "0 22 * * *"
   workflow_dispatch:
     inputs:
+      publish_mode:
+        description: "Publish mode: 'direct' (auto-push to main) or 'pr' (create Pull Request)"
+        required: false
+        type: choice
+        options:
+          - direct
+          - pr
+        default: direct
       date:
-        description: "News date in YYYY-MM-DD"
+        description: "News date in YYYY-MM-DD (leave empty for today)"
         required: false
         type: string
       dry_run:
         description: "Generate content without persisting processed state"
         required: false
         type: boolean
-        default: true
+        default: false
       max_articles:
         description: "Maximum number of articles to generate"
         required: false
@@ -25,20 +33,32 @@ permissions:
   contents: write
   pull-requests: write
 
+env:
+  # Default mode: 'direct' (auto-publish 100%) or 'pr' (editorial review)
+  # Can be overridden via GitHub Repo Variable 'PUBLISH_MODE' or workflow dispatch input
+  PUBLISH_MODE: ${{ github.event.inputs.publish_mode || vars.PUBLISH_MODE || 'direct' }}
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: pnpm/action-setup@v4
         with:
           version: 9
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
+
       - run: pnpm install --frozen-lockfile
-      - run: pnpm news:generate
+
+      - name: Run News Generation Pipeline
+        run: pnpm news:generate
         env:
           AI_API_ENDPOINT: ${{ secrets.AI_API_ENDPOINT }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
@@ -48,18 +68,42 @@ jobs:
           AI_TIMEOUT_MS: "120000"
           AI_MAX_RETRIES: "3"
           NEWS_DATE: ${{ github.event.inputs.date || '' }}
-          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run != '' && github.event.inputs.dry_run || 'false' }}
-          MAX_ARTICLES: ${{ github.event.inputs.max_articles || '10' }}
-      - run: pnpm validate:content
-      - run: pnpm test
-      - run: pnpm build
-      - name: Create review pull request
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && 'true' || 'false' }}
+          MAX_ARTICLES: ${{ github.event.inputs.max_articles || '5' }}
+
+      - name: Validate Generated Content
+        run: pnpm validate:content
+
+      - name: Run Pipeline Unit Tests
+        run: pnpm test
+
+      - name: Build Static Site
+        run: pnpm build
+
+      # Mode 1: 100% Automatic Direct Commit & Push to main (Default)
+      - name: Direct Publish to Main (Auto Deploy to Vercel)
+        if: env.PUBLISH_MODE == 'direct'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "content: auto-publish daily news [skip ci]"
+            git push origin main
+            echo "Successfully pushed daily news directly to main."
+          else
+            echo "No new news generated for today."
+          fi
+
+      # Mode 2: Editorial Review via Pull Request
+      - name: Create Editorial Review Pull Request
+        if: env.PUBLISH_MODE == 'pr'
         uses: peter-evans/create-pull-request@v7
         with:
           branch: automated/daily-news
           title: "Daily tech news draft"
           body: |
-            Automated draft for editorial review.
+            Automated daily news generated for editorial review.
 
             ## Editorial checklist
 
@@ -72,8 +116,8 @@ jobs:
 
             ## Automated validation
 
-            - `pnpm validate:content`
-            - `pnpm test`
-            - `pnpm build`
+            - `pnpm validate:content` passed
+            - `pnpm test` passed
+            - `pnpm build` passed
           commit-message: "Generate daily news draft"
-          draft: true
+          draft: false
