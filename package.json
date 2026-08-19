@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build && pagefind --site dist",
+    "build": "astro check && astro build && tsx scripts/search/build-search.ts",
     "preview": "astro preview",
     "astro": "astro",
     "validate:content": "tsx scripts/content/validate-content.ts",
