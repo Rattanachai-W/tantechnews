@@ -101,6 +101,42 @@ function extractResponseText(payload: unknown): string {
   throw new Error("AI response shape is unsupported");
 }
 
+function normalizeParsedSummary(parsed: unknown): unknown {
+  if (!parsed || typeof parsed !== "object") return parsed;
+  const obj = { ...(parsed as Record<string, unknown>) };
+
+  if (Array.isArray(obj.tags)) {
+    obj.tags = obj.tags
+      .filter((t) => typeof t === "string" && t.trim().length > 0)
+      .slice(0, 10);
+  }
+
+  if (Array.isArray(obj.categories)) {
+    obj.categories = obj.categories.slice(0, 3);
+  }
+
+  if (typeof obj.titleTh === "string") {
+    obj.titleTh = obj.titleTh.trim().slice(0, 200);
+  }
+
+  if (typeof obj.excerpt === "string") {
+    obj.excerpt = obj.excerpt.trim().slice(0, 280);
+  }
+
+  if (typeof obj.oneSentenceSummary === "string") {
+    obj.oneSentenceSummary = obj.oneSentenceSummary.trim().slice(0, 220);
+  }
+
+  if (typeof obj.tantechView === "string") {
+    const trimmed = obj.tantechView.trim();
+    if (!trimmed.startsWith("บทวิเคราะห์") && !trimmed.startsWith("มุมมอง")) {
+      obj.tantechView = `บทวิเคราะห์: ${trimmed}`;
+    }
+  }
+
+  return obj;
+}
+
 export async function requestAiSummary(
   config: AiClientConfig,
   prompt: SummaryPromptPayload
@@ -138,7 +174,8 @@ export async function requestAiSummary(
         const payload = (await response.json()) as unknown;
         const responseText = extractResponseText(payload);
         const parsed = parseJsonObject(responseText);
-        const validation = articleSummarySchema.safeParse(parsed);
+        const normalized = normalizeParsedSummary(parsed);
+        const validation = articleSummarySchema.safeParse(normalized);
 
         if (!validation.success) {
           throw new Error(`AI summary validation failed: ${validation.error.message}`);

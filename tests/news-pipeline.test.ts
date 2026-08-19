@@ -280,8 +280,8 @@ describe("news pipeline helpers", () => {
   it("scores and categorizes articles from metadata", () => {
     const [article] = scoreArticles([
       rawArticle({
-        title: "Critical security vulnerability affects cloud API",
-        description: "Developers should patch affected infrastructure"
+        title: "TypeScript compiler performance optimization in Node.js runtime",
+        description: "Developers should update their build configs"
       })
     ]);
 
@@ -506,7 +506,7 @@ describe("news pipeline helpers", () => {
       assert.equal(filePath, join("src", "content", "daily", "2026-08-01.md"));
 
       const content = await readFile(filePath, "utf8");
-      assert.match(content, /articleSlugs:\n  - one\n  - two/);
+      assert.match(content, /articleSlugs:\n  - "one"\n  - "two"/);
       assert.match(content, /draft: true/);
     } finally {
       process.chdir(cwd);

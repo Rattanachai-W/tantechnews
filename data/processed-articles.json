@@ -1,3 +1,375 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "sourceName": "Mozilla Blog",
+      "slug": "153",
+      "id": "620c9c332101a5bae955c66ae72268fbcd3972766179522c8deede6a249addb7",
+      "url": "https://blog.mozilla.org/en/firefox/firefox-containers-preview/",
+      "processedAt": "2026-07-21T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "ai",
+      "id": "32e83e92d45d71f69dcf9d214688f0375542108631b45d344e5df2eb91c11566",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "processedAt": "2026-07-22T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "avatarin-24-gpt-realtime",
+      "id": "f5955a8778ada1a064b2cdaa494a0eb5a55b180f206d16015f3cd0d99e3c86d8",
+      "url": "https://openai.com/index/avatarin",
+      "processedAt": "2026-07-30T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "IEEE Spectrum",
+      "slug": "curiosity",
+      "id": "8950aeb7bd2ed1fa44e3f753013b8274d578a51b963b7c9b303274a2d367b6be",
+      "url": "https://spectrum.ieee.org/poem-martian-rover",
+      "processedAt": "2026-07-25T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "IEEE Spectrum",
+      "slug": "ieee-haraden-pratt-k-j-ray-liu-ieee-2022",
+      "id": "5cfa62eed91cf90239a7a74d6c1093cf1ef510b3e02943fa932f5edf8a40e02e",
+      "url": "https://spectrum.ieee.org/ieee-president-ray-liu-award",
+      "processedAt": "2026-07-25T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Microsoft Blog",
+      "slug": "microsoft-fy26-ai-frontier-transformation",
+      "id": "e3f2d21270aa5cb57a47b86cbbf8f7222b956c3835d86a1a9c5a1cb052b213c2",
+      "url": "https://blogs.microsoft.com/blog/2026/07/28/looking-back-on-microsofts-fy26-from-ai-experimentation-to-frontier-transformation/",
+      "processedAt": "2026-07-28T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-2-api-gpt-5-6-sol-arc-agi-3-3",
+      "id": "1828a4cf62abd5a17736ebcb4ce5b6fa5e105fd5691beb60c6c9c7540699f22b",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "processedAt": "2026-07-29T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-ai-2",
+      "id": "c5924b0eaf1f228b2d7aa49d0860e7d5551233989cd025598d91a22a1de27b04",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "processedAt": "2026-07-31T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-ai",
+      "id": "aaa6cf519de1673da8063329878192225f314e3ef8c50e11a1e8b19385a7589e",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "processedAt": "2026-07-22T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-david-velez-robin-vince-openai-foundation-openai-grou",
+      "id": "d0a1dec0ed7fa3667c425d2786d37a81e65e99eee01a39df639252c785e8cf2d",
+      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "processedAt": "2026-07-21T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-gpt-5-6-luna-terra-gpt-5-6-sol-api",
+      "id": "8df768bd7b5259cd1eebda70725ee43b2b8f8cc3991c3a627517d7b49ef3cf1e",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "processedAt": "2026-07-30T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-health-in-chatgpt",
+      "id": "2ba2e59fefc026e29d6a31abe2819bd48bf430f3970f8856fc84d2ba080c8447",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "processedAt": "2026-07-23T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-hugging-face",
+      "id": "1ed19f601d73284762658c4f196b133017494d1621d85d5822cdaba2fe96c7df",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "processedAt": "2026-07-21T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-project-camellia-3-2",
+      "id": "68309d587383e1edd07aeb0a22099d6f3d205b1a548fbfcc86147f8e501afe58",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "processedAt": "2026-07-22T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai",
+      "id": "7d3194f79e645c42e4396dda38be04766810ec6a00d00aced3ffc2a0a1f1a9ef",
+      "url": "https://openai.com/index/building-abundant-intelligence",
+      "processedAt": "2026-07-31T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Microsoft Blog",
+      "slug": "project-perception-ai",
+      "id": "acfd6d9972cbdf56b177a106541ddd86448e2733e34d28b495a710975f280dc7",
+      "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+      "processedAt": "2026-07-27T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Vercel Blog",
+      "slug": "vercel-connect-custom-environments",
+      "id": "28f919f4962ea77840970a3946f2991773ca56d7ba32929418327899209ba479",
+      "url": "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments",
+      "processedAt": "2026-07-28T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Vercel Blog",
+      "slug": "vercel-deepsecbench-ai",
+      "id": "ea96529a8548a947a4995acdae05b876b354398f051675bc28f62fd3cc10a6d2",
+      "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
+      "processedAt": "2026-07-27T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "WIRED",
+      "slug": "041abf65255b",
+      "id": "331868232833f2b133181eebb4747a42db1f50ca8d82e997029cc44ad71d1a6c",
+      "url": "https://www.wired.com/story/puerto-rico-is-rationing-water-it-could-avoid-it-by-harvesting-rainwater/",
+      "processedAt": "2026-08-15T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Docker Blog",
+      "slug": "17-600-ai-agent",
+      "id": "23c01ee9ce0796be41b345038edc373c6d09cd3020066a0560c56f47607bbfa8",
+      "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
+      "processedAt": "2026-08-18T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "CNBC Technology",
+      "slug": "5ec7a26b7d99",
+      "id": "fbd4e142cebee397190126b525c4ffcb5028669da40ece3d863b265b53b84667",
+      "url": "https://www.cnbc.com/2026/08/14/data-centers-in-space-emerge-as-next-frontier-for-insurers.html",
+      "processedAt": "2026-08-14T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "NVIDIA Blog",
+      "slug": "ai-safe-agentic-ai",
+      "id": "9ca68ee76c058d27b29d1d3d208b9872d56aa9a636ddeb5dc9d86d090845698b",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+      "processedAt": "2026-08-04T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "AWS News Blog",
+      "slug": "aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock",
+      "id": "3f6cd72050387194ae10d85b04d7522203a33cdcd7e1e7b47b500be9d2addec0",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
+      "processedAt": "2026-08-03T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Cloudflare Blog",
+      "slug": "cloudflare-2-1",
+      "id": "b3b39bfc24f02d50ad4677c2bce62930bfe06e3fc0db3b82f4930a137f58f25c",
+      "url": "https://blog.cloudflare.com/community-program-refresh/",
+      "processedAt": "2026-08-07T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Cloudflare Blog",
+      "slug": "cloudflare-agents-week",
+      "id": "5bc19a80f28afdf97164e084df3f2970d59e6b6734bf83d30145786a1c65d8b4",
+      "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
+      "processedAt": "2026-08-11T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "slug": "cursor-origin-github",
+      "id": "e8a959c30dfad18fa94fe73892a8f258923f19de63858fe5731c78950878ba99",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "processedAt": "2026-08-19T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Docker Blog",
+      "slug": "docker-agent-baseline-agentic-ai",
+      "id": "d25de1810c1ba5f3ad38e28bdc2b0aaef2a94f24376fe46aa5a8ab061941316e",
+      "url": "https://www.docker.com/blog/a-new-security-baseline-for-enterprise-agentic-adoption/",
+      "processedAt": "2026-08-13T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Docker Blog",
+      "slug": "docker-ai-governance-audit-logs",
+      "id": "75c6ad7959d2500195ab15a02efd3990aa217e037f2d50f6363330c52d67ce36",
+      "url": "https://www.docker.com/blog/docker-ai-governance-audit-logs-now-where-your-security-team-already-works/",
+      "processedAt": "2026-08-03T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "WIRED",
+      "slug": "easydmg-macos",
+      "id": "78b3b4751d14d2f5f160f2f72a615068d74514e7dd4ae49a44f5f158b9a0d1e9",
+      "url": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
+      "processedAt": "2026-08-16T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "NVIDIA Blog",
+      "slug": "firebird-ai-cis",
+      "id": "0c798db1fbcd201462a7025a45428856df0ec5c32ac4a027a9aade4422625323",
+      "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+      "processedAt": "2026-08-08T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "GitHub Blog",
+      "slug": "github-ai-50",
+      "id": "24e23cabc93a4fa840482b80875b752fa344028ed6ce65593f6c318c5c1e2758",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "processedAt": "2026-08-13T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "GitHub Blog",
+      "slug": "github-github-universe-2026-ai-copilot",
+      "id": "b44d7fb46387de3ac24ef9dc1c4a9c10697e6deaa3c1321a16f93ea62af26223",
+      "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
+      "processedAt": "2026-08-14T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Vercel Blog",
+      "slug": "grok-imagine-image-2-0-preview-vercel-ai-gateway",
+      "id": "1d7366170dc568ea420d4126eb9bad122e29c46c881553e5a7955a61eacab348",
+      "url": "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway",
+      "processedAt": "2026-08-08T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Vercel Blog",
+      "slug": "launchdarkly-vercel-marketplace",
+      "id": "1cf4cb0242195a4dbf1e7f5e7085cb7fbdb6db79d088010eee6d286f2d319c1e",
+      "url": "https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace",
+      "processedAt": "2026-08-11T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "IEEE Spectrum",
+      "slug": "magnetophon",
+      "id": "0b6dd9f5ff92038f711c37b7d3950d486e9baeb4d183b2fdd64739b75eed6bb0",
+      "url": "https://spectrum.ieee.org/magnetophon-laugh-track",
+      "processedAt": "2026-08-02T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-10-astra",
+      "id": "fd164f1b8110e2cc84257a45eddc51da4a3f564b022f863434fd103b911b8e63",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "processedAt": "2026-08-01T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-14-ai",
+      "id": "9f9b0ce628d836664ddbe9b5ca8d639cca740eb106292b0b79b05168ceb55857",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "processedAt": "2026-08-17T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-2",
+      "id": "1a8c27385ab2d3cee7e0b06f5212dab70064ac3ed53f3d6ea2243a4c7b78a550",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "processedAt": "2026-08-10T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-3",
+      "id": "0b84a3ce0a88ec451f2d32aa935bc23f638d1d6a72402f2f26bc6899d145f53e",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "processedAt": "2026-08-19T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-ai-2-dup",
+      "id": "2825ab5d123482de8e734d9da5d51d07543702e717b2706fd4abfc9b018d92ce",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "processedAt": "2026-08-12T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-ai-dup",
+      "id": "14ab673bde056696a93bb6319d57bb8dc1c23ca1e431dfb25710c59989715aaf",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "processedAt": "2026-08-10T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-ai-openai-hugging-face",
+      "id": "b2c377b8d2c1461815d9ac454ef79960aa691ec5a71831d2317f4dbf2df985d6",
+      "url": "https://openai.com/index/the-defenders-window",
+      "processedAt": "2026-08-17T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-apa-ai",
+      "id": "3da7a8b17be234bc59a623ec602bdf272f8c99d9042a2ab832eb696b403576cb",
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "processedAt": "2026-08-06T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-apple",
+      "id": "136c6c32407f9a2f6a5935d691b1186c7552a72c3e7697a13dcb0e9cdbe0aca3",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "processedAt": "2026-08-04T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-chatgpt",
+      "id": "359ebe26157585c326aefcc14153246ce25c42284e41a64604ecf34aa180a086",
+      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "processedAt": "2026-08-06T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "openai-dup",
+      "id": "9aae57682221baff1258f2e6b720c0137e6e8bbce3e7bd4ed200d88523651853",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "processedAt": "2026-08-05T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "TechCrunch",
+      "slug": "peacock",
+      "id": "a095c7713e337faa7c397ce5fc77edf4b5fad49409b53ef54f382ac3b5b60a03",
+      "url": "https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/",
+      "processedAt": "2026-08-18T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Vercel Blog",
+      "slug": "qwen-3-8-max-vercel-ai-gateway",
+      "id": "56a653f151bb1c5d4971e4246ecafbf10431129c11894a56855a9de6d970c1ab",
+      "url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
+      "processedAt": "2026-08-02T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "OpenAI Blog",
+      "slug": "responding-to-the-next-frontier-of-critical-cyber-capabiliti",
+      "id": "cc79c51bf8039b8eebe612f7af0cbd1018813de211032bb9666dafa3ccadbe2e",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "processedAt": "2026-08-07T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "WIRED",
+      "slug": "terramow-v1000-ai",
+      "id": "6ff7a1a38046efe7d5e5176724d1769cf0eb02b8cb7ae85fa10073bab17a8c90",
+      "url": "https://www.wired.com/review/terramow-v1000/",
+      "processedAt": "2026-08-16T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "NVIDIA Blog",
+      "slug": "ugm-indosat-nvidia-ai",
+      "id": "2bc540e46dfa8d28d786fb82a787c937c7ff24bf160db9fc0a0d6ce5fa5c1af0",
+      "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
+      "processedAt": "2026-08-15T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Vercel Blog",
+      "slug": "vercel-ai-gateway-vercel-drains",
+      "id": "fe3bb231b01e358705fdec93308941a7817dbd59363f85b82c11297ac36dfd2d",
+      "url": "https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains",
+      "processedAt": "2026-08-05T12:00:00.000+07:00"
+    },
+    {
+      "sourceName": "Vercel Blog",
+      "slug": "vercel-ai-gateway",
+      "id": "4c3c16adcbcbf05b4a837f69b468b27db18fa65e1cad4025a652ab6ce7d3316d",
+      "url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
+      "processedAt": "2026-08-01T12:00:00.000+07:00"
+    }
+  ]
 }

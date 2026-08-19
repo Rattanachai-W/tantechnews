@@ -22,7 +22,7 @@ export async function generateDailyDigest(slugs: string[], date = new Date()): P
 title: "สรุปข่าวเทคประจำวันที่ ${titleDate}"
 date: "${isoDate}"
 articleSlugs:
-${uniqueSlugs.map((slug) => `  - ${slug}`).join("\n")}
+${uniqueSlugs.map((slug) => `  - "${slug}"`).join("\n")}
 draft: true
 ---
 `;

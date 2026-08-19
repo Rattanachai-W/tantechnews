@@ -1,6 +1,6 @@
-import { access, mkdir, writeFile } from "node:fs/promises";
+import { access, mkdir, readdir, stat, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
-import { bangkokIsoNow, getBangkokDateParts } from "../shared/date";
+import { getBangkokDateParts } from "../shared/date";
 import { calculateReadingTime } from "../content/calculate-reading-time";
 import { slugify } from "../../src/utils/slug";
 import type { ArticleSummary, ScoredArticle } from "../../src/types/article";
@@ -35,11 +35,32 @@ async function fileExists(path: string): Promise<boolean> {
   }
 }
 
-async function createUniqueSlug(baseSlug: string, directory: string): Promise<string> {
+async function isSlugTaken(slug: string): Promise<boolean> {
+  const newsRoot = join("src", "content", "news");
+  try {
+    const years = await readdir(newsRoot);
+    for (const year of years) {
+      const yearDir = join(newsRoot, year);
+      const yearStat = await stat(yearDir).catch(() => null);
+      if (!yearStat?.isDirectory()) continue;
+
+      const months = await readdir(yearDir);
+      for (const month of months) {
+        const filePath = join(yearDir, month, `${slug}.md`);
+        if (await fileExists(filePath)) return true;
+      }
+    }
+    return false;
+  } catch {
+    return false;
+  }
+}
+
+async function createUniqueSlug(baseSlug: string): Promise<string> {
   let slug = baseSlug;
   let suffix = 2;
 
-  while (await fileExists(join(directory, `${slug}.md`))) {
+  while (await isSlugTaken(slug)) {
     slug = `${baseSlug}-${suffix}`;
     suffix += 1;
   }
@@ -59,7 +80,7 @@ export async function generateMarkdown(
   const articleDate = targetDate ?? new Date(article.publishedAt);
   const { year, month } = getBangkokDateParts(isNaN(articleDate.getTime()) ? new Date() : articleDate);
   const directory = join("src", "content", "news", year, month);
-  const slug = await createUniqueSlug(baseSlug, directory);
+  const slug = await createUniqueSlug(baseSlug);
   const filePath = join(directory, `${slug}.md`);
   const articleBody = `## เกิดอะไรขึ้น
 
