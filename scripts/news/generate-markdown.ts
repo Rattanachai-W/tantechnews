@@ -6,7 +6,10 @@ import { slugify } from "../../src/utils/slug";
 import type { ArticleSummary, ScoredArticle } from "../../src/types/article";
 
 function escapeYaml(value: string): string {
-  return value.replace(/"/g, '\\"');
+  return value
+    .replace(/\\/g, "\\\\")
+    .replace(/\r?\n/g, " ")
+    .replace(/"/g, '\\"');
 }
 
 function renderImpactHeading(group: ArticleSummary["impacts"][number]["group"]): string {

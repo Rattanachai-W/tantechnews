@@ -7,9 +7,12 @@ import { getCategoryHref, getPublishedNews } from "../utils/content";
 import { getOrganizationJsonLd, getSiteJsonLd } from "../utils/seo";
 
 const articles = await getPublishedNews();
-const half = Math.ceil(articles.length / 2);
-const leftArticles = articles.slice(0, half);
-const rightArticles = articles.slice(half, half + 3);
+// Show at most 5 articles on the homepage in a balanced two-column layout:
+// 3 on the left, 2 on the right. This keeps the columns visually balanced
+// regardless of how many total articles exist.
+const featured = articles.slice(0, 5);
+const leftArticles = featured.slice(0, 3);
+const rightArticles = featured.slice(3, 5);
 ---
 
 <BaseLayout>
@@ -69,12 +72,12 @@ const rightArticles = articles.slice(half, half + 3);
     {
       articles.length > 0 ? (
         <div class="grid min-w-0 gap-5 lg:grid-cols-2">
-          <div class="grid min-w-0 gap-5">
+          <div class="grid min-w-0 content-start gap-5">
             {leftArticles.map((article) => (
               <ArticleCard article={article} />
             ))}
           </div>
-          <div class="grid min-w-0 gap-5">
+          <div class="grid min-w-0 content-start gap-5">
             {rightArticles.map((article) => (
               <ArticleCard article={article} />
             ))}

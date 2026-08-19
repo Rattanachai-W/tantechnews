@@ -15,7 +15,7 @@ const primaryCategory = getPrimaryCategory(article);
 
 <article
   class:list={[
-    "overflow-hidden rounded-lg border border-line bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md",
+    "flex flex-col overflow-hidden rounded-lg border border-line bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md",
     prominent && "md:p-7"
   ]}
   itemscope
@@ -48,10 +48,10 @@ const primaryCategory = getPrimaryCategory(article);
   >
     <a href={getArticleHref(article)} itemprop="url">{article.data.title}</a>
   </h2>
-  <p class="mt-3 break-words text-sm leading-7 text-muted" itemprop="description">
+  <p class="mt-3 line-clamp-3 break-words text-sm leading-7 text-muted" itemprop="description">
     {article.data.excerpt}
   </p>
-  <div class="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-4 text-xs text-muted">
+  <div class="mt-auto flex flex-wrap items-center justify-between gap-3 border-t border-line pt-4 text-xs text-muted">
     <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
       <span itemprop="name">{article.data.sourceName}</span>
     </span>

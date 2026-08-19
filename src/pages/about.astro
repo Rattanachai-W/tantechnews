@@ -1,0 +1,222 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import JsonLd from "../components/seo/json-ld.astro";
+
+const title = "เกี่ยวกับเรา";
+const description =
+  "ทันเทคคืออะไร ทำงานอย่างไร และทำไมถึงเชื่อถือได้ — อ่านรายละเอียดพันธกิจ กระบวนการทำงาน และหลักการของเรา";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "เกี่ยวกับ TanTech News",
+  description,
+  url: "https://tantechnews.com/about/",
+  inLanguage: "th-TH",
+  isPartOf: {
+    "@type": "WebSite",
+    name: "TanTech News",
+    url: "https://tantechnews.com"
+  }
+};
+
+const pipeline = [
+  {
+    step: "01",
+    title: "ดึงข่าวจากแหล่งต้นทาง",
+    desc: "ระบบดึงข้อมูลจาก RSS Feed ของแหล่งข่าวระดับโลกกว่า 20 แหล่ง ครอบคลุมทั้ง Official Blog จาก OpenAI, GitHub, Cloudflare และสำนักข่าวอย่าง TechCrunch, Ars Technica, IEEE Spectrum"
+  },
+  {
+    step: "02",
+    title: "คัดกรองและล้างข้อมูล",
+    desc: "ตัดข่าวซ้ำ บทความโฆษณา เนื้อหาที่ไม่เกี่ยวข้อง และข่าวเก่าที่เกิน 48 ชั่วโมงออกก่อนส่งให้ AI"
+  },
+  {
+    step: "03",
+    title: "AI ให้คะแนนความสำคัญ",
+    desc: "AI ประเมินทุกบทความด้วยสี่เกณฑ์ ได้แก่ Importance × 0.4, Relevance × 0.3, Novelty × 0.2 และ Credibility × 0.1 แล้วเลือกข่าวที่คะแนนรวมสูงสุด 3–10 เรื่อง"
+  },
+  {
+    step: "04",
+    title: "AI สรุปเป็นภาษาไทย",
+    desc: "AI อ่านบทความต้นฉบับเต็ม แล้วเขียนสรุปที่แยกข้อเท็จจริง บทวิเคราะห์ และผลกระทบต่อกลุ่มต่างๆ พร้อม link กลับต้นฉบับทุกครั้ง"
+  },
+  {
+    step: "05",
+    title: "บรรณาธิการตรวจสอบ",
+    desc: "ระบบเปิด Pull Request ให้บรรณาธิการตรวจข้อเท็จจริง ความถูกต้อง และภาษาก่อน merge — บทความไม่มีทางขึ้นเว็บโดยตรงจาก Bot"
+  },
+  {
+    step: "06",
+    title: "เผยแพร่และสร้าง Static Site",
+    desc: "เมื่อผ่านการอนุมัติ ระบบ build เว็บและ deploy ขึ้น Cloudflare Pages โดยอัตโนมัติ ผู้อ่านได้รับหน้าเว็บที่โหลดเร็วและพร้อมอ่านทันที"
+  }
+];
+
+const values = [
+  {
+    icon: "🎯",
+    title: "คัดเฉพาะข่าวที่มีผลกระทบจริง",
+    desc: "เราไม่รายงานทุกข่าว — คัดเฉพาะข่าวที่กระทบนักพัฒนา ธุรกิจ หรือผู้ใช้เทคโนโลยีในชีวิตจริง"
+  },
+  {
+    icon: "🔍",
+    title: "ตรวจสอบกลับต้นฉบับได้เสมอ",
+    desc: "ทุกบทความมี link ไปยังแหล่งข่าวต้นฉบับ ผู้อ่านสามารถตรวจสอบข้อมูลได้โดยตรง ไม่ต้องเชื่อเราอย่างเดียว"
+  },
+  {
+    icon: "⚖️",
+    title: "แยกข้อเท็จจริงออกจากบทวิเคราะห์",
+    desc: "ส่วน 'เกิดอะไรขึ้น' คือข้อเท็จจริงจากต้นฉบับ ส่วน 'มุมมองของทันเทค' คือบทวิเคราะห์ที่ระบุชัดเจนเสมอ"
+  },
+  {
+    icon: "🤖",
+    title: "AI ช่วยงาน มนุษย์ตัดสินใจ",
+    desc: "AI ช่วยคัดกรองและสรุป แต่บรรณาธิการมนุษย์ตรวจสอบทุกบทความก่อนเผยแพร่ ทุกบทความจะระบุว่าสร้างโดย AI"
+  }
+];
+
+const categories = [
+  { name: "AI", desc: "เทคโนโลยี AI, LLM, โมเดลใหม่, นโยบาย AI" },
+  { name: "Programming", desc: "ภาษาโปรแกรม, Framework, เครื่องมือสำหรับนักพัฒนา" },
+  { name: "Cloud", desc: "AWS, Azure, GCP, Cloudflare, Infrastructure" },
+  { name: "Cybersecurity", desc: "ช่องโหว่, การโจมตี, มาตรการรักษาความปลอดภัย" },
+  { name: "Startup", desc: "การระดมทุน, บริษัทใหม่, นวัตกรรม" },
+  { name: "Business", desc: "นโยบาย, การควบรวม, ราคา, กฎหมาย" },
+  { name: "Open Source", desc: "โอเพนซอร์ส, License, GitHub" },
+  { name: "Data", desc: "Database, Analytics, Data Engineering" },
+  { name: "Hardware", desc: "Chip, GPU, อุปกรณ์ใหม่" },
+  { name: "Mobile", desc: "iOS, Android, แอปพลิเคชัน" },
+  { name: "Science", desc: "งานวิจัย, วิทยาศาสตร์, การค้นพบใหม่" }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <Fragment slot="head">
+    <JsonLd data={jsonLd} />
+  </Fragment>
+
+  <!-- Hero -->
+  <section class="border-b border-line bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:py-20">
+      <p class="text-sm font-bold uppercase tracking-wide text-brand">เกี่ยวกับเรา</p>
+      <h1 class="mt-3 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">
+        ทันเทคคืออะไร?
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-muted">
+        ทันเทค (TanTech News) คือเว็บไซต์สรุปข่าวเทคโนโลยีที่สำคัญประจำวัน
+        เป็นภาษาไทย โดยใช้ AI ช่วยคัดเลือกและสรุป ก่อนผ่านการตรวจสอบจากบรรณาธิการมนุษย์ทุกครั้ง
+      </p>
+      <p class="mt-4 max-w-2xl text-lg leading-8 text-muted">
+        เราไม่ได้รายงานข่าวทุกข่าว — เราคัดเฉพาะข่าวที่<strong class="font-semibold text-ink">มีผลกระทบจริง</strong>ต่อนักพัฒนา
+        ผู้ประกอบการ และคนที่ทำงานกับเทคโนโลยี แล้วสรุปให้เข้าใจได้ภายในไม่กี่นาที
+      </p>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="border-b border-line bg-paper" aria-labelledby="values-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="values-heading" class="text-2xl font-bold text-ink">หลักการของเรา</h2>
+      <p class="mt-2 text-muted">สิ่งที่ทันเทคยึดถือในทุกบทความ</p>
+      <div class="mt-8 grid gap-5 sm:grid-cols-2">
+        {values.map((v) => (
+          <div class="rounded-xl border border-line bg-white p-6 shadow-sm">
+            <span class="text-3xl" aria-hidden="true">{v.icon}</span>
+            <h3 class="mt-4 text-base font-bold text-ink">{v.title}</h3>
+            <p class="mt-2 text-sm leading-7 text-muted">{v.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Pipeline -->
+  <section class="border-b border-line bg-white" aria-labelledby="pipeline-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="pipeline-heading" class="text-2xl font-bold text-ink">ข่าวแต่ละบทความมาจากไหน?</h2>
+      <p class="mt-2 text-muted">กระบวนการสร้างข่าว 6 ขั้นตอนที่เกิดขึ้นทุกวัน</p>
+      <ol class="mt-10 space-y-6" role="list">
+        {pipeline.map((p, i) => (
+          <li class="flex gap-5">
+            <div
+              class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-light text-sm font-bold text-brand-dark"
+              aria-hidden="true"
+            >
+              {p.step}
+            </div>
+            <div class="pt-1">
+              <h3 class="font-bold text-ink">{p.title}</h3>
+              <p class="mt-1.5 text-sm leading-7 text-muted">{p.desc}</p>
+              {i < pipeline.length - 1 && (
+                <div class="ml-[-29px] mt-4 h-4 w-px bg-line" aria-hidden="true" />
+              )}
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="border-b border-line bg-paper" aria-labelledby="categories-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="categories-heading" class="text-2xl font-bold text-ink">หมวดข่าวที่ครอบคลุม</h2>
+      <p class="mt-2 text-muted">ทันเทคติดตาม 11 หมวดเทคโนโลยีหลัก</p>
+      <dl class="mt-8 grid gap-3 sm:grid-cols-2">
+        {categories.map((cat) => (
+          <div class="rounded-lg border border-line bg-white px-5 py-4">
+            <dt>
+              <a
+                href={`/category/${cat.name.toLowerCase().replace(/\s+/g, "-")}/`}
+                class="inline-block rounded-md bg-brand-light px-2.5 py-1 text-xs font-bold text-brand-dark hover:bg-brand hover:text-white transition-colors"
+              >
+                {cat.name}
+              </a>
+            </dt>
+            <dd class="mt-2 text-sm text-muted">{cat.desc}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <!-- Disclaimer / AI notice -->
+  <section class="bg-white" aria-labelledby="ai-notice-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="ai-notice-heading" class="text-2xl font-bold text-ink">ความโปร่งใสเกี่ยวกับ AI</h2>
+      <div class="mt-6 space-y-4 rounded-xl border border-amber-200 bg-amber-50 p-6 text-sm leading-7 text-amber-900">
+        <p>
+          <strong class="font-bold">ทุกบทความบนทันเทคสร้างโดย AI</strong> และจะมีป้าย
+          <span class="inline-block rounded bg-amber-200 px-2 py-0.5 font-semibold">AI Generated</span>
+          กำกับไว้ทุกครั้ง
+        </p>
+        <p>
+          แม้จะมีกระบวนการตรวจสอบคุณภาพ แต่ AI อาจเข้าใจผิดหรือสรุปบริบทคลาดเคลื่อนได้
+          เราแนะนำให้ผู้อ่าน<strong class="font-bold">ตรวจสอบจากแหล่งต้นฉบับ</strong>ที่แนบไว้ทุกครั้งก่อนตัดสินใจสำคัญ
+        </p>
+        <p>
+          หากพบข้อผิดพลาด สามารถรายงานผ่าน GitHub ของโปรเจ็คได้โดยตรง
+        </p>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-4 text-sm">
+        <a
+          href="/rss.xml"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+          </svg>
+          สมัคร RSS Feed
+        </a>
+        <a
+          href="/archive/"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          📚 คลังข่าวย้อนหลัง
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

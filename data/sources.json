@@ -179,6 +179,46 @@
       "tier": 3,
       "categories": ["Programming", "Open Source"],
       "language": "en"
+    },
+    {
+      "id": "yahoo-finance-tech",
+      "name": "Yahoo Finance Technology",
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=tech&region=US&lang=en-US",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Business", "Startup"],
+      "language": "en"
+    },
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "url": "https://www.marketwatch.com/rss/topstories",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Business", "Startup"],
+      "language": "en"
+    },
+    {
+      "id": "nyt-technology",
+      "name": "NYT Technology",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["AI", "Business", "Science"],
+      "language": "en"
+    },
+    {
+      "id": "cnbc-technology",
+      "name": "CNBC Technology",
+      "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Business", "Startup", "AI"],
+      "language": "en"
     }
   ]
 }

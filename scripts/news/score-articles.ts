@@ -20,7 +20,31 @@ const CATEGORY_PATTERNS: Array<{ category: ArticleCategory; pattern: RegExp }> =
 
 function inferCategory(article: RawArticle): ArticleCategory {
   const haystack = `${article.title} ${article.description ?? ""}`;
-  return CATEGORY_PATTERNS.find(({ pattern }) => pattern.test(haystack))?.category ?? "Business";
+  const matches = CATEGORY_PATTERNS.filter(({ pattern }) => pattern.test(haystack)).map(
+    ({ category }) => category
+  );
+
+  if (matches.length === 0) return "Business";
+
+  // Prefer more specific categories over generic ones.
+  // If the article has both "AI" and "Business" signals, trust AI first
+  // because AI is more specific and valuable to TanTech readers.
+  // "Business" is used as a last-resort catch-all by the pattern above.
+  const priority: ArticleCategory[] = [
+    "Cybersecurity",
+    "AI",
+    "Programming",
+    "Cloud",
+    "Open Source",
+    "Data",
+    "Hardware",
+    "Mobile",
+    "Science",
+    "Startup",
+    "Business"
+  ];
+
+  return priority.find((cat) => matches.includes(cat)) ?? matches[0];
 }
 
 function credibilityFromTier(article: RawArticle): number {

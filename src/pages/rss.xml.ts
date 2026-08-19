@@ -13,7 +13,8 @@ export async function GET(context: APIContext) {
       title: article.data.title,
       description: article.data.excerpt,
       pubDate: article.data.publishedAt,
-      link: getArticleHref(article)
+      link: getArticleHref(article),
+      categories: article.data.categories
     }))
   });
 }

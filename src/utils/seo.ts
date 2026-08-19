@@ -3,7 +3,7 @@ import type { NewsEntry } from "./content";
 const SITE_NAME = "TanTech News";
 const SITE_URL = "https://tantechnews.com";
 const DEFAULT_DESCRIPTION = "สรุปข่าวเทคสำคัญ ให้คุณทันทุกวัน";
-const DEFAULT_IMAGE = `${SITE_URL}/og-default.svg`;
+const DEFAULT_IMAGE = `${SITE_URL}/og-default.jpg`;
 
 export function getSiteJsonLd() {
   return {

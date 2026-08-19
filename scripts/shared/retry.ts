@@ -20,7 +20,11 @@ export async function withRetry<T>(
       });
 
       if (attempt < options.attempts) {
-        await new Promise((resolve) => setTimeout(resolve, delayMs * attempt));
+        // Exponential backoff with ±20% jitter to prevent thundering herd
+        // when multiple sources fail at the same time.
+        const base = delayMs * Math.pow(2, attempt - 1);
+        const jitter = base * 0.2 * (Math.random() * 2 - 1);
+        await new Promise((resolve) => setTimeout(resolve, base + jitter));
       }
     }
   }

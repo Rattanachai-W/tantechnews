@@ -6,6 +6,14 @@ const BLOCKED_TITLE_PATTERNS = [
   /sponsored/i,
   /advertorial/i,
   /deal of the day/i,
+  // Paid/partner content labels
+  /\bpresented by\b/i,
+  /\bbrought to you by\b/i,
+  /\bpartner content\b/i,
+  /\bpaid content\b/i,
+  /\bpaid post\b/i,
+  /\[sponsored\]/i,
+  /\baffiliate\b.*\b(link|deal|pick)\b/i,
   // Non-tech content filters
   /\bmusic\b.*\b(review|album|song|band|festival)\b/i,
   /\b(game|gaming)\b.*\b(review|trailer|release)\b/i,
