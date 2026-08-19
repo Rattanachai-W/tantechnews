@@ -8,7 +8,10 @@
 ## 📺 วิดีโอสาธิตการใช้งาน (Demo Video)
 
 <!-- วางลิงก์วิดีโอ YouTube ของคุณที่นี่ -->
-[![TanTech News Demo](https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/Q_7eAJqCi04)
+## 📺 วิดีโอสาธิตการใช้งาน (Demo Video)
+
+[![TanTech News Demo](https://img.youtube.com/vi/Q_7eAJqCi04/maxresdefault.jpg)](https://youtu.be/Q_7eAJqCi04)
+
 ---
 
 ## ✨ จุดเด่นของระบบ (Key Features)
