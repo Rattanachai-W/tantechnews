@@ -13,16 +13,18 @@ export const GET: APIRoute = async ({ site }) => {
   const digests = await getPublishedDailyDigests();
   const now = new Date().toISOString().slice(0, 10);
   const staticPaths = ["", "daily/", "archive/", "category/", "search/", "about/", "rss.xml"];
-  const categoryPaths = ARTICLE_CATEGORIES.map(
-    (category) => `category/${category.toLowerCase().replace(/\s+/g, "-")}/`
-  );
-  const articlePaths = articles.map((article) => getArticleHref(article).slice(1));
-  const dailyPaths = digests.map((digest) => getDailyHref(digest).slice(1));
-
   // Build entries with lastmod and priority for better crawl efficiency.
   const staticEntries = staticPaths.map((p) => ({ path: p, priority: "1.0", lastmod: now }));
-  const categoryEntries = categoryPaths.map((p) => ({ path: p, priority: "0.7", lastmod: now }));
-  const dailyEntries = dailyPaths.map((p) => ({ path: p, priority: "0.8", lastmod: now }));
+  const categoryEntries = ARTICLE_CATEGORIES.map((category) => ({
+    path: `category/${category.toLowerCase().replace(/\s+/g, "-")}/`,
+    priority: "0.7",
+    lastmod: now
+  }));
+  const dailyEntries = digests.map((digest) => ({
+    path: getDailyHref(digest).slice(1),
+    priority: "0.8",
+    lastmod: now
+  }));
   const articleEntries = articles.map((article) => ({
     path: getArticleHref(article).slice(1),
     priority: "0.9",
