@@ -1,26 +1,32 @@
 ---
-title: "OpenAI ชี้ Apple ฟ้องร้องโดยให้ข้อมูลเท็จ"
-slug: "openai-apple"
-excerpt: "OpenAI ระบุว่า Apple ยอมรับว่าทนายส่งอีเมลผิดคนและไม่เคยหารือกับที่ปรึกษากฎหมายจริง พร้อมเผยข้อความที่พนักงาน Apple ขอให้ Chang Liu ช่วยค้นหาไฟล์หลังลาออก และยืนยันว่าไม่ต้องการหรือครอบครองความลับทางการค้าของ Apple"
-publishedAt: "2026-08-04T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-03T22:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/apple-is-getting-this-wrong"
-author: "TanTech AI Desk"
+title: OpenAI ชี้ Apple ฟ้องร้องโดยให้ข้อมูลเท็จ
+slug: openai-apple
+excerpt: >-
+  OpenAI ระบุว่า Apple
+  ยอมรับว่าทนายส่งอีเมลผิดคนและไม่เคยหารือกับที่ปรึกษากฎหมายจริง
+  พร้อมเผยข้อความที่พนักงาน Apple ขอให้ Chang Liu ช่วยค้นหาไฟล์หลังลาออก
+  และยืนยันว่าไม่ต้องการหรือครอบครองความลับทางการค้าของ Apple
+publishedAt: '2026-08-04T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-03T22:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/apple-is-getting-this-wrong'
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "OpenAI"
-  - "Apple"
-  - "Chang Liu"
-  - "Tang Tan"
-  - "ความลับทางการค้า"
-  - "การฟ้องร้อง"
+  - OpenAI
+  - Apple
+  - Chang Liu
+  - Tang Tan
+  - ความลับทางการค้า
+  - การฟ้องร้อง
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/3LMWP6Zq4rgiX3gVyxKiX/667973a65cc5111e602f68338b9f1c87/Frame__13_.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

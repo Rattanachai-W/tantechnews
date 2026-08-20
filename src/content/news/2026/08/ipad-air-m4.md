@@ -1,27 +1,32 @@
 ---
-title: "iPad Air M4 ลดราคาต่ำสุดตั้งแต่ปรับขึ้นเดือนมิถุนายน"
-slug: "ipad-air-m4"
-excerpt: "Amazon และ Best Buy ลดราคา iPad Air 11 นิ้ว ชิป M4 รุ่นล่าสุด เหลือ 649 ดอลลาร์ ต่ำกว่าราคาขายปลีกใหม่ 100 ดอลลาร์ พร้อมรุ่น 256GB และรุ่น Cellular ลดราคาด้วย"
-publishedAt: "2026-08-20T00:56:15.000+07:00"
-sourcePublishedAt: "2026-08-19T17:56:15.000Z"
-sourceName: "The Verge"
-sourceUrl: "https://www.theverge.com/gadgets/982242/ipad-air-m4-garmin-inreach-deal-sale"
-author: "TanTech AI Desk"
+title: iPad Air M4 ลดราคาต่ำสุดตั้งแต่ปรับขึ้นเดือนมิถุนายน
+slug: ipad-air-m4
+excerpt: >-
+  Amazon และ Best Buy ลดราคา iPad Air 11 นิ้ว ชิป M4 รุ่นล่าสุด เหลือ 649
+  ดอลลาร์ ต่ำกว่าราคาขายปลีกใหม่ 100 ดอลลาร์ พร้อมรุ่น 256GB และรุ่น Cellular
+  ลดราคาด้วย
+publishedAt: '2026-08-20T00:56:15.000+07:00'
+sourcePublishedAt: '2026-08-19T17:56:15.000Z'
+sourceName: The Verge
+sourceUrl: 'https://www.theverge.com/gadgets/982242/ipad-air-m4-garmin-inreach-deal-sale'
+author: TanTech AI Desk
 categories:
   - Hardware
   - Mobile
 tags:
-  - "iPad Air M4"
-  - "Apple"
-  - "Amazon"
-  - "Best Buy"
-  - "Wi-Fi 7"
-  - "Bluetooth 6"
+  - iPad Air M4
+  - Apple
+  - Amazon
+  - Best Buy
+  - Wi-Fi 7
+  - Bluetooth 6
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/ipad-air-m4-roundup.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
 ---
 
 ## เกิดอะไรขึ้น

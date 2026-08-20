@@ -1,27 +1,33 @@
 ---
-title: "OpenAI เปิดตัว ChatGPT for Teens เน้นการเรียนรู้และมาตรการปกป้องเยาวชน"
-slug: "openai-chatgpt-for-teens"
-excerpt: "OpenAI เปิดตัว ChatGPT for Teens สำหรับผู้ใช้วัย 13-17 ปี โดยออกแบบให้ช่วยการเรียนรู้แบบเชิงรุก มี Study Mode การแจ้งเตือนการบ้านอย่างรับผิดชอบ แบบทดสอบ การแสดงภาพการเรียนรู้ และ Study Hours พร้อมระบบความปลอดภัยและการควบคุมสำหรับผู้ปกครอง"
-publishedAt: "2026-08-18T18:00:00.000+07:00"
-sourcePublishedAt: "2026-08-18T11:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/chatgpt-for-teens"
-author: "TanTech AI Desk"
+title: OpenAI เปิดตัว ChatGPT for Teens เน้นการเรียนรู้และมาตรการปกป้องเยาวชน
+slug: openai-chatgpt-for-teens
+excerpt: >-
+  OpenAI เปิดตัว ChatGPT for Teens สำหรับผู้ใช้วัย 13-17 ปี
+  โดยออกแบบให้ช่วยการเรียนรู้แบบเชิงรุก มี Study Mode
+  การแจ้งเตือนการบ้านอย่างรับผิดชอบ แบบทดสอบ การแสดงภาพการเรียนรู้ และ Study
+  Hours พร้อมระบบความปลอดภัยและการควบคุมสำหรับผู้ปกครอง
+publishedAt: '2026-08-18T18:00:00.000+07:00'
+sourcePublishedAt: '2026-08-18T11:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/chatgpt-for-teens'
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "OpenAI"
-  - "ChatGPT for Teens"
-  - "CodeAI"
-  - "AI สำหรับเยาวชน"
-  - "Study Mode"
-  - "ความปลอดภัย"
-  - "การเรียนรู้"
+  - OpenAI
+  - ChatGPT for Teens
+  - CodeAI
+  - AI สำหรับเยาวชน
+  - Study Mode
+  - ความปลอดภัย
+  - การเรียนรู้
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/7fiopp4CCayK6yzFnX7svI/8b5c67ab59a666d95e90b144c705d530/Art_Card-TEENS-16x93x.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

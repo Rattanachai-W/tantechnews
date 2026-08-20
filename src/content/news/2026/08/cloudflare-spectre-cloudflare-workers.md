@@ -1,29 +1,34 @@
 ---
-title: "Cloudflare ทบทวนการโจมตี Spectre บน Cloudflare Workers"
-slug: "cloudflare-spectre-cloudflare-workers"
-excerpt: "Cloudflare ทดสอบการโจมตี Spectre บน Workers ใหม่ พบข้อจำกัดของ DyPrIs และสาธิตการรั่วข้อมูลสูงสุด 12 บิตต่อวินาทีด้วยความแม่นยำ 99% ในสภาพแวดล้อมการผลิต ก่อนปรับปรุงด้วย V8 Sandbox"
-publishedAt: "2026-08-19T23:00:28.000+07:00"
-sourcePublishedAt: "2026-08-19T16:00:28.000Z"
-sourceName: "Cloudflare Blog"
-sourceUrl: "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/"
-author: "TanTech AI Desk"
+title: Cloudflare ทบทวนการโจมตี Spectre บน Cloudflare Workers
+slug: cloudflare-spectre-cloudflare-workers
+excerpt: >-
+  Cloudflare ทดสอบการโจมตี Spectre บน Workers ใหม่ พบข้อจำกัดของ DyPrIs
+  และสาธิตการรั่วข้อมูลสูงสุด 12 บิตต่อวินาทีด้วยความแม่นยำ 99%
+  ในสภาพแวดล้อมการผลิต ก่อนปรับปรุงด้วย V8 Sandbox
+publishedAt: '2026-08-19T23:00:28.000+07:00'
+sourcePublishedAt: '2026-08-19T16:00:28.000Z'
+sourceName: Cloudflare Blog
+sourceUrl: 'https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/'
+author: TanTech AI Desk
 categories:
   - Cloud
   - Cybersecurity
 tags:
-  - "Cloudflare"
-  - "Cloudflare Workers"
-  - "Spectre"
-  - "DyPrIs"
-  - "V8 Sandbox"
-  - "side-channel"
-  - "edge computing"
-  - "ความปลอดภัย"
+  - Cloudflare
+  - Cloudflare Workers
+  - Spectre
+  - DyPrIs
+  - V8 Sandbox
+  - side-channel
+  - edge computing
+  - ความปลอดภัย
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://blog.cloudflare.com/_emdash/api/media/file/01M00XZYJR53PG8RA60E0GEGVZ.png
 ---
 
 ## เกิดอะไรขึ้น

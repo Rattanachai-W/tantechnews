@@ -1,28 +1,33 @@
 ---
-title: "OpenAI มอบทุน 14 โครงการเพื่อออกแบบนโยบายยุค AI"
-slug: "openai-14-ai"
-excerpt: "OpenAI มอบทุนรวม 1 ล้านดอลลาร์และเครดิต API สูงสุด 1 ล้านดอลลาร์ให้ 14 โครงการจากองค์กรอิสระในสหรัฐฯ สหภาพยุโรป บราซิล สิงคโปร์ และเกาหลีใต้ เพื่อศึกษาการขยายโอกาสทางเศรษฐกิจและความยืดหยุ่นของสังคมในยุค AI"
-publishedAt: "2026-08-17T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-17T03:15:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
-author: "TanTech AI Desk"
+title: OpenAI มอบทุน 14 โครงการเพื่อออกแบบนโยบายยุค AI
+slug: openai-14-ai
+excerpt: >-
+  OpenAI มอบทุนรวม 1 ล้านดอลลาร์และเครดิต API สูงสุด 1 ล้านดอลลาร์ให้ 14
+  โครงการจากองค์กรอิสระในสหรัฐฯ สหภาพยุโรป บราซิล สิงคโปร์ และเกาหลีใต้
+  เพื่อศึกษาการขยายโอกาสทางเศรษฐกิจและความยืดหยุ่นของสังคมในยุค AI
+publishedAt: '2026-08-17T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-17T03:15:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/new-policy-ideas-for-the-intelligence-age'
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "OpenAI"
-  - "ChatGPT"
-  - "AI"
-  - "นโยบาย"
-  - "เงินอุดหนุน"
-  - "เศรษฐกิจ"
-  - "สังคม"
-  - "API"
+  - OpenAI
+  - ChatGPT
+  - AI
+  - นโยบาย
+  - เงินอุดหนุน
+  - เศรษฐกิจ
+  - สังคม
+  - API
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/3ui6fuXDbnmCfn6AqK9xkn/b8f4d1d81779680070c147b1ae685c9f/new-policy-ideas-for-the-intelligence-age--seo-v001.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

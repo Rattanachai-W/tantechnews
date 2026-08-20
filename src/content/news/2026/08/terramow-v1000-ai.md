@@ -1,26 +1,31 @@
 ---
-title: "รีวิว TerraMow V1000: หุ่นยนต์ตัดหญ้าที่ใช้ AI วิสัยทัศน์นำทาง"
-slug: "terramow-v1000-ai"
-excerpt: "WIRED ทดสอบ TerraMow V1000 หุ่นยนต์ตัดหญ้าที่ใช้กล้องสามตัวและ AI ทำแผนที่นำทางโดยไม่ต้องใช้สายขอบหรือเสา RTK รองรับ Wi-Fi, Bluetooth และ 4G สำหรับอัปเดตและควบคุมระยะไกล"
-publishedAt: "2026-08-16T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-16T10:30:00.000Z"
-sourceName: "WIRED"
-sourceUrl: "https://www.wired.com/review/terramow-v1000/"
-author: "TanTech AI Desk"
+title: 'รีวิว TerraMow V1000: หุ่นยนต์ตัดหญ้าที่ใช้ AI วิสัยทัศน์นำทาง'
+slug: terramow-v1000-ai
+excerpt: >-
+  WIRED ทดสอบ TerraMow V1000 หุ่นยนต์ตัดหญ้าที่ใช้กล้องสามตัวและ AI
+  ทำแผนที่นำทางโดยไม่ต้องใช้สายขอบหรือเสา RTK รองรับ Wi-Fi, Bluetooth และ 4G
+  สำหรับอัปเดตและควบคุมระยะไกล
+publishedAt: '2026-08-16T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-16T10:30:00.000Z'
+sourceName: WIRED
+sourceUrl: 'https://www.wired.com/review/terramow-v1000/'
+author: TanTech AI Desk
 categories:
   - AI
   - Hardware
 tags:
-  - "TerraMow V1000"
-  - "WIRED"
-  - "หุ่นยนต์ตัดหญ้า"
-  - "AI"
-  - "robot mower"
+  - TerraMow V1000
+  - WIRED
+  - หุ่นยนต์ตัดหญ้า
+  - AI
+  - robot mower
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://media.wired.com/photos/6a7ff7548a0e705c26e119a3/191:100/w_1280,c_limit/Review--TerraMow-V1000.jpg
 ---
 
 ## เกิดอะไรขึ้น

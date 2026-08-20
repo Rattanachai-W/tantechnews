@@ -123,6 +123,7 @@ publishedAt: "${publishedIso}"
 sourcePublishedAt: "${article.publishedAt}"
 sourceName: "${escapeYaml(article.sourceName)}"
 sourceUrl: "${article.url}"
+${article.imageUrl ? `imageUrl: "${article.imageUrl}"` : ""}
 author: "TanTech AI Desk"
 categories:
 ${summary.categories.map((category) => `  - ${category}`).join("\n")}

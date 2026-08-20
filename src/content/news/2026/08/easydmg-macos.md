@@ -1,27 +1,31 @@
 ---
-title: "EasyDMG แก้ปัญหาการติดตั้งแอปบน macOS"
-slug: "easydmg-macos"
-excerpt: "EasyDMG เป็นแอปฟรีที่ช่วยติดตั้งไฟล์ DMG บน macOS โดยอัตโนมัติ ลดขั้นตอนการเปิดดิสก์เสมือน ลากแอป และลบไฟล์เดิม"
-publishedAt: "2026-08-16T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-16T10:30:00.000Z"
-sourceName: "WIRED"
-sourceUrl: "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/"
-author: "TanTech AI Desk"
+title: EasyDMG แก้ปัญหาการติดตั้งแอปบน macOS
+slug: easydmg-macos
+excerpt: >-
+  EasyDMG เป็นแอปฟรีที่ช่วยติดตั้งไฟล์ DMG บน macOS โดยอัตโนมัติ
+  ลดขั้นตอนการเปิดดิสก์เสมือน ลากแอป และลบไฟล์เดิม
+publishedAt: '2026-08-16T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-16T10:30:00.000Z'
+sourceName: WIRED
+sourceUrl: 'https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/'
+author: TanTech AI Desk
 categories:
   - Programming
 tags:
-  - "EasyDMG"
-  - "macOS"
-  - "DMG"
-  - "Jeff Schumann"
-  - "Mac App Store"
-  - "Finder"
-  - "การติดตั้งแอป"
+  - EasyDMG
+  - macOS
+  - DMG
+  - Jeff Schumann
+  - Mac App Store
+  - Finder
+  - การติดตั้งแอป
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://media.wired.com/photos/6a7faa218588d7c31b9a75f5/191:100/w_1280,c_limit/Someone-Fixed-App-Install-Mac-Gear.jpg
 ---
 
 ## เกิดอะไรขึ้น

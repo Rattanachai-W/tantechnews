@@ -12,6 +12,7 @@ const news = defineCollection({
     sourcePublishedAt: z.coerce.date(),
     sourceName: z.string().min(1),
     sourceUrl: z.string().url(),
+    imageUrl: z.string().url().optional(),
     author: z.string().optional(),
     categories: z.array(categorySchema).min(1).max(3),
     tags: z.array(z.string()).default([]),

@@ -1,31 +1,36 @@
 ---
-title: "Waymo เปิดใช้รถแท็กซี่ไร้คนขับรุ่น Ojai ให้ผู้โดยสารทุกคนใน 3 เมือง"
-slug: "waymo-ojai-3"
-excerpt: "Waymo เปิดใช้รถแท็กซี่ไร้คนขับรุ่น Ojai ให้ผู้โดยสารทุกคนในลอสแอนเจลิส ฟีนิกซ์ และซานฟรานซิสโก พร้อมแผนขยายไปเดนเวอร์ ลาสเวกัส และซานดิเอโกภายในปีนี้"
-publishedAt: "2026-08-20T05:25:01.000+07:00"
-sourcePublishedAt: "2026-08-19T22:25:01.000Z"
-sourceName: "TechCrunch"
-sourceUrl: "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/"
-author: "TanTech AI Desk"
+title: Waymo เปิดใช้รถแท็กซี่ไร้คนขับรุ่น Ojai ให้ผู้โดยสารทุกคนใน 3 เมือง
+slug: waymo-ojai-3
+excerpt: >-
+  Waymo เปิดใช้รถแท็กซี่ไร้คนขับรุ่น Ojai ให้ผู้โดยสารทุกคนในลอสแอนเจลิส ฟีนิกซ์
+  และซานฟรานซิสโก พร้อมแผนขยายไปเดนเวอร์ ลาสเวกัส และซานดิเอโกภายในปีนี้
+publishedAt: '2026-08-20T05:25:01.000+07:00'
+sourcePublishedAt: '2026-08-19T22:25:01.000Z'
+sourceName: TechCrunch
+sourceUrl: >-
+  https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/
+author: TanTech AI Desk
 categories:
   - Business
   - AI
   - Hardware
 tags:
-  - "Waymo"
-  - "Ojai"
-  - "robotaxi"
-  - "Zeekr"
-  - "Geely"
-  - "Google Gemini"
-  - "Alphabet"
-  - "Jaguar I-Pace"
-  - "รถไร้คนขับ"
+  - Waymo
+  - Ojai
+  - robotaxi
+  - Zeekr
+  - Geely
+  - Google Gemini
+  - Alphabet
+  - Jaguar I-Pace
+  - รถไร้คนขับ
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://techcrunch.com/wp-content/uploads/2026/08/waymo-ojai.jpg?resize=1200,675
 ---
 
 ## เกิดอะไรขึ้น

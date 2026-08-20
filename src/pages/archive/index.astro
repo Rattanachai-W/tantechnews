@@ -5,10 +5,14 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getPublishedNews } from "../../utils/content";
 import { groupArticlesByPublishedMonth } from "../../utils/archive";
 import { getArchiveJsonLd, getBreadcrumbJsonLd, seoDefaults } from "../../utils/seo";
+import { ARTICLE_CATEGORIES } from "../../types/article";
 
 const canonical = new URL("/archive/", Astro.site).href;
 const articles = await getPublishedNews();
 const groups = groupArticlesByPublishedMonth(articles);
+
+// Extract available years
+const years = [...new Set(groups.map((g) => g.key.split("-")[0]))].sort((a, b) => b.localeCompare(a));
 
 const breadcrumbs = [
   { name: "หน้าแรก", url: `${seoDefaults.siteUrl}/` },
@@ -16,7 +20,7 @@ const breadcrumbs = [
 ];
 ---
 
-<BaseLayout title="คลังข่าวย้อนหลัง" description="คลังข่าวเทคโนโลยีทั้งหมดของ TanTech News — ย้อนอ่านข่าวสำคัญรายเดือน">
+<BaseLayout title="คลังข่าวย้อนหลัง" description="คลังข่าวเทคโนโลยีทั้งหมดของ TanTech News — ย้อนอ่านข่าวสำคัญรายปีและรายเดือน">
   <Fragment slot="head">
     <JsonLd data={getArchiveJsonLd(canonical)} />
     <JsonLd data={getBreadcrumbJsonLd(breadcrumbs)} />
@@ -39,33 +43,250 @@ const breadcrumbs = [
       </ol>
     </nav>
 
-    <header>
+    <header class="border-b border-line pb-6">
       <h1 class="text-3xl font-extrabold text-ink">คลังข่าวย้อนหลัง</h1>
       <p class="mt-3 max-w-2xl text-muted">
-        รวมข่าวที่ผ่านการเผยแพร่แล้ว แยกตามเดือนเพื่อย้อนอ่านได้เร็วขึ้น
+        รวมข่าวที่ผ่านการเผยแพร่แล้ว กรองตามปี เดือน และหมวดหมู่เพื่อค้นหาย้อนหลังได้อย่างรวดเร็ว
         {articles.length > 0 && ` — ${articles.length} บทความทั้งหมด`}
       </p>
+
+      <!-- Filter Controls -->
+      {groups.length > 0 && (
+        <div class="mt-6 flex flex-col gap-4 rounded-xl border border-line bg-paper p-4 text-sm sm:p-5" data-archive-filters>
+          <!-- Year Filter -->
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="w-16 font-bold text-ink shrink-0">ปี:</span>
+            <div class="flex flex-wrap gap-1.5" data-filter-group="year">
+              <button
+                type="button"
+                data-year="all"
+                class="filter-btn active rounded-md px-3 py-1.5 text-xs font-semibold transition-colors bg-brand text-white"
+              >
+                ทั้งหมด
+              </button>
+              {years.map((y) => (
+                <button
+                  type="button"
+                  data-year={y}
+                  class="filter-btn rounded-md bg-white px-3 py-1.5 text-xs font-semibold text-muted border border-line hover:border-brand hover:text-brand transition-colors"
+                >
+                  พ.ศ. {Number.parseInt(y, 10) + 543} ({y})
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <!-- Month Filter -->
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="w-16 font-bold text-ink shrink-0">เดือน:</span>
+            <div class="flex flex-wrap gap-1.5" data-filter-group="month">
+              <button
+                type="button"
+                data-month="all"
+                class="filter-btn active rounded-md px-3 py-1.5 text-xs font-semibold transition-colors bg-brand text-white"
+              >
+                ทั้งหมด
+              </button>
+              {groups.map((g) => (
+                <button
+                  type="button"
+                  data-month={g.key}
+                  data-year-parent={g.key.split("-")[0]}
+                  class="filter-btn rounded-md bg-white px-3 py-1.5 text-xs font-semibold text-muted border border-line hover:border-brand hover:text-brand transition-colors"
+                >
+                  {g.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <!-- Category Filter -->
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="w-16 font-bold text-ink shrink-0">หมวดหมู่:</span>
+            <div class="flex flex-wrap gap-1.5" data-filter-group="category">
+              <button
+                type="button"
+                data-category="all"
+                class="filter-btn active rounded-md px-3 py-1.5 text-xs font-semibold transition-colors bg-brand text-white"
+              >
+                ทั้งหมด
+              </button>
+              {ARTICLE_CATEGORIES.map((cat) => (
+                <button
+                  type="button"
+                  data-category={cat}
+                  class="filter-btn rounded-md bg-white px-3 py-1.5 text-xs font-semibold text-muted border border-line hover:border-brand hover:text-brand transition-colors"
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </header>
 
+    <!-- Articles List -->
     {groups.length > 0 ? (
-      <div class="mt-8 grid gap-10">
+      <div class="mt-8 grid gap-10" data-archive-container>
         {groups.map((group) => (
-          <section aria-labelledby={`archive-${group.key}`}>
+          <section
+            aria-labelledby={`archive-${group.key}`}
+            data-month-section={group.key}
+            data-year={group.key.split("-")[0]}
+            class="archive-month-section"
+          >
             <div class="mb-4 flex items-end justify-between gap-4 border-b border-line pb-3">
               <h2 id={`archive-${group.key}`} class="text-2xl font-bold text-ink">{group.label}</h2>
-              <p class="text-sm font-semibold text-muted">{group.articles.length} ข่าว</p>
+              <p class="text-sm font-semibold text-muted" data-section-count>
+                {group.articles.length} ข่าว
+              </p>
             </div>
             <div class="grid min-w-0 gap-5 md:grid-cols-2">
-              {group.articles.map((article) => <ArticleCard article={article} />)}
+              {group.articles.map((article) => (
+                <div
+                  data-article-item
+                  data-year={group.key.split("-")[0]}
+                  data-month={group.key}
+                  data-categories={article.data.categories.join(",")}
+                >
+                  <ArticleCard article={article} />
+                </div>
+              ))}
             </div>
           </section>
         ))}
+
+        <!-- Empty Filtered State -->
+        <div
+          id="empty-filter-state"
+          class="hidden rounded-lg border border-dashed border-line bg-white p-10 text-center"
+        >
+          <p class="text-3xl">🔍</p>
+          <h2 class="mt-3 text-xl font-bold text-ink">ไม่พบข่าวที่ตรงกับเงื่อนไข</h2>
+          <p class="mt-2 text-sm text-muted">ลองเปลี่ยนตัวเลือกปี เดือน หรือหมวดหมู่ด้านบน</p>
+          <button
+            type="button"
+            id="reset-filter-btn"
+            class="mt-4 rounded-md bg-brand px-4 py-2 text-xs font-bold text-white transition hover:bg-brand-dark"
+          >
+            รีเซ็ตตัวกรองทั้งหมด
+          </button>
+        </div>
       </div>
     ) : (
       <div class="mt-8 rounded-lg border border-dashed border-line bg-white p-8 text-center">
         <h2 class="text-xl font-bold text-ink">ยังไม่มีข่าวในคลัง</h2>
-        <p class="mt-2 text-muted">ข่าวจะปรากฏที่นี่เมื่อ pipeline สร้างข่าวและผ่านการ review</p>
+        <p class="mt-2 text-muted">ข่าวจะปรากฏที่นี่เมื่อระบบเริ่มประมวลผลข่าว</p>
       </div>
     )}
   </section>
 </BaseLayout>
+
+<script>
+  let activeYear = "all";
+  let activeMonth = "all";
+  let activeCategory = "all";
+
+  const filtersContainer = document.querySelector("[data-archive-filters]");
+  const sections = document.querySelectorAll<HTMLElement>("[data-month-section]");
+  const articleItems = document.querySelectorAll<HTMLElement>("[data-article-item]");
+  const emptyState = document.getElementById("empty-filter-state");
+  const resetBtn = document.getElementById("reset-filter-btn");
+
+  function updateFilterButtons(groupName: string, activeValue: string) {
+    const buttons = filtersContainer?.querySelectorAll<HTMLButtonElement>(
+      `[data-filter-group="${groupName}"] .filter-btn`
+    );
+    buttons?.forEach((btn) => {
+      const val = btn.dataset[groupName] ?? btn.dataset.month ?? btn.dataset.year ?? btn.dataset.category;
+      if (val === activeValue) {
+        btn.classList.add("bg-brand", "text-white");
+        btn.classList.remove("bg-white", "text-muted", "border-line");
+      } else {
+        btn.classList.remove("bg-brand", "text-white");
+        btn.classList.add("bg-white", "text-muted", "border-line");
+      }
+    });
+  }
+
+  function applyFilters() {
+    let totalVisibleArticles = 0;
+
+    // Filter month section visibility
+    sections.forEach((section) => {
+      const sectionYear = section.dataset.year;
+      const sectionMonth = section.dataset.monthSection;
+      let visibleInSection = 0;
+
+      const items = section.querySelectorAll<HTMLElement>("[data-article-item]");
+      items.forEach((item) => {
+        const itemYear = item.dataset.year;
+        const itemMonth = item.dataset.month;
+        const itemCats = item.dataset.categories?.split(",") ?? [];
+
+        const matchesYear = activeYear === "all" || itemYear === activeYear;
+        const matchesMonth = activeMonth === "all" || itemMonth === activeMonth;
+        const matchesCategory = activeCategory === "all" || itemCats.includes(activeCategory);
+
+        if (matchesYear && matchesMonth && matchesCategory) {
+          item.style.display = "";
+          visibleInSection++;
+          totalVisibleArticles++;
+        } else {
+          item.style.display = "none";
+        }
+      });
+
+      if (visibleInSection > 0) {
+        section.style.display = "";
+        const countEl = section.querySelector("[data-section-count]");
+        if (countEl) countEl.textContent = `${visibleInSection} ข่าว`;
+      } else {
+        section.style.display = "none";
+      }
+    });
+
+    if (emptyState) {
+      emptyState.style.display = totalVisibleArticles === 0 ? "block" : "none";
+    }
+  }
+
+  filtersContainer?.addEventListener("click", (e) => {
+    const target = (e.target as HTMLElement).closest<HTMLButtonElement>(".filter-btn");
+    if (!target) return;
+
+    if (target.dataset.year) {
+      activeYear = target.dataset.year;
+      // If a year is selected, reset month if it belongs to a different year
+      if (activeMonth !== "all" && target.dataset.year !== "all") {
+        const selectedMonthYear = activeMonth.split("-")[0];
+        if (selectedMonthYear !== activeYear) activeMonth = "all";
+      }
+      updateFilterButtons("year", activeYear);
+      updateFilterButtons("month", activeMonth);
+    } else if (target.dataset.month) {
+      activeMonth = target.dataset.month;
+      if (activeMonth !== "all") {
+        activeYear = activeMonth.split("-")[0];
+        updateFilterButtons("year", activeYear);
+      }
+      updateFilterButtons("month", activeMonth);
+    } else if (target.dataset.category) {
+      activeCategory = target.dataset.category;
+      updateFilterButtons("category", activeCategory);
+    }
+
+    applyFilters();
+  });
+
+  resetBtn?.addEventListener("click", () => {
+    activeYear = "all";
+    activeMonth = "all";
+    activeCategory = "all";
+    updateFilterButtons("year", "all");
+    updateFilterButtons("month", "all");
+    updateFilterButtons("category", "all");
+    applyFilters();
+  });
+</script>

@@ -55,7 +55,12 @@ async function processSelectedArticle(article: ScoredArticle): Promise<Generated
       return null;
     }
 
-    const generated = await generateMarkdown(article, validation.data as import("../../src/types/article").ArticleSummary);
+    const articleWithImage: ScoredArticle = {
+      ...article,
+      imageUrl: article.imageUrl || extracted.imageUrl
+    };
+
+    const generated = await generateMarkdown(articleWithImage, validation.data as import("../../src/types/article").ArticleSummary);
     logger.info("Generated draft markdown", { filePath: generated.filePath, sourceUrl: article.url });
 
     return {

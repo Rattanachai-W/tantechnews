@@ -1,30 +1,38 @@
 ---
-title: "Kraken เปิดตัวบัตรเดบิต Krak Card ให้เงินคืนสูงสุด 2% ดึงผู้ใช้กระเป๋าเงินรายย่อย"
-slug: "kraken-krak-card-2"
-excerpt: "Kraken เปิดตัวแอปการเงิน Krak พร้อมบัตรเดบิตในสหรัฐฯ ให้เงินหรือบิตคอยน์คืนสูงสุด 2% ขึ้นกับมูลค่าสินทรัพย์ที่ถือ และใช้จ่ายจากสกุลเงินและคริปโตมากกว่า 600 ชนิดได้โดยตรง"
-publishedAt: "2026-08-18T23:27:54.000+07:00"
-sourcePublishedAt: "2026-08-18T16:27:54.000Z"
-sourceName: "CNBC Technology"
-sourceUrl: "https://www.cnbc.com/2026/08/18/kraken-launches-debit-card-in-bid-for-consumer-wallets.html"
-author: "TanTech AI Desk"
+title: >-
+  Kraken เปิดตัวบัตรเดบิต Krak Card ให้เงินคืนสูงสุด 2%
+  ดึงผู้ใช้กระเป๋าเงินรายย่อย
+slug: kraken-krak-card-2
+excerpt: >-
+  Kraken เปิดตัวแอปการเงิน Krak พร้อมบัตรเดบิตในสหรัฐฯ
+  ให้เงินหรือบิตคอยน์คืนสูงสุด 2% ขึ้นกับมูลค่าสินทรัพย์ที่ถือ
+  และใช้จ่ายจากสกุลเงินและคริปโตมากกว่า 600 ชนิดได้โดยตรง
+publishedAt: '2026-08-18T23:27:54.000+07:00'
+sourcePublishedAt: '2026-08-18T16:27:54.000Z'
+sourceName: CNBC Technology
+sourceUrl: >-
+  https://www.cnbc.com/2026/08/18/kraken-launches-debit-card-in-bid-for-consumer-wallets.html
+author: TanTech AI Desk
 categories:
   - Business
 tags:
-  - "Kraken"
-  - "Krak Card"
-  - "บัตรเดบิต"
-  - "คริปโต"
-  - "ฟินเทค"
-  - "CashApp"
-  - "Venmo"
-  - "SoFi"
-  - "Robinhood"
-  - "Chime"
+  - Kraken
+  - Krak Card
+  - บัตรเดบิต
+  - คริปโต
+  - ฟินเทค
+  - CashApp
+  - Venmo
+  - SoFi
+  - Robinhood
+  - Chime
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://image.cnbcfm.com/api/v1/image/108351040-1787070411248-gettyimages-2283486198-boivin-notitle260630_np0sw.jpeg?v=1787070464&w=1920&h=1080
 ---
 
 ## เกิดอะไรขึ้น

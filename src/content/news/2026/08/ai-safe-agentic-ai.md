@@ -1,31 +1,36 @@
 ---
-title: "ผู้นำ AI เสนอแนวทาง SAFE เพื่อความปลอดภัยของ agentic AI"
-slug: "ai-safe-agentic-ai"
-excerpt: "Open Secure AI Alliance กว่า 120 องค์กร กำลังร่างแนวทาง SAFE ผ่าน Linux Foundation เพื่อรวบรวมและวิเคราะห์เหตุการณ์ความปลอดภัยของ agentic AI อย่างลับ ๆ และเผยแพร่คำแนะนำเชิงหลักฐาน ลดความเสี่ยงเชิงระบบ"
-publishedAt: "2026-08-04T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-04T13:00:47.000Z"
-sourceName: "NVIDIA Blog"
-sourceUrl: "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/"
-author: "TanTech AI Desk"
+title: ผู้นำ AI เสนอแนวทาง SAFE เพื่อความปลอดภัยของ agentic AI
+slug: ai-safe-agentic-ai
+excerpt: >-
+  Open Secure AI Alliance กว่า 120 องค์กร กำลังร่างแนวทาง SAFE ผ่าน Linux
+  Foundation เพื่อรวบรวมและวิเคราะห์เหตุการณ์ความปลอดภัยของ agentic AI อย่างลับ
+  ๆ และเผยแพร่คำแนะนำเชิงหลักฐาน ลดความเสี่ยงเชิงระบบ
+publishedAt: '2026-08-04T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-04T13:00:47.000Z'
+sourceName: NVIDIA Blog
+sourceUrl: 'https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/'
+author: TanTech AI Desk
 categories:
   - AI
   - Cybersecurity
   - Open Source
 tags:
-  - "AI"
-  - "Cybersecurity"
-  - "Open Secure AI Alliance"
-  - "Linux Foundation"
-  - "NVIDIA"
-  - "SAFE"
-  - "agentic AI"
-  - "Black Hat"
-  - "Open Source"
+  - AI
+  - Cybersecurity
+  - Open Secure AI Alliance
+  - Linux Foundation
+  - NVIDIA
+  - SAFE
+  - agentic AI
+  - Black Hat
+  - Open Source
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://blogs.nvidia.com/wp-content/uploads/2026/08/agentic-ai-press-osaia-5518050-1280x680-r2.png
 ---
 
 ## เกิดอะไรขึ้น

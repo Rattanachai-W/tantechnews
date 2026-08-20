@@ -1,26 +1,31 @@
 ---
-title: "OpenAI ร่วมมือ APA ส่งเสริม AI ปลอดภัยสำหรับสุขภาพจิตวัยรุ่น"
-slug: "openai-apa-ai"
-excerpt: "OpenAI ประกาศทำงานร่วมกับ American Psychological Association (APA) เพื่อนำวิทยาศาสตร์จิตวิทยามาใช้พัฒนาและใช้ AI อย่างรับผิดชอบสำหรับวัยรุ่น ครอบคลุมเครื่องมือให้ครอบครัว ผู้ดูแล และผู้เชี่ยวชาญ"
-publishedAt: "2026-08-06T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-06T06:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai"
-author: "TanTech AI Desk"
+title: OpenAI ร่วมมือ APA ส่งเสริม AI ปลอดภัยสำหรับสุขภาพจิตวัยรุ่น
+slug: openai-apa-ai
+excerpt: >-
+  OpenAI ประกาศทำงานร่วมกับ American Psychological Association (APA)
+  เพื่อนำวิทยาศาสตร์จิตวิทยามาใช้พัฒนาและใช้ AI อย่างรับผิดชอบสำหรับวัยรุ่น
+  ครอบคลุมเครื่องมือให้ครอบครัว ผู้ดูแล และผู้เชี่ยวชาญ
+publishedAt: '2026-08-06T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-06T06:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai'
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "OpenAI"
-  - "APA"
-  - "American Psychological Association"
-  - "สุขภาพจิตวัยรุ่น"
-  - "AI ปลอดภัย"
-  - "นโยบาย AI"
+  - OpenAI
+  - APA
+  - American Psychological Association
+  - สุขภาพจิตวัยรุ่น
+  - AI ปลอดภัย
+  - นโยบาย AI
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/6CQ3mqxKiApPHF2wTXSybs/5e0f83d5d5817dbac9b7e7f440e692ed/openai-and-apa-advance-responsible-ai-for-youth-16_9.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

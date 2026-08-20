@@ -1,31 +1,36 @@
 ---
-title: "OpenAI นำโมเดลไซเบอร์ขั้นสูงสู่พันธมิตรด้านความปลอดภัย"
-slug: "openai-2"
-excerpt: "OpenAI เปิดให้พันธมิตรความปลอดภัยในโครงการ Daybreak Cyber Partner นำโมเดลไซเบอร์ขั้นสูงไปใช้กับผลิตภัณฑ์ บริการ และปฏิบัติการรักษาความปลอดภัย เพื่อช่วยค้นหาช่องโหว่ที่รุนแรง ตรวจสอบ และแก้ไขให้เร็วขึ้น"
-publishedAt: "2026-08-10T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-10T10:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands"
-author: "TanTech AI Desk"
+title: OpenAI นำโมเดลไซเบอร์ขั้นสูงสู่พันธมิตรด้านความปลอดภัย
+slug: openai-2
+excerpt: >-
+  OpenAI เปิดให้พันธมิตรความปลอดภัยในโครงการ Daybreak Cyber Partner
+  นำโมเดลไซเบอร์ขั้นสูงไปใช้กับผลิตภัณฑ์ บริการ และปฏิบัติการรักษาความปลอดภัย
+  เพื่อช่วยค้นหาช่องโหว่ที่รุนแรง ตรวจสอบ และแก้ไขให้เร็วขึ้น
+publishedAt: '2026-08-10T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-10T10:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands'
+author: TanTech AI Desk
 categories:
   - AI
   - Cybersecurity
 tags:
-  - "OpenAI"
-  - "Daybreak Cyber Partner"
-  - "Daybreak Blue"
-  - "Daybreak Red"
-  - "Daybreak Access"
-  - "Accenture"
-  - "IBM"
-  - "Palo Alto Networks"
-  - "CrowdStrike"
-  - "Cisco"
+  - OpenAI
+  - Daybreak Cyber Partner
+  - Daybreak Blue
+  - Daybreak Red
+  - Daybreak Access
+  - Accenture
+  - IBM
+  - Palo Alto Networks
+  - CrowdStrike
+  - Cisco
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/2K3VyXH2uGsLnY0S85Jkr8/c410a7b19c35a1264e751c5b87a1d6e2/SEO_Card.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

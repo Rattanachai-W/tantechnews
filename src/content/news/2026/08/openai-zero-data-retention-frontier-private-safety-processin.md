@@ -1,27 +1,34 @@
 ---
-title: "OpenAI เปิด Zero Data Retention สำหรับโมเดล frontier พร้อม Private Safety Processing"
-slug: "openai-zero-data-retention-frontier-private-safety-processin"
-excerpt: "OpenAI เปิด Zero Data Retention สำหรับลูกค้า API ที่เข้าเงื่อนไข โดยไม่เก็บ prompts หรือคำตอบหลังประมวลผล พร้อมเปิดให้ทดลอง Private Safety Processing ตรวจจับความเสี่ยงข้ามหลายครั้งโดยไม่เปิดเนื้อหาให้พนักงานเข้าถึง"
-publishedAt: "2026-08-20T02:00:00.000+07:00"
-sourcePublishedAt: "2026-08-19T19:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
-author: "TanTech AI Desk"
+title: >-
+  OpenAI เปิด Zero Data Retention สำหรับโมเดล frontier พร้อม Private Safety
+  Processing
+slug: openai-zero-data-retention-frontier-private-safety-processin
+excerpt: >-
+  OpenAI เปิด Zero Data Retention สำหรับลูกค้า API ที่เข้าเงื่อนไข โดยไม่เก็บ
+  prompts หรือคำตอบหลังประมวลผล พร้อมเปิดให้ทดลอง Private Safety Processing
+  ตรวจจับความเสี่ยงข้ามหลายครั้งโดยไม่เปิดเนื้อหาให้พนักงานเข้าถึง
+publishedAt: '2026-08-20T02:00:00.000+07:00'
+sourcePublishedAt: '2026-08-19T19:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/offering-zero-data-retention-for-frontier-models'
+author: TanTech AI Desk
 categories:
   - AI
   - Cybersecurity
   - Data
 tags:
-  - "OpenAI"
-  - "Zero Data Retention"
-  - "Private Safety Processing"
-  - "ความปลอดภัย AI"
-  - "ข้อมูลลูกค้า"
+  - OpenAI
+  - Zero Data Retention
+  - Private Safety Processing
+  - ความปลอดภัย AI
+  - ข้อมูลลูกค้า
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/4bH42IUP1LSYL5WNIs0ya1/ed6b0e324c8f142d964229474d7ee601/codex-seo-private-intelligence-v3-1787157696296.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

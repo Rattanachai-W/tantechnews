@@ -1,29 +1,34 @@
 ---
-title: "UGM, Indosat และ NVIDIA เปิดศูนย์ AI มหาวิทยาลัยแห่งแรกของอินโดนีเซีย"
-slug: "ugm-indosat-nvidia-ai"
-excerpt: "กระทรวงการสื่อสารและกิจการดิจิทัล อินโดนีเซีย ร่วมกับ Indosat Ooredoo Hutchison, NVIDIA และ Universitas Gadjah Mada เปิด UGM Indosat NVIDIA AI Technology Center ที่ยอกยาการ์ตา เพื่อพัฒนาบุคลากร AI และแก้ปัญหาประเทศ"
-publishedAt: "2026-08-15T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-14T17:13:05.000Z"
-sourceName: "NVIDIA Blog"
-sourceUrl: "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/"
-author: "TanTech AI Desk"
+title: 'UGM, Indosat และ NVIDIA เปิดศูนย์ AI มหาวิทยาลัยแห่งแรกของอินโดนีเซีย'
+slug: ugm-indosat-nvidia-ai
+excerpt: >-
+  กระทรวงการสื่อสารและกิจการดิจิทัล อินโดนีเซีย ร่วมกับ Indosat Ooredoo
+  Hutchison, NVIDIA และ Universitas Gadjah Mada เปิด UGM Indosat NVIDIA AI
+  Technology Center ที่ยอกยาการ์ตา เพื่อพัฒนาบุคลากร AI และแก้ปัญหาประเทศ
+publishedAt: '2026-08-15T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-14T17:13:05.000Z'
+sourceName: NVIDIA Blog
+sourceUrl: 'https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/'
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "AI"
-  - "NVIDIA"
-  - "Indosat"
-  - "Universitas Gadjah Mada"
-  - "UGM"
-  - "GPU Merdeka"
-  - "NVIDIA Nemotron"
-  - "อินโดนีเซีย"
-  - "ศูนย์ AI"
+  - AI
+  - NVIDIA
+  - Indosat
+  - Universitas Gadjah Mada
+  - UGM
+  - GPU Merdeka
+  - NVIDIA Nemotron
+  - อินโดนีเซีย
+  - ศูนย์ AI
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://blogs.nvidia.com/wp-content/uploads/2026/08/telco-tech-blog-header-indosat-ai-technology-center-1920x1080-1-1280x720.png
 ---
 
 ## เกิดอะไรขึ้น

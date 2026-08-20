@@ -1,31 +1,37 @@
 ---
-title: "AWS ประกาศเปิด Builder Lofts ถาวรในเบอร์ลิน ไฮเดอราบัด และเซาเปาโล"
-slug: "aws-builder-lofts"
-excerpt: "AWS ประกาศแผนเปิด Builder Lofts ถาวรในเบอร์ลิน ไฮเดอราบัด และเซาเปาโล เพื่อเป็นพื้นที่ชุมชนสำหรับนักพัฒนา นักศึกษา และผู้เชี่ยวชาญด้านเทคโนโลยี โดยจัดเวิร์กช็อปฟรี กิจกรรมเครือข่าย งานพิตช์ไนท์ และพื้นที่ทำงานร่วมกัน"
-publishedAt: "2026-08-18T20:58:41.000+07:00"
-sourcePublishedAt: "2026-08-18T13:58:41.000Z"
-sourceName: "AWS News Blog"
-sourceUrl: "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/"
-author: "TanTech AI Desk"
+title: AWS ประกาศเปิด Builder Lofts ถาวรในเบอร์ลิน ไฮเดอราบัด และเซาเปาโล
+slug: aws-builder-lofts
+excerpt: >-
+  AWS ประกาศแผนเปิด Builder Lofts ถาวรในเบอร์ลิน ไฮเดอราบัด และเซาเปาโล
+  เพื่อเป็นพื้นที่ชุมชนสำหรับนักพัฒนา นักศึกษา และผู้เชี่ยวชาญด้านเทคโนโลยี
+  โดยจัดเวิร์กช็อปฟรี กิจกรรมเครือข่าย งานพิตช์ไนท์ และพื้นที่ทำงานร่วมกัน
+publishedAt: '2026-08-18T20:58:41.000+07:00'
+sourcePublishedAt: '2026-08-18T13:58:41.000Z'
+sourceName: AWS News Blog
+sourceUrl: >-
+  https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/
+author: TanTech AI Desk
 categories:
   - Cloud
   - AI
   - Startup
 tags:
-  - "AWS"
-  - "Builder Lofts"
-  - "คลาวด์"
-  - "AI"
-  - "ชุมชนนักพัฒนา"
-  - "เบอร์ลิน"
-  - "ไฮเดอราบัด"
-  - "เซาเปาโล"
-  - "สตาร์ทอัพ"
+  - AWS
+  - Builder Lofts
+  - คลาวด์
+  - AI
+  - ชุมชนนักพัฒนา
+  - เบอร์ลิน
+  - ไฮเดอราบัด
+  - เซาเปาโล
+  - สตาร์ทอัพ
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/15/aws-builder-loft.jpg
 ---
 
 ## เกิดอะไรขึ้น

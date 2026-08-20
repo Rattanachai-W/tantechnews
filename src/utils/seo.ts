@@ -66,7 +66,7 @@ export function getArticleJsonLd(article: NewsEntry, url: string) {
         url: `${SITE_URL}/logo.svg`
       }
     },
-    image: DEFAULT_IMAGE,
+    image: article.data.imageUrl ?? DEFAULT_IMAGE,
     articleSection: article.data.categories,
     keywords: article.data.tags.join(", "),
     inLanguage: "th-TH",

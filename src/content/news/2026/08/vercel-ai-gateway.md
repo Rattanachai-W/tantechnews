@@ -1,29 +1,34 @@
 ---
-title: "Vercel AI Gateway รองรับงบประมาณรายทีมและโครงการ"
-slug: "vercel-ai-gateway"
-excerpt: "Vercel เพิ่มฟีเจอร์กำหนดงบประมาณค่าใช้จ่ายใน AI Gateway ให้ทีมและโครงการได้ นอกเหนือจาก API key โดยระบบจะนับค่าใช้จ่ายและหยุดคำขอเมื่อถึงเพดาน จนกว่าจะรีเซ็ตหรือเพิ่มงบ"
-publishedAt: "2026-08-01T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-31T17:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts"
-author: "TanTech AI Desk"
+title: Vercel AI Gateway รองรับงบประมาณรายทีมและโครงการ
+slug: vercel-ai-gateway
+excerpt: >-
+  Vercel เพิ่มฟีเจอร์กำหนดงบประมาณค่าใช้จ่ายใน AI Gateway ให้ทีมและโครงการได้
+  นอกเหนือจาก API key โดยระบบจะนับค่าใช้จ่ายและหยุดคำขอเมื่อถึงเพดาน
+  จนกว่าจะรีเซ็ตหรือเพิ่มงบ
+publishedAt: '2026-08-01T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-31T17:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: 'https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts'
+author: TanTech AI Desk
 categories:
   - AI
   - Cloud
   - Business
 tags:
-  - "Vercel"
-  - "AI Gateway"
-  - "งบประมาณ"
-  - "API"
-  - "CLI"
-  - "ทีม"
-  - "โครงการ"
+  - Vercel
+  - AI Gateway
+  - งบประมาณ
+  - API
+  - CLI
+  - ทีม
+  - โครงการ
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/6X797219tbul2kft7JW0Wc/dd811ac1aa2b8ed70f10fba2c6f24ea6/team_and_project_budgets_available_on_ai_gateway_og_card__1_.jpg
 ---
 
 ## เกิดอะไรขึ้น

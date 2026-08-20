@@ -1,30 +1,37 @@
 ---
-title: "Grok Imagine Image 2.0 Preview ใช้งานได้แล้วบน Vercel AI Gateway"
-slug: "grok-imagine-image-2-0-preview-vercel-ai-gateway"
-excerpt: "xAI เปิดให้ใช้ Grok Imagine Image 2.0 Preview ผ่าน Vercel AI Gateway แล้ว รองรับคำสั่งละเอียด การวางตัวอักษรและเลย์เอาต์ ภาพหนาหลายส่วน เช่น อินโฟกราฟิก โปสเตอร์ และหน้าชื่อ ยังรักษาโครงสร้างและตัวอักษรเล็กให้ชัดเจน พร้อมแก้ไขภาพโดยคงรายละเอียดเดิม"
-publishedAt: "2026-08-08T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-08T00:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway"
-author: "TanTech AI Desk"
+title: Grok Imagine Image 2.0 Preview ใช้งานได้แล้วบน Vercel AI Gateway
+slug: grok-imagine-image-2-0-preview-vercel-ai-gateway
+excerpt: >-
+  xAI เปิดให้ใช้ Grok Imagine Image 2.0 Preview ผ่าน Vercel AI Gateway แล้ว
+  รองรับคำสั่งละเอียด การวางตัวอักษรและเลย์เอาต์ ภาพหนาหลายส่วน เช่น อินโฟกราฟิก
+  โปสเตอร์ และหน้าชื่อ ยังรักษาโครงสร้างและตัวอักษรเล็กให้ชัดเจน
+  พร้อมแก้ไขภาพโดยคงรายละเอียดเดิม
+publishedAt: '2026-08-08T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-08T00:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: >-
+  https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "xAI"
-  - "Grok Imagine Image 2.0"
-  - "Vercel"
-  - "AI Gateway"
-  - "AI SDK"
-  - "สร้างภาพ"
-  - "แก้ไขภาพ"
-  - "อินโฟกราฟิก"
-  - "โปสเตอร์"
-  - "หน้าชื่อ"
+  - xAI
+  - Grok Imagine Image 2.0
+  - Vercel
+  - AI Gateway
+  - AI SDK
+  - สร้างภาพ
+  - แก้ไขภาพ
+  - อินโฟกราฟิก
+  - โปสเตอร์
+  - หน้าชื่อ
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/3uPYJwKOF0WwcurlTBY2Ya/f08abe27da129f05364bd63f6883058e/Vercel_x_xAI.png
 ---
 
 ## เกิดอะไรขึ้น

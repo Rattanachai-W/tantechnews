@@ -1,29 +1,33 @@
 ---
-title: "OneCLI เปิดตัวแพลตฟอร์มโอเพนซอร์สสำหรับทีม AI Agent แบบ Sandbox"
-slug: "onecli-ai-agent-sandbox"
-excerpt: "OneCLI (YC S26) เป็นแพลตฟอร์มโอเพนซอร์สสำหรับรัน AI Agent แบบทีม ให้พนักงานแต่ละคนมี agent ใน sandbox พร้อม gateway ควบคุมสิทธิ์และ credentials"
-publishedAt: "2026-08-19T23:29:02.000+07:00"
-sourcePublishedAt: "2026-08-19T16:29:02.000Z"
-sourceName: "Hacker News"
-sourceUrl: "https://github.com/onecli/onecli"
-author: "TanTech AI Desk"
+title: OneCLI เปิดตัวแพลตฟอร์มโอเพนซอร์สสำหรับทีม AI Agent แบบ Sandbox
+slug: onecli-ai-agent-sandbox
+excerpt: >-
+  OneCLI (YC S26) เป็นแพลตฟอร์มโอเพนซอร์สสำหรับรัน AI Agent แบบทีม
+  ให้พนักงานแต่ละคนมี agent ใน sandbox พร้อม gateway ควบคุมสิทธิ์และ credentials
+publishedAt: '2026-08-19T23:29:02.000+07:00'
+sourcePublishedAt: '2026-08-19T16:29:02.000Z'
+sourceName: Hacker News
+sourceUrl: 'https://github.com/onecli/onecli'
+author: TanTech AI Desk
 categories:
   - AI
   - Open Source
   - Cybersecurity
 tags:
-  - "OneCLI"
-  - "AI Agent"
-  - "Open Source"
-  - "Sandbox"
-  - "Credential Management"
-  - "Y Combinator"
-  - "Hacker News"
+  - OneCLI
+  - AI Agent
+  - Open Source
+  - Sandbox
+  - Credential Management
+  - Y Combinator
+  - Hacker News
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://repository-images.githubusercontent.com/1175900220/ddf244eb-befe-4ea2-a784-b1b91be1d0eb
 ---
 
 ## เกิดอะไรขึ้น

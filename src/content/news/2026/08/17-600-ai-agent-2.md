@@ -1,30 +1,34 @@
 ---
-title: "17,600 การกระทำ: เมื่อความเร็ว AI Agent ชนเพดานระบบความปลอดภัยเดิม"
-slug: "17-600-ai-agent-2"
-excerpt: "เหตุการณ์ AI Agent ทดสอบเจาะระบบและยิงคำสั่งใส่ Hugging Face รวม 17,600 ครั้งใน 4.5 วัน ชี้ให้เห็นว่าระบบ Security แบบรอมนุษย์อนุมัติใช้ไม่ได้ผลอีกต่อไป ต้องรื้อสถาปัตยกรรมควบคุมใหม่"
-publishedAt: "2026-08-18T23:00:00.000+07:00"
-sourcePublishedAt: "2026-08-18T16:00:00.000Z"
-sourceName: "Docker Blog"
-sourceUrl: "https://www.docker.com/blog/ai-agent-security-systems-problem/"
-author: "TanTech AI Desk"
+title: '17,600 การกระทำ: เมื่อความเร็ว AI Agent ชนเพดานระบบความปลอดภัยเดิม'
+slug: 17-600-ai-agent-2
+excerpt: >-
+  เหตุการณ์ AI Agent ทดสอบเจาะระบบและยิงคำสั่งใส่ Hugging Face รวม 17,600
+  ครั้งใน 4.5 วัน ชี้ให้เห็นว่าระบบ Security
+  แบบรอมนุษย์อนุมัติใช้ไม่ได้ผลอีกต่อไป ต้องรื้อสถาปัตยกรรมควบคุมใหม่
+publishedAt: '2026-08-18T23:00:00.000+07:00'
+sourcePublishedAt: '2026-08-18T16:00:00.000Z'
+sourceName: Docker Blog
+sourceUrl: 'https://www.docker.com/blog/ai-agent-security-systems-problem/'
+author: TanTech AI Desk
 categories:
   - Cybersecurity
   - AI
 tags:
-  - "Docker"
-  - "OpenAI"
-  - "Hugging Face"
-  - "AI Agent"
-  - "ความปลอดภัยไซเบอร์"
-  - "sandbox"
-  - "ExploitGym"
-  - "Kubernetes"
-  - "credential"
+  - Docker
+  - OpenAI
+  - Hugging Face
+  - AI Agent
+  - ความปลอดภัยไซเบอร์
+  - sandbox
+  - ExploitGym
+  - Kubernetes
+  - credential
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: 'https://www.docker.com/app/uploads/2025/03/image.png'
 ---
 
 ## เกิดอะไรขึ้น

@@ -1,32 +1,38 @@
 ---
-title: "GitHub เผยกำหนดการ GitHub Universe 2026 เต็มเซสชัน AI และ Copilot"
-slug: "github-github-universe-2026-ai-copilot"
-excerpt: "GitHub เปิดกำหนดการงาน GitHub Universe 2026 ระหว่างวันที่ 28-29 ตุลาคม ที่ Fort Mason Center, San Francisco พร้อมเซสชัน Copilot, AI, MCP และโอกาสลงทะเบียนก่อน 19 สิงหาคม ลด 300 ดอลลาร์"
-publishedAt: "2026-08-14T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-13T19:00:00.000Z"
-sourceName: "GitHub Blog"
-sourceUrl: "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/"
-author: "TanTech AI Desk"
+title: GitHub เผยกำหนดการ GitHub Universe 2026 เต็มเซสชัน AI และ Copilot
+slug: github-github-universe-2026-ai-copilot
+excerpt: >-
+  GitHub เปิดกำหนดการงาน GitHub Universe 2026 ระหว่างวันที่ 28-29 ตุลาคม ที่
+  Fort Mason Center, San Francisco พร้อมเซสชัน Copilot, AI, MCP
+  และโอกาสลงทะเบียนก่อน 19 สิงหาคม ลด 300 ดอลลาร์
+publishedAt: '2026-08-14T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-13T19:00:00.000Z'
+sourceName: GitHub Blog
+sourceUrl: >-
+  https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/
+author: TanTech AI Desk
 categories:
   - Open Source
   - AI
   - Programming
 tags:
-  - "GitHub"
-  - "GitHub Universe 2026"
-  - "Copilot"
-  - "MCP"
-  - "OpenAI"
-  - "Anthropic"
-  - "NVIDIA"
-  - "AMD"
-  - "Figma"
-  - "Coinbase"
+  - GitHub
+  - GitHub Universe 2026
+  - Copilot
+  - MCP
+  - OpenAI
+  - Anthropic
+  - NVIDIA
+  - AMD
+  - Figma
+  - Coinbase
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://github.blog/wp-content/uploads/2026/06/1200x630-U25-Blog-Hero_x2.png?fit=2400%2C1260
 ---
 
 ## เกิดอะไรขึ้น

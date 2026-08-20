@@ -1,29 +1,34 @@
 ---
-title: "Vercel เปิดล่าบั๊ก 1 ล้านดอลลาร์ ท้าเจาะ Vercel Sandbox"
-slug: "vercel-1-vercel-sandbox"
-excerpt: "Vercel เปิด HackerOne 2 สัปดาห์ ท้านักวิจัยเจาะ Vercel Sandbox บน Firecracker microVM และ host network controls รางวัลรวมสูงสุด 1 ล้านดอลลาร์สหรัฐ และสูงสุด 50,000 ดอลลาร์สหรัฐต่อรายงาน"
-publishedAt: "2026-08-18T20:00:00.000+07:00"
-sourcePublishedAt: "2026-08-18T13:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox"
-author: "TanTech AI Desk"
+title: Vercel เปิดล่าบั๊ก 1 ล้านดอลลาร์ ท้าเจาะ Vercel Sandbox
+slug: vercel-1-vercel-sandbox
+excerpt: >-
+  Vercel เปิด HackerOne 2 สัปดาห์ ท้านักวิจัยเจาะ Vercel Sandbox บน Firecracker
+  microVM และ host network controls รางวัลรวมสูงสุด 1 ล้านดอลลาร์สหรัฐ และสูงสุด
+  50,000 ดอลลาร์สหรัฐต่อรายงาน
+publishedAt: '2026-08-18T20:00:00.000+07:00'
+sourcePublishedAt: '2026-08-18T13:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: 'https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox'
+author: TanTech AI Desk
 categories:
   - Cybersecurity
   - Cloud
 tags:
-  - "Vercel"
-  - "Vercel Sandbox"
-  - "HackerOne"
-  - "Firecracker"
-  - "microVM"
-  - "sandbox"
-  - "ความปลอดภัย"
-  - "รางวัลบั๊ก"
+  - Vercel
+  - Vercel Sandbox
+  - HackerOne
+  - Firecracker
+  - microVM
+  - sandbox
+  - ความปลอดภัย
+  - รางวัลบั๊ก
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/6vJM9naggKRdZrFhTxSN21/30ddbd890d7976e78ee71b9c93cd611f/sandbox-challenge-og.png
 ---
 
 ## เกิดอะไรขึ้น

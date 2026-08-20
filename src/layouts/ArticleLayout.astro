@@ -8,6 +8,7 @@ import {
   getBreadcrumbJsonLd,
   seoDefaults,
 } from "../utils/seo";
+import { getOptimizedImageUrl } from "../utils/image";
 
 interface Props {
   article: NewsEntry;
@@ -30,12 +31,14 @@ const breadcrumbs = [
 
 const breadcrumbJsonLd = getBreadcrumbJsonLd(breadcrumbs);
 const articleJsonLd = getArticleJsonLd(article, canonical);
+const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
 ---
 
 <BaseLayout
   title={article.data.title}
   description={article.data.excerpt}
   ogType="article"
+  image={article.data.imageUrl}
 >
   <Fragment slot="head">
     <meta
@@ -164,6 +167,21 @@ const articleJsonLd = getArticleJsonLd(article, canonical);
           </dd>
         </div>
       </dl>
+      {
+        heroImage && (
+          <div class="mt-6 overflow-hidden rounded-xl border border-line bg-paper">
+            <img
+              src={heroImage}
+              alt={article.data.title}
+              class="aspect-[16/9] w-full object-cover"
+              loading="eager"
+              width="1200"
+              height="675"
+              itemprop="image"
+            />
+          </div>
+        )
+      }
       <!-- Hidden structured data fields -->
       <meta
         itemprop="dateModified"

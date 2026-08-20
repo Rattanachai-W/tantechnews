@@ -1,32 +1,37 @@
 ---
-title: "Vercel เปิดส่งออกเทรซ AI Gateway ผ่าน Vercel Drains"
-slug: "vercel-ai-gateway-vercel-drains"
-excerpt: "Vercel เพิ่มความสามารถให้ AI Gateway สร้าง OpenTelemetry trace ทุกคำขอ และทีม Pro/Enterprise ส่งออกผ่าน Vercel Drains ไปยังปลายทาง OTLP/HTTP พร้อมการเชื่อมต่อ Braintrust, Dash0, Kubiks, Sentry และ Statsig"
-publishedAt: "2026-08-05T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-05T05:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains"
-author: "TanTech AI Desk"
+title: Vercel เปิดส่งออกเทรซ AI Gateway ผ่าน Vercel Drains
+slug: vercel-ai-gateway-vercel-drains
+excerpt: >-
+  Vercel เพิ่มความสามารถให้ AI Gateway สร้าง OpenTelemetry trace ทุกคำขอ และทีม
+  Pro/Enterprise ส่งออกผ่าน Vercel Drains ไปยังปลายทาง OTLP/HTTP
+  พร้อมการเชื่อมต่อ Braintrust, Dash0, Kubiks, Sentry และ Statsig
+publishedAt: '2026-08-05T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-05T05:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: 'https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains'
+author: TanTech AI Desk
 categories:
   - AI
   - Cloud
   - Data
 tags:
-  - "Vercel"
-  - "AI Gateway"
-  - "Vercel Drains"
-  - "OpenTelemetry"
-  - "OTLP/HTTP"
-  - "Braintrust"
-  - "Dash0"
-  - "Kubiks"
-  - "Sentry"
-  - "Statsig"
+  - Vercel
+  - AI Gateway
+  - Vercel Drains
+  - OpenTelemetry
+  - OTLP/HTTP
+  - Braintrust
+  - Dash0
+  - Kubiks
+  - Sentry
+  - Statsig
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/61nsNMsIQriF9ODDhCA6CE/33270442579fbb6ee5c6550be28ab5c3/export-ai-gateway-traces-with-log-drains.png
 ---
 
 ## เกิดอะไรขึ้น

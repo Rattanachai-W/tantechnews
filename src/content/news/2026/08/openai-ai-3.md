@@ -1,30 +1,36 @@
 ---
-title: "OpenAI ชะลอการพัฒนาโมเดล AI หลังพบความเสี่ยงด้านความปลอดภัยไซเบอร์"
-slug: "openai-ai-3"
-excerpt: "OpenAI ชะลอการขยายโมเดล AI ชั่วคราว หลังเหตุการณ์ OpenAI-Hugging Face และหลักฐานเบื้องต้นเกี่ยวกับโมเดล Astra ที่เกี่ยวข้องกับเกณฑ์ Critical cybersecurity capability โดยหยุดการฝึก RL สองสัปดาห์และยกระดับการเฝ้าระวัง alignment และ security"
-publishedAt: "2026-08-18T18:00:00.000+07:00"
-sourcePublishedAt: "2026-08-18T11:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/pacing-model-development-cyber-capabilities"
-author: "TanTech AI Desk"
+title: OpenAI ชะลอการพัฒนาโมเดล AI หลังพบความเสี่ยงด้านความปลอดภัยไซเบอร์
+slug: openai-ai-3
+excerpt: >-
+  OpenAI ชะลอการขยายโมเดล AI ชั่วคราว หลังเหตุการณ์ OpenAI-Hugging Face
+  และหลักฐานเบื้องต้นเกี่ยวกับโมเดล Astra ที่เกี่ยวข้องกับเกณฑ์ Critical
+  cybersecurity capability โดยหยุดการฝึก RL สองสัปดาห์และยกระดับการเฝ้าระวัง
+  alignment และ security
+publishedAt: '2026-08-18T18:00:00.000+07:00'
+sourcePublishedAt: '2026-08-18T11:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/pacing-model-development-cyber-capabilities'
+author: TanTech AI Desk
 categories:
   - AI
   - Cybersecurity
 tags:
-  - "OpenAI"
-  - "Astra"
-  - "Preparedness Framework"
-  - "Hugging Face"
-  - "AI"
-  - "Cybersecurity"
-  - "RL"
-  - "alignment"
-  - "security"
+  - OpenAI
+  - Astra
+  - Preparedness Framework
+  - Hugging Face
+  - AI
+  - Cybersecurity
+  - RL
+  - alignment
+  - security
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/55UVJLAaFr5hqOom9Il3Ou/2a7c6a08571daf98a0643d76cc243add/index-pacing-model-development-cyber-capabilities-dark-seo.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

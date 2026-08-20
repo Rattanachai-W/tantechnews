@@ -1,29 +1,34 @@
 ---
-title: "Vercel เปิดตัว Vercel for Slack ให้ Agent ทำงานใน Slack ได้ทันที"
-slug: "vercel-vercel-for-slack-agent-slack"
-excerpt: "Vercel เปิดตัว Vercel for Slack ใน Public Beta สำหรับทีม Pro และ Enterprise ให้ผู้ใช้เรียก @Vercel ในช่อง เธรด หรือ DM เพื่อตอบคำถาม ตรวจสอบเหตุการณ์ และเปลี่ยนการตัดสินใจของทีมเป็น Pull Request ที่ต้องอนุมัติ"
-publishedAt: "2026-08-19T07:00:00.000+07:00"
-sourcePublishedAt: "2026-08-19T00:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/blog/introducing-vercel-for-slack"
-author: "TanTech AI Desk"
+title: Vercel เปิดตัว Vercel for Slack ให้ Agent ทำงานใน Slack ได้ทันที
+slug: vercel-vercel-for-slack-agent-slack
+excerpt: >-
+  Vercel เปิดตัว Vercel for Slack ใน Public Beta สำหรับทีม Pro และ Enterprise
+  ให้ผู้ใช้เรียก @Vercel ในช่อง เธรด หรือ DM เพื่อตอบคำถาม ตรวจสอบเหตุการณ์
+  และเปลี่ยนการตัดสินใจของทีมเป็น Pull Request ที่ต้องอนุมัติ
+publishedAt: '2026-08-19T07:00:00.000+07:00'
+sourcePublishedAt: '2026-08-19T00:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: 'https://vercel.com/blog/introducing-vercel-for-slack'
+author: TanTech AI Desk
 categories:
   - AI
   - Programming
   - Cloud
 tags:
-  - "Vercel"
-  - "Slack"
-  - "Vercel Agent"
-  - "Vercel for Slack"
-  - "AI Agent"
-  - "DevOps"
-  - "Pull Request"
+  - Vercel
+  - Slack
+  - Vercel Agent
+  - Vercel for Slack
+  - AI Agent
+  - DevOps
+  - Pull Request
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/5mdEPQbjYYP2Xh4HCDAcqR/1e53c3eb18d7a70ebbb7dc8f77e74dc0/vercel_for_slack_blog_logo_variant_og_card.jpg
 ---
 
 ## เกิดอะไรขึ้น
