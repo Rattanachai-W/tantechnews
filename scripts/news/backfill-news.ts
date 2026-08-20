@@ -31,6 +31,10 @@ async function processArticle(article: ScoredArticle, date: Date): Promise<{ slu
     }
 
     const summary = await summarizeArticle(article, extracted.textContent);
+    if (!summary) {
+      logger.warn("Skipping article: fallback summary had insufficient Thai content", { sourceUrl: article.url });
+      return null;
+    }
     const validation = articleSummarySchema.safeParse(summary);
     if (!validation.success) {
       logger.warn("Skipping article because summary validation failed", {
@@ -40,7 +44,7 @@ async function processArticle(article: ScoredArticle, date: Date): Promise<{ slu
       return null;
     }
 
-    const generated = await generateMarkdown(article, validation.data, date);
+    const generated = await generateMarkdown(article, validation.data as import("../../src/types/article").ArticleSummary, date);
     logger.info("Generated article", { filePath: generated.filePath, titleTh: summary.titleTh });
 
     return {

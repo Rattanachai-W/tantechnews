@@ -27,6 +27,23 @@ function extractTitleTokens(title: string): Set<string> {
   return new Set(words);
 }
 
+/**
+ * Extract ASCII product/brand tokens for cross-language duplicate detection.
+ * Strips common English function words so only meaningful product/brand names
+ * (e.g. "ChatGPT", "OpenAI", "CodeAI") remain for comparison.
+ */
+function extractAsciiProductTokens(title: string): Set<string> {
+  const stopWords = new Set([
+    "the", "for", "and", "built", "with", "new", "how", "why", "that",
+    "introducing", "partnering", "prepare", "first", "generation",
+    "learning", "backed", "protections", "teens", "teen", "this",
+    "from", "into", "over", "after", "about", "using", "based",
+    "today", "right", "when", "will", "your", "our", "its"
+  ]);
+  const words = title.match(/[a-zA-Z0-9]{3,}/g) ?? [];
+  return new Set(words.map((w) => w.toLowerCase()).filter((w) => !stopWords.has(w)));
+}
+
 export function calculateTokenSimilarity(titleA: string, titleB: string): number {
   const tokensA = extractTitleTokens(titleA);
   const tokensB = extractTitleTokens(titleB);
@@ -43,6 +60,17 @@ export function calculateTokenSimilarity(titleA: string, titleB: string): number
 
 export function isFuzzyDuplicateTitle(titleA: string, titleB: string, threshold = 0.30): boolean {
   if (titleKey(titleA) === titleKey(titleB)) return true;
+
+  // Cross-language check: ASCII product/brand token overlap ≥ 2 → duplicate
+  // Catches EN title vs TH title from the same source (e.g. "ChatGPT for Teens")
+  const asciiA = extractAsciiProductTokens(titleA);
+  const asciiB = extractAsciiProductTokens(titleB);
+  let asciiOverlap = 0;
+  for (const t of asciiA) {
+    if (asciiB.has(t)) asciiOverlap++;
+  }
+  if (asciiOverlap >= 2) return true;
+
   const tokensA = extractTitleTokens(titleA);
   const tokensB = extractTitleTokens(titleB);
   let intersection = 0;
@@ -53,6 +81,7 @@ export function isFuzzyDuplicateTitle(titleA: string, titleB: string, threshold 
   if (intersection >= 3) return true;
   return calculateTokenSimilarity(titleA, titleB) >= threshold;
 }
+
 
 function sourceRank(article: RawArticle): number {
   return article.sourceTier ?? 99;

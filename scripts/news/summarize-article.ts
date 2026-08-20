@@ -37,11 +37,23 @@ function extractFirstParagraph(text: string): string {
 
 /**
  * Extract key named entities (companies, people, products) from the text.
+ * Filters out common stopwords and sentence-initial capitalised words that
+ * are NOT proper nouns (Today, This, The, For, Right, etc.)
  */
 function extractEntities(text: string, maxCount = 5): string[] {
+  const stopWords = new Set([
+    "today", "this", "the", "for", "right", "when", "that", "from",
+    "with", "about", "into", "under", "over", "after", "before",
+    "students", "users", "people", "world", "time", "new", "first",
+    "introducing", "partnering", "prepare", "generation", "according",
+    "here", "now", "just", "more", "last", "next", "some", "also",
+    "there", "their", "they", "them", "then", "these", "those",
+    "while", "since", "based", "using", "will", "would", "could",
+    "should", "may", "can", "its", "our", "your", "his", "her"
+  ]);
   // Match capitalized words that look like proper nouns
   const matches = text.match(/\b[A-Z][a-zA-Z]{2,}(?:\s[A-Z][a-zA-Z]{2,}){0,2}\b/g) ?? [];
-  const unique = [...new Set(matches)];
+  const unique = [...new Set(matches)].filter((w) => !stopWords.has(w.toLowerCase()));
   return unique.slice(0, maxCount);
 }
 
@@ -53,6 +65,17 @@ function extractKeyNumbers(text: string): string[] {
   return [...new Set(matches)].slice(0, 5);
 }
 
+/**
+ * Check whether a text string contains sufficient Thai content.
+ * Returns true if Thai characters make up at least 15% of non-whitespace chars.
+ */
+function hasSufficientThaiContent(text: string): boolean {
+  const nonSpace = text.replace(/\s/g, "");
+  if (nonSpace.length === 0) return false;
+  const thaiChars = (text.match(/[\u0E00-\u0E7F]/g) ?? []).length;
+  return thaiChars / nonSpace.length >= 0.15;
+}
+
 function getImpactGroup(category: string): ArticleSummary["impacts"][number]["group"] {
   if (category === "Startup") return "startups";
   if (category === "Business") return "businesses";
@@ -61,7 +84,13 @@ function getImpactGroup(category: string): ArticleSummary["impacts"][number]["gr
   return "other";
 }
 
-function summarizeWithoutAi(article: ScoredArticle, content: string): ArticleSummary {
+/**
+ * Non-AI fallback summariser.
+ * Returns null if the output would consist primarily of English content
+ * (i.e. the article title is in English and no Thai body content can be
+ * extracted), so the caller can skip the article rather than publish garbage.
+ */
+function summarizeWithoutAi(article: ScoredArticle, content: string): ArticleSummary | null {
   const sourceExcerpt = sentenceSlice(content, 600);
   const category = article.score.category;
   const titleTh = article.title;
@@ -79,6 +108,12 @@ function summarizeWithoutAi(article: ScoredArticle, content: string): ArticleSum
   const numberStr = numbers.length > 0 ? ` (${numbers.join(", ")})` : "";
 
   const whatHappened = `จากรายงานของ ${article.sourceName}${entityStr ? ` เกี่ยวกับ ${entityStr}` : ""}${numberStr}: ${firstPara || sourceExcerpt}`;
+
+  // Quality guard: if titleTh is English-only AND whatHappened has no Thai body,
+  // this fallback is not usable for a Thai-language publication.
+  if (!hasSufficientThaiContent(titleTh) && !hasSufficientThaiContent(whatHappened)) {
+    return null;
+  }
 
   return {
     titleTh,
@@ -100,7 +135,8 @@ function summarizeWithoutAi(article: ScoredArticle, content: string): ArticleSum
   };
 }
 
-export async function summarizeArticle(article: ScoredArticle, content: string): Promise<ArticleSummary> {
+
+export async function summarizeArticle(article: ScoredArticle, content: string): Promise<ArticleSummary | null> {
   const aiConfig = loadAiSummaryConfig();
 
   if (!aiConfig) {
@@ -108,7 +144,11 @@ export async function summarizeArticle(article: ScoredArticle, content: string):
       sourceUrl: article.url,
       model: process.env.AI_SUMMARY_MODEL ?? process.env.OPENROUTER_MODEL
     });
-    return summarizeWithoutAi(article, content);
+    const fallback = summarizeWithoutAi(article, content);
+    if (!fallback) {
+      logger.warn("Fallback summary rejected: insufficient Thai content (no AI config)", { sourceUrl: article.url });
+    }
+    return fallback;
   }
 
   const aiSummary = await requestAiSummary(aiConfig, buildSummaryPrompt(article, content));
@@ -121,7 +161,11 @@ export async function summarizeArticle(article: ScoredArticle, content: string):
         sourceUrl: article.url,
         warnings: verification.warnings
       });
-      return summarizeWithoutAi(article, content);
+      const fallback = summarizeWithoutAi(article, content);
+      if (!fallback) {
+        logger.warn("Fallback summary rejected: insufficient Thai content (after AI verify fail)", { sourceUrl: article.url });
+      }
+      return fallback;
     }
 
     if (verification.warnings.length > 0) {
@@ -139,5 +183,9 @@ export async function summarizeArticle(article: ScoredArticle, content: string):
   logger.warn("Falling back to non-AI summary after AI summary failure", {
     sourceUrl: article.url
   });
-  return summarizeWithoutAi(article, content);
+  const fallback = summarizeWithoutAi(article, content);
+  if (!fallback) {
+    logger.warn("Fallback summary rejected: insufficient Thai content (after AI request failure)", { sourceUrl: article.url });
+  }
+  return fallback;
 }
