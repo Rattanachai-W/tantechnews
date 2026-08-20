@@ -155,13 +155,6 @@
       "processedAt": "2026-08-04T12:00:00.000+07:00"
     },
     {
-      "sourceName": "AWS News Blog",
-      "slug": "aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock",
-      "id": "3f6cd72050387194ae10d85b04d7522203a33cdcd7e1e7b47b500be9d2addec0",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
-      "processedAt": "2026-08-03T12:00:00.000+07:00"
-    },
-    {
       "sourceName": "Cloudflare Blog",
       "slug": "cloudflare-2-1",
       "id": "b3b39bfc24f02d50ad4677c2bce62930bfe06e3fc0db3b82f4930a137f58f25c",
@@ -337,13 +330,6 @@
       "processedAt": "2026-08-02T12:00:00.000+07:00"
     },
     {
-      "sourceName": "OpenAI Blog",
-      "slug": "responding-to-the-next-frontier-of-critical-cyber-capabiliti",
-      "id": "cc79c51bf8039b8eebe612f7af0cbd1018813de211032bb9666dafa3ccadbe2e",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "processedAt": "2026-08-07T12:00:00.000+07:00"
-    },
-    {
       "sourceName": "WIRED",
       "slug": "terramow-v1000-ai",
       "id": "6ff7a1a38046efe7d5e5176724d1769cf0eb02b8cb7ae85fa10073bab17a8c90",
@@ -371,7 +357,6 @@
       "url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
       "processedAt": "2026-08-01T12:00:00.000+07:00"
     },
-
     {
       "id": "556c2d244b08bfd975f668d285f4dd678a1e5e6627b34d937eee28280b24ede1",
       "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
@@ -434,6 +419,55 @@
       "slug": "vercel-compliance-team-settings",
       "sourceName": "Vercel Blog",
       "processedAt": "2026-08-20T03:12:49.356Z"
+    },
+    {
+      "id": "47420612f6317fbc0c442f72e76da2e9bf65680f616f1db7c894c5212a815b91",
+      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+      "slug": "silicon-data-30-gpu-wall-street-ai-compute",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-20T06:42:51.405Z"
+    },
+    {
+      "id": "b1182b012723419644c0b8a226e1867375210e5234b7cf4a5ee1a31029c5159b",
+      "url": "https://www.theverge.com/gadgets/982242/ipad-air-m4-garmin-inreach-deal-sale",
+      "slug": "ipad-air-m4",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-20T06:43:11.889Z"
+    },
+    {
+      "id": "aca7847db12030b3da7ae0dda9403c40917066f5e8b9a7330a49e7296b49b294",
+      "url": "https://github.com/onecli/onecli",
+      "slug": "onecli-ai-agent-sandbox",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-08-20T06:43:46.549Z"
+    },
+    {
+      "id": "5714988b4d1bebbbacb9372423a80549045e44ce1a419007a27c41a6ebd2f5cc",
+      "url": "https://vercel.com/blog/introducing-vercel-for-slack",
+      "slug": "vercel-vercel-for-slack-agent-slack",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-20T06:44:21.531Z"
+    },
+    {
+      "id": "ed6b434ddabf20bbbc77d889c498ea43b2a42eabb4ac2c835e00073d257ee96d",
+      "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
+      "slug": "vercel-1-vercel-sandbox",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-20T06:45:32.451Z"
+    },
+    {
+      "id": "bc985bdf796ef2e727fcd94c6d8157c896e22d9d94247ff5cfe7e8e9cbc262cc",
+      "url": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
+      "slug": "waymo-ojai-3",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-20T06:46:57.696Z"
+    },
+    {
+      "id": "e24875277dd9c8e666419966f80685bdf143ba728da7ff394a8cbababd5601e4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "slug": "openai-ai-rl-2",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-20T06:47:53.714Z"
     }
   ]
 }

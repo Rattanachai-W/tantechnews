@@ -40,6 +40,12 @@ async function processSelectedArticle(article: ScoredArticle): Promise<Generated
 
     // Pass source content to summarizer for verification
     const summary = await summarizeArticle(article, extracted.textContent);
+    if (!summary) {
+      logger.warn("Skipping article: fallback summary had insufficient Thai content", {
+        sourceUrl: article.url
+      });
+      return null;
+    }
     const validation = articleSummarySchema.safeParse(summary);
     if (!validation.success) {
       logger.warn("Skipping article because summary validation failed", {
@@ -49,7 +55,7 @@ async function processSelectedArticle(article: ScoredArticle): Promise<Generated
       return null;
     }
 
-    const generated = await generateMarkdown(article, validation.data);
+    const generated = await generateMarkdown(article, validation.data as import("../../src/types/article").ArticleSummary);
     logger.info("Generated draft markdown", { filePath: generated.filePath, sourceUrl: article.url });
 
     return {
