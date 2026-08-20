@@ -1,0 +1,147 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "นโยบายการใช้ AI";
+const description =
+  "ทันเทคใช้ AI อย่างไรในการสรุปข่าวเทคโนโลยี? อ่านนโยบายความโปร่งใส ข้อจำกัด และวิธีที่เราจัดการกับเนื้อหาที่ AI สร้างขึ้น";
+
+const usage = [
+  {
+    icon: "🔍",
+    title: "การคัดกรองข่าว",
+    desc: "AI วิเคราะห์ความสำคัญและผลกระทบของข่าวแต่ละชิ้น โดยพิจารณาจากแหล่งที่มา ความใหม่ และความเกี่ยวข้องกับกลุ่มเป้าหมาย"
+  },
+  {
+    icon: "📝",
+    title: "การสรุปเนื้อหา",
+    desc: "AI สรุปข่าวจากต้นฉบับภาษาอังกฤษเป็นภาษาไทย โดยรักษาสาระสำคัญและเพิ่มบริบทที่เกี่ยวข้องกับผู้อ่านไทย"
+  },
+  {
+    icon: "🧠",
+    title: "การวิเคราะห์ผลกระทบ",
+    desc: "AI ประเมินผลกระทบของข่าวต่อนักพัฒนา ธุรกิจ และผู้ใช้เทคโนโลยี ซึ่งจะแสดงในส่วน 'มุมมองของทันเทค'"
+  },
+  {
+    icon: "🏷️",
+    title: "การจัดหมวดหมู่",
+    desc: "AI จัดหมวดหมู่และแท็กข่าวโดยอัตโนมัติ เพื่อให้ผู้อ่านค้นหาและกรองข่าวตามความสนใจได้ง่ายขึ้น"
+  }
+];
+
+const limits = [
+  {
+    title: "AI อาจเข้าใจบริบทคลาดเคลื่อน",
+    desc: "บางครั้ง AI อาจตีความข้อมูลผิดพลาด โดยเฉพาะในข่าวที่มีความซับซ้อนทางเทคนิคสูง"
+  },
+  {
+    title: "การแปลอาจไม่สมบูรณ์แบบ",
+    desc: "ศัพท์เฉพาะทางเทคนิคบางคำอาจแปลไม่ตรงความหมายหรือใช้ทับศัพท์เพื่อความแม่นยำ"
+  },
+  {
+    title: "บทวิเคราะห์เป็นมุมมองของ AI",
+    desc: "ส่วน 'มุมมองของทันเทค' คือบทวิเคราะห์ที่ AI สร้างขึ้น ไม่ใช่ความเห็นจากผู้เชี่ยวชาญมนุษย์"
+  }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="border-b border-line bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:py-20">
+      <p class="text-sm font-bold uppercase tracking-wide text-brand">ความโปร่งใส</p>
+      <h1 class="mt-3 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">
+        นโยบายการใช้ AI
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-muted">
+        ทันเทคใช้ AI 100% ในทุกขั้นตอนการทำงาน เราเชื่อในความโปร่งใส จึงอธิบายอย่างชัดเจนว่า AI ทำอะไร
+        มีข้อจำกัดอะไร และผู้อ่านควรรับข้อมูลอย่างไร
+      </p>
+      <div class="mt-6 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-semibold text-amber-800">
+        <span aria-hidden="true">⚠️</span>
+        ทุกบทความบนทันเทคสร้างโดย AI — มีป้าย "AI Generated" กำกับทุกชิ้น
+      </div>
+    </div>
+  </section>
+
+  <!-- AI ใช้ทำอะไร -->
+  <section class="border-b border-line bg-paper" aria-labelledby="usage-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="usage-heading" class="text-2xl font-bold text-ink">AI ใช้ทำอะไรบ้าง?</h2>
+      <p class="mt-2 text-muted">ทุกขั้นตอนในกระบวนการผลิตเนื้อหาของทันเทค</p>
+      <div class="mt-8 grid gap-5 sm:grid-cols-2">
+        {usage.map((item) => (
+          <div class="rounded-xl border border-line bg-white p-6 shadow-sm">
+            <span class="text-3xl" aria-hidden="true">{item.icon}</span>
+            <h3 class="mt-4 text-base font-bold text-ink">{item.title}</h3>
+            <p class="mt-2 text-sm leading-7 text-muted">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- โมเดลที่ใช้ -->
+  <section class="border-b border-line bg-white" aria-labelledby="models-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="models-heading" class="text-2xl font-bold text-ink">โมเดล AI ที่ใช้</h2>
+      <p class="mt-2 text-muted">ทันเทคใช้ Large Language Models (LLMs) ชั้นนำในอุตสาหกรรม</p>
+      <div class="mt-6 rounded-xl border border-line bg-paper p-6 text-sm leading-7 text-muted space-y-3">
+        <p>
+          เราใช้ LLM จากผู้ให้บริการชั้นนำ เช่น <strong class="text-ink">Google Gemini</strong>,
+          <strong class="text-ink">OpenAI GPT</strong> หรือ <strong class="text-ink">Anthropic Claude</strong>
+          ในการประมวลผลข่าว ขึ้นอยู่กับความเหมาะสมของแต่ละงาน
+        </p>
+        <p>
+          โมเดลที่ใช้อาจเปลี่ยนแปลงได้ตามการอัปเดตระบบ โดยจะอัปเดตข้อมูลนี้เมื่อมีการเปลี่ยนแปลงสำคัญ
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ข้อจำกัด -->
+  <section class="border-b border-line bg-paper" aria-labelledby="limits-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="limits-heading" class="text-2xl font-bold text-ink">ข้อจำกัดของ AI</h2>
+      <p class="mt-2 text-muted">สิ่งที่ผู้อ่านควรรู้และระวัง</p>
+      <ul class="mt-8 space-y-4" role="list">
+        {limits.map((item) => (
+          <li class="rounded-xl border border-amber-200 bg-amber-50 p-5">
+            <p class="font-bold text-amber-900">{item.title}</p>
+            <p class="mt-1 text-sm leading-7 text-amber-800">{item.desc}</p>
+          </li>
+        ))}
+      </ul>
+      <div class="mt-8 rounded-xl border border-line bg-white p-6 text-sm leading-7 text-muted">
+        <p class="font-bold text-ink">คำแนะนำสำหรับผู้อ่าน</p>
+        <p class="mt-2">
+          เราแนะนำให้ผู้อ่าน<strong class="text-ink">ตรวจสอบจากแหล่งต้นฉบับ</strong>ที่แนบไว้ทุกบทความ
+          ก่อนตัดสินใจสำคัญโดยอ้างอิงจากเนื้อหาของทันเทค
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- พบข้อผิดพลาด -->
+  <section class="bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 class="text-2xl font-bold text-ink">พบข้อผิดพลาด?</h2>
+      <p class="mt-2 text-muted">
+        หากพบว่าบทความมีข้อมูลที่ผิดพลาดหรือคลาดเคลื่อน สามารถรายงานได้ผ่านช่องทางด้านล่าง
+      </p>
+      <div class="mt-6 flex flex-wrap gap-3 text-sm">
+        <a
+          href="/correction-policy/"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          ✏️ นโยบายแก้ไขข่าว
+        </a>
+        <a
+          href="/contact/"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          📬 ติดต่อเรา
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

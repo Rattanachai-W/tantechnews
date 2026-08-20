@@ -1,0 +1,127 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "เกี่ยวกับทันเทค";
+const description =
+  "ทันเทค (TanTech News) คือเว็บไซต์สรุปข่าวเทคโนโลยีภาษาไทย ขับเคลื่อนด้วย AI 100% คัดเฉพาะข่าวที่มีผลกระทบจริงต่อนักพัฒนาและผู้ประกอบการ";
+
+const pillars = [
+  {
+    icon: "🤖",
+    title: "ระบบ AI อัตโนมัติ",
+    desc: "ทันเทคใช้ระบบ AI ในการคัดกรอง วิเคราะห์ และสรุปข่าวเทคโนโลยีทุกชิ้น โดยไม่มีบรรณาธิการมนุษย์แทรกแซงกระบวนการ"
+  },
+  {
+    icon: "📡",
+    title: "แหล่งข่าวระดับโลก",
+    desc: "รวบรวมข่าวจากแหล่งที่น่าเชื่อถือระดับสากล เช่น TechCrunch, The Verge, Hacker News, GitHub Blog, Google Blog และอื่น ๆ"
+  },
+  {
+    icon: "🇹🇭",
+    title: "เพื่อผู้อ่านไทย",
+    desc: "สรุปเนื้อหาเป็นภาษาไทยที่เข้าใจง่าย พร้อมวิเคราะห์ผลกระทบในบริบทของผู้ใช้และธุรกิจในไทย"
+  },
+  {
+    icon: "⚡",
+    title: "ความเร็วและความถูกต้อง",
+    desc: "อัปเดตข่าวหลายรอบต่อวัน พร้อมแหล่งอ้างอิงต้นฉบับทุกชิ้น ให้คุณได้อ่านข้อมูลที่ทันสมัยและตรวจสอบได้"
+  }
+];
+
+const milestones = [
+  { year: "2024", event: "เปิดตัวทันเทค เริ่มต้นด้วยการสรุปข่าว AI และ Programming" },
+  { year: "2025", event: "ขยายครอบคลุม 11 หมวดเทคโนโลยี เพิ่มระบบวิเคราะห์ผลกระทบ" },
+  { year: "2026", event: "ปรับปรุงระบบ AI ให้แม่นยำยิ่งขึ้น เพิ่ม Trust Pages และความโปร่งใส" }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="border-b border-line bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:py-20">
+      <p class="text-sm font-bold uppercase tracking-wide text-brand">เกี่ยวกับเรา</p>
+      <h1 class="mt-3 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">
+        ทันเทค คืออะไร?
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-muted">
+        ทันเทค (TanTech News) คือเว็บไซต์สรุปข่าวเทคโนโลยีที่สำคัญประจำวันเป็นภาษาไทย
+        ขับเคลื่อนด้วยระบบ AI อัตโนมัติ 100% ในการคัดเลือก วิเคราะห์ และสรุปเนื้อหา
+      </p>
+      <p class="mt-4 max-w-2xl text-lg leading-8 text-muted">
+        เราไม่ได้รายงานข่าวทุกข่าว — เราคัดเฉพาะข่าวที่
+        <strong class="font-semibold text-ink">มีผลกระทบจริง</strong>
+        ต่อนักพัฒนา ผู้ประกอบการ และคนที่ทำงานกับเทคโนโลยี
+        แล้วสรุปให้เข้าใจได้ภายในไม่กี่นาที
+      </p>
+    </div>
+  </section>
+
+  <!-- พันธกิจ -->
+  <section class="border-b border-line bg-paper" aria-labelledby="mission-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="mission-heading" class="text-2xl font-bold text-ink">พันธกิจของเรา</h2>
+      <p class="mt-2 text-muted">สิ่งที่ทันเทคมุ่งมั่นทำเพื่อผู้อ่านทุกวัน</p>
+      <div class="mt-8 grid gap-5 sm:grid-cols-2">
+        {pillars.map((item) => (
+          <div class="rounded-xl border border-line bg-white p-6 shadow-sm">
+            <span class="text-3xl" aria-hidden="true">{item.icon}</span>
+            <h3 class="mt-4 text-base font-bold text-ink">{item.title}</h3>
+            <p class="mt-2 text-sm leading-7 text-muted">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- เส้นทาง -->
+  <section class="border-b border-line bg-white" aria-labelledby="timeline-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="timeline-heading" class="text-2xl font-bold text-ink">เส้นทางของทันเทค</h2>
+      <p class="mt-2 text-muted">จากจุดเริ่มต้นถึงปัจจุบัน</p>
+      <ol class="mt-8 space-y-6" aria-label="เส้นเวลาของทันเทค">
+        {milestones.map((m) => (
+          <li class="flex gap-5">
+            <span class="flex h-10 w-16 shrink-0 items-center justify-center rounded-full bg-brand-light text-sm font-bold text-brand-dark">
+              {m.year}
+            </span>
+            <p class="self-center text-sm leading-7 text-muted">{m.event}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 class="text-2xl font-bold text-ink">ต้องการรู้จักเราเพิ่มเติม?</h2>
+      <p class="mt-2 text-muted">อ่านนโยบายและหลักการทำงานของทันเทค</p>
+      <div class="mt-8 flex flex-wrap gap-3 text-sm">
+        <a
+          href="/selection-criteria/"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          🔍 วิธีการคัดเลือกข่าว
+        </a>
+        <a
+          href="/ai-policy/"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          🤖 นโยบายการใช้ AI
+        </a>
+        <a
+          href="/correction-policy/"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          ✏️ นโยบายแก้ไขข่าว
+        </a>
+        <a
+          href="/contact/"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          📬 ติดต่อเรา
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

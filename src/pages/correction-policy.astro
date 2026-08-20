@@ -1,0 +1,144 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "นโยบายแก้ไขข่าว";
+const description =
+  "ทันเทคจัดการข้อผิดพลาดในบทความอย่างไร? อ่านนโยบายการแก้ไข กระบวนการรายงาน และความมุ่งมั่นด้านความถูกต้องของเรา";
+
+const types = [
+  {
+    icon: "🟥",
+    label: "ข้อผิดพลาดระดับวิกฤต",
+    desc: "ข้อมูลที่ผิดพลาดอย่างมีนัยสำคัญ อาจทำให้ผู้อ่านตัดสินใจผิดพลาด",
+    action: "แก้ไขและอัปเดตทันที พร้อมระบุหมายเหตุการแก้ไขในบทความ"
+  },
+  {
+    icon: "🟧",
+    label: "ข้อผิดพลาดข้อเท็จจริง",
+    desc: "ตัวเลข วันที่ ชื่อ หรือรายละเอียดเฉพาะที่ไม่ถูกต้อง",
+    action: "แก้ไขภายใน 24 ชั่วโมง พร้อมระบุสิ่งที่เปลี่ยนแปลง"
+  },
+  {
+    icon: "🟨",
+    label: "ข้อผิดพลาดด้านบริบท",
+    desc: "การตีความหรืออธิบายบริบทที่คลาดเคลื่อน แต่ข้อเท็จจริงหลักถูกต้อง",
+    action: "อัปเดตและเพิ่มคำอธิบายเพิ่มเติม ภายใน 48 ชั่วโมง"
+  },
+  {
+    icon: "🟩",
+    label: "ข้อผิดพลาดเล็กน้อย",
+    desc: "การสะกดคำ ไวยากรณ์ หรือรูปแบบที่ไม่กระทบต่อเนื้อหา",
+    action: "แก้ไขในรอบการอัปเดตถัดไป"
+  }
+];
+
+const steps = [
+  { step: "1", label: "รับแจ้ง", desc: "รับรายงานข้อผิดพลาดผ่านช่องทางที่กำหนด" },
+  { step: "2", label: "ตรวจสอบ", desc: "ระบบตรวจสอบข้อมูลกับแหล่งต้นฉบับ" },
+  { step: "3", label: "แก้ไข", desc: "ดำเนินการแก้ไขตามระดับความรุนแรง" },
+  { step: "4", label: "บันทึก", desc: "ระบุหมายเหตุการแก้ไขไว้ในบทความ (กรณีวิกฤตและข้อเท็จจริง)" }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="border-b border-line bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:py-20">
+      <p class="text-sm font-bold uppercase tracking-wide text-brand">ความโปร่งใส</p>
+      <h1 class="mt-3 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">
+        นโยบายแก้ไขข่าว
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-muted">
+        ทันเทคมุ่งมั่นในความถูกต้อง แม้จะใช้ AI 100% เราก็มีกระบวนการรับรายงานและแก้ไขข้อผิดพลาดอย่างรวดเร็วและโปร่งใส
+      </p>
+    </div>
+  </section>
+
+  <!-- ประเภทข้อผิดพลาด -->
+  <section class="border-b border-line bg-paper" aria-labelledby="types-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="types-heading" class="text-2xl font-bold text-ink">ประเภทข้อผิดพลาดและการจัดการ</h2>
+      <p class="mt-2 text-muted">เราจำแนกข้อผิดพลาดเป็น 4 ระดับ พร้อมแนวทางแก้ไขที่ชัดเจน</p>
+      <div class="mt-8 space-y-4">
+        {types.map((item) => (
+          <div class="rounded-xl border border-line bg-white p-6 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl" aria-hidden="true">{item.icon}</span>
+              <h3 class="text-base font-bold text-ink">{item.label}</h3>
+            </div>
+            <p class="mt-2 text-sm leading-7 text-muted">{item.desc}</p>
+            <div class="mt-3 rounded-lg bg-paper px-4 py-2 text-sm text-muted">
+              <span class="font-semibold text-ink">การดำเนินการ:</span> {item.action}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- กระบวนการแก้ไข -->
+  <section class="border-b border-line bg-white" aria-labelledby="process-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="process-heading" class="text-2xl font-bold text-ink">กระบวนการแก้ไข</h2>
+      <p class="mt-2 text-muted">ขั้นตอนที่เกิดขึ้นหลังได้รับรายงาน</p>
+      <ol class="mt-8 space-y-5" aria-label="ขั้นตอนการแก้ไข">
+        {steps.map((s) => (
+          <li class="flex items-start gap-5">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand text-sm font-bold text-white">
+              {s.step}
+            </span>
+            <div>
+              <p class="font-bold text-ink">{s.label}</p>
+              <p class="mt-1 text-sm text-muted">{s.desc}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- หลักการ -->
+  <section class="border-b border-line bg-paper" aria-labelledby="principles-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="principles-heading" class="text-2xl font-bold text-ink">หลักการแก้ไขของเรา</h2>
+      <div class="mt-6 space-y-4 text-sm leading-7 text-muted">
+        <div class="flex gap-3">
+          <span class="shrink-0 text-brand font-bold">→</span>
+          <p><strong class="text-ink">ความโปร่งใสมาก่อน:</strong> เราจะไม่ลบเนื้อหาที่ผิดพลาดโดยไม่บันทึก แต่จะแก้ไขพร้อมระบุว่าเปลี่ยนแปลงอะไรและเมื่อไหร่</p>
+        </div>
+        <div class="flex gap-3">
+          <span class="shrink-0 text-brand font-bold">→</span>
+          <p><strong class="text-ink">ไม่แก้ไขย้อนหลังโดยไม่แจ้ง:</strong> การแก้ไขข้อมูลสำคัญจะมีหมายเหตุ [แก้ไข] พร้อมวันที่กำกับในบทความ</p>
+        </div>
+        <div class="flex gap-3">
+          <span class="shrink-0 text-brand font-bold">→</span>
+          <p><strong class="text-ink">ตอบรับทุกรายงาน:</strong> แม้เราจะไม่ตอบกลับทุกข้อความ แต่จะตรวจสอบทุกรายงานที่ได้รับ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- รายงานข้อผิดพลาด -->
+  <section class="bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 class="text-2xl font-bold text-ink">รายงานข้อผิดพลาด</h2>
+      <p class="mt-2 text-muted">
+        พบข้อมูลที่ไม่ถูกต้องในบทความ? ติดต่อเราได้ทันที
+      </p>
+      <div class="mt-6 flex flex-wrap gap-3 text-sm">
+        <a
+          href="/contact/"
+          class="inline-flex items-center gap-2 rounded-lg border border-brand bg-brand px-5 py-3 font-semibold text-white transition hover:bg-brand/90"
+        >
+          📬 รายงานข้อผิดพลาด
+        </a>
+        <a
+          href="/ai-policy/"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          🤖 นโยบายการใช้ AI
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

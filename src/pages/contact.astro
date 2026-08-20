@@ -1,0 +1,114 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "ติดต่อเรา";
+const description =
+  "ติดต่อทันเทค รายงานข้อผิดพลาด แนะนำแหล่งข่าว หรือส่งข้อเสนอแนะ — เราพร้อมรับฟังทุกความเห็น";
+
+const channels = [
+  {
+    icon: "🐙",
+    title: "GitHub Issues",
+    desc: "ช่องทางหลักสำหรับรายงานข้อผิดพลาด แนะนำฟีเจอร์ หรือแจ้งปัญหาทางเทคนิค",
+    link: "https://github.com/Rattanachai-W/tantechnews/issues",
+    label: "เปิด Issue บน GitHub",
+    primary: true
+  },
+  {
+    icon: "✉️",
+    title: "อีเมล",
+    desc: "สำหรับเรื่องที่ต้องการความเป็นส่วนตัว เช่น ลิขสิทธิ์ ความร่วมมือ หรือข้อเสนอแนะทั่วไป",
+    link: "mailto:rattanachai.wp@gmail.com",
+    label: "rattanachai.wp@gmail.com",
+    primary: false
+  }
+];
+
+const topics = [
+  { icon: "🐛", text: "รายงานข้อผิดพลาดในบทความ" },
+  { icon: "💡", text: "แนะนำแหล่งข่าวหรือหัวข้อใหม่" },
+  { icon: "🤝", text: "ขอความร่วมมือหรือพาร์ทเนอร์ชิป" },
+  { icon: "📋", text: "ข้อเสนอแนะเกี่ยวกับเว็บไซต์" },
+  { icon: "⚠️", text: "แจ้งปัญหาเนื้อหาที่ละเมิดลิขสิทธิ์" }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="border-b border-line bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:py-20">
+      <p class="text-sm font-bold uppercase tracking-wide text-brand">ติดต่อ</p>
+      <h1 class="mt-3 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">
+        ติดต่อเรา
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-muted">
+        ทันเทคดำเนินงานโดยทีมเล็ก ๆ — เราอ่านทุกข้อความที่ส่งมา แต่อาจไม่สามารถตอบกลับได้ทุกข้อความ
+        ช่องทางที่ดีที่สุดคือ GitHub Issues
+      </p>
+    </div>
+  </section>
+
+  <!-- ช่องทางติดต่อ -->
+  <section class="border-b border-line bg-paper" aria-labelledby="channels-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="channels-heading" class="text-2xl font-bold text-ink">ช่องทางติดต่อ</h2>
+      <div class="mt-8 grid gap-5 sm:grid-cols-2">
+        {channels.map((ch) => (
+          <div class={`rounded-xl border p-6 shadow-sm ${ch.primary ? "border-brand bg-white" : "border-line bg-white"}`}>
+            <span class="text-3xl font-bold" aria-hidden="true">{ch.icon}</span>
+            <h3 class="mt-4 text-base font-bold text-ink">{ch.title}</h3>
+            <p class="mt-2 text-sm leading-7 text-muted">{ch.desc}</p>
+            <a
+              href={ch.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              class={`mt-4 inline-flex items-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition ${
+                ch.primary
+                  ? "bg-brand text-white hover:bg-brand/90"
+                  : "border border-line bg-paper text-muted hover:border-brand hover:text-brand"
+              }`}
+            >
+              {ch.label}
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ติดต่อเรื่องอะไรได้บ้าง -->
+  <section class="border-b border-line bg-white" aria-labelledby="topics-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="topics-heading" class="text-2xl font-bold text-ink">ติดต่อเรื่องอะไรได้บ้าง?</h2>
+      <ul class="mt-8 grid gap-3 sm:grid-cols-2" role="list">
+        {topics.map((t) => (
+          <li class="flex items-center gap-3 rounded-lg border border-line bg-paper px-4 py-3 text-sm text-muted">
+            <span aria-hidden="true">{t.icon}</span>
+            {t.text}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- เวลาตอบกลับ -->
+  <section class="bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 class="text-2xl font-bold text-ink">เวลาตอบกลับ</h2>
+      <div class="mt-6 rounded-xl border border-line bg-paper p-6 text-sm leading-7 text-muted space-y-3">
+        <p>
+          <strong class="text-ink">GitHub Issues:</strong> โดยทั่วไปตรวจสอบภายใน 1–3 วันทำการ
+          ข้อผิดพลาดในบทความจะได้รับการแก้ไขเร็วที่สุด
+        </p>
+        <p>
+          <strong class="text-ink">อีเมล:</strong> ตอบกลับภายใน 3–7 วันทำการ
+          เหมาะสำหรับเรื่องที่ต้องการความเป็นส่วนตัวหรือมีรายละเอียดมาก
+        </p>
+        <p class="text-xs">
+          หมายเหตุ: ทันเทคเป็นโปรเจ็กต์ที่ดำเนินงานในเวลาว่าง เวลาตอบกลับอาจยาวนานขึ้นในช่วงวันหยุด
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
