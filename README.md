@@ -5,9 +5,7 @@
 
 ---
 
-## 📺 วิดีโอสาธิตการใช้งาน (Demo Video)
 
-<!-- วางลิงก์วิดีโอ YouTube ของคุณที่นี่ -->
 ## 📺 วิดีโอสาธิตการใช้งาน (Demo Video)
 
 [![TanTech News Demo](https://img.youtube.com/vi/Q_7eAJqCi04/maxresdefault.jpg)](https://youtu.be/Q_7eAJqCi04)
