@@ -1,31 +1,38 @@
 ---
-title: "สำนักข่าวใช้ AI เสริมงานข่าวและธุรกิจ"
-slug: "ai"
-excerpt: "OpenAI ระบุว่าองค์กรข่าวใช้เทคโนโลยี AI ช่วยงานที่ใช้เวลา การสร้างประสบการณ์ผู้อ่านใหม่ และการสนับสนุนธุรกิจให้ยั่งยืน เครื่องมือถูกใช้ข้ามแผนกข่าว ผลิตภัณฑ์ และธุรกิจ เพื่อช่วยนักข่าวครอบคลุมงานมากขึ้น ค้นหาข้อมูล และเปลี่ยนข้อมูลซับซ้อนเป็นการตัดสินใจที่เร็วขึ้น"
-publishedAt: "2026-07-22T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-22T13:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/how-news-organizations-are-using-ai"
-author: "TanTech AI Desk"
+title: สำนักข่าวใช้ AI เสริมงานข่าวและธุรกิจ
+slug: ai
+excerpt: >-
+  OpenAI ระบุว่าองค์กรข่าวใช้เทคโนโลยี AI ช่วยงานที่ใช้เวลา
+  การสร้างประสบการณ์ผู้อ่านใหม่ และการสนับสนุนธุรกิจให้ยั่งยืน
+  เครื่องมือถูกใช้ข้ามแผนกข่าว ผลิตภัณฑ์ และธุรกิจ
+  เพื่อช่วยนักข่าวครอบคลุมงานมากขึ้น ค้นหาข้อมูล
+  และเปลี่ยนข้อมูลซับซ้อนเป็นการตัดสินใจที่เร็วขึ้น
+publishedAt: '2026-07-22T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-22T13:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/how-news-organizations-are-using-ai'
+author: TanTech AI Desk
 categories:
   - AI
   - Business
 tags:
-  - "OpenAI"
-  - "AI"
-  - "Associated Press"
-  - "POLITICO"
-  - "Axios"
-  - "Philadelphia Inquirer"
-  - "American Journalism Project"
-  - "Lenfest Institute for Journalism"
-  - "WAN-IFRA"
-  - "GPT"
+  - OpenAI
+  - AI
+  - Associated Press
+  - POLITICO
+  - Axios
+  - Philadelphia Inquirer
+  - American Journalism Project
+  - Lenfest Institute for Journalism
+  - WAN-IFRA
+  - GPT
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/4KPHlygXSOVWJHJlSNVU1N/574f3d3fc5309307943d657bd5000a20/how_news_orgs_use_AI_16x9.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

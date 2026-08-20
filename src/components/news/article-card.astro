@@ -32,6 +32,7 @@ const coverImage = getOptimizedImageUrl(article.data.imageUrl, prominent ? 800 :
         width="500"
         height="281"
         itemprop="image"
+        onerror={article.data.imageUrl ? `this.onerror=null;this.src='${article.data.imageUrl}';` : "this.parentElement.style.display='none';"}
       />
     </a>
   )}

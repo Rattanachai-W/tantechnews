@@ -1,28 +1,33 @@
 ---
-title: "OpenAI ลดราคา GPT-5.6 Luna และ Terra พร้อมเพิ่มความเร็ว GPT-5.6 Sol ใน API"
-slug: "openai-gpt-5-6-luna-terra-gpt-5-6-sol-api"
-excerpt: "OpenAI ประกาศลดราคา GPT-5.6 Luna 80% และ Terra 20% ใน API พร้อมเปิดตัว Fast mode ที่ทำให้ GPT-5.6 Sol เร็วขึ้นสูงสุด 2.5 เท่า โดยไม่เปลี่ยนระดับความฉลาด เพื่อช่วยลูกค้าลดต้นทุนและทำงานเร็วขึ้น"
-publishedAt: "2026-07-30T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-30T10:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6"
-author: "TanTech AI Desk"
+title: OpenAI ลดราคา GPT-5.6 Luna และ Terra พร้อมเพิ่มความเร็ว GPT-5.6 Sol ใน API
+slug: openai-gpt-5-6-luna-terra-gpt-5-6-sol-api
+excerpt: >-
+  OpenAI ประกาศลดราคา GPT-5.6 Luna 80% และ Terra 20% ใน API พร้อมเปิดตัว Fast
+  mode ที่ทำให้ GPT-5.6 Sol เร็วขึ้นสูงสุด 2.5 เท่า โดยไม่เปลี่ยนระดับความฉลาด
+  เพื่อช่วยลูกค้าลดต้นทุนและทำงานเร็วขึ้น
+publishedAt: '2026-07-30T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-30T10:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6'
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "OpenAI"
-  - "GPT-5.6"
-  - "GPT-5.6 Luna"
-  - "GPT-5.6 Terra"
-  - "GPT-5.6 Sol"
-  - "Fast mode"
-  - "API"
-  - "AI"
+  - OpenAI
+  - GPT-5.6
+  - GPT-5.6 Luna
+  - GPT-5.6 Terra
+  - GPT-5.6 Sol
+  - Fast mode
+  - API
+  - AI
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/3YlohIkWAmTKqtreNc2Qwt/1ba93da6a8cb574aa0b299277874dbac/Frame__3_.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

@@ -1,30 +1,36 @@
 ---
-title: "OpenAI ประกาศแนวทาง AI อย่างรับผิดชอบในยุโรป"
-slug: "openai-ai-2"
-excerpt: "OpenAI ประกาศแนวทางเสริมความรับผิดชอบด้าน AI ในยุโรป โดยปรับระบบความปลอดภัย ความมั่นคง โปร่งใส และการพิสูจน์แหล่งที่มาให้สอดคล้องกับ EU AI Act และแนวปฏิบัติ GPAI รวมถึงการทดสอบโมเดลก่อนเปิดตัว การเปิดเผย System Cards และการร่วมมือกับหน่วยงานภายนอก"
-publishedAt: "2026-07-31T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-31T15:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/advancing-responsible-ai-across-europe"
-author: "TanTech AI Desk"
+title: OpenAI ประกาศแนวทาง AI อย่างรับผิดชอบในยุโรป
+slug: openai-ai-2
+excerpt: >-
+  OpenAI ประกาศแนวทางเสริมความรับผิดชอบด้าน AI ในยุโรป โดยปรับระบบความปลอดภัย
+  ความมั่นคง โปร่งใส และการพิสูจน์แหล่งที่มาให้สอดคล้องกับ EU AI Act
+  และแนวปฏิบัติ GPAI รวมถึงการทดสอบโมเดลก่อนเปิดตัว การเปิดเผย System Cards
+  และการร่วมมือกับหน่วยงานภายนอก
+publishedAt: '2026-07-31T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-31T15:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/advancing-responsible-ai-across-europe'
+author: TanTech AI Desk
 categories:
   - AI
   - Cybersecurity
 tags:
-  - "OpenAI"
-  - "EU AI Act"
-  - "GPAI"
-  - "การกำกับดูแล AI"
-  - "AI อย่างรับผิดชอบ"
-  - "ความปลอดภัย"
-  - "ความมั่นคง"
-  - "ความโปร่งใส"
-  - "การพิสูจน์แหล่งที่มา"
+  - OpenAI
+  - EU AI Act
+  - GPAI
+  - การกำกับดูแล AI
+  - AI อย่างรับผิดชอบ
+  - ความปลอดภัย
+  - ความมั่นคง
+  - ความโปร่งใส
+  - การพิสูจน์แหล่งที่มา
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/3wXKvwzV9IlUVcm3H8tcPb/3a66b4f38baf6c6f2594eddc0a8d6561/Frame.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

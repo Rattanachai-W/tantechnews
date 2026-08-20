@@ -178,6 +178,7 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
               width="1200"
               height="675"
               itemprop="image"
+              onerror={article.data.imageUrl ? `this.onerror=null;this.src='${article.data.imageUrl}';` : "this.parentElement.parentElement.style.display='none';"}
             />
           </div>
         )

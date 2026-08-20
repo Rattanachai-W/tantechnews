@@ -1,31 +1,37 @@
 ---
-title: "Vercel เปิดตัว DeepsecBench วัดความสามารถโมเดล AI หาช่องโหว่ความปลอดภัย"
-slug: "vercel-deepsecbench-ai"
-excerpt: "Vercel เปิดตัว DeepsecBench วัดความสามารถโมเดล AI หาช่องโหว่ความปลอดภัยในโค้ดแอปพลิเคชัน พร้อมรายงาน recall, precision, ค่าใช้จ่าย และเวลา เพื่อช่วยเลือกโมเดลและรอบการสแกนให้เหมาะกับงบ"
-publishedAt: "2026-07-27T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-27T04:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities"
-author: "TanTech AI Desk"
+title: Vercel เปิดตัว DeepsecBench วัดความสามารถโมเดล AI หาช่องโหว่ความปลอดภัย
+slug: vercel-deepsecbench-ai
+excerpt: >-
+  Vercel เปิดตัว DeepsecBench วัดความสามารถโมเดล AI
+  หาช่องโหว่ความปลอดภัยในโค้ดแอปพลิเคชัน พร้อมรายงาน recall, precision,
+  ค่าใช้จ่าย และเวลา เพื่อช่วยเลือกโมเดลและรอบการสแกนให้เหมาะกับงบ
+publishedAt: '2026-07-27T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-27T04:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: >-
+  https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities
+author: TanTech AI Desk
 categories:
   - Cybersecurity
   - AI
 tags:
-  - "DeepsecBench"
-  - "Vercel"
-  - "OpenAI"
-  - "Anthropic"
-  - "Hugging Face"
-  - "Moonshot AI"
-  - "Kimi K3"
-  - "Grok 4.5"
-  - "GPT-5.6 Sol"
-  - "Fable 5"
+  - DeepsecBench
+  - Vercel
+  - OpenAI
+  - Anthropic
+  - Hugging Face
+  - Moonshot AI
+  - Kimi K3
+  - Grok 4.5
+  - GPT-5.6 Sol
+  - Fable 5
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/3CxUrn1mBhik2vi5Unbk9I/ebfd7cf34360360bf0ce29f9ee108274/deepsec_bench-3.png
 ---
 
 ## เกิดอะไรขึ้น

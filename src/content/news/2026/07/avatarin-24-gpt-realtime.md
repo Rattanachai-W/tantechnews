@@ -1,31 +1,37 @@
 ---
-title: "avatarin สร้างตัวแทนบริการลูกค้า 24 ชั่วโมงด้วย GPT-Realtime"
-slug: "avatarin-24-gpt-realtime"
-excerpt: "avatarin บริษัท AI บริการลูกค้าที่แยกจาก ANA Holdings ร่วมมือกับ Yamada Holdings สร้าง Kurashi-Marugoto AI Agent บน GPT-Realtime ให้คำปรึกษาซื้อเครื่องใช้ไฟฟ้าด้วยเสียงหลายภาษา 24 ชั่วโมง ในแคมเปญ 2 สัปดาห์ มีผู้ใช้ราว 30,000 คน และ 92% ตอบแบบสำรวจเชิงบวก"
-publishedAt: "2026-07-30T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-30T00:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/avatarin"
-author: "TanTech AI Desk"
+title: avatarin สร้างตัวแทนบริการลูกค้า 24 ชั่วโมงด้วย GPT-Realtime
+slug: avatarin-24-gpt-realtime
+excerpt: >-
+  avatarin บริษัท AI บริการลูกค้าที่แยกจาก ANA Holdings ร่วมมือกับ Yamada
+  Holdings สร้าง Kurashi-Marugoto AI Agent บน GPT-Realtime
+  ให้คำปรึกษาซื้อเครื่องใช้ไฟฟ้าด้วยเสียงหลายภาษา 24 ชั่วโมง ในแคมเปญ 2 สัปดาห์
+  มีผู้ใช้ราว 30,000 คน และ 92% ตอบแบบสำรวจเชิงบวก
+publishedAt: '2026-07-30T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-30T00:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/avatarin'
+author: TanTech AI Desk
 categories:
   - AI
   - Business
   - Startup
 tags:
-  - "avatarin"
-  - "GPT-Realtime"
-  - "OpenAI"
-  - "Yamada Holdings"
-  - "Yamada Denki"
-  - "ANA Holdings"
-  - "บริการลูกค้า AI"
-  - "ตัวแทนค้าปลีก"
-  - "RAG"
+  - avatarin
+  - GPT-Realtime
+  - OpenAI
+  - Yamada Holdings
+  - Yamada Denki
+  - ANA Holdings
+  - บริการลูกค้า AI
+  - ตัวแทนค้าปลีก
+  - RAG
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/3fyGPrm9EzNjtYNlcxQmCJ/4f05bda009dafc919f2e8dc1463c5c81/avatarin-seo-contentful.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

@@ -1,27 +1,31 @@
 ---
-title: "ยาน Curiosity ส่งบทกวีจากดาวอังคารถึงโลก"
-slug: "curiosity"
-excerpt: "IEEE Spectrum เผยบทกวีจากมุมมองยานสำรวจดาวอังคาร Curiosity ที่บรรยายพื้นผิวดาวอังคาร ฝุ่น อากาศเบาบาง และความรู้สึกคิดถึงโลก"
-publishedAt: "2026-07-25T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-25T13:00:01.000Z"
-sourceName: "IEEE Spectrum"
-sourceUrl: "https://spectrum.ieee.org/poem-martian-rover"
-author: "TanTech AI Desk"
+title: ยาน Curiosity ส่งบทกวีจากดาวอังคารถึงโลก
+slug: curiosity
+excerpt: >-
+  IEEE Spectrum เผยบทกวีจากมุมมองยานสำรวจดาวอังคาร Curiosity
+  ที่บรรยายพื้นผิวดาวอังคาร ฝุ่น อากาศเบาบาง และความรู้สึกคิดถึงโลก
+publishedAt: '2026-07-25T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-25T13:00:01.000Z'
+sourceName: IEEE Spectrum
+sourceUrl: 'https://spectrum.ieee.org/poem-martian-rover'
+author: TanTech AI Desk
 categories:
   - Science
   - Hardware
 tags:
-  - "ยานสำรวจดาวอังคาร"
-  - "Curiosity"
-  - "IEEE Spectrum"
-  - "วิศวกรรมอวกาศ"
-  - "บทกวี"
-  - "ภารกิจดาวอังคาร"
+  - ยานสำรวจดาวอังคาร
+  - Curiosity
+  - IEEE Spectrum
+  - วิศวกรรมอวกาศ
+  - บทกวี
+  - ภารกิจดาวอังคาร
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://spectrum.ieee.org/media-library/image.jpg?id=67527268&width=1200&height=600&coordinates=0%2C250%2C0%2C250
 ---
 
 ## เกิดอะไรขึ้น

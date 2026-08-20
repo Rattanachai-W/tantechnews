@@ -1,30 +1,36 @@
 ---
-title: "OpenAI เปิดตัว Health in ChatGPT สำหรับผู้ใช้ในสหรัฐฯ"
-slug: "openai-health-in-chatgpt"
-excerpt: "OpenAI เปิดตัว Health in ChatGPT สำหรับผู้ใช้ในสหรัฐฯ อายุ 18 ปีขึ้นไป บนเว็บและ iOS ให้เชื่อมต่อ Apple Health และเวชระเบียนทางการแพทย์ที่รองรับอย่างปลอดภัย เพื่อช่วยสรุปข้อมูลสุขภาพ ติดตามการเปลี่ยนแปลง และสนทนาแบบเฉพาะบุคคล โดยไม่ใช้ข้อมูลฝึกโมเดลหรือโฆษณา"
-publishedAt: "2026-07-23T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-23T00:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/health-in-chatgpt"
-author: "TanTech AI Desk"
+title: OpenAI เปิดตัว Health in ChatGPT สำหรับผู้ใช้ในสหรัฐฯ
+slug: openai-health-in-chatgpt
+excerpt: >-
+  OpenAI เปิดตัว Health in ChatGPT สำหรับผู้ใช้ในสหรัฐฯ อายุ 18 ปีขึ้นไป
+  บนเว็บและ iOS ให้เชื่อมต่อ Apple Health
+  และเวชระเบียนทางการแพทย์ที่รองรับอย่างปลอดภัย เพื่อช่วยสรุปข้อมูลสุขภาพ
+  ติดตามการเปลี่ยนแปลง และสนทนาแบบเฉพาะบุคคล โดยไม่ใช้ข้อมูลฝึกโมเดลหรือโฆษณา
+publishedAt: '2026-07-23T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-23T00:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/health-in-chatgpt'
+author: TanTech AI Desk
 categories:
   - AI
   - Business
   - Data
 tags:
-  - "ChatGPT"
-  - "OpenAI"
-  - "Apple Health"
-  - "GPT-5.5 Instant"
-  - "GPT-5.6 Sol"
-  - "สุขภาพ"
-  - "ข้อมูลสุขภาพ"
-  - "ความเป็นส่วนตัว"
+  - ChatGPT
+  - OpenAI
+  - Apple Health
+  - GPT-5.5 Instant
+  - GPT-5.6 Sol
+  - สุขภาพ
+  - ข้อมูลสุขภาพ
+  - ความเป็นส่วนตัว
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/4MfwY6ER1qh4OTf0QkI0p8/31fc4cfae157e5c755368e9dd3440b11/16_9_SEO_Blog.jpg?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

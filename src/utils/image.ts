@@ -11,6 +11,13 @@ export function getOptimizedImageUrl(rawUrl?: string, width = 800): string | nul
   // Keep data URLs or SVG icons as-is
   if (trimmed.startsWith("data:") || trimmed.endsWith(".svg")) return trimmed;
 
+  // Domains known to block image proxy CDNs (e.g. CNBC's CDN image.cnbcfm.com)
+  const proxyBlockedDomains = ["cnbcfm.com", "cnbc.com"];
+  const isBlockedDomain = proxyBlockedDomains.some((domain) => trimmed.toLowerCase().includes(domain));
+  if (isBlockedDomain) {
+    return trimmed;
+  }
+
   // Use wsrv.nl Image CDN Proxy
   return `https://wsrv.nl/?url=${encodeURIComponent(trimmed)}&w=${width}&output=webp&q=80`;
 }

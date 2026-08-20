@@ -1,29 +1,36 @@
 ---
-title: "OpenAI แต่งตั้ง David Vélez และ Robin Vince เข้าบอร์ด OpenAI Foundation และ OpenAI Group PBC"
-slug: "openai-david-velez-robin-vince-openai-foundation-openai-grou"
-excerpt: "OpenAI ประกาศแต่งตั้ง David Vélez ผู้ก่อตั้ง Nubank และ Robin Vince ประธานและ CEO ของ BNY เข้าเป็นกรรมการบอร์ด OpenAI Foundation และ OpenAI Group PBC เพื่อเสริมมุมมองด้านเทคโนโลยี การกำกับดูแล และการขยายโอกาสทางเศรษฐกิจ"
-publishedAt: "2026-07-21T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-21T00:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/david-velez-robin-vince-join-openai-boards"
-author: "TanTech AI Desk"
+title: >-
+  OpenAI แต่งตั้ง David Vélez และ Robin Vince เข้าบอร์ด OpenAI Foundation และ
+  OpenAI Group PBC
+slug: openai-david-velez-robin-vince-openai-foundation-openai-grou
+excerpt: >-
+  OpenAI ประกาศแต่งตั้ง David Vélez ผู้ก่อตั้ง Nubank และ Robin Vince ประธานและ
+  CEO ของ BNY เข้าเป็นกรรมการบอร์ด OpenAI Foundation และ OpenAI Group PBC
+  เพื่อเสริมมุมมองด้านเทคโนโลยี การกำกับดูแล และการขยายโอกาสทางเศรษฐกิจ
+publishedAt: '2026-07-21T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-21T00:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/david-velez-robin-vince-join-openai-boards'
+author: TanTech AI Desk
 categories:
   - AI
   - Business
 tags:
-  - "OpenAI"
-  - "Nubank"
-  - "BNY"
-  - "David Vélez"
-  - "Robin Vince"
-  - "บอร์ด"
-  - "AI"
-  - "บริการทางการเงิน"
+  - OpenAI
+  - Nubank
+  - BNY
+  - David Vélez
+  - Robin Vince
+  - บอร์ด
+  - AI
+  - บริการทางการเงิน
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/5NxZZoFGJGiDDmv6CKppSI/afcfce20fc288b1213a41cf9bc31819c/6979426f-a80a-46f4-9a04-7aa8e4ef9087.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น
