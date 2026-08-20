@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/news/introducing-chatgpt-for-teens-built-for-learning-backed-by-p/:path*",
+      "destination": "/news/openai-chatgpt-for-teens/",
+      "permanent": true
+    },
+    {
+      "source": "/news/partnering-with-codeai-to-prepare-the-first-ai-generation/:path*",
+      "destination": "/news/openai-codeai-ai/",
+      "permanent": true
+    },
+    {
+      "source": "/news/responding-to-the-next-frontier-of-critical-cyber-capabiliti/:path*",
+      "destination": "/news/openai-dup/",
+      "permanent": true
+    }
+  ]
+}

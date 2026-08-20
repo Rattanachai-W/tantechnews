@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="กำลังนำคุณไปยังหน้าแรก - TanTech News" description="หน้านี้ไม่มีอยู่ในระบบ กำลังนำคุณกลับสู่หน้าแรก">
+  <Fragment slot="head">
+    <meta http-equiv="refresh" content="0;url=/" />
+    <meta name="robots" content="noindex, follow" />
+  </Fragment>
+
+  <div class="mx-auto flex min-h-[60vh] max-w-xl flex-col items-center justify-center px-4 text-center">
+    <span class="rounded-full bg-brand-light px-3 py-1 text-xs font-semibold text-brand-dark">301 Redirect</span>
+    <h1 class="mt-4 text-2xl font-bold text-ink sm:text-3xl">กำลังพาคุณไปยังหน้าแรก...</h1>
+    <p class="mt-2 text-sm text-muted">ไม่พบหน้าเว็บที่คุณต้องการ ระบบกำลังนำคุณกลับสู่หน้าหลักของทันเทค</p>
+    <a href="/" class="mt-6 inline-flex items-center gap-2 rounded-lg bg-brand px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-dark">
+      ไปยังหน้าแรกทันที
+    </a>
+  </div>
+
+  <script is:inline>
+    window.location.replace("/");
+  </script>
+</BaseLayout>
