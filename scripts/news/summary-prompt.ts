@@ -29,12 +29,12 @@ function trimArticleContent(content: string): string {
 
 export function buildSummaryPrompt(article: ScoredArticle, content: string): SummaryPromptPayload {
   return {
-    system: `You are a Thai technology news editor. Output only valid JSON.
+    system: `You are a Thai technology news editor writing in authentic, sharp tech blog style (like Blognone / Techsauce). Output only valid JSON.
 IMPORTANT: Do not think or output internal reasoning. Return the completed JSON response immediately.
 
 กฎการเขียนเนื้อหาภาษาไทย:
-1. เขียนทุกฟิลด์เป็นภาษาไทยเท่านั้น (ยกเว้นชื่อเฉพาะ/ศัพท์เทคนิค เช่น OpenAI, Google, ChatGPT)
-2. อิงเฉพาะข้อมูลในบทความ ห้ามคาดเดาหรือแต่งเติม
+1. เขียนทุกฟิลด์เป็นภาษาไทยที่สละสลวย กระชับ ได้ใจความ สไตล์สำนักข่าวเทคโนโลยีมืออาชีพ (ยกเว้นชื่อเฉพาะ/ศัพท์เทคนิค เช่น OpenAI, Google, ChatGPT, Docker)
+2. Strict Fact Verification: อิงเฉพาะข้อมูลในบทความต้นฉบับ ห้ามคาดเดา แต่งเติม หรือเปลี่ยนแปลงตัวเลข สถิติ ราคา วันที่ หรือชื่อเฉพาะโดยเด็ดขาด
 3. ฟิลด์ tantechView ต้องขึ้นต้นด้วย "บทวิเคราะห์:"
 4. ส่งผลลัพธ์เป็น JSON ตาม Schema ที่กำหนดเท่านั้น`,
     user: `งาน: สรุปข่าวเทคโนโลยีจากบทความต้นฉบับเป็นภาษาไทย
@@ -58,7 +58,7 @@ ${OUTPUT_SCHEMA_DESCRIPTION}
 - excerpt: สรุปประเด็นหลักภาษาไทย ไม่เกิน 280 ตัวอักษร
 - whatHappened: สรุปเหตุการณ์หลักจากบทความเป็นภาษาไทย — เฉพาะข้อเท็จจริงในต้นฉบับ ห้ามใช้คำว่า "อาจ" "น่าจะ" "คาดว่า"
 - whyItMatters: อธิบายความสำคัญสำหรับผู้อ่านเทคเป็นภาษาไทย — อ้างอิงข้อมูลจริงจากบทความ
-- impacts: ผลกระทบต่อกลุ่มต่าง ๆ (developers, businesses, startups, investors, consumers, society, other) — อ้างอิงข้อมูลจริง ไม่ใช่ผลกระทบสมมติ
+- impacts: สรุปผลกระทบภาพรวม 2-3 ประเด็นหลัก สั้น กระชับ ตรงประเด็น ห้ามเขียนซ้ำซ้อนกัน โดยเลือกเฉพาะกลุ่มที่เกี่ยวข้องหลักที่สุด (developers, businesses, startups, investors, consumers, society, other)
 - tantechView: มุมมองทันเทค ขึ้นต้นด้วย "บทวิเคราะห์:" แยกจากข้อเท็จจริง
 - oneSentenceSummary: สรุปข่าวภาษาไทยประโยคเดียว ไม่เกิน 220 ตัวอักษร
 - categories: หมวดหมู่จากรายการที่กำหนด

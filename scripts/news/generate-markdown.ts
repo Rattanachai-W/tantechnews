@@ -71,11 +71,14 @@ async function createUniqueSlug(baseSlug: string): Promise<string> {
 export async function generateMarkdown(
   article: ScoredArticle,
   summary: ArticleSummary,
-  targetDate?: Date
+  targetDate?: Date,
+  options?: { isDraft?: boolean }
 ): Promise<{
   filePath: string;
   slug: string;
 }> {
+  const isThaiTitle = /[\u0E00-\u0E7F]/.test(summary.titleTh);
+  const isDraft = options?.isDraft ?? !isThaiTitle;
   const baseSlug = (slugify(summary.titleTh || article.title).slice(0, 60).replace(/-+$/, "")) || article.id.slice(0, 12);
   const articleDate = targetDate ?? new Date(article.publishedAt);
   const { year, month } = getBangkokDateParts(isNaN(articleDate.getTime()) ? new Date() : articleDate);
@@ -94,9 +97,7 @@ ${summary.whyItMatters}
 
 ${summary.impacts
   .map(
-    (impact) => `### ${renderImpactHeading(impact.group)}
-
-${impact.title}: ${impact.description}`
+    (impact) => `- **${renderImpactHeading(impact.group)}:** ${impact.description.startsWith(impact.title) ? impact.description : `${impact.title}: ${impact.description}`}`
   )
   .join("\n\n")}
 
@@ -128,7 +129,7 @@ ${summary.categories.map((category) => `  - ${category}`).join("\n")}
 ${summary.tags.length > 0 ? `tags:\n${summary.tags.map((tag) => `  - "${escapeYaml(tag)}"`).join("\n")}` : "tags: []"}
 readingTimeMinutes: ${calculateReadingTime(articleBody)}
 featured: false
-draft: false
+draft: ${isDraft}
 aiGenerated: true
 reviewedBy: "TanTech Editorial Desk"
 ---

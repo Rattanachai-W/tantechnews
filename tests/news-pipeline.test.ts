@@ -545,4 +545,40 @@ describe("news pipeline helpers", () => {
       await rm(dir, { recursive: true, force: true });
     }
   });
+
+  it("rejects non-Thai titleTh in Quality Gate verification", async () => {
+    const { verifySummary } = await import("../scripts/news/verify-summary");
+    const EnglishOnlySummary: ArticleSummary = {
+      ...summary,
+      titleTh: "English Only Title",
+      excerpt: "English excerpt"
+    };
+
+    const result = verifySummary(EnglishOnlySummary, "English content about OpenAI");
+    assert.equal(result.valid, false);
+    assert.equal(result.qualityGateFailed, true);
+  });
+
+  it("detects fuzzy duplicates by title token similarity", async () => {
+    const { isFuzzyDuplicateTitle } = await import("../scripts/news/deduplicate-articles");
+    const titleA = "Peacock raises prices by 18 percent after becoming profitable";
+    const titleB = "Peacock is raising prices across all of its streaming plans";
+
+    assert.equal(isFuzzyDuplicateTitle(titleA, titleB), true);
+  });
+
+  it("detects hallucinated numbers in Fact Verification", async () => {
+    const { verifySummary } = await import("../scripts/news/verify-summary");
+    const summaryWithFakeStats: ArticleSummary = {
+      ...summary,
+      titleTh: "ข่าวระบบความปลอดภัย AI",
+      excerpt: "สรุปข่าวความปลอดภัย AI ประจำวัน",
+      whatHappened: "ระบบตรวจพบการโจมตี 99,999 ครั้งและลบข้อมูลไป 88,888 รายการ"
+    };
+
+    const result = verifySummary(summaryWithFakeStats, "ระบบตรวจพบการโจมตี 100 ครั้งในเซิร์ฟเวอร์");
+    assert.equal(result.valid, false);
+    assert.equal(result.factVerificationFailed, true);
+  });
 });
+

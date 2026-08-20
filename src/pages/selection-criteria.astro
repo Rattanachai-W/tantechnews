@@ -1,0 +1,127 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "วิธีการคัดเลือกข่าว";
+const description =
+  "ทันเทคคัดเลือกข่าวเทคโนโลยีอย่างไร? อ่านเกณฑ์การคัดกรอง แหล่งข่าวที่ใช้ และกระบวนการตรวจสอบคุณภาพก่อนเผยแพร่";
+
+const sources = [
+  "Hacker News (hn.algolia.com)",
+  "TechCrunch",
+  "The Verge",
+  "Ars Technica",
+  "GitHub Blog",
+  "Google Blog & Google Research",
+  "OpenAI Blog",
+  "Anthropic Blog",
+  "AWS / Azure / GCP News",
+  "DEV.to",
+  "InfoQ",
+  "Reuters Technology",
+  "Bloomberg Technology"
+];
+
+const criteria = [
+  {
+    icon: "💥",
+    title: "ผลกระทบจริง",
+    desc: "ข่าวต้องส่งผลกระทบต่อนักพัฒนา ธุรกิจ หรือผู้ใช้เทคโนโลยีอย่างเป็นรูปธรรม ไม่ใช่เพียงแค่ความน่าสนใจ"
+  },
+  {
+    icon: "🔗",
+    title: "ตรวจสอบได้",
+    desc: "ข่าวทุกชิ้นต้องมีแหล่งอ้างอิงต้นฉบับที่น่าเชื่อถือ ไม่รับข่าวที่มาจากแหล่งที่ไม่สามารถตรวจสอบได้"
+  },
+  {
+    icon: "🕐",
+    title: "ความทันสมัย",
+    desc: "คัดเฉพาะข่าวที่เกิดขึ้นภายใน 24–48 ชั่วโมง ข่าวเก่าจะไม่ถูกนำมาสรุปซ้ำ ยกเว้นมีการพัฒนาสำคัญใหม่"
+  },
+  {
+    icon: "🚫",
+    title: "ข่าวที่ไม่รายงาน",
+    desc: "ทันเทคไม่รายงานข่าวลือ ข่าวที่ไม่มีแหล่งอ้างอิง ข่าวที่ซ้ำซ้อนกับที่รายงานไปแล้ว หรือเนื้อหาโฆษณา"
+  }
+];
+
+const steps = [
+  { step: "1", label: "รวบรวม", desc: "ระบบ AI สแกนแหล่งข่าวหลักทุก 2–4 ชั่วโมง" },
+  { step: "2", label: "คัดกรอง", desc: "ประเมินความสำคัญและผลกระทบของแต่ละข่าว" },
+  { step: "3", label: "วิเคราะห์", desc: "สรุปเนื้อหา เพิ่มบทวิเคราะห์ผลกระทบ และแนบลิงก์ต้นฉบับ" },
+  { step: "4", label: "ตรวจสอบ", desc: "ผ่านระบบ QA ก่อนเผยแพร่บนเว็บไซต์" }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="border-b border-line bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:py-20">
+      <p class="text-sm font-bold uppercase tracking-wide text-brand">ความโปร่งใส</p>
+      <h1 class="mt-3 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">
+        วิธีการคัดเลือกข่าว
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-muted">
+        ทันเทคใช้ระบบ AI ในการคัดกรองและสรุปข่าว โดยมีเกณฑ์ที่ชัดเจนเพื่อให้มั่นใจว่าผู้อ่านได้รับเฉพาะข่าวที่สำคัญ
+        มีแหล่งอ้างอิง และตรวจสอบได้
+      </p>
+    </div>
+  </section>
+
+  <!-- เกณฑ์การคัดเลือก -->
+  <section class="border-b border-line bg-paper" aria-labelledby="criteria-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="criteria-heading" class="text-2xl font-bold text-ink">เกณฑ์การคัดเลือก</h2>
+      <p class="mt-2 text-muted">ข่าวทุกชิ้นต้องผ่านเกณฑ์เหล่านี้</p>
+      <div class="mt-8 grid gap-5 sm:grid-cols-2">
+        {criteria.map((item) => (
+          <div class="rounded-xl border border-line bg-white p-6 shadow-sm">
+            <span class="text-3xl" aria-hidden="true">{item.icon}</span>
+            <h3 class="mt-4 text-base font-bold text-ink">{item.title}</h3>
+            <p class="mt-2 text-sm leading-7 text-muted">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- กระบวนการ -->
+  <section class="border-b border-line bg-white" aria-labelledby="process-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="process-heading" class="text-2xl font-bold text-ink">กระบวนการทำงาน</h2>
+      <p class="mt-2 text-muted">จากแหล่งข่าวสู่บทความบนทันเทค</p>
+      <ol class="mt-8 space-y-5" aria-label="ขั้นตอนการทำงาน">
+        {steps.map((s) => (
+          <li class="flex items-start gap-5">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand text-sm font-bold text-white">
+              {s.step}
+            </span>
+            <div>
+              <p class="font-bold text-ink">{s.label}</p>
+              <p class="mt-1 text-sm text-muted">{s.desc}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- แหล่งข่าว -->
+  <section class="bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 class="text-2xl font-bold text-ink">แหล่งข่าวหลักที่ใช้</h2>
+      <p class="mt-2 text-muted">ทันเทครวบรวมข่าวจากแหล่งที่น่าเชื่อถือระดับสากล</p>
+      <ul class="mt-8 grid gap-2 sm:grid-cols-2 text-sm" role="list">
+        {sources.map((src) => (
+          <li class="flex items-center gap-3 rounded-lg border border-line bg-paper px-4 py-3 text-muted">
+            <span class="text-brand" aria-hidden="true">→</span>
+            {src}
+          </li>
+        ))}
+      </ul>
+      <p class="mt-6 text-sm text-muted">
+        หากมีแหล่งข่าวสำคัญที่เราควรติดตามเพิ่มเติม
+        <a href="/contact/" class="font-semibold text-brand hover:underline">แจ้งให้เราทราบ</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>

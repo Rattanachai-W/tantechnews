@@ -4,7 +4,21 @@ import { logger } from "../shared/logger";
 interface VerificationResult {
   valid: boolean;
   warnings: string[];
+  qualityGateFailed?: boolean;
+  factVerificationFailed?: boolean;
 }
+
+const THAI_CHAR_REGEX = /[\u0E00-\u0E7F]/;
+
+const FORBIDDEN_PROMPT_ARTIFACTS = [
+  /utm_source=chatgpt\.com/i,
+  /```(?:json)?/i,
+  /system prompt/i,
+  /structured output/i,
+  /รอการสรุป/i,
+  /รอการตรวจทาน/i,
+  /placeholder/i
+];
 
 /**
  * Hallucination indicators: phrases that suggest the AI invented context
@@ -27,7 +41,7 @@ const MARKETING_PATTERNS = [
   /unprecedented|massive|huge|incredible/i,
   /must[- ]?have|can't miss/i,
   /exciting (?:new|news|announcement)/i,
-  /เปลี่ยนโลก|ปฏิวัติ|สุดยอด|น่าทึ่ง/,
+  /เปลี่ยนโลก|ปัดฝุ่นสิ่งใหม่|สุดยอด|น่าทึ่ง/,
 ];
 
 const UNCERTAINTY_IN_FACTS = /(?:อาจ|น่าจะ|คาดว่า|เป็นไปได้ว่า|probably|likely|might)/i;
@@ -36,12 +50,75 @@ function hasExcessiveLength(text: string, maxWords: number): boolean {
   return text.split(/\s+/).length > maxWords;
 }
 
+export function containsThaiText(text: string): boolean {
+  return THAI_CHAR_REGEX.test(text);
+}
+
+/**
+ * Extract numbers/figures from summary text for fact checking against source content
+ */
+function extractSummaryNumbers(text: string): string[] {
+  const matches = text.match(/\b\d+(?:[.,]\d+)?\b/g) ?? [];
+  return [...new Set(matches)];
+}
+
 export function verifySummary(
   summary: ArticleSummary,
   sourceContent: string
 ): VerificationResult {
   const warnings: string[] = [];
+  let qualityGateFailed = false;
+  let factVerificationFailed = false;
   const sourceLower = sourceContent.toLowerCase();
+
+  // --- Quality Gate Checks ---
+  // Q1: Title and Excerpt MUST contain Thai characters
+  if (!containsThaiText(summary.titleTh)) {
+    warnings.push("Quality Gate Failed: titleTh does not contain Thai text");
+    qualityGateFailed = true;
+  }
+  if (!containsThaiText(summary.excerpt)) {
+    warnings.push("Quality Gate Failed: excerpt does not contain Thai text");
+    qualityGateFailed = true;
+  }
+
+  // Q2: Check for forbidden prompt artifacts or leaked markup
+  const fullRawText = [
+    summary.titleTh,
+    summary.excerpt,
+    summary.whatHappened,
+    summary.whyItMatters,
+    summary.tantechView,
+    summary.oneSentenceSummary,
+    ...summary.tags
+  ].join(" ");
+
+  for (const artifact of FORBIDDEN_PROMPT_ARTIFACTS) {
+    if (artifact.test(fullRawText)) {
+      warnings.push(`Quality Gate Failed: forbidden artifact detected: ${artifact.source}`);
+      qualityGateFailed = true;
+    }
+  }
+
+  // --- Fact Verification Checks ---
+  // F1: Verify numbers in whatHappened exist in source text
+  const numbersInWhatHappened = extractSummaryNumbers(summary.whatHappened);
+  let missingNumbersCount = 0;
+
+  for (const numStr of numbersInWhatHappened) {
+    // Ignore single digit numbers (like 1, 2, 3) as they can be common prose
+    if (numStr.length < 2 && Number.parseInt(numStr, 10) < 5) continue;
+    const cleanNum = numStr.replace(/,/g, "");
+    if (!sourceContent.includes(numStr) && !sourceContent.includes(cleanNum)) {
+      missingNumbersCount += 1;
+      warnings.push(`Fact Verification Warning: Number "${numStr}" in whatHappened not found in source text`);
+    }
+  }
+
+  if (missingNumbersCount >= 2) {
+    factVerificationFailed = true;
+    warnings.push(`Fact Verification Failed: Multiple numbers (${missingNumbersCount}) hallucinated in whatHappened`);
+  }
 
   // 1. Check whatHappened for speculative language (should be facts only)
   if (UNCERTAINTY_IN_FACTS.test(summary.whatHappened)) {
@@ -51,23 +128,15 @@ export function verifySummary(
   }
 
   // 2. Check for hallucination indicators in any field
-  const allText = [
-    summary.whatHappened,
-    summary.whyItMatters,
-    summary.tantechView,
-    summary.excerpt,
-    ...summary.impacts.map((i) => i.description),
-  ].join(" ");
-
   for (const pattern of HALLUCINATION_PATTERNS) {
-    if (pattern.test(allText)) {
+    if (pattern.test(fullRawText)) {
       warnings.push(`Possible hallucination pattern detected: ${pattern.source}`);
     }
   }
 
   // 3. Check for marketing language
   for (const pattern of MARKETING_PATTERNS) {
-    if (pattern.test(allText)) {
+    if (pattern.test(fullRawText)) {
       warnings.push(`Marketing/promotional language detected: ${pattern.source}`);
     }
   }
@@ -133,12 +202,19 @@ export function verifySummary(
     logger.warn("Summary verification warnings", {
       warnings,
       titleTh: summary.titleTh,
+      qualityGateFailed,
+      factVerificationFailed
     });
   }
 
-  // Allow up to 3 minor warnings; more than that suggests quality issues
+  // Strict Quality Gate or Fact Verification failure makes summary invalid
+  const isValid = !qualityGateFailed && !factVerificationFailed && warnings.length <= 3;
+
   return {
-    valid: warnings.length <= 3,
+    valid: isValid,
     warnings,
+    qualityGateFailed,
+    factVerificationFailed
   };
 }
+

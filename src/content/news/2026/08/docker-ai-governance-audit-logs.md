@@ -37,17 +37,11 @@ Docker ประกาศเปิดตัวฟีเจอร์ Docker AI Go
 
 ## ผลกระทบที่น่าจับตา
 
-### สำหรับนักพัฒนา
+- **สำหรับนักพัฒนา:** ทดลองใช้ Docker VMM Public Beta บน Mac และ Windows รวมถึงใช้ Docker Sandboxes พัฒนาและทดสอบฮาร์ดแวร์ Firmware ESP32 ร่วมกับ AI ได้สะดวกขึ้น
 
-ทดสอบและพัฒนาง่ายขึ้นด้วย VMM: นักพัฒนาสามารถทดลองใช้ Docker VMM Public Beta บน Mac และ Windows รวมถึงสภาพแวดล้อม Docker Sandboxes สำหรับพัฒนา Firmware ESP32 และงานพัฒนาซอฟต์แวร์ด้วย AI
+- **สำหรับองค์กรและทีม Security:** ติดตาม Audit Logs ของ Agentic AI ได้จาก Dashboard ความปลอดภัยเดิมขององค์กรโดยไม่ต้องสลับหน้าจอ ช่วยลดช่องโหว่ซัพพลายเชน
 
-### สำหรับองค์กรและทีม Security
-
-กำกับดูแล AI จาก Dashboard เดิม: ทีมความปลอดภัยสามารถติดตาม Audit Logs ของ Agentic AI ได้จากเครื่องมือเดิม ไม่ต้องเปิดหน้าจอใหม่ ลดช่องโหว่การโจมตีซัพพลายเชนในขั้นตอนการพัฒนา
-
-### สำหรับภาคธุรกิจ
-
-มาตรฐานความมั่นใจใน Agentic AI: การผนึกกำลังระหว่าง Docker และ NVIDIA ใน Open Secure AI Alliance ช่วยเพิ่มกรอบความน่าเชื่อถือ ให้องค์กรสามารถนำเอเจนต์ AI ไปใช้งานในระดับ Production ได้อย่างมั่นใจ
+- **สำหรับภาคธุรกิจ:** การผนึกกำลังใน Open Secure AI Alliance ร่วมกับ NVIDIA ช่วยสร้างมาตรฐานความปลอดภัย เพิ่มความมั่นใจในการนำเอเจนต์ AI ไปใช้งานในระดับ Production
 
 ## มุมมองของทันเทค
 
@@ -60,5 +54,3 @@ Docker ประกาศเปิดตัวฟีเจอร์ Docker AI Go
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://www.docker.com/blog/docker-ai-governance-audit-logs-now-where-your-security-team-already-works/)
-
-

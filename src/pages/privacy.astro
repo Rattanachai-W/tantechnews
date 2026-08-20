@@ -1,0 +1,153 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Privacy Policy";
+const description =
+  "นโยบายความเป็นส่วนตัวของทันเทค — ข้อมูลที่เก็บ วิธีการใช้ และสิทธิ์ของผู้ใช้";
+
+const lastUpdated = "20 สิงหาคม 2026";
+
+const dataCollected = [
+  {
+    icon: "📊",
+    title: "ข้อมูลการใช้งาน (Analytics)",
+    desc: "เราใช้ Vercel Analytics ในการเก็บสถิติการเข้าชมแบบ anonymized เช่น จำนวนผู้เข้าชม หน้าที่เปิด และประเทศ ข้อมูลนี้ไม่สามารถระบุตัวตนผู้ใช้ได้"
+  },
+  {
+    icon: "⚡",
+    title: "Performance Metrics",
+    desc: "Vercel Speed Insights เก็บข้อมูล Core Web Vitals เพื่อปรับปรุงประสิทธิภาพของเว็บไซต์ ข้อมูลนี้เป็น aggregated และไม่เชื่อมกับตัวตนผู้ใช้"
+  }
+];
+
+const notCollected = [
+  "ชื่อ อีเมล หรือข้อมูลส่วนบุคคล",
+  "Account หรือการ Login",
+  "ข้อมูลบัตรเครดิตหรือการชำระเงิน",
+  "ตำแหน่งที่ตั้งที่ละเอียด (precise location)",
+  "Cookies สำหรับ Tracking หรือ Advertising",
+  "ข้อมูลจาก Third-party trackers"
+];
+
+const thirdParties = [
+  {
+    name: "Vercel",
+    purpose: "Hosting, Analytics, Speed Insights",
+    privacy: "https://vercel.com/legal/privacy-policy"
+  },
+  {
+    name: "Cloudflare",
+    purpose: "CDN และ DDoS Protection",
+    privacy: "https://www.cloudflare.com/privacypolicy/"
+  }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="border-b border-line bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:py-20">
+      <p class="text-sm font-bold uppercase tracking-wide text-brand">ความเป็นส่วนตัว</p>
+      <h1 class="mt-3 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">
+        Privacy Policy
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-muted">
+        ทันเทคให้ความสำคัญกับความเป็นส่วนตัวของผู้อ่าน นโยบายนี้อธิบายข้อมูลที่เราเก็บ วิธีการใช้
+        และสิทธิ์ของผู้ใช้
+      </p>
+      <p class="mt-3 text-sm text-muted">อัปเดตล่าสุด: <time datetime="2026-08-20">{lastUpdated}</time></p>
+    </div>
+  </section>
+
+  <!-- ข้อมูลที่เก็บ -->
+  <section class="border-b border-line bg-paper" aria-labelledby="collected-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="collected-heading" class="text-2xl font-bold text-ink">ข้อมูลที่เราเก็บ</h2>
+      <p class="mt-2 text-muted">เฉพาะข้อมูลที่จำเป็นสำหรับการปรับปรุงเว็บไซต์</p>
+      <div class="mt-8 grid gap-5 sm:grid-cols-2">
+        {dataCollected.map((item) => (
+          <div class="rounded-xl border border-line bg-white p-6 shadow-sm">
+            <span class="text-3xl" aria-hidden="true">{item.icon}</span>
+            <h3 class="mt-4 text-base font-bold text-ink">{item.title}</h3>
+            <p class="mt-2 text-sm leading-7 text-muted">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ข้อมูลที่ไม่เก็บ -->
+  <section class="border-b border-line bg-white" aria-labelledby="not-collected-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="not-collected-heading" class="text-2xl font-bold text-ink">ข้อมูลที่เราไม่เก็บ</h2>
+      <p class="mt-2 text-muted">ทันเทคไม่เก็บข้อมูลส่วนบุคคลหรือ tracking ที่ไม่จำเป็น</p>
+      <ul class="mt-8 grid gap-2 sm:grid-cols-2 text-sm" role="list">
+        {notCollected.map((item) => (
+          <li class="flex items-center gap-3 rounded-lg border border-line bg-paper px-4 py-3 text-muted">
+            <span class="text-green-500 font-bold" aria-hidden="true">✓</span>
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Third-party services -->
+  <section class="border-b border-line bg-paper" aria-labelledby="third-party-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="third-party-heading" class="text-2xl font-bold text-ink">บริการ Third-party ที่ใช้</h2>
+      <p class="mt-2 text-muted">บริการภายนอกที่อาจมีการเก็บข้อมูลในส่วนของตนเอง</p>
+      <div class="mt-8 space-y-4">
+        {thirdParties.map((tp) => (
+          <div class="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-line bg-white p-5">
+            <div>
+              <p class="font-bold text-ink">{tp.name}</p>
+              <p class="mt-1 text-sm text-muted">{tp.purpose}</p>
+            </div>
+            <a
+              href={tp.privacy}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1.5 rounded-lg border border-line bg-paper px-4 py-2 text-sm font-semibold text-muted transition hover:border-brand hover:text-brand"
+            >
+              Privacy Policy ↗
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- สิทธิ์ของผู้ใช้ -->
+  <section class="border-b border-line bg-white" aria-labelledby="rights-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="rights-heading" class="text-2xl font-bold text-ink">สิทธิ์ของผู้ใช้</h2>
+      <div class="mt-6 space-y-4 text-sm leading-7 text-muted">
+        <div class="flex gap-3">
+          <span class="shrink-0 text-brand font-bold">→</span>
+          <p><strong class="text-ink">ไม่ต้อง Opt-out:</strong> เราไม่ใช้ cookies สำหรับ tracking หรือ advertising ดังนั้นไม่มีข้อมูลที่ต้องขอให้ลบ</p>
+        </div>
+        <div class="flex gap-3">
+          <span class="shrink-0 text-brand font-bold">→</span>
+          <p><strong class="text-ink">Block Analytics:</strong> คุณสามารถใช้ browser extensions เช่น uBlock Origin เพื่อ block analytics scripts ได้โดยไม่กระทบการใช้งานเว็บไซต์</p>
+        </div>
+        <div class="flex gap-3">
+          <span class="shrink-0 text-brand font-bold">→</span>
+          <p><strong class="text-ink">คำถามเพิ่มเติม:</strong> หากมีคำถามเกี่ยวกับความเป็นส่วนตัว <a href="/contact/" class="font-semibold text-brand hover:underline">ติดต่อเรา</a> ได้เลย</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- การเปลี่ยนแปลงนโยบาย -->
+  <section class="bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 class="text-2xl font-bold text-ink">การเปลี่ยนแปลงนโยบาย</h2>
+      <p class="mt-4 text-sm leading-7 text-muted">
+        หากมีการเปลี่ยนแปลงนโยบายความเป็นส่วนตัวที่สำคัญ เราจะแจ้งให้ทราบผ่านหน้าเว็บไซต์
+        และอัปเดตวันที่ "อัปเดตล่าสุด" ด้านบน
+        การใช้งานเว็บไซต์ต่อเนื่องหลังจากการเปลี่ยนแปลงถือว่าผู้ใช้ยอมรับนโยบายที่อัปเดตแล้ว
+      </p>
+    </div>
+  </section>
+</BaseLayout>
