@@ -398,6 +398,69 @@
       "slug": "grab-an-ipad-air-m4-for-its-lowest-price-since-the-june-incr",
       "sourceName": "The Verge",
       "processedAt": "2026-08-20T02:36:49.899Z"
+    },
+    {
+      "id": "556c2d244b08bfd975f668d285f4dd678a1e5e6627b34d937eee28280b24ede1",
+      "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
+      "slug": "17-600-ai-agent-2",
+      "sourceName": "Docker Blog",
+      "processedAt": "2026-08-20T03:05:45.332Z"
+    },
+    {
+      "id": "0a3c7e46fd00abc20cabf7e3c3f94c943de8311300c81834dcade95aa06c2d9b",
+      "url": "https://www.cnbc.com/2026/08/18/kraken-launches-debit-card-in-bid-for-consumer-wallets.html",
+      "slug": "kraken-krak-card-2",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-08-20T03:06:37.961Z"
+    },
+    {
+      "id": "df8f12302a5b421ac18657dd3c98b85f0bbbcdb55f27a7a2a1e94cd20d3dde6b",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "slug": "openai-zero-data-retention-frontier-private-safety-processin",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-08-20T03:07:39.636Z"
+    },
+    {
+      "id": "6d4ec902c728a02128d0e9d0f2d97315b31b6e3516e9601be6e9577b06f5790c",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "slug": "openai-codeai-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-08-20T03:08:29.590Z"
+    },
+    {
+      "id": "9c25f4ae7a186d68926fabf7ba66321e74423e571b1f86a4351d93eff1c6252c",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "slug": "openai-ai-3",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-08-20T03:09:19.537Z"
+    },
+    {
+      "id": "c3b0ed374d41680783fa20fc63770995e488c58603f5ef9d743356c3fd37e97e",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "slug": "openai-chatgpt-for-teens",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-08-20T03:09:50.616Z"
+    },
+    {
+      "id": "3791d69cce3190ff3f416edfd654c8c167246fae433d2d92e0f0dd266ab5224d",
+      "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+      "slug": "cloudflare-spectre-cloudflare-workers",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-08-20T03:10:35.458Z"
+    },
+    {
+      "id": "115663ed6d76d07ce9180bd8822fdbf384e0ccf5bac8ab9c29df813ce557b23b",
+      "url": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
+      "slug": "aws-builder-lofts",
+      "sourceName": "AWS News Blog",
+      "processedAt": "2026-08-20T03:11:17.120Z"
+    },
+    {
+      "id": "2f243c3c027de867974d11afd8cb4aac2f6dd62652e5190e0309512b5089c33b",
+      "url": "https://vercel.com/changelog/compliance-documents-are-now-available-in-team-settings",
+      "slug": "vercel-compliance-team-settings",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-20T03:12:49.356Z"
     }
   ]
 }
