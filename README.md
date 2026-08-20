@@ -8,7 +8,7 @@
 
 ## 📺 วิดีโอสาธิตการใช้งาน (Demo Video)
 
-[![TanTech News Demo](https://img.youtube.com/vi/Q_7eAJqCi04/maxresdefault.jpg)](https://youtu.be/Q_7eAJqCi04)
+[![TanTech News Demo](https://img.youtube.com/vi/54H2u_lClrQ/maxresdefault.jpg)](https://youtu.be/54H2u_lClrQ)
 
 ---
 
