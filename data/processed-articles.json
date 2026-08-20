@@ -370,6 +370,34 @@
       "id": "4c3c16adcbcbf05b4a837f69b468b27db18fa65e1cad4025a652ab6ce7d3316d",
       "url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
       "processedAt": "2026-08-01T12:00:00.000+07:00"
+    },
+    {
+      "id": "f0aa91974e0ad6ca58685787e6b44fa037cfd800e1d56928380594665b146fc1",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "slug": "strengthening-democratic-oversight-in-national-security",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-08-20T02:36:48.743Z"
+    },
+    {
+      "id": "47420612f6317fbc0c442f72e76da2e9bf65680f616f1db7c894c5212a815b91",
+      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+      "slug": "meet-the-startup-helping-wall-street-put-a-price-on-ai-compu",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-20T02:36:49.284Z"
+    },
+    {
+      "id": "2eae1a654c959a9efc44b0d4a4195146edbb6a7a21f39e0026114f795690fa15",
+      "url": "https://arstechnica.com/gadgets/2026/08/peacock-raises-prices-by-18-percent-after-becoming-profitable/",
+      "slug": "peacock-raises-prices-by-18-percent-after-becoming-profitabl",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-08-20T02:36:49.696Z"
+    },
+    {
+      "id": "b1182b012723419644c0b8a226e1867375210e5234b7cf4a5ee1a31029c5159b",
+      "url": "https://www.theverge.com/gadgets/982242/ipad-air-m4-garmin-inreach-deal-sale",
+      "slug": "grab-an-ipad-air-m4-for-its-lowest-price-since-the-june-incr",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-20T02:36:49.899Z"
     }
   ]
 }
