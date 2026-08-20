@@ -97,9 +97,7 @@ ${summary.whyItMatters}
 
 ${summary.impacts
   .map(
-    (impact) => `### ${renderImpactHeading(impact.group)}
-
-${impact.title}: ${impact.description}`
+    (impact) => `- **${renderImpactHeading(impact.group)}:** ${impact.description.startsWith(impact.title) ? impact.description : `${impact.title}: ${impact.description}`}`
   )
   .join("\n\n")}
 
