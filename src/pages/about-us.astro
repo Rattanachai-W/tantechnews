@@ -28,11 +28,6 @@ const pillars = [
   }
 ];
 
-const milestones = [
-  { year: "2024", event: "เปิดตัวทันเทค เริ่มต้นด้วยการสรุปข่าว AI และ Programming" },
-  { year: "2025", event: "ขยายครอบคลุม 11 หมวดเทคโนโลยี เพิ่มระบบวิเคราะห์ผลกระทบ" },
-  { year: "2026", event: "ปรับปรุงระบบ AI ให้แม่นยำยิ่งขึ้น เพิ่ม Trust Pages และความโปร่งใส" }
-];
 ---
 
 <BaseLayout title={title} description={description}>
@@ -73,23 +68,6 @@ const milestones = [
     </div>
   </section>
 
-  <!-- เส้นทาง -->
-  <section class="border-b border-line bg-white" aria-labelledby="timeline-heading">
-    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
-      <h2 id="timeline-heading" class="text-2xl font-bold text-ink">เส้นทางของทันเทค</h2>
-      <p class="mt-2 text-muted">จากจุดเริ่มต้นถึงปัจจุบัน</p>
-      <ol class="mt-8 space-y-6" aria-label="เส้นเวลาของทันเทค">
-        {milestones.map((m) => (
-          <li class="flex gap-5">
-            <span class="flex h-10 w-16 shrink-0 items-center justify-center rounded-full bg-brand-light text-sm font-bold text-brand-dark">
-              {m.year}
-            </span>
-            <p class="self-center text-sm leading-7 text-muted">{m.event}</p>
-          </li>
-        ))}
-      </ol>
-    </div>
-  </section>
 
   <!-- CTA -->
   <section class="bg-white">
