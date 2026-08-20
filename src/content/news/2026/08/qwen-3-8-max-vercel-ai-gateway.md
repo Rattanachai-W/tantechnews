@@ -1,32 +1,37 @@
 ---
-title: "Qwen 3.8 Max เปิดใช้งานบน Vercel AI Gateway"
-slug: "qwen-3-8-max-vercel-ai-gateway"
-excerpt: "Vercel เปิดใช้งาน Qwen 3.8 Max บน AI Gateway รองรับงานข้อความและภาพในโมเดลเดียว มีพารามิเตอร์ 2.4 ล้านล้าน และบริบทสูงสุด 1 ล้านโทเคน เหมาะกับงานวิศวกรรมซอฟต์แวร์และงานสำนักงาน"
-publishedAt: "2026-08-02T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-02T00:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway"
-author: "TanTech AI Desk"
+title: Qwen 3.8 Max เปิดใช้งานบน Vercel AI Gateway
+slug: qwen-3-8-max-vercel-ai-gateway
+excerpt: >-
+  Vercel เปิดใช้งาน Qwen 3.8 Max บน AI Gateway
+  รองรับงานข้อความและภาพในโมเดลเดียว มีพารามิเตอร์ 2.4 ล้านล้าน และบริบทสูงสุด 1
+  ล้านโทเคน เหมาะกับงานวิศวกรรมซอฟต์แวร์และงานสำนักงาน
+publishedAt: '2026-08-02T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-02T00:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: 'https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway'
+author: TanTech AI Desk
 categories:
   - AI
   - Cloud
   - Programming
 tags:
-  - "Qwen 3.8 Max"
-  - "Vercel"
-  - "AI Gateway"
-  - "Alibaba"
-  - "Claude Code"
-  - "Codex"
-  - "OpenCode"
-  - "Pi"
-  - "โมเดลภาษา"
-  - "AI"
+  - Qwen 3.8 Max
+  - Vercel
+  - AI Gateway
+  - Alibaba
+  - Claude Code
+  - Codex
+  - OpenCode
+  - Pi
+  - โมเดลภาษา
+  - AI
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/2aBIEKewKIpdYSPv9E76Wn/5a0957249bafced81d33df0534df0187/Vercel_x_Qwen.png
 ---
 
 ## เกิดอะไรขึ้น

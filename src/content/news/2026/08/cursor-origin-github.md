@@ -1,28 +1,33 @@
 ---
-title: "Cursor เปิดตัว Origin แพลตฟอร์มโฮสต์โค้ดแข่ง GitHub"
-slug: "cursor-origin-github"
-excerpt: "Cursor สตาร์ทอัพ AI ที่อยู่ใน SpaceX เปิดตัว Origin แพลตฟอร์มโฮสต์โค้ดเพื่อทำงานร่วมกับ GitHub ได้โดยตรง ขณะ GitHub เผชิญปัญหา outage และ error rate สูงในช่วงเวลาเดียวกัน"
-publishedAt: "2026-08-19T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-18T22:14:25.000Z"
-sourceName: "TechCrunch"
-sourceUrl: "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/"
-author: "TanTech AI Desk"
+title: Cursor เปิดตัว Origin แพลตฟอร์มโฮสต์โค้ดแข่ง GitHub
+slug: cursor-origin-github
+excerpt: >-
+  Cursor สตาร์ทอัพ AI ที่อยู่ใน SpaceX เปิดตัว Origin
+  แพลตฟอร์มโฮสต์โค้ดเพื่อทำงานร่วมกับ GitHub ได้โดยตรง ขณะ GitHub เผชิญปัญหา
+  outage และ error rate สูงในช่วงเวลาเดียวกัน
+publishedAt: '2026-08-19T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-18T22:14:25.000Z'
+sourceName: TechCrunch
+sourceUrl: >-
+  https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/
+author: TanTech AI Desk
 categories:
   - AI
   - Programming
   - Startup
 tags:
-  - "Cursor"
-  - "Origin"
-  - "GitHub"
-  - "AI Code Editor"
-  - "code hosting"
-  - "SpaceX"
+  - Cursor
+  - Origin
+  - GitHub
+  - AI Code Editor
+  - code hosting
+  - SpaceX
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: 'https://techcrunch.com/wp-content/uploads/2026/07/cursor.jpg?resize=1200,800'
 ---
 
 ## เกิดอะไรขึ้น

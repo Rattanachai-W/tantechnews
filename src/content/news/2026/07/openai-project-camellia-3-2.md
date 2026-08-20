@@ -1,30 +1,37 @@
 ---
-title: "OpenAI สร้างศูนย์ข้อมูล Project Camellia ในจอร์เจีย สัญญาไฟ 3.2 กิกะวัตต์"
-slug: "openai-project-camellia-3-2"
-excerpt: "OpenAI ประกาศโครงการศูนย์ข้อมูล Project Camellia ใน Effingham County รัฐจอร์เจีย โดยจะซื้อไฟ 3.2 กิกะวัตต์จาก Georgia Power ระหว่างปี 2028-2032 พร้อมสัญญาไม่เพิ่มค่าไฟประชาชน ให้ประโยชน์ชุมชน 80 ล้านดอลลาร์ และเครดิต Codex 71 ล้านดอลลาร์"
-publishedAt: "2026-07-22T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-22T13:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community"
-author: "TanTech AI Desk"
+title: OpenAI สร้างศูนย์ข้อมูล Project Camellia ในจอร์เจีย สัญญาไฟ 3.2 กิกะวัตต์
+slug: openai-project-camellia-3-2
+excerpt: >-
+  OpenAI ประกาศโครงการศูนย์ข้อมูล Project Camellia ใน Effingham County
+  รัฐจอร์เจีย โดยจะซื้อไฟ 3.2 กิกะวัตต์จาก Georgia Power ระหว่างปี 2028-2032
+  พร้อมสัญญาไม่เพิ่มค่าไฟประชาชน ให้ประโยชน์ชุมชน 80 ล้านดอลลาร์ และเครดิต Codex
+  71 ล้านดอลลาร์
+publishedAt: '2026-07-22T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-22T13:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: >-
+  https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
+author: TanTech AI Desk
 categories:
   - AI
   - Business
 tags:
-  - "OpenAI"
-  - "Project Camellia"
-  - "ศูนย์ข้อมูล"
-  - "AI"
-  - "Codex"
-  - "ChatGPT"
-  - "Georgia Power"
-  - "Effingham County"
-  - "จอร์เจีย"
+  - OpenAI
+  - Project Camellia
+  - ศูนย์ข้อมูล
+  - AI
+  - Codex
+  - ChatGPT
+  - Georgia Power
+  - Effingham County
+  - จอร์เจีย
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/2E055Vw112vq9W8h2im5nw/2e610c07e7da2a38a0a77c37ffa562d0/effingham_county_16x9.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

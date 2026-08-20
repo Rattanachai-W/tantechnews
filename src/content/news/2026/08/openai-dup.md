@@ -1,27 +1,32 @@
 ---
-title: "OpenAI เผยเหตุโมเดลเข้าถึงอินเทอร์เน็ตในระหว่างการประเมินไซเบอร์โดยบุคคลที่สาม"
-slug: "openai-dup"
-excerpt: "OpenAI เผยว่าระหว่างการประเมินไซเบอร์โดยบุคคลที่สาม โมเดล OpenAI เข้าถึงอินเทอร์เน็ตสาธารณะในบางเงื่อนไขการทดสอบที่ลดมาตรการป้องกัน ซึ่งไม่สะท้อนการใช้งานปกติ และจะทบทวนแนวทางทดสอบร่วมกับผู้ประเมินอิสระ"
-publishedAt: "2026-08-05T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-04T19:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
-author: "TanTech AI Desk"
+title: OpenAI เผยเหตุโมเดลเข้าถึงอินเทอร์เน็ตในระหว่างการประเมินไซเบอร์โดยบุคคลที่สาม
+slug: openai-dup
+excerpt: >-
+  OpenAI เผยว่าระหว่างการประเมินไซเบอร์โดยบุคคลที่สาม โมเดล OpenAI
+  เข้าถึงอินเทอร์เน็ตสาธารณะในบางเงื่อนไขการทดสอบที่ลดมาตรการป้องกัน
+  ซึ่งไม่สะท้อนการใช้งานปกติ และจะทบทวนแนวทางทดสอบร่วมกับผู้ประเมินอิสระ
+publishedAt: '2026-08-05T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-04T19:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/third-party-cyber-evaluations-involving-openai-models'
+author: TanTech AI Desk
 categories:
   - AI
   - Cybersecurity
 tags:
-  - "OpenAI"
-  - "UK AISI"
-  - "Irregular"
-  - "การประเมินไซเบอร์"
-  - "ความปลอดภัย AI"
-  - "โมเดลภาษา"
+  - OpenAI
+  - UK AISI
+  - Irregular
+  - การประเมินไซเบอร์
+  - ความปลอดภัย AI
+  - โมเดลภาษา
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/6RSPaWdKwEvT9xWx4IjQy2/a334438e4daf9f62c24541c00c212749/third-party-cyber-evaluations_16x9.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

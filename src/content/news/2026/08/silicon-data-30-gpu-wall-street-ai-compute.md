@@ -1,29 +1,37 @@
 ---
-title: "สตาร์ทอัพ Silicon Data ระดมทุน 30 ล้านดอลลาร์ สร้างดัชนีราคา GPU ให้ Wall Street ตั้งราคา AI Compute"
-slug: "silicon-data-30-gpu-wall-street-ai-compute"
-excerpt: "Silicon Data ปิดรอบ Series A 30 ล้านดอลลาร์ เพื่อสร้างราคาอ้างอิงและการซื้อขายล่วงหน้าสำหรับ GPU rental และ AI compute บน CME วันที่ 5 ต.ค. รอการอนุมัติกฎระเบียบ"
-publishedAt: "2026-08-20T00:26:48.000+07:00"
-sourcePublishedAt: "2026-08-19T17:26:48.000Z"
-sourceName: "TechCrunch"
-sourceUrl: "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/"
-author: "TanTech AI Desk"
+title: >-
+  สตาร์ทอัพ Silicon Data ระดมทุน 30 ล้านดอลลาร์ สร้างดัชนีราคา GPU ให้ Wall
+  Street ตั้งราคา AI Compute
+slug: silicon-data-30-gpu-wall-street-ai-compute
+excerpt: >-
+  Silicon Data ปิดรอบ Series A 30 ล้านดอลลาร์
+  เพื่อสร้างราคาอ้างอิงและการซื้อขายล่วงหน้าสำหรับ GPU rental และ AI compute บน
+  CME วันที่ 5 ต.ค. รอการอนุมัติกฎระเบียบ
+publishedAt: '2026-08-20T00:26:48.000+07:00'
+sourcePublishedAt: '2026-08-19T17:26:48.000Z'
+sourceName: TechCrunch
+sourceUrl: >-
+  https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/
+author: TanTech AI Desk
 categories:
   - AI
   - Startup
   - Business
 tags:
-  - "Silicon Data"
-  - "AI compute"
-  - "GPU rental"
-  - "CME"
-  - "compute futures"
-  - "Wall Street"
-  - "Series A"
+  - Silicon Data
+  - AI compute
+  - GPU rental
+  - CME
+  - compute futures
+  - Wall Street
+  - Series A
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://techcrunch.com/wp-content/uploads/2022/03/GettyImages-914452330.jpg?resize=1200,800
 ---
 
 ## เกิดอะไรขึ้น

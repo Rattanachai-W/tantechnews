@@ -1,30 +1,35 @@
 ---
-title: "OpenAI เผย 10 ผลลัพธ์คณิตศาสตร์และวิทยาการคอมพิวเตอร์เชิงทฤษฎีจากโมเดล Astra"
-slug: "openai-10-astra"
-excerpt: "OpenAI เผย 10 ผลลัพธ์ที่แก้ปัญหาหรือก้าวหน้าในปัญหาเปิดด้านเรขาคณิตหลายมิติ ทฤษฎีรหัส กลุ่ม ความซับซ้อนควอนตัม และคริปโตกราฟิกแลตติส โดยโมเดลภายในชื่อ Astra ใช้โทเคนที่มีต้นทุนประมาณ 2,000 ดอลลาร์ตามอัตรา Sol API"
-publishedAt: "2026-08-01T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-01T00:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/ten-advances-in-mathematics"
-author: "TanTech AI Desk"
+title: OpenAI เผย 10 ผลลัพธ์คณิตศาสตร์และวิทยาการคอมพิวเตอร์เชิงทฤษฎีจากโมเดล Astra
+slug: openai-10-astra
+excerpt: >-
+  OpenAI เผย 10 ผลลัพธ์ที่แก้ปัญหาหรือก้าวหน้าในปัญหาเปิดด้านเรขาคณิตหลายมิติ
+  ทฤษฎีรหัส กลุ่ม ความซับซ้อนควอนตัม และคริปโตกราฟิกแลตติส โดยโมเดลภายในชื่อ
+  Astra ใช้โทเคนที่มีต้นทุนประมาณ 2,000 ดอลลาร์ตามอัตรา Sol API
+publishedAt: '2026-08-01T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-01T00:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/ten-advances-in-mathematics'
+author: TanTech AI Desk
 categories:
   - AI
   - Science
   - Programming
 tags:
-  - "OpenAI"
-  - "ChatGPT"
-  - "Astra"
-  - "Lean"
-  - "คณิตศาสตร์"
-  - "วิทยาการคอมพิวเตอร์เชิงทฤษฎี"
-  - "AI"
-  - "การพิสูจน์อัตโนมัติ"
+  - OpenAI
+  - ChatGPT
+  - Astra
+  - Lean
+  - คณิตศาสตร์
+  - วิทยาการคอมพิวเตอร์เชิงทฤษฎี
+  - AI
+  - การพิสูจน์อัตโนมัติ
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/5RUlCTeEvzWYd2DDpdcNgh/f38e144bf6f5911074b1939c1528ed2b/Frame__4_.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

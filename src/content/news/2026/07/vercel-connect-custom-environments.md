@@ -1,29 +1,34 @@
 ---
-title: "Vercel Connect รองรับ Custom Environments แล้ว"
-slug: "vercel-connect-custom-environments"
-excerpt: "Vercel Connect อนุญาตให้เชื่อมต่อ connector กับ Custom Environment ทำให้ deployment ในสภาพแวดล้อมที่กำหนดขอ provider token และรับ webhook ที่ถูก forward ได้"
-publishedAt: "2026-07-28T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-28T00:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments"
-author: "TanTech AI Desk"
+title: Vercel Connect รองรับ Custom Environments แล้ว
+slug: vercel-connect-custom-environments
+excerpt: >-
+  Vercel Connect อนุญาตให้เชื่อมต่อ connector กับ Custom Environment ทำให้
+  deployment ในสภาพแวดล้อมที่กำหนดขอ provider token และรับ webhook ที่ถูก
+  forward ได้
+publishedAt: '2026-07-28T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-28T00:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: 'https://vercel.com/changelog/vercel-connect-now-supports-custom-environments'
+author: TanTech AI Desk
 categories:
   - Cloud
   - Programming
   - Business
 tags:
-  - "Vercel"
-  - "Vercel Connect"
-  - "Custom Environments"
-  - "webhook"
-  - "provider token"
-  - "deployment"
-  - "CLI"
+  - Vercel
+  - Vercel Connect
+  - Custom Environments
+  - webhook
+  - provider token
+  - deployment
+  - CLI
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/1puPiNfJmIk8LsPXyDUCE3/b98237deb5336a5ff72147240aeb051a/image.png
 ---
 
 ## เกิดอะไรขึ้น

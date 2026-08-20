@@ -1,26 +1,31 @@
 ---
-title: "Docker เสนอ Agent Baseline มาตรฐานความปลอดภัยสำหรับ Agentic AI ในองค์กร"
-slug: "docker-agent-baseline-agentic-ai"
-excerpt: "Docker เผย Agent Baseline เป็นแบบแผนสำหรับการนำ AI agent มาใช้ในองค์กร โดยกำหนดผลลัพธ์ด้านความปลอดภัย 6 ประการ เพื่อให้ agent ทำงานได้โดยไม่ได้รับอำนาจเกินขอบเขต"
-publishedAt: "2026-08-13T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-12T17:25:31.000Z"
-sourceName: "Docker Blog"
-sourceUrl: "https://www.docker.com/blog/a-new-security-baseline-for-enterprise-agentic-adoption/"
-author: "TanTech AI Desk"
+title: Docker เสนอ Agent Baseline มาตรฐานความปลอดภัยสำหรับ Agentic AI ในองค์กร
+slug: docker-agent-baseline-agentic-ai
+excerpt: >-
+  Docker เผย Agent Baseline เป็นแบบแผนสำหรับการนำ AI agent มาใช้ในองค์กร
+  โดยกำหนดผลลัพธ์ด้านความปลอดภัย 6 ประการ เพื่อให้ agent
+  ทำงานได้โดยไม่ได้รับอำนาจเกินขอบเขต
+publishedAt: '2026-08-13T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-12T17:25:31.000Z'
+sourceName: Docker Blog
+sourceUrl: >-
+  https://www.docker.com/blog/a-new-security-baseline-for-enterprise-agentic-adoption/
+author: TanTech AI Desk
 categories:
   - Cybersecurity
   - AI
 tags:
-  - "Docker"
-  - "Agent Baseline"
-  - "Agentic AI"
-  - "ความปลอดภัย AI"
-  - "องค์กร"
+  - Docker
+  - Agent Baseline
+  - Agentic AI
+  - ความปลอดภัย AI
+  - องค์กร
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: 'https://www.docker.com/app/uploads/2025/03/image.png'
 ---
 
 ## เกิดอะไรขึ้น

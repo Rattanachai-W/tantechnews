@@ -1,27 +1,35 @@
 ---
-title: "ไมโครซอฟต์เปิดตัว Project Perception ระบบรักษาความปลอดภัยแบบเอเจนต์สำหรับยุค AI"
-slug: "project-perception-ai"
-excerpt: "ไมโครซอฟต์ประกาศ Project Perception ระบบรักษาความปลอดภัยแบบเอเจนต์ที่รวมสัญญาณ บริบท โมเดล และเอเจนต์เฉพาะทาง เพื่อตรวจจับ วิเคราะห์ และตอบสนองต่อภัยคุกคามด้วยความเร็วระดับเครื่องจักร"
-publishedAt: "2026-07-27T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-27T16:30:09.000Z"
-sourceName: "Microsoft Blog"
-sourceUrl: "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/"
-author: "TanTech AI Desk"
+title: >-
+  ไมโครซอฟต์เปิดตัว Project Perception ระบบรักษาความปลอดภัยแบบเอเจนต์สำหรับยุค
+  AI
+slug: project-perception-ai
+excerpt: >-
+  ไมโครซอฟต์ประกาศ Project Perception ระบบรักษาความปลอดภัยแบบเอเจนต์ที่รวมสัญญาณ
+  บริบท โมเดล และเอเจนต์เฉพาะทาง เพื่อตรวจจับ วิเคราะห์
+  และตอบสนองต่อภัยคุกคามด้วยความเร็วระดับเครื่องจักร
+publishedAt: '2026-07-27T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-27T16:30:09.000Z'
+sourceName: Microsoft Blog
+sourceUrl: >-
+  https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/
+author: TanTech AI Desk
 categories:
   - Cybersecurity
   - AI
 tags:
-  - "Microsoft"
-  - "Project Perception"
-  - "AI"
-  - "Cybersecurity"
-  - "ระบบความปลอดภัย"
-  - "เอเจนต์"
+  - Microsoft
+  - Project Perception
+  - AI
+  - Cybersecurity
+  - ระบบความปลอดภัย
+  - เอเจนต์
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://blogs.microsoft.com/wp-content/uploads/2026/07/OMB-Project-Perception-Final-Hero-7_27-1024x576.png
 ---
 
 ## เกิดอะไรขึ้น

@@ -1,27 +1,33 @@
 ---
-title: "Peacock ปรับขึ้นราคาทุกแผนสตรีมมิง"
-slug: "peacock"
-excerpt: "Peacock ปรับขึ้นราคาทุกแผนสตรีมมิง โดย Select ปรับจาก 7.99 เป็น 8.99 ดอลลาร์สหรัฐ/เดือน, Premium จาก 10.99 เป็น 12.99 ดอลลาร์สหรัฐ/เดือน และ Premium Plus จาก 16.99 เป็น 19.99 ดอลลาร์สหรัฐ/เดือน มีผล 18 ส.ค."
-publishedAt: "2026-08-18T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-18T15:26:31.000Z"
-sourceName: "TechCrunch"
-sourceUrl: "https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/"
-author: "TanTech AI Desk"
+title: Peacock ปรับขึ้นราคาทุกแผนสตรีมมิง
+slug: peacock
+excerpt: >-
+  Peacock ปรับขึ้นราคาทุกแผนสตรีมมิง โดย Select ปรับจาก 7.99 เป็น 8.99
+  ดอลลาร์สหรัฐ/เดือน, Premium จาก 10.99 เป็น 12.99 ดอลลาร์สหรัฐ/เดือน และ
+  Premium Plus จาก 16.99 เป็น 19.99 ดอลลาร์สหรัฐ/เดือน มีผล 18 ส.ค.
+publishedAt: '2026-08-18T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-18T15:26:31.000Z'
+sourceName: TechCrunch
+sourceUrl: >-
+  https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/
+author: TanTech AI Desk
 categories:
   - Business
 tags:
-  - "Peacock"
-  - "สตรีมมิง"
-  - "ปรับขึ้นราคา"
-  - "NBCUniversal"
-  - "YouTube Premium"
-  - "AI"
-  - "Wolf Games"
+  - Peacock
+  - สตรีมมิง
+  - ปรับขึ้นราคา
+  - NBCUniversal
+  - YouTube Premium
+  - AI
+  - Wolf Games
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2205537583.jpg?resize=1200,800
 ---
 
 ## เกิดอะไรขึ้น

@@ -1,29 +1,36 @@
 ---
-title: "LaunchDarkly พร้อมใช้งานบน Vercel Marketplace"
-slug: "launchdarkly-vercel-marketplace"
-excerpt: "LaunchDarkly พร้อมใช้บน Vercel Marketplace ช่วยเริ่ม feature flags โดยไม่ต้องตั้งค่าเพิ่ม ซิงก์กับ Global Config ประเมินค่าในเครื่อง กำหนดเป้าหมายการปล่อยเวอร์ชัน รันการทดลองพร้อมเมตริก และย้อนกลับด้วย kill switch"
-publishedAt: "2026-08-11T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-11T00:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace"
-author: "TanTech AI Desk"
+title: LaunchDarkly พร้อมใช้งานบน Vercel Marketplace
+slug: launchdarkly-vercel-marketplace
+excerpt: >-
+  LaunchDarkly พร้อมใช้บน Vercel Marketplace ช่วยเริ่ม feature flags
+  โดยไม่ต้องตั้งค่าเพิ่ม ซิงก์กับ Global Config ประเมินค่าในเครื่อง
+  กำหนดเป้าหมายการปล่อยเวอร์ชัน รันการทดลองพร้อมเมตริก และย้อนกลับด้วย kill
+  switch
+publishedAt: '2026-08-11T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-11T00:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: >-
+  https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace
+author: TanTech AI Desk
 categories:
   - Programming
   - Cloud
 tags:
-  - "LaunchDarkly"
-  - "Vercel"
-  - "Vercel Marketplace"
-  - "feature flags"
-  - "Flags SDK"
-  - "Global Config"
-  - "Vercel Toolbar"
-  - "Flags Explorer"
+  - LaunchDarkly
+  - Vercel
+  - Vercel Marketplace
+  - feature flags
+  - Flags SDK
+  - Global Config
+  - Vercel Toolbar
+  - Flags Explorer
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/2aldsb6YXEoO16uXzHrpCP/fda1f2618f057193970f72e90bc8de99/image.png
 ---
 
 ## เกิดอะไรขึ้น

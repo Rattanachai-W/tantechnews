@@ -1,6 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title>TanTech News</title>
-  <rect width="64" height="64" rx="14" fill="#0f766e"/>
-  <path d="M16 18h32v7H36v23h-8V25H16z" fill="#fff"/>
-  <path d="M17 48h30" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Logo</title>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2FA36E"/>
+      <stop offset="100%" stop-color="#157A52"/>
+    </linearGradient>
+  </defs>
+  <!-- Square canvas, rounded-square background -->
+  <rect x="0" y="0" width="256" height="256" rx="42" fill="url(#bgGradient)"/>
+  <!-- Vector "n" glyph, precisely centered -->
+  <g transform="translate(-35.6752,272.8554) scale(0.114059,-0.114059)" fill="#ffffff" stroke="none">
+    <path d="M1560 1868 c-83 -11 -158 -48 -225 -110 -29 -26 -55 -48 -58 -48 -4 0 -9 17 -13 38 -4 20 -13 52 -21 70 l-13 32 -198 -2 -197 -3 -3 -107 -3 -108 71 0 c38 0 71 -1 72 -2 1 -2 5 -219 8 -483 l5 -480 165 0 165 0 5 390 5 390 25 44 c14 24 42 58 62 74 31 25 48 30 107 35 83 6 122 -7 154 -52 22 -31 22 -35 25 -436 1 -223 4 -415 7 -428 5 -22 6 -22 168 -20 l162 3 3 435 c3 454 0 502 -40 583 -25 51 -95 120 -148 147 -45 23 -158 50 -200 49 -14 -1 -54 -6 -90 -11z"/>
+  </g>
 </svg>

@@ -1,30 +1,35 @@
 ---
-title: "IEEE มอบรางวัล Haraden Pratt ให้ K.J. Ray Liu ประธาน IEEE ปี 2022"
-slug: "ieee-haraden-pratt-k-j-ray-liu-ieee-2022"
-excerpt: "K.J. Ray Liu ประธาน IEEE ปี 2022 ได้รับรางวัล Haraden Pratt สำหรับภาวะผู้นำที่สร้างการเปลี่ยนแปลง โดยเขาเพิ่มพหุวัฒนธรรมของผู้เสนอชื่อ Fellow และปรับเขตภูมิศาสตร์ของ IEEE เพื่อตัวแทนระดับโลกที่เป็นธรรมมากขึ้น"
-publishedAt: "2026-07-25T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-24T18:00:01.000Z"
-sourceName: "IEEE Spectrum"
-sourceUrl: "https://spectrum.ieee.org/ieee-president-ray-liu-award"
-author: "TanTech AI Desk"
+title: IEEE มอบรางวัล Haraden Pratt ให้ K.J. Ray Liu ประธาน IEEE ปี 2022
+slug: ieee-haraden-pratt-k-j-ray-liu-ieee-2022
+excerpt: >-
+  K.J. Ray Liu ประธาน IEEE ปี 2022 ได้รับรางวัล Haraden Pratt
+  สำหรับภาวะผู้นำที่สร้างการเปลี่ยนแปลง โดยเขาเพิ่มพหุวัฒนธรรมของผู้เสนอชื่อ
+  Fellow และปรับเขตภูมิศาสตร์ของ IEEE เพื่อตัวแทนระดับโลกที่เป็นธรรมมากขึ้น
+publishedAt: '2026-07-25T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-24T18:00:01.000Z'
+sourceName: IEEE Spectrum
+sourceUrl: 'https://spectrum.ieee.org/ieee-president-ray-liu-award'
+author: TanTech AI Desk
 categories:
   - Business
   - AI
   - Startup
 tags:
-  - "IEEE"
-  - "K.J. Ray Liu"
-  - "Haraden Pratt Award"
-  - "Origin Wireless"
-  - "ADT"
-  - "TSMC"
-  - "ปัญญาประดิษฐ์"
-  - "เซมิคอนดักเตอร์"
+  - IEEE
+  - K.J. Ray Liu
+  - Haraden Pratt Award
+  - Origin Wireless
+  - ADT
+  - TSMC
+  - ปัญญาประดิษฐ์
+  - เซมิคอนดักเตอร์
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://spectrum.ieee.org/media-library/a-middle-aged-asian-man-in-formal-attire-speaking-on-stage-behind-a-podium-with-a-woman-standing-in-the-background-holding-a-box.jpg?id=67521521&width=1200&height=600&coordinates=0%2C312%2C0%2C313
 ---
 
 ## เกิดอะไรขึ้น

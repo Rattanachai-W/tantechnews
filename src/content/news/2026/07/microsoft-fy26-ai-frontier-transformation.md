@@ -1,32 +1,40 @@
 ---
-title: "Microsoft ทบทวนปีงบ FY26: จากทดลอง AI สู่การเปลี่ยนผ่านสู่ Frontier Transformation"
-slug: "microsoft-fy26-ai-frontier-transformation"
-excerpt: "Microsoft ระบุว่าลูกค้าข้ามจากทดลอง AI ไปใช้สร้างผลลัพธ์ธุรกิจจริง เกิด Frontier Firms ที่ฝัง AI ในกระบวนการหลัก ผ่าน Copilot, Microsoft IQ และ Agent 365 พร้อมตัวอย่าง Atos และ ASM"
-publishedAt: "2026-07-28T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-28T16:00:10.000Z"
-sourceName: "Microsoft Blog"
-sourceUrl: "https://blogs.microsoft.com/blog/2026/07/28/looking-back-on-microsofts-fy26-from-ai-experimentation-to-frontier-transformation/"
-author: "TanTech AI Desk"
+title: >-
+  Microsoft ทบทวนปีงบ FY26: จากทดลอง AI สู่การเปลี่ยนผ่านสู่ Frontier
+  Transformation
+slug: microsoft-fy26-ai-frontier-transformation
+excerpt: >-
+  Microsoft ระบุว่าลูกค้าข้ามจากทดลอง AI ไปใช้สร้างผลลัพธ์ธุรกิจจริง เกิด
+  Frontier Firms ที่ฝัง AI ในกระบวนการหลัก ผ่าน Copilot, Microsoft IQ และ Agent
+  365 พร้อมตัวอย่าง Atos และ ASM
+publishedAt: '2026-07-28T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-28T16:00:10.000Z'
+sourceName: Microsoft Blog
+sourceUrl: >-
+  https://blogs.microsoft.com/blog/2026/07/28/looking-back-on-microsofts-fy26-from-ai-experimentation-to-frontier-transformation/
+author: TanTech AI Desk
 categories:
   - AI
   - Business
   - Cybersecurity
 tags:
-  - "Microsoft"
-  - "AI"
-  - "Copilot"
-  - "Agent 365"
-  - "Microsoft IQ"
-  - "Atos"
-  - "ASM"
-  - "Frontier Transformation"
-  - "Microsoft 365 E7"
-  - "Microsoft Foundry"
+  - Microsoft
+  - AI
+  - Copilot
+  - Agent 365
+  - Microsoft IQ
+  - Atos
+  - ASM
+  - Frontier Transformation
+  - Microsoft 365 E7
+  - Microsoft Foundry
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://blogs.microsoft.com/wp-content/uploads/2026/07/OMB-Q426-Hero-Final-7_27-1024x579.png
 ---
 
 ## เกิดอะไรขึ้น

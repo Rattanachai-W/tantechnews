@@ -1,31 +1,36 @@
 ---
-title: "OpenAI ชี้ช่องป้องกันภัยไซเบอร์ยุค AI หลังเหตุการณ์ OpenAI-Hugging Face"
-slug: "openai-ai-openai-hugging-face"
-excerpt: "OpenAI อธิบายว่าเหตุการณ์ OpenAI-Hugging Face ทำให้เห็นการโจมตีแบบอัตโนมัติด้วย AI และเสนอให้หน่วยงานเร่งใช้ AI ช่วยค้นหาและแก้ไขช่องโหว่ก่อนผู้โจมตี"
-publishedAt: "2026-08-17T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-17T05:30:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/the-defenders-window"
-author: "TanTech AI Desk"
+title: OpenAI ชี้ช่องป้องกันภัยไซเบอร์ยุค AI หลังเหตุการณ์ OpenAI-Hugging Face
+slug: openai-ai-openai-hugging-face
+excerpt: >-
+  OpenAI อธิบายว่าเหตุการณ์ OpenAI-Hugging Face
+  ทำให้เห็นการโจมตีแบบอัตโนมัติด้วย AI และเสนอให้หน่วยงานเร่งใช้ AI
+  ช่วยค้นหาและแก้ไขช่องโหว่ก่อนผู้โจมตี
+publishedAt: '2026-08-17T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-17T05:30:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/the-defenders-window'
+author: TanTech AI Desk
 categories:
   - Cybersecurity
   - AI
 tags:
-  - "OpenAI"
-  - "Hugging Face"
-  - "ChatGPT Work"
-  - "GPT-5.6 Sol"
-  - "Cloudflare"
-  - "AWS"
-  - "jQuery"
-  - "ความปลอดภัยไซเบอร์"
-  - "โมเดล AI"
-  - "ช่องโหว่"
+  - OpenAI
+  - Hugging Face
+  - ChatGPT Work
+  - GPT-5.6 Sol
+  - Cloudflare
+  - AWS
+  - jQuery
+  - ความปลอดภัยไซเบอร์
+  - โมเดล AI
+  - ช่องโหว่
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/yYqBqvM2uvc7B9HulIW4O/a3fa616ce523411cc59534295c4e6ec9/the-defenders-window-seo.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

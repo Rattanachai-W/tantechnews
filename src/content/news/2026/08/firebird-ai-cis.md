@@ -1,32 +1,37 @@
 ---
-title: "Firebird เปิดโรงงาน AI ใหญ่สุดในภูมิภาค CIS ที่อาร์เมเนีย"
-slug: "firebird-ai-cis"
-excerpt: "Firebird เปิดตัวโรงงาน AI ขนาดใหญ่ที่สุดในภูมิภาค CIS ที่อาร์เมเนีย ใช้ NVIDIA Rubin/Blackwell และ Dell Technologies วางแผนติดตั้ง GPU กว่า 70,000 ตัวและกำลัง 300 เมกะวัตต์ภายในสิ้นปี 2027"
-publishedAt: "2026-08-08T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-08T10:24:54.000Z"
-sourceName: "NVIDIA Blog"
-sourceUrl: "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/"
-author: "TanTech AI Desk"
+title: Firebird เปิดโรงงาน AI ใหญ่สุดในภูมิภาค CIS ที่อาร์เมเนีย
+slug: firebird-ai-cis
+excerpt: >-
+  Firebird เปิดตัวโรงงาน AI ขนาดใหญ่ที่สุดในภูมิภาค CIS ที่อาร์เมเนีย ใช้ NVIDIA
+  Rubin/Blackwell และ Dell Technologies วางแผนติดตั้ง GPU กว่า 70,000
+  ตัวและกำลัง 300 เมกะวัตต์ภายในสิ้นปี 2027
+publishedAt: '2026-08-08T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-08T10:24:54.000Z'
+sourceName: NVIDIA Blog
+sourceUrl: 'https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/'
+author: TanTech AI Desk
 categories:
   - AI
   - Hardware
   - Business
 tags:
-  - "Firebird"
-  - "NVIDIA"
-  - "Armenia"
-  - "CIS"
-  - "โรงงาน AI"
-  - "Rubin"
-  - "Blackwell"
-  - "DSX"
-  - "Dell Technologies"
-  - "CoreWeave"
+  - Firebird
+  - NVIDIA
+  - Armenia
+  - CIS
+  - โรงงาน AI
+  - Rubin
+  - Blackwell
+  - DSX
+  - Dell Technologies
+  - CoreWeave
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://blogs.nvidia.com/wp-content/uploads/2026/08/5559253-Firebird-AI-Factory-Armenia-social-1920x1080-1.jpg
 ---
 
 ## เกิดอะไรขึ้น

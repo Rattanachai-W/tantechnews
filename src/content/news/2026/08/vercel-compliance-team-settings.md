@@ -1,28 +1,35 @@
 ---
-title: "Vercel เพิ่มเอกสารด้าน Compliance ใน Team settings"
-slug: "vercel-compliance-team-settings"
-excerpt: "Vercel เพิ่มส่วน Compliance ใน Team settings ให้ผู้ใช้ดูและดาวน์โหลดเอกสาร compliance เช่น SOC 2 Type 2 และนโยบายความปลอดภัยจาก Trust Center ได้โดยตรงในหน้าจัดการ พร้อมเลือกดาวน์โหลดเป็นไฟล์ zip และทุกการดูหรือดาวน์โหลดมีลายน้ำข้อมูลผู้ใช้และทีม"
-publishedAt: "2026-08-19T07:00:00.000+07:00"
-sourcePublishedAt: "2026-08-19T00:00:00.000Z"
-sourceName: "Vercel Blog"
-sourceUrl: "https://vercel.com/changelog/compliance-documents-are-now-available-in-team-settings"
-author: "TanTech AI Desk"
+title: Vercel เพิ่มเอกสารด้าน Compliance ใน Team settings
+slug: vercel-compliance-team-settings
+excerpt: >-
+  Vercel เพิ่มส่วน Compliance ใน Team settings ให้ผู้ใช้ดูและดาวน์โหลดเอกสาร
+  compliance เช่น SOC 2 Type 2 และนโยบายความปลอดภัยจาก Trust Center
+  ได้โดยตรงในหน้าจัดการ พร้อมเลือกดาวน์โหลดเป็นไฟล์ zip
+  และทุกการดูหรือดาวน์โหลดมีลายน้ำข้อมูลผู้ใช้และทีม
+publishedAt: '2026-08-19T07:00:00.000+07:00'
+sourcePublishedAt: '2026-08-19T00:00:00.000Z'
+sourceName: Vercel Blog
+sourceUrl: >-
+  https://vercel.com/changelog/compliance-documents-are-now-available-in-team-settings
+author: TanTech AI Desk
 categories:
   - Cybersecurity
   - Cloud
 tags:
-  - "Vercel"
-  - "Team settings"
-  - "Compliance"
-  - "SOC 2 Type 2"
-  - "Trust Center"
-  - "Pro"
-  - "Enterprise"
+  - Vercel
+  - Team settings
+  - Compliance
+  - SOC 2 Type 2
+  - Trust Center
+  - Pro
+  - Enterprise
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://vercel.com/api/dynamic-og?title=Compliance%20documents%20are%20now%20available%20in%20Team%20settings&format=changelog
 ---
 
 ## เกิดอะไรขึ้น

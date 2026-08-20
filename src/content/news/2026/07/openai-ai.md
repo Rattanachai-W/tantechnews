@@ -1,29 +1,34 @@
 ---
-title: "OpenAI ร่วมยกระดับวิทยาศาสตร์แห่งชาติสหรัฐฯ ด้วย AI ขั้นสูง"
-slug: "openai-ai"
-excerpt: "OpenAI ประกาศความร่วมมือกับรัฐบาลสหรัฐฯ ห้องปฏิบัติการแห่งชาติ มหาวิทยาลัย และนักวิจัย เพื่อเชื่อมต่อแบบจำลอง AI ขั้นสูงกับคอมพิวเตอร์สมรรถนะสูง การจำลอง และโครงสร้างพื้นฐานทางวิทยาศาสตร์ ผ่านภารกิจ Genesis"
-publishedAt: "2026-07-22T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-22T12:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/advancing-the-next-era-of-national-science"
-author: "TanTech AI Desk"
+title: OpenAI ร่วมยกระดับวิทยาศาสตร์แห่งชาติสหรัฐฯ ด้วย AI ขั้นสูง
+slug: openai-ai
+excerpt: >-
+  OpenAI ประกาศความร่วมมือกับรัฐบาลสหรัฐฯ ห้องปฏิบัติการแห่งชาติ มหาวิทยาลัย
+  และนักวิจัย เพื่อเชื่อมต่อแบบจำลอง AI ขั้นสูงกับคอมพิวเตอร์สมรรถนะสูง การจำลอง
+  และโครงสร้างพื้นฐานทางวิทยาศาสตร์ ผ่านภารกิจ Genesis
+publishedAt: '2026-07-22T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-22T12:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/advancing-the-next-era-of-national-science'
+author: TanTech AI Desk
 categories:
   - AI
   - Science
 tags:
-  - "OpenAI"
-  - "AI"
-  - "วิทยาศาสตร์"
-  - "Genesis"
-  - "Los Alamos"
-  - "GPT-Rosalind"
-  - "Codex"
-  - "คอมพิวเตอร์สมรรถนะสูง"
+  - OpenAI
+  - AI
+  - วิทยาศาสตร์
+  - Genesis
+  - Los Alamos
+  - GPT-Rosalind
+  - Codex
+  - คอมพิวเตอร์สมรรถนะสูง
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/1K8j5BSz7X2YIZ2ngRc3eQ/946b006a4a440f14cef8bf20d6920e65/Advancing_the_next_era_of_national_science_16x9.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

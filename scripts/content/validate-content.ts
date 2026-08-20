@@ -14,6 +14,7 @@ const newsSchema = z.object({
   sourcePublishedAt: z.coerce.date(),
   sourceName: z.string().min(1),
   sourceUrl: z.string().url(),
+  imageUrl: z.string().url().optional(),
   categories: z.array(z.enum(ARTICLE_CATEGORIES)).min(1).max(3),
   readingTimeMinutes: z.number().int().positive(),
   draft: z.boolean(),

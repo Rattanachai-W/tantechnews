@@ -1,26 +1,30 @@
 ---
-title: "OpenAI ลดต้นทุนปัญญาประดิษฐ์เพื่อขยายการเข้าถึง"
-slug: "openai"
-excerpt: "OpenAI ลดราคา GPT-5.6 Luna 80% และ Terra 20% พร้อมเพิ่มประสิทธิภาพระบบให้บริการ ลดต้นทุนการประมวลผลและขยายวงจรการลงทุน"
-publishedAt: "2026-07-31T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-31T15:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/building-abundant-intelligence"
-author: "TanTech AI Desk"
+title: OpenAI ลดต้นทุนปัญญาประดิษฐ์เพื่อขยายการเข้าถึง
+slug: openai
+excerpt: >-
+  OpenAI ลดราคา GPT-5.6 Luna 80% และ Terra 20%
+  พร้อมเพิ่มประสิทธิภาพระบบให้บริการ ลดต้นทุนการประมวลผลและขยายวงจรการลงทุน
+publishedAt: '2026-07-31T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-31T15:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/building-abundant-intelligence'
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "OpenAI"
-  - "GPT-5.6"
-  - "AI"
-  - "ต้นทุน"
-  - "ประสิทธิภาพ"
-  - "ARC-AGI-3"
+  - OpenAI
+  - GPT-5.6
+  - AI
+  - ต้นทุน
+  - ประสิทธิภาพ
+  - ARC-AGI-3
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/2nex5TzYgCDCspDRG54rgh/2be09e779b11b569ce391490323e86bb/Frame__8_.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

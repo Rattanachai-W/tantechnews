@@ -1,32 +1,38 @@
 ---
-title: "GitHub ใช้ AI เสริมความปลอดภัยโอเพนซอร์ส 50 โปรเจกต์"
-slug: "github-ai-50"
-excerpt: "GitHub Secure Open Source Fund ลงทุนกว่า 500,000 ดอลลาร์ใน 50 โปรเจกต์โอเพนซอร์ส จับคู่ผู้ดูแลโปรเจกต์กับผู้เชี่ยวชาญ GitHub Security Lab เครื่องมือความปลอดภัย และเวิร์กโฟลว์ที่ช่วยด้วย AI เพื่อเร่งการตรวจสอบ จัดลำดับ และตอบสนองต่อช่องโหว่"
-publishedAt: "2026-08-13T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-13T16:00:00.000Z"
-sourceName: "GitHub Blog"
-sourceUrl: "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/"
-author: "TanTech AI Desk"
+title: GitHub ใช้ AI เสริมความปลอดภัยโอเพนซอร์ส 50 โปรเจกต์
+slug: github-ai-50
+excerpt: >-
+  GitHub Secure Open Source Fund ลงทุนกว่า 500,000 ดอลลาร์ใน 50
+  โปรเจกต์โอเพนซอร์ส จับคู่ผู้ดูแลโปรเจกต์กับผู้เชี่ยวชาญ GitHub Security Lab
+  เครื่องมือความปลอดภัย และเวิร์กโฟลว์ที่ช่วยด้วย AI เพื่อเร่งการตรวจสอบ
+  จัดลำดับ และตอบสนองต่อช่องโหว่
+publishedAt: '2026-08-13T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-13T16:00:00.000Z'
+sourceName: GitHub Blog
+sourceUrl: >-
+  https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/
+author: TanTech AI Desk
 categories:
   - Cybersecurity
   - Open Source
   - AI
 tags:
-  - "GitHub"
-  - "GitHub Secure Open Source Fund"
-  - "GitHub Security Lab"
-  - "OpenClaw"
-  - "GitHub Copilot"
-  - "GitHub Actions"
-  - "AI"
-  - "Open Source"
-  - "Cybersecurity"
-  - "ความปลอดภัยโอเพนซอร์ส"
+  - GitHub
+  - GitHub Secure Open Source Fund
+  - GitHub Security Lab
+  - OpenClaw
+  - GitHub Copilot
+  - GitHub Actions
+  - AI
+  - Open Source
+  - Cybersecurity
+  - ความปลอดภัยโอเพนซอร์ส
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: 'https://github.blog/wp-content/uploads/2026/02/header.jpg'
 ---
 
 ## เกิดอะไรขึ้น

@@ -2,8 +2,12 @@ name: Generate daily news
 
 on:
   schedule:
-    # Run at UTC 22:00 = ICT 05:00 so news is ready before readers wake up.
-    - cron: "0 22 * * *"
+    # 4 runs per day (every 6 hours ICT / Bangkok time):
+    # 06:00 ICT = UTC 23:00 (prev day)
+    # 12:00 ICT = UTC 05:00
+    # 18:00 ICT = UTC 11:00
+    # 00:00 ICT = UTC 17:00
+    - cron: "0 23,5,11,17 * * *"
   workflow_dispatch:
     inputs:
       publish_mode:
@@ -27,7 +31,7 @@ on:
         description: "Maximum number of articles to generate"
         required: false
         type: string
-        default: "5"
+        default: "3"
 
 permissions:
   contents: write
@@ -69,7 +73,7 @@ jobs:
           AI_MAX_RETRIES: "3"
           NEWS_DATE: ${{ github.event.inputs.date || '' }}
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && 'true' || 'false' }}
-          MAX_ARTICLES: ${{ github.event.inputs.max_articles || '5' }}
+          MAX_ARTICLES: ${{ github.event.inputs.max_articles || '3' }}
 
       - name: Validate Generated Content
         run: pnpm validate:content

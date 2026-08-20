@@ -1,28 +1,34 @@
 ---
-title: "OpenAI จับมือ CodeAI เตรียมความพร้อมให้คนรุ่นแรกเติบโตกับ AI"
-slug: "openai-codeai-ai"
-excerpt: "OpenAI และ CodeAI ประกาศความร่วมมือเพื่อให้นักเรียนและครูเข้าถึงเครื่องมือและทรัพยากรการเรียนรู้ AI พร้อมเปิดตัว ChatGPT for Teens ที่ออกแบบมาเพื่อส่งเสริมการคิดวิเคราะห์และการใช้งานอย่างรับผิดชอบ"
-publishedAt: "2026-08-18T18:00:00.000+07:00"
-sourcePublishedAt: "2026-08-18T11:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/partnering-with-codeai"
-author: "TanTech AI Desk"
+title: OpenAI จับมือ CodeAI เตรียมความพร้อมให้คนรุ่นแรกเติบโตกับ AI
+slug: openai-codeai-ai
+excerpt: >-
+  OpenAI และ CodeAI
+  ประกาศความร่วมมือเพื่อให้นักเรียนและครูเข้าถึงเครื่องมือและทรัพยากรการเรียนรู้
+  AI พร้อมเปิดตัว ChatGPT for Teens
+  ที่ออกแบบมาเพื่อส่งเสริมการคิดวิเคราะห์และการใช้งานอย่างรับผิดชอบ
+publishedAt: '2026-08-18T18:00:00.000+07:00'
+sourcePublishedAt: '2026-08-18T11:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/partnering-with-codeai'
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "OpenAI"
-  - "CodeAI"
-  - "ChatGPT for Teens"
-  - "AI"
-  - "การศึกษา"
-  - "นักเรียน"
-  - "ครู"
-  - "ความปลอดภัย"
+  - OpenAI
+  - CodeAI
+  - ChatGPT for Teens
+  - AI
+  - การศึกษา
+  - นักเรียน
+  - ครู
+  - ความปลอดภัย
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/5rhd6nhvVokZZ5L6uu2tz9/daaf6fd9186ebe2c1914adaaaac65cf4/a11y-seo-v002.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

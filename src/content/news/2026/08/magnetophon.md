@@ -1,30 +1,35 @@
 ---
-title: "เครื่องบันทึกเทป Magnetophon เปลี่ยนวงการวิทยุตลอดกาล"
-slug: "magnetophon"
-excerpt: "บทความเล่าประวัติ Magnetophon เครื่องบันทึกเทปแม่เหล็กแบบ reel-to-reel ที่ AEG พัฒนาและ I.G. Farben ผลิตเทป เปิดตัวสำเร็จที่ Berlin Radio Show ปี 1935 และนำไปสู่พัฒนาเครื่อง K4 ที่ลดเสียงรบกวนด้วย AC bias"
-publishedAt: "2026-08-02T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-02T13:00:01.000Z"
-sourceName: "IEEE Spectrum"
-sourceUrl: "https://spectrum.ieee.org/magnetophon-laugh-track"
-author: "TanTech AI Desk"
+title: เครื่องบันทึกเทป Magnetophon เปลี่ยนวงการวิทยุตลอดกาล
+slug: magnetophon
+excerpt: >-
+  บทความเล่าประวัติ Magnetophon เครื่องบันทึกเทปแม่เหล็กแบบ reel-to-reel ที่ AEG
+  พัฒนาและ I.G. Farben ผลิตเทป เปิดตัวสำเร็จที่ Berlin Radio Show ปี 1935
+  และนำไปสู่พัฒนาเครื่อง K4 ที่ลดเสียงรบกวนด้วย AC bias
+publishedAt: '2026-08-02T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-02T13:00:01.000Z'
+sourceName: IEEE Spectrum
+sourceUrl: 'https://spectrum.ieee.org/magnetophon-laugh-track'
+author: TanTech AI Desk
 categories:
   - Hardware
 tags:
-  - "Magnetophon"
-  - "AEG"
-  - "I.G. Farben"
-  - "BASF"
-  - "Fritz Pfleumer"
-  - "Bing Crosby"
-  - "laugh track"
-  - "tape recorder"
-  - "AC bias"
-  - "Berlin Radio Show"
+  - Magnetophon
+  - AEG
+  - I.G. Farben
+  - BASF
+  - Fritz Pfleumer
+  - Bing Crosby
+  - laugh track
+  - tape recorder
+  - AC bias
+  - Berlin Radio Show
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://spectrum.ieee.org/media-library/image.jpg?id=67529067&width=1200&height=600&coordinates=0%2C50%2C0%2C50
 ---
 
 ## เกิดอะไรขึ้น

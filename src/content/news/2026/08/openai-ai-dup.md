@@ -1,25 +1,33 @@
 ---
-title: "OpenAI ส่งจดหมายถึงผู้ว่าการเท็กซัส ยืนยันพัฒนาโครงสร้างพื้นฐาน AI อย่างรับผิดชอบ"
-slug: "openai-ai-dup"
-excerpt: "OpenAI ส่งจดหมายถึงผู้ว่าการรัฐเท็กซัส Greg Abbott ระบุความมุ่งมั่นในการพัฒนาโครงสร้างพื้นฐาน AI อย่างรับผิดชอบ และจะทำงานร่วมกับผู้นำรัฐและท้องถิ่น ผู้ให้บริการสาธารณูปโภค และชุมชน เพื่อให้ชาวเท็กซัสได้รับประโยชน์"
-publishedAt: "2026-08-10T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-10T14:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/responsible-ai-infrastructure-texas"
-author: "TanTech AI Desk"
+title: >-
+  OpenAI ส่งจดหมายถึงผู้ว่าการเท็กซัส ยืนยันพัฒนาโครงสร้างพื้นฐาน AI
+  อย่างรับผิดชอบ
+slug: openai-ai-dup
+excerpt: >-
+  OpenAI ส่งจดหมายถึงผู้ว่าการรัฐเท็กซัส Greg Abbott
+  ระบุความมุ่งมั่นในการพัฒนาโครงสร้างพื้นฐาน AI อย่างรับผิดชอบ
+  และจะทำงานร่วมกับผู้นำรัฐและท้องถิ่น ผู้ให้บริการสาธารณูปโภค และชุมชน
+  เพื่อให้ชาวเท็กซัสได้รับประโยชน์
+publishedAt: '2026-08-10T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-10T14:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/responsible-ai-infrastructure-texas'
+author: TanTech AI Desk
 categories:
   - AI
 tags:
-  - "OpenAI"
-  - "Greg Abbott"
-  - "เท็กซัส"
-  - "โครงสร้างพื้นฐาน AI"
-  - "AI อย่างรับผิดชอบ"
+  - OpenAI
+  - Greg Abbott
+  - เท็กซัส
+  - โครงสร้างพื้นฐาน AI
+  - AI อย่างรับผิดชอบ
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/2uFbydWeRIYgmgAqjUVskz/f2672582154a6c597e42e7319059adbc/gov_abbott_letter_9x16.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

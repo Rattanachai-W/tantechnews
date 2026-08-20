@@ -6,6 +6,7 @@ import { withRetry } from "../shared/retry";
 export interface ExtractedArticle {
   title: string;
   textContent: string;
+  imageUrl?: string;
 }
 
 const MIN_EXTRACTED_TEXT_LENGTH = 300;
@@ -17,16 +18,29 @@ export function parseArticleHtml(html: string, url: string): ExtractedArticle | 
     .replace(/<noscript[\s\S]*?<\/noscript>/gi, "");
 
   const dom = new JSDOM(cleanedHtml, { url });
-  const parsed = new Readability(dom.window.document).parse();
+  const doc = dom.window.document;
+  const parsed = new Readability(doc).parse();
   const textContent = parsed?.textContent.replace(/\s+/g, " ").trim();
 
   if (!parsed?.title || !textContent || textContent.length < MIN_EXTRACTED_TEXT_LENGTH) {
     return null;
   }
 
+  // Extract OpenGraph or Twitter cover image meta tags
+  const ogImage =
+    doc.querySelector('meta[property="og:image"]')?.getAttribute("content") ||
+    doc.querySelector('meta[name="twitter:image"]')?.getAttribute("content") ||
+    doc.querySelector('meta[property="twitter:image"]')?.getAttribute("content");
+
+  let imageUrl: string | undefined = undefined;
+  if (ogImage && /^https?:\/\//i.test(ogImage.trim())) {
+    imageUrl = ogImage.trim();
+  }
+
   return {
     title: parsed.title,
-    textContent
+    textContent,
+    imageUrl
   };
 }
 

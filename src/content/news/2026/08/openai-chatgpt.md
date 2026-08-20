@@ -1,28 +1,33 @@
 ---
-title: "OpenAI เผยข้อมูลรายประเทศ: ChatGPT เปลี่ยนจากการถามเป็นการลงมือทำ"
-slug: "openai-chatgpt"
-excerpt: "OpenAI เผยข้อมูลรายประเทศเป็นครั้งแรก พบผู้ใช้ ChatGPT ทั่วโลกหันมาใช้ทำงานจริงมากขึ้น โดยเฉพาะการเขียน โค้ด และวิเคราะห์ข้อมูล ขณะภูมิภาคละตินอเมริกา แอฟริกา และโอเชียเนียไล่ตามกลุ่มผู้ใช้เดิม"
-publishedAt: "2026-08-06T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-06T00:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work"
-author: "TanTech AI Desk"
+title: 'OpenAI เผยข้อมูลรายประเทศ: ChatGPT เปลี่ยนจากการถามเป็นการลงมือทำ'
+slug: openai-chatgpt
+excerpt: >-
+  OpenAI เผยข้อมูลรายประเทศเป็นครั้งแรก พบผู้ใช้ ChatGPT
+  ทั่วโลกหันมาใช้ทำงานจริงมากขึ้น โดยเฉพาะการเขียน โค้ด และวิเคราะห์ข้อมูล
+  ขณะภูมิภาคละตินอเมริกา แอฟริกา และโอเชียเนียไล่ตามกลุ่มผู้ใช้เดิม
+publishedAt: '2026-08-06T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-06T00:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/how-the-world-is-putting-chatgpt-to-work'
+author: TanTech AI Desk
 categories:
   - AI
   - Business
 tags:
-  - "OpenAI"
-  - "ChatGPT"
-  - "OpenAI Signals"
-  - "AI"
-  - "การใช้งาน AI"
-  - "ข้อมูลรายประเทศ"
-  - "ChatGPT Work"
+  - OpenAI
+  - ChatGPT
+  - OpenAI Signals
+  - AI
+  - การใช้งาน AI
+  - ข้อมูลรายประเทศ
+  - ChatGPT Work
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/5qbXuYJxwp7q4YnQENtCCP/0d1dd2519af8128544b23560c7fd7dca/SEO_Card__10_.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

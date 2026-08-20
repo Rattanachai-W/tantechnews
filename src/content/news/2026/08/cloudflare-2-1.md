@@ -1,28 +1,35 @@
 ---
-title: "Cloudflare เปิดตัวโปรแกรมชุมชนใหม่ 2 สาย พร้อมเงินสนับสนุนโอเพนซอร์ส 1 ล้านดอลลาร์"
-slug: "cloudflare-2-1"
-excerpt: "Cloudflare เปิดตัวโปรแกรมชุมชน 2 สาย ได้แก่ Cloudflare Ambassadors และ Community Engineers พร้อมเงินสนับสนุนโอเพนซอร์ส 1 ล้านดอลลาร์ เปิดรับสมัครถึง 6 ก.ย. และประกาศผลภายใน 5 ต.ค."
-publishedAt: "2026-08-07T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-07T13:00:00.000Z"
-sourceName: "Cloudflare Blog"
-sourceUrl: "https://blog.cloudflare.com/community-program-refresh/"
-author: "TanTech AI Desk"
+title: >-
+  Cloudflare เปิดตัวโปรแกรมชุมชนใหม่ 2 สาย พร้อมเงินสนับสนุนโอเพนซอร์ส 1
+  ล้านดอลลาร์
+slug: cloudflare-2-1
+excerpt: >-
+  Cloudflare เปิดตัวโปรแกรมชุมชน 2 สาย ได้แก่ Cloudflare Ambassadors และ
+  Community Engineers พร้อมเงินสนับสนุนโอเพนซอร์ส 1 ล้านดอลลาร์ เปิดรับสมัครถึง
+  6 ก.ย. และประกาศผลภายใน 5 ต.ค.
+publishedAt: '2026-08-07T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-07T13:00:00.000Z'
+sourceName: Cloudflare Blog
+sourceUrl: 'https://blog.cloudflare.com/community-program-refresh/'
+author: TanTech AI Desk
 categories:
   - Open Source
   - Programming
   - Cloud
 tags:
-  - "Cloudflare"
-  - "Cloudflare Ambassadors"
-  - "Cloudflare Community Engineers"
-  - "โอเพนซอร์ส"
-  - "ชุมชนนักพัฒนา"
-  - "อินเทอร์เน็ต"
+  - Cloudflare
+  - Cloudflare Ambassadors
+  - Cloudflare Community Engineers
+  - โอเพนซอร์ส
+  - ชุมชนนักพัฒนา
+  - อินเทอร์เน็ต
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://blog.cloudflare.com/_emdash/api/media/file/01KZCB5TEB9Y9D1T17B9SF9230.png
 ---
 
 ## เกิดอะไรขึ้น

@@ -1,27 +1,33 @@
 ---
-title: "OpenAI เสนอแนวทางเสริมการกำกับดูแลแบบประชาธิปไตยด้านความมั่นคงแห่งชาติ"
-slug: "openai-3"
-excerpt: "OpenAI ระบุว่า AI ช่วยเสริมความมั่นคงแห่งชาติ แต่ต้องมีการกำกับดูแลที่ทันความเร็วของระบบ พร้อมประกาศสนับสนุนหน่วยงานกำกับดูแลด้วยเทคโนโลยีและการฝึกอบรม"
-publishedAt: "2026-08-19T12:00:00.000+07:00"
-sourcePublishedAt: "2026-08-18T19:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
-author: "TanTech AI Desk"
+title: OpenAI เสนอแนวทางเสริมการกำกับดูแลแบบประชาธิปไตยด้านความมั่นคงแห่งชาติ
+slug: openai-3
+excerpt: >-
+  OpenAI ระบุว่า AI ช่วยเสริมความมั่นคงแห่งชาติ
+  แต่ต้องมีการกำกับดูแลที่ทันความเร็วของระบบ
+  พร้อมประกาศสนับสนุนหน่วยงานกำกับดูแลด้วยเทคโนโลยีและการฝึกอบรม
+publishedAt: '2026-08-19T12:00:00.000+07:00'
+sourcePublishedAt: '2026-08-18T19:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: >-
+  https://openai.com/index/strengthening-democratic-oversight-in-national-security
+author: TanTech AI Desk
 categories:
   - AI
   - Cybersecurity
 tags:
-  - "OpenAI"
-  - "AI"
-  - "ความมั่นคงแห่งชาติ"
-  - "การกำกับดูแล"
-  - "ไซเบอร์"
-  - "โครงสร้างพื้นฐาน"
+  - OpenAI
+  - AI
+  - ความมั่นคงแห่งชาติ
+  - การกำกับดูแล
+  - ไซเบอร์
+  - โครงสร้างพื้นฐาน
 readingTimeMinutes: 2
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/6HEG4BoWGKBEoSJWCReHz0/1b1c0b24720bb3faec4a71e48e8ceef7/openai-democratic-oversight-page-seo-v004.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น

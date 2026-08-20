@@ -1,29 +1,34 @@
 ---
-title: "OpenAI เผย 2 การตั้งค่า API เพิ่มคะแนน GPT-5.6 Sol บน ARC-AGI-3 เป็น 3 เท่า"
-slug: "openai-2-api-gpt-5-6-sol-arc-agi-3-3"
-excerpt: "OpenAI พบว่าการเปิด retained reasoning และ compaction ใน Responses API ทำให้ GPT-5.6 Sol ได้คะแนน 38.3% จาก 13.3% บนชุดงานสาธารณะของ ARC-AGI-3 และลด output tokens ลง 6 เท่า"
-publishedAt: "2026-07-29T12:00:00.000+07:00"
-sourcePublishedAt: "2026-07-29T15:00:00.000Z"
-sourceName: "OpenAI Blog"
-sourceUrl: "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
-author: "TanTech AI Desk"
+title: OpenAI เผย 2 การตั้งค่า API เพิ่มคะแนน GPT-5.6 Sol บน ARC-AGI-3 เป็น 3 เท่า
+slug: openai-2-api-gpt-5-6-sol-arc-agi-3-3
+excerpt: >-
+  OpenAI พบว่าการเปิด retained reasoning และ compaction ใน Responses API ทำให้
+  GPT-5.6 Sol ได้คะแนน 38.3% จาก 13.3% บนชุดงานสาธารณะของ ARC-AGI-3 และลด output
+  tokens ลง 6 เท่า
+publishedAt: '2026-07-29T12:00:00.000+07:00'
+sourcePublishedAt: '2026-07-29T15:00:00.000Z'
+sourceName: OpenAI Blog
+sourceUrl: 'https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores'
+author: TanTech AI Desk
 categories:
   - AI
   - Programming
 tags:
-  - "OpenAI"
-  - "GPT-5.6 Sol"
-  - "ARC-AGI-3"
-  - "Responses API"
-  - "retained reasoning"
-  - "compaction"
-  - "การตั้งค่า API"
-  - "การประเมิน AI"
+  - OpenAI
+  - GPT-5.6 Sol
+  - ARC-AGI-3
+  - Responses API
+  - retained reasoning
+  - compaction
+  - การตั้งค่า API
+  - การประเมิน AI
 readingTimeMinutes: 1
 featured: false
 draft: false
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: TanTech Editorial Desk
+imageUrl: >-
+  https://images.ctfassets.net/kftzwdyauwt9/3lr743fXRey8lYJgiaReEo/80b223beba7cf8fcd4108d533741a56b/ARC-AGI-3_art-card_16x9.png?w=1600&h=900&fit=fill
 ---
 
 ## เกิดอะไรขึ้น
