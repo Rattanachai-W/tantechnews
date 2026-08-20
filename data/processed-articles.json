@@ -154,13 +154,7 @@
       "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
       "processedAt": "2026-08-04T12:00:00.000+07:00"
     },
-    {
-      "sourceName": "AWS News Blog",
-      "slug": "aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock",
-      "id": "3f6cd72050387194ae10d85b04d7522203a33cdcd7e1e7b47b500be9d2addec0",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
-      "processedAt": "2026-08-03T12:00:00.000+07:00"
-    },
+
     {
       "sourceName": "Cloudflare Blog",
       "slug": "cloudflare-2-1",
@@ -336,13 +330,7 @@
       "url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
       "processedAt": "2026-08-02T12:00:00.000+07:00"
     },
-    {
-      "sourceName": "OpenAI Blog",
-      "slug": "responding-to-the-next-frontier-of-critical-cyber-capabiliti",
-      "id": "cc79c51bf8039b8eebe612f7af0cbd1018813de211032bb9666dafa3ccadbe2e",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "processedAt": "2026-08-07T12:00:00.000+07:00"
-    },
+
     {
       "sourceName": "WIRED",
       "slug": "terramow-v1000-ai",
