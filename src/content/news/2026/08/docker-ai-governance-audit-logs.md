@@ -1,7 +1,7 @@
 ---
-title: "Docker เผยบทความ AI Governance และ Audit Logs สำหรับทีมความปลอดภัย"
+title: "Docker เสริมเกราะ AI Governance ดึง Audit Logs เข้าเครื่องมือความปลอดภัยเดิม"
 slug: "docker-ai-governance-audit-logs"
-excerpt: "Docker Blog เผยแพร่บทความเกี่ยวกับการกำกับดูแล AI และบันทึกการตรวจสอบสำหรับทีมความปลอดภัย พร้อมอัปเดต Docker ที่เกี่ยวข้อง เช่น การเข้าร่วม Open Secure AI Alliance ของ NVIDIA และ Docker VMM Public Beta"
+excerpt: "Docker เปิดตัวฟีเจอร์ AI Governance เชื่อมต่อ Audit Logs ตรงเข้าเครื่องมือเดิมของทีม Security พร้อมจับมือ NVIDIA เข้าร่วม Open Secure AI Alliance และเปิด Docker VMM Beta"
 publishedAt: "2026-08-03T12:00:00.000+07:00"
 sourcePublishedAt: "2026-08-03T13:00:00.000Z"
 sourceName: "Docker Blog"
@@ -29,35 +29,36 @@ reviewedBy: "TanTech Editorial Desk"
 
 ## เกิดอะไรขึ้น
 
-Docker Blog เผยแพร่บทความเรื่อง Docker AI Governance: Audit Logs, Now Where Your Security Team Already Works และหน้าบทความยังระบุข่าว Docker ที่เกี่ยวข้อง ได้แก่ Docker เข้าร่วม NVIDIA Open Secure AI Alliance เพื่อช่วยสร้างกรอบความปลอดภัย การกำกับดูแล และความน่าเชื่อถือสำหรับระบบ Agentic AI, การโจมตีซัพพลายเชนที่กระทบ Trivy และ KICS, Docker VMM Public Beta สำหรับ Mac และ Windows
+Docker ประกาศเปิดตัวฟีเจอร์ Docker AI Governance เพื่อส่งบันทึกการใช้งาน (Audit Logs) ของระบบ AI เข้าสู่เครื่องมือวิเคราะห์ความปลอดภัยเดิมที่ทีม Security ใช้งานอยู่แล้วทันที พร้อมกันนี้ยังจับมือกับ NVIDIA เข้าร่วมพันธมิตร Open Secure AI Alliance เพื่อร่วมกำหนดมาตรฐานความปลอดภัยและการกำกับดูแลระบบ Agentic AI นอกจากนี้ยังอัปเดตความปลอดภัยในซัพพลายเชนหลังพบภัยคุกคามพุ่งเป้าเครื่องมือยอดนิยมอย่าง Trivy และ KICS รวมถึงเปิดตัว Docker VMM Public Beta สำหรับ Mac และ Windows
 
 ## ทำไมเรื่องนี้สำคัญ
 
-สำคัญเพราะ Docker ระบุว่าการโจมตีซัพพลายเชนขยายไปถึงเครื่องมือที่อุตสาหกรรมไว้วางใจ เช่น Trivy และ KICS ขณะที่ Mark Lechner CISO ของ Docker ระบุว่าคลื่นการโจมตีล่าสุดเป็นการเปลี่ยนแปลงถาวรของภูมิทัศน์ภัยคุกคาม และ Docker ร่วม NVIDIA สร้างกรอบความปลอดภัย การกำกับดูแล และความน่าเชื่อถือสำหรับ Agentic AI
+การพุ่งเป้าโจมตีซัพพลายเชนในปัจจุบันเริ่มขยายวงมายังเครื่องมือพัฒนาซอฟต์แวร์และสแกนความปลอดภัย CISO ของ Docker (Mark Lechner) ชี้ว่าเหตุการณ์นี้คือจุดเปลี่ยนถาวรของภัยไซเบอร์ ยุคที่ Agentic AI ถูกนำมารันโค้ดและช่วยพัฒนาระบบ การกำกับดูแล (AI Governance) และการเก็บ Audit Logs จึงไม่ใช่เรื่องที่แยกทำต่างหาก แต่ต้องเชื่อมต่อเข้ากับศูนย์ปฏิบัติการความปลอดภัย (SOC) ที่องค์กรมีอยู่แล้วได้ทันที
 
 ## ผลกระทบที่น่าจับตา
 
 ### สำหรับนักพัฒนา
 
-เครื่องมือพัฒนาและทดสอบที่ขยายขอบเขต: กลุ่ม developers ได้รับข้อมูลเกี่ยวกับ Docker VMM Public Beta สำหรับ Mac และ Windows และแนวทางพัฒนา firmware ESP32 ที่ทำซ้ำได้พร้อม Docker Sandboxes สำหรับพัฒนา AI-assisted และทดสอบฮาร์ดแวร์
+ทดสอบและพัฒนาง่ายขึ้นด้วย VMM: นักพัฒนาสามารถทดลองใช้ Docker VMM Public Beta บน Mac และ Windows รวมถึงสภาพแวดล้อม Docker Sandboxes สำหรับพัฒนา Firmware ESP32 และงานพัฒนาซอฟต์แวร์ด้วย AI
 
-### สำหรับธุรกิจ
+### สำหรับองค์กรและทีม Security
 
-กรอบความน่าเชื่อถือสำหรับ Agentic AI: กลุ่ม businesses ได้รับข้อมูลว่า Docker เข้าร่วม NVIDIA Open Secure AI Alliance เพื่อช่วยสร้างกรอบความปลอดภัย การกำกับดูแล และความน่าเชื่อถือสำหรับระบบ Agentic AI
+กำกับดูแล AI จาก Dashboard เดิม: ทีมความปลอดภัยสามารถติดตาม Audit Logs ของ Agentic AI ได้จากเครื่องมือเดิม ไม่ต้องเปิดหน้าจอใหม่ ลดช่องโหว่การโจมตีซัพพลายเชนในขั้นตอนการพัฒนา
 
-### สำหรับผู้อ่าน
+### สำหรับภาคธุรกิจ
 
-ภูมิทัศน์ภัยคุกคามที่เปลี่ยนไป: กลุ่ม other ได้รับข้อมูลว่า Mark Lechner CISO ของ Docker ระบุว่าคลื่นการโจมตีซัพพลายเชนล่าสุดเป็นการเปลี่ยนแปลงถาวรของภูมิทัศน์ภัยคุกคาม และ Trivy กับ KICS เป็นเป้าหมายในปีนี้
+มาตรฐานความมั่นใจใน Agentic AI: การผนึกกำลังระหว่าง Docker และ NVIDIA ใน Open Secure AI Alliance ช่วยเพิ่มกรอบความน่าเชื่อถือ ให้องค์กรสามารถนำเอเจนต์ AI ไปใช้งานในระดับ Production ได้อย่างมั่นใจ
 
 ## มุมมองของทันเทค
 
-บทวิเคราะห์: การที่ Docker เชื่อม AI Governance, Audit Logs, ความร่วมมือกับ NVIDIA และเครื่องมือเช่น Docker VMM เข้าด้วยกัน ชี้ว่าความปลอดภัยของระบบ Agentic AI กำลังถูกออกแบบให้ทำงานร่วมกับทีมความปลอดภัยที่มีอยู่ ไม่ใช่เป็นชั้นเพิ่มเติมแยกส่วน
+บทวิเคราะห์: การที่ Docker ดึง AI Governance เข้ามาเป็นส่วนหนึ่งของ Audit Logs เดิม สะท้อนแนวคิดว่าการรักษาความปลอดภัย AI ยุคใหม่ ไม่ใช่การเพิ่มซอฟต์แวร์อีกชั้นเพื่อซ้อนความซับซ้อน แต่คือการรวมโซลูชันความปลอดภัยของ AI เข้าไปในกระบวนการทำงาน (Workflow) เดิมของทีมพัฒนาและทีมความปลอดภัยตั้งแต่ต้น
 
 ## สรุปในประโยคเดียว
 
-> Docker Blog เผยแพร่บทความเกี่ยวกับการกำกับดูแล AI และ Audit Logs สำหรับทีมความปลอดภัย พร้อมอัปเดต Docker ที่เกี่ยวข้อง เช่น การเข้าร่วม NVIDIA Open Secure AI Alliance และ Docker VMM Public Beta
+> Docker ดึง Audit Logs ของระบบ AI เชื่อมตรงเข้าเครื่องมือความปลอดภัยเดิมขององค์กร พร้อมจับมือ NVIDIA สร้างกรอบความปลอดภัยให้ Agentic AI
 
 ## แหล่งข่าว
 
 [อ่านต้นฉบับ](https://www.docker.com/blog/docker-ai-governance-audit-logs-now-where-your-security-team-already-works/)
+
 
