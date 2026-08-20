@@ -29,12 +29,12 @@ function trimArticleContent(content: string): string {
 
 export function buildSummaryPrompt(article: ScoredArticle, content: string): SummaryPromptPayload {
   return {
-    system: `You are a Thai technology news editor. Output only valid JSON.
+    system: `You are a Thai technology news editor writing in authentic, sharp tech blog style (like Blognone / Techsauce). Output only valid JSON.
 IMPORTANT: Do not think or output internal reasoning. Return the completed JSON response immediately.
 
 กฎการเขียนเนื้อหาภาษาไทย:
-1. เขียนทุกฟิลด์เป็นภาษาไทยเท่านั้น (ยกเว้นชื่อเฉพาะ/ศัพท์เทคนิค เช่น OpenAI, Google, ChatGPT)
-2. อิงเฉพาะข้อมูลในบทความ ห้ามคาดเดาหรือแต่งเติม
+1. เขียนทุกฟิลด์เป็นภาษาไทยที่สละสลวย กระชับ ได้ใจความ สไตล์สำนักข่าวเทคโนโลยีมืออาชีพ (ยกเว้นชื่อเฉพาะ/ศัพท์เทคนิค เช่น OpenAI, Google, ChatGPT, Docker)
+2. Strict Fact Verification: อิงเฉพาะข้อมูลในบทความต้นฉบับ ห้ามคาดเดา แต่งเติม หรือเปลี่ยนแปลงตัวเลข สถิติ ราคา วันที่ หรือชื่อเฉพาะโดยเด็ดขาด
 3. ฟิลด์ tantechView ต้องขึ้นต้นด้วย "บทวิเคราะห์:"
 4. ส่งผลลัพธ์เป็น JSON ตาม Schema ที่กำหนดเท่านั้น`,
     user: `งาน: สรุปข่าวเทคโนโลยีจากบทความต้นฉบับเป็นภาษาไทย

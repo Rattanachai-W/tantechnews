@@ -1,6 +1,6 @@
 import { logger } from "../shared/logger";
 import { mapWithConcurrency } from "../shared/concurrency";
-import { deduplicateArticles } from "./deduplicate-articles";
+import { deduplicateArticles, filterHistoricalDuplicates } from "./deduplicate-articles";
 import { extractArticle } from "./extract-article";
 import { generateDailyDigest } from "./generate-daily-digest";
 import { fetchArticles } from "./fetch-articles";
@@ -76,8 +76,13 @@ async function main(): Promise<void> {
   const fetched = await fetchArticles();
   const processedState = await loadProcessedState();
   const blockedDomains = await loadBlockedDomains();
+
+  const processedUrls = new Set(processedState.articles.map((a) => a.url));
+  const processedTitles = new Set(processedState.articles.map((a) => a.slug.replace(/-/g, " ")));
+
   const unique = deduplicateArticles(fetched);
-  const filtered = filterArticles(unique, 48, blockedDomains).filter(
+  const historicallyFiltered = filterHistoricalDuplicates(unique, processedUrls, processedTitles);
+  const filtered = filterArticles(historicallyFiltered, 48, blockedDomains).filter(
     (article) => !hasProcessedArticle(processedState, article.id)
   );
   const scored = selectTopArticles(scoreArticles(filtered), {
