@@ -531,6 +531,20 @@
       "slug": "runlayer-rippling",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-21T02:07:26.726Z"
+    },
+    {
+      "id": "e9ba6db1fcd1c3b4a2023910422c158a945ecde81dfed9f677817b9156691a61",
+      "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "slug": "micro1-500-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T02:17:57.570Z"
+    },
+    {
+      "id": "f5c14fa58d074dae370444910d96e406f2b5993b0f4fcef857517fcad09cb7fb",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "slug": "google-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T02:18:43.688Z"
     }
   ]
 }
