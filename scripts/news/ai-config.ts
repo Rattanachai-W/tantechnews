@@ -21,8 +21,10 @@ export function loadAiClientConfig(env = process.env, modelOverride?: string, ti
     }
   }
 
-  const endpoint = env.AI_API_ENDPOINT ?? env.OPENROUTER_API_ENDPOINT ?? "https://openrouter.ai/api/v1/chat/completions";
-  const apiKey = env.AI_API_KEY ?? env.OPENROUTER_API_KEY;
+  const rawEndpoint = (env.AI_API_ENDPOINT || env.OPENROUTER_API_ENDPOINT || "https://openrouter.ai/api/v1/chat/completions").trim();
+  const rawApiKey = (env.AI_API_KEY || env.OPENROUTER_API_KEY || "").trim();
+  const apiKey = rawApiKey.replace(/^["']|["']$/g, "");
+  const endpoint = rawEndpoint.replace(/^["']|["']$/g, "");
 
   if (!endpoint || !apiKey) {
     return null;
@@ -31,16 +33,17 @@ export function loadAiClientConfig(env = process.env, modelOverride?: string, ti
   return {
     endpoint,
     apiKey,
-    model:
-      modelOverride ??
-      env.AI_MODEL ??
-      env.OPENROUTER_MODEL ??
-      "openai/gpt-5.6-luna",
+    model: (
+      modelOverride ||
+      env.AI_MODEL ||
+      env.OPENROUTER_MODEL ||
+      "openai/gpt-5.6-luna"
+    ).trim().replace(/^["']|["']$/g, ""),
     timeoutMs: getPositiveInteger(
-      timeoutOverride ?? env.AI_TIMEOUT_MS ?? env.OPENROUTER_TIMEOUT_MS,
+      timeoutOverride || env.AI_TIMEOUT_MS || env.OPENROUTER_TIMEOUT_MS,
       60000
     ),
-    maxRetries: getPositiveInteger(env.AI_MAX_RETRIES ?? env.OPENROUTER_MAX_RETRIES, 3)
+    maxRetries: getPositiveInteger(env.AI_MAX_RETRIES || env.OPENROUTER_MAX_RETRIES, 3)
   };
 }
 

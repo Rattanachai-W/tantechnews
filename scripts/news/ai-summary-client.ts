@@ -168,7 +168,8 @@ export async function requestAiSummary(
         });
 
         if (!response.ok) {
-          throw new Error(`AI summary request failed with status ${response.status}`);
+          const errText = await response.text().catch(() => "");
+          throw new Error(`AI summary request failed with status ${response.status}${errText ? `: ${errText.slice(0, 300)}` : ""}`);
         }
 
         const payload = (await response.json()) as unknown;

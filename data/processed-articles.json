@@ -468,6 +468,69 @@
       "slug": "openai-ai-rl-2",
       "sourceName": "The Verge",
       "processedAt": "2026-08-20T06:47:53.714Z"
+    },
+    {
+      "id": "19be897f25165713780750dc41bcc063da1568e8863506e068fe8a91dbdd0d03",
+      "url": "https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/",
+      "slug": "google-docs",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T02:01:29.043Z"
+    },
+    {
+      "id": "632d085c004119cdd10ffc5913c00018ec671a5adbe04dc2b72b69e3f6b1e880",
+      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "slug": "1-3-chatgpt-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T02:01:58.537Z"
+    },
+    {
+      "id": "f726cd00afefc930b10419947638ab8778b7b12173bec4bff59964e315a5aa90",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "slug": "ramp-router-ai-api",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T02:02:49.161Z"
+    },
+    {
+      "id": "d03e0144906dc1f6fe27325d666312798525e381552868cefa6cbb89afced99f",
+      "url": "https://blog.mozilla.org/en/mozilla/ai/open-source-ai-framework/",
+      "slug": "mozilla-open-source-ai-communications-of-the-acm",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-08-21T02:03:20.452Z"
+    },
+    {
+      "id": "512254c86ff662cb4052ecd82490f8cc541b962d82ceb615887260dfb4c0b6bf",
+      "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
+      "slug": "cloudflare-oauth-scope-customization",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-08-21T02:03:48.743Z"
+    },
+    {
+      "id": "b47abbd1bd95443358662337d4131a6cd7d0c04f503cbeda49053c2afae1dccf",
+      "url": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
+      "slug": "v0-oauth-token-snowflake-sandbox-proxy",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-21T02:04:07.936Z"
+    },
+    {
+      "id": "a932d5d274ee8bbd21d06466a5aeca69582eeec27cfc611581c769af59210391",
+      "url": "https://techcrunch.com/video/learn-what-vcs-actually-want-from-a-founder-whos-raised-1b/",
+      "slug": "1-000",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T02:04:35.405Z"
+    },
+    {
+      "id": "b971cc0b07db0e0be832e3ebb280fedd84b0c4fdc2cc690df4b6589619112eb5",
+      "url": "https://www.theverge.com/tech/982955/meta-mark-zuckerberg-strancally-castle-ireland",
+      "slug": "mark-zuckerberg-strancally",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-21T02:05:36.430Z"
+    },
+    {
+      "id": "4065cdd41c2dbbdcbfe9f046f1ac63f68272f33af4499cf21f8217a583fac78e",
+      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+      "slug": "runlayer-rippling",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T02:07:26.726Z"
     }
   ]
 }
