@@ -559,6 +559,13 @@
       "slug": "meta-pocket-ai",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-21T05:41:00.772Z"
+    },
+    {
+      "id": "749fa1c494280e83045534bc4363297ba3fcd6e68fd4bcdb36fbac3c8d6af019",
+      "url": "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready",
+      "slug": "vercel-deployment-storage-rollback",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-21T17:41:11.622Z"
     }
   ]
 }
