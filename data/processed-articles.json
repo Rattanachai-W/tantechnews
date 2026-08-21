@@ -566,6 +566,27 @@
       "slug": "vercel-deployment-storage-rollback",
       "sourceName": "Vercel Blog",
       "processedAt": "2026-08-21T17:41:11.622Z"
+    },
+    {
+      "id": "9e86c763a03919e898439a9ffb2dd645cde7aaa9ebbc6631ddf584b4cc9e1c44",
+      "url": "https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/",
+      "slug": "lidar",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T23:28:45.635Z"
+    },
+    {
+      "id": "e04d23a50c531f9f1bd95616e0b261b276939d2fe516abb16095bbd712cd8ede",
+      "url": "https://www.marketwatch.com/story/former-jpmorgan-exec-takes-on-social-security-advisory-role-d0cf6e4f?mod=mw_rss_topstories",
+      "slug": "jpmorgan",
+      "sourceName": "MarketWatch",
+      "processedAt": "2026-08-21T23:29:02.967Z"
+    },
+    {
+      "id": "0531b8361b5d8f6634faeebf032b6fa27ad947a34424949094f78f6029d60062",
+      "url": "https://arstechnica.com/gadgets/2026/08/motorolas-grapheneos-phones-will-launch-in-2027-priced-higher-than-pixels/",
+      "slug": "motorola-grapheneos-2027-pixel",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-08-21T23:29:22.133Z"
     }
   ]
 }
