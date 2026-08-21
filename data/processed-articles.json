@@ -545,6 +545,20 @@
       "slug": "google-preferred-sources-ai",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-21T02:26:00.050Z"
+    },
+    {
+      "id": "1cbac981a493654d1d03303d9e497eb67125206352fe5a8b747c3d5e4c4ae22e",
+      "url": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/",
+      "slug": "adit-singh-cerebras-mayfield",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T05:39:58.704Z"
+    },
+    {
+      "id": "8b34b3149ae6d2a3588d59aa63ef126c61393515d00c604efffbd86ace7e1130",
+      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+      "slug": "meta-pocket-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-21T05:41:00.772Z"
     }
   ]
 }
