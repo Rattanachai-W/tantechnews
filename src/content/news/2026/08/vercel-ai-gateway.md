@@ -5,7 +5,7 @@ excerpt: >-
   Vercel เพิ่มฟีเจอร์กำหนดงบประมาณค่าใช้จ่ายใน AI Gateway ให้ทีมและโครงการได้
   นอกเหนือจาก API key โดยระบบจะนับค่าใช้จ่ายและหยุดคำขอเมื่อถึงเพดาน
   จนกว่าจะรีเซ็ตหรือเพิ่มงบ
-publishedAt: '2026-08-01T12:00:00.000+07:00'
+publishedAt: "2026-08-01T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-31T17:00:00.000Z'
 sourceName: Vercel Blog
 sourceUrl: 'https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts'

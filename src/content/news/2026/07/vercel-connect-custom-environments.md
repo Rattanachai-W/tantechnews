@@ -5,7 +5,7 @@ excerpt: >-
   Vercel Connect อนุญาตให้เชื่อมต่อ connector กับ Custom Environment ทำให้
   deployment ในสภาพแวดล้อมที่กำหนดขอ provider token และรับ webhook ที่ถูก
   forward ได้
-publishedAt: '2026-07-28T12:00:00.000+07:00'
+publishedAt: "2026-07-28T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-28T00:00:00.000Z'
 sourceName: Vercel Blog
 sourceUrl: 'https://vercel.com/changelog/vercel-connect-now-supports-custom-environments'

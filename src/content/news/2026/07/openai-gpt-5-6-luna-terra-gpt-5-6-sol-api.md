@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI ประกาศลดราคา GPT-5.6 Luna 80% และ Terra 20% ใน API พร้อมเปิดตัว Fast
   mode ที่ทำให้ GPT-5.6 Sol เร็วขึ้นสูงสุด 2.5 เท่า โดยไม่เปลี่ยนระดับความฉลาด
   เพื่อช่วยลูกค้าลดต้นทุนและทำงานเร็วขึ้น
-publishedAt: '2026-07-30T12:00:00.000+07:00'
+publishedAt: "2026-07-30T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-30T10:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6'

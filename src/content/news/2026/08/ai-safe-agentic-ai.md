@@ -5,7 +5,7 @@ excerpt: >-
   Open Secure AI Alliance กว่า 120 องค์กร กำลังร่างแนวทาง SAFE ผ่าน Linux
   Foundation เพื่อรวบรวมและวิเคราะห์เหตุการณ์ความปลอดภัยของ agentic AI อย่างลับ
   ๆ และเผยแพร่คำแนะนำเชิงหลักฐาน ลดความเสี่ยงเชิงระบบ
-publishedAt: '2026-08-04T12:00:00.000+07:00'
+publishedAt: "2026-08-04T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-04T13:00:47.000Z'
 sourceName: NVIDIA Blog
 sourceUrl: 'https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/'

@@ -5,7 +5,7 @@ excerpt: >-
   Vercel เปิดใช้งาน Qwen 3.8 Max บน AI Gateway
   รองรับงานข้อความและภาพในโมเดลเดียว มีพารามิเตอร์ 2.4 ล้านล้าน และบริบทสูงสุด 1
   ล้านโทเคน เหมาะกับงานวิศวกรรมซอฟต์แวร์และงานสำนักงาน
-publishedAt: '2026-08-02T12:00:00.000+07:00'
+publishedAt: "2026-08-02T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-02T00:00:00.000Z'
 sourceName: Vercel Blog
 sourceUrl: 'https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway'

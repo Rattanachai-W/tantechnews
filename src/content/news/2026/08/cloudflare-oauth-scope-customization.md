@@ -2,7 +2,7 @@
 title: "Cloudflare เปิดตัว OAuth scope customization ให้ผู้ใช้เลือกสิทธิ์เฉพาะส่วน"
 slug: "cloudflare-oauth-scope-customization"
 excerpt: "Cloudflare เปิดตัว OAuth scope customization ให้ผู้พัฒนาตั้งค่า scope เป็น required หรือ optional ได้ ผู้ใช้จึงเลือกอนุญาตสิทธิ์เฉพาะส่วนแทนการกดรับ/ปฏิเสธทั้งก้อน ลดความเสี่ยงการให้สิทธิ์เกินจำเป็น"
-publishedAt: "2026-08-21T00:03:03.000+07:00"
+publishedAt: "2026-08-21T09:03:48.743+07:00"
 sourcePublishedAt: "2026-08-20T17:03:03.000Z"
 sourceName: "Cloudflare Blog"
 sourceUrl: "https://blog.cloudflare.com/task-based-oauth-consent/"

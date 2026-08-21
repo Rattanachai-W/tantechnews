@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI ประกาศความร่วมมือกับรัฐบาลสหรัฐฯ ห้องปฏิบัติการแห่งชาติ มหาวิทยาลัย
   และนักวิจัย เพื่อเชื่อมต่อแบบจำลอง AI ขั้นสูงกับคอมพิวเตอร์สมรรถนะสูง การจำลอง
   และโครงสร้างพื้นฐานทางวิทยาศาสตร์ ผ่านภารกิจ Genesis
-publishedAt: '2026-07-22T12:00:00.000+07:00'
+publishedAt: "2026-07-22T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-22T12:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/advancing-the-next-era-of-national-science'

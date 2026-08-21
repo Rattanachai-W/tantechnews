@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI เผยแพร่ 2 งานวิจัย พบองค์กรระดับแนวหน้าใช้ AI แบบ agent มากขึ้น Codex
   สร้าง output tokens 64% ของลูกค้าองค์กร
   และช่องว่างการใช้งานระหว่างองค์กรแนวหน้ากับองค์กรทั่วไปกว้างขึ้น
-publishedAt: '2026-08-12T12:00:00.000+07:00'
+publishedAt: "2026-08-12T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-12T06:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/how-enterprises-put-ai-to-work'

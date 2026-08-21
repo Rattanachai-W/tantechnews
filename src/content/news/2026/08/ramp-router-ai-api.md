@@ -2,7 +2,7 @@
 title: "Ramp เปิดตัว Router บริการจัดการและสลับโมเดล AI ผ่าน API"
 slug: "ramp-router-ai-api"
 excerpt: "Ramp เปิดตัว Router บริการ route โมเดล AI ผ่าน API รองรับ OpenAI, Anthropic, DeepSeek และอื่น ๆ ใช้ฟรีถึงสิ้นปี 2026 พร้อมเครดิต 26 ดอลลาร์ แต่ผู้ใช้ยังต้องจ่ายค่า inference เอง"
-publishedAt: "2026-08-20T23:46:00.000+07:00"
+publishedAt: "2026-08-21T09:02:49.161+07:00"
 sourcePublishedAt: "2026-08-20T16:46:00.000Z"
 sourceName: "TechCrunch"
 sourceUrl: "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/"

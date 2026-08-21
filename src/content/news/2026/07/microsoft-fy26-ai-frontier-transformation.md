@@ -7,7 +7,7 @@ excerpt: >-
   Microsoft ระบุว่าลูกค้าข้ามจากทดลอง AI ไปใช้สร้างผลลัพธ์ธุรกิจจริง เกิด
   Frontier Firms ที่ฝัง AI ในกระบวนการหลัก ผ่าน Copilot, Microsoft IQ และ Agent
   365 พร้อมตัวอย่าง Atos และ ASM
-publishedAt: '2026-07-28T12:00:00.000+07:00'
+publishedAt: "2026-07-28T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-28T16:00:10.000Z'
 sourceName: Microsoft Blog
 sourceUrl: >-

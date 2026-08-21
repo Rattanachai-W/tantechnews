@@ -6,7 +6,7 @@ excerpt: >-
   Holdings สร้าง Kurashi-Marugoto AI Agent บน GPT-Realtime
   ให้คำปรึกษาซื้อเครื่องใช้ไฟฟ้าด้วยเสียงหลายภาษา 24 ชั่วโมง ในแคมเปญ 2 สัปดาห์
   มีผู้ใช้ราว 30,000 คน และ 92% ตอบแบบสำรวจเชิงบวก
-publishedAt: '2026-07-30T12:00:00.000+07:00'
+publishedAt: "2026-07-30T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-30T00:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/avatarin'

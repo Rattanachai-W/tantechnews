@@ -5,7 +5,7 @@ excerpt: >-
   Cursor สตาร์ทอัพ AI ที่อยู่ใน SpaceX เปิดตัว Origin
   แพลตฟอร์มโฮสต์โค้ดเพื่อทำงานร่วมกับ GitHub ได้โดยตรง ขณะ GitHub เผชิญปัญหา
   outage และ error rate สูงในช่วงเวลาเดียวกัน
-publishedAt: '2026-08-19T12:00:00.000+07:00'
+publishedAt: "2026-08-19T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-18T22:14:25.000Z'
 sourceName: TechCrunch
 sourceUrl: >-

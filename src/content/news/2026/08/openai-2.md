@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI เปิดให้พันธมิตรความปลอดภัยในโครงการ Daybreak Cyber Partner
   นำโมเดลไซเบอร์ขั้นสูงไปใช้กับผลิตภัณฑ์ บริการ และปฏิบัติการรักษาความปลอดภัย
   เพื่อช่วยค้นหาช่องโหว่ที่รุนแรง ตรวจสอบ และแก้ไขให้เร็วขึ้น
-publishedAt: '2026-08-10T12:00:00.000+07:00'
+publishedAt: "2026-08-10T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-10T10:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands'

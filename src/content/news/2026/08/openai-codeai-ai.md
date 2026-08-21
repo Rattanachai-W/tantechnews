@@ -6,7 +6,7 @@ excerpt: >-
   ประกาศความร่วมมือเพื่อให้นักเรียนและครูเข้าถึงเครื่องมือและทรัพยากรการเรียนรู้
   AI พร้อมเปิดตัว ChatGPT for Teens
   ที่ออกแบบมาเพื่อส่งเสริมการคิดวิเคราะห์และการใช้งานอย่างรับผิดชอบ
-publishedAt: '2026-08-18T18:00:00.000+07:00'
+publishedAt: "2026-08-20T10:08:29.590+07:00"
 sourcePublishedAt: '2026-08-18T11:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/partnering-with-codeai'

@@ -2,7 +2,7 @@
 title: "แฮกเกอร์หลอกนักวิจัยความปลอดภัยด้วยงานประชุมคริปโตปลอมผ่าน Google Docs"
 slug: "google-docs"
 excerpt: "Huntress เผยแพร่รายงานการโจมตีที่บุคคลหนึ่งปลอมตัวเป็นพนักงานเว็บไซต์ข่าวคริปโต ใช้ Google Docs ปลอมเป็นเอกสารจัดงานประชุมคริปโต พร้อมแถบด้านข้างเลียนแบบการเข้ารหัส ล่อให้นักวิจัยความปลอดภัยกรอกคีย์ปลอมและติดตั้งมัลแวร์บน macOS และ Windows"
-publishedAt: "2026-08-21T03:00:00.000+07:00"
+publishedAt: "2026-08-21T09:01:29.043+07:00"
 sourcePublishedAt: "2026-08-20T20:00:00.000Z"
 sourceName: "TechCrunch"
 sourceUrl: "https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/"

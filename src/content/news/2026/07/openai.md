@@ -4,7 +4,7 @@ slug: openai
 excerpt: >-
   OpenAI ลดราคา GPT-5.6 Luna 80% และ Terra 20%
   พร้อมเพิ่มประสิทธิภาพระบบให้บริการ ลดต้นทุนการประมวลผลและขยายวงจรการลงทุน
-publishedAt: '2026-07-31T12:00:00.000+07:00'
+publishedAt: "2026-07-31T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-31T15:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/building-abundant-intelligence'

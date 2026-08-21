@@ -5,7 +5,7 @@ excerpt: >-
   Docker เปิดตัวฟีเจอร์ AI Governance เชื่อมต่อ Audit Logs
   ตรงเข้าเครื่องมือเดิมของทีม Security พร้อมจับมือ NVIDIA เข้าร่วม Open Secure
   AI Alliance และเปิด Docker VMM Beta
-publishedAt: '2026-08-03T12:00:00.000+07:00'
+publishedAt: "2026-08-03T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-03T13:00:00.000Z'
 sourceName: Docker Blog
 sourceUrl: >-

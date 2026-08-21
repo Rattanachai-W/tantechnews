@@ -7,7 +7,7 @@ excerpt: >-
   เครื่องมือถูกใช้ข้ามแผนกข่าว ผลิตภัณฑ์ และธุรกิจ
   เพื่อช่วยนักข่าวครอบคลุมงานมากขึ้น ค้นหาข้อมูล
   และเปลี่ยนข้อมูลซับซ้อนเป็นการตัดสินใจที่เร็วขึ้น
-publishedAt: '2026-07-22T12:00:00.000+07:00'
+publishedAt: "2026-07-22T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-22T13:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/how-news-organizations-are-using-ai'

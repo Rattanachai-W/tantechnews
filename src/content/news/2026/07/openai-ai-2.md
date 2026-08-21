@@ -6,7 +6,7 @@ excerpt: >-
   ความมั่นคง โปร่งใส และการพิสูจน์แหล่งที่มาให้สอดคล้องกับ EU AI Act
   และแนวปฏิบัติ GPAI รวมถึงการทดสอบโมเดลก่อนเปิดตัว การเปิดเผย System Cards
   และการร่วมมือกับหน่วยงานภายนอก
-publishedAt: '2026-07-31T12:00:00.000+07:00'
+publishedAt: "2026-07-31T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-31T15:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/advancing-responsible-ai-across-europe'

@@ -5,7 +5,7 @@ excerpt: >-
   Vercel เปิดตัว DeepsecBench วัดความสามารถโมเดล AI
   หาช่องโหว่ความปลอดภัยในโค้ดแอปพลิเคชัน พร้อมรายงาน recall, precision,
   ค่าใช้จ่าย และเวลา เพื่อช่วยเลือกโมเดลและรอบการสแกนให้เหมาะกับงบ
-publishedAt: '2026-07-27T12:00:00.000+07:00'
+publishedAt: "2026-07-27T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-27T04:00:00.000Z'
 sourceName: Vercel Blog
 sourceUrl: >-

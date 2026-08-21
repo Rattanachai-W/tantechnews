@@ -7,7 +7,7 @@ excerpt: >-
   OpenAI ประกาศแต่งตั้ง David Vélez ผู้ก่อตั้ง Nubank และ Robin Vince ประธานและ
   CEO ของ BNY เข้าเป็นกรรมการบอร์ด OpenAI Foundation และ OpenAI Group PBC
   เพื่อเสริมมุมมองด้านเทคโนโลยี การกำกับดูแล และการขยายโอกาสทางเศรษฐกิจ
-publishedAt: '2026-07-21T12:00:00.000+07:00'
+publishedAt: "2026-07-21T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-21T00:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/david-velez-robin-vince-join-openai-boards'

@@ -5,7 +5,7 @@ excerpt: >-
   Docker เผย Agent Baseline เป็นแบบแผนสำหรับการนำ AI agent มาใช้ในองค์กร
   โดยกำหนดผลลัพธ์ด้านความปลอดภัย 6 ประการ เพื่อให้ agent
   ทำงานได้โดยไม่ได้รับอำนาจเกินขอบเขต
-publishedAt: '2026-08-13T12:00:00.000+07:00'
+publishedAt: "2026-08-13T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-12T17:25:31.000Z'
 sourceName: Docker Blog
 sourceUrl: >-

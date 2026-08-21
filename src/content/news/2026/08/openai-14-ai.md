@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI มอบทุนรวม 1 ล้านดอลลาร์และเครดิต API สูงสุด 1 ล้านดอลลาร์ให้ 14
   โครงการจากองค์กรอิสระในสหรัฐฯ สหภาพยุโรป บราซิล สิงคโปร์ และเกาหลีใต้
   เพื่อศึกษาการขยายโอกาสทางเศรษฐกิจและความยืดหยุ่นของสังคมในยุค AI
-publishedAt: '2026-08-17T12:00:00.000+07:00'
+publishedAt: "2026-08-17T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-17T03:15:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/new-policy-ideas-for-the-intelligence-age'

@@ -8,7 +8,7 @@ excerpt: >-
   ระบุความมุ่งมั่นในการพัฒนาโครงสร้างพื้นฐาน AI อย่างรับผิดชอบ
   และจะทำงานร่วมกับผู้นำรัฐและท้องถิ่น ผู้ให้บริการสาธารณูปโภค และชุมชน
   เพื่อให้ชาวเท็กซัสได้รับประโยชน์
-publishedAt: '2026-08-10T12:00:00.000+07:00'
+publishedAt: "2026-08-10T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-10T14:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/responsible-ai-infrastructure-texas'

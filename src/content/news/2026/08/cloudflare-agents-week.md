@@ -5,7 +5,7 @@ excerpt: >-
   Cloudflare สรุป Agents Week ว่าเปิดตัว Cloudflare Agents, ADLC, Wallets,
   CI/CD, Zero Trust สำหรับเอเจนต์, WebMCP และ AEO
   เพื่อสร้างอินเทอร์เน็ตที่มนุษย์และเอเจนต์ทำงานร่วมกัน
-publishedAt: '2026-08-11T12:00:00.000+07:00'
+publishedAt: "2026-08-11T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-10T18:34:10.000Z'
 sourceName: Cloudflare Blog
 sourceUrl: 'https://blog.cloudflare.com/agents-week-review-august-2026/'

@@ -2,7 +2,7 @@
 title: "1 ใน 3 ของเว็บหลัง ChatGPT มีสัญญาณเขียนโดย AI"
 slug: "1-3-chatgpt-ai"
 excerpt: "Pew Research ศึกษาเว็บเพจภาษาอังกฤษเกือบ 500,000 หน้าจาก Common Crawl พบว่าหลัง ChatGPT เปิดตัว เว็บเพจใหม่กว่า 1 ใน 3 มีสัญญาณการเขียนหรือแก้ไขอย่างมีนัยสำคัญโดย AI"
-publishedAt: "2026-08-21T00:18:58.000+07:00"
+publishedAt: "2026-08-21T09:01:58.537+07:00"
 sourcePublishedAt: "2026-08-20T17:18:58.000Z"
 sourceName: "TechCrunch"
 sourceUrl: "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/"

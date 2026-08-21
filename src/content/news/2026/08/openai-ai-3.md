@@ -6,7 +6,7 @@ excerpt: >-
   และหลักฐานเบื้องต้นเกี่ยวกับโมเดล Astra ที่เกี่ยวข้องกับเกณฑ์ Critical
   cybersecurity capability โดยหยุดการฝึก RL สองสัปดาห์และยกระดับการเฝ้าระวัง
   alignment และ security
-publishedAt: '2026-08-18T18:00:00.000+07:00'
+publishedAt: "2026-08-20T10:09:19.537+07:00"
 sourcePublishedAt: '2026-08-18T11:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/pacing-model-development-cyber-capabilities'

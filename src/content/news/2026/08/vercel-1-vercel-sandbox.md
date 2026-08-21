@@ -5,7 +5,7 @@ excerpt: >-
   Vercel เปิด HackerOne 2 สัปดาห์ ท้านักวิจัยเจาะ Vercel Sandbox บน Firecracker
   microVM และ host network controls รางวัลรวมสูงสุด 1 ล้านดอลลาร์สหรัฐ และสูงสุด
   50,000 ดอลลาร์สหรัฐต่อรายงาน
-publishedAt: '2026-08-18T20:00:00.000+07:00'
+publishedAt: "2026-08-20T13:45:32.451+07:00"
 sourcePublishedAt: '2026-08-18T13:00:00.000Z'
 sourceName: Vercel Blog
 sourceUrl: 'https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox'

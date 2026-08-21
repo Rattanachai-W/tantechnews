@@ -4,7 +4,7 @@ slug: curiosity
 excerpt: >-
   IEEE Spectrum เผยบทกวีจากมุมมองยานสำรวจดาวอังคาร Curiosity
   ที่บรรยายพื้นผิวดาวอังคาร ฝุ่น อากาศเบาบาง และความรู้สึกคิดถึงโลก
-publishedAt: '2026-07-25T12:00:00.000+07:00'
+publishedAt: "2026-07-25T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-25T13:00:01.000Z'
 sourceName: IEEE Spectrum
 sourceUrl: 'https://spectrum.ieee.org/poem-martian-rover'

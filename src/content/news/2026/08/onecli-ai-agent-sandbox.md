@@ -4,7 +4,7 @@ slug: onecli-ai-agent-sandbox
 excerpt: >-
   OneCLI (YC S26) เป็นแพลตฟอร์มโอเพนซอร์สสำหรับรัน AI Agent แบบทีม
   ให้พนักงานแต่ละคนมี agent ใน sandbox พร้อม gateway ควบคุมสิทธิ์และ credentials
-publishedAt: '2026-08-19T23:29:02.000+07:00'
+publishedAt: "2026-08-20T13:43:46.549+07:00"
 sourcePublishedAt: '2026-08-19T16:29:02.000Z'
 sourceName: Hacker News
 sourceUrl: 'https://github.com/onecli/onecli'

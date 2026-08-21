@@ -5,7 +5,7 @@ excerpt: >-
   Vercel เพิ่มความสามารถให้ AI Gateway สร้าง OpenTelemetry trace ทุกคำขอ และทีม
   Pro/Enterprise ส่งออกผ่าน Vercel Drains ไปยังปลายทาง OTLP/HTTP
   พร้อมการเชื่อมต่อ Braintrust, Dash0, Kubiks, Sentry และ Statsig
-publishedAt: '2026-08-05T12:00:00.000+07:00'
+publishedAt: "2026-08-05T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-05T05:00:00.000Z'
 sourceName: Vercel Blog
 sourceUrl: 'https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains'

@@ -6,7 +6,7 @@ excerpt: >-
   ยอมรับว่าทนายส่งอีเมลผิดคนและไม่เคยหารือกับที่ปรึกษากฎหมายจริง
   พร้อมเผยข้อความที่พนักงาน Apple ขอให้ Chang Liu ช่วยค้นหาไฟล์หลังลาออก
   และยืนยันว่าไม่ต้องการหรือครอบครองความลับทางการค้าของ Apple
-publishedAt: '2026-08-04T12:00:00.000+07:00'
+publishedAt: "2026-08-04T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-03T22:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/apple-is-getting-this-wrong'

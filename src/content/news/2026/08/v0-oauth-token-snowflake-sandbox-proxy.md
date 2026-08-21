@@ -2,7 +2,7 @@
 title: "v0 แยก OAuth Token ของผู้ใช้ Snowflake ออกจาก Sandbox ด้วย Proxy ภายนอก"
 slug: "v0-oauth-token-snowflake-sandbox-proxy"
 excerpt: "v0 แก้ปัญหาการเข้าถึง Snowflake ของแอปที่ AI สร้าง โดยไม่ส่ง OAuth Token ของผู้ใช้เข้า Sandbox ผ่าน Proxy ภายนอกที่ตรวจสอบ OIDC และดึง credential ใหม่ในขั้นตอน request"
-publishedAt: "2026-08-20T11:00:00.000+07:00"
+publishedAt: "2026-08-21T09:04:07.936+07:00"
 sourcePublishedAt: "2026-08-20T04:00:00.000Z"
 sourceName: "Vercel Blog"
 sourceUrl: "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token"

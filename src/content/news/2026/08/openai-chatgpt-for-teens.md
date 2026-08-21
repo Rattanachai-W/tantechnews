@@ -6,7 +6,7 @@ excerpt: >-
   โดยออกแบบให้ช่วยการเรียนรู้แบบเชิงรุก มี Study Mode
   การแจ้งเตือนการบ้านอย่างรับผิดชอบ แบบทดสอบ การแสดงภาพการเรียนรู้ และ Study
   Hours พร้อมระบบความปลอดภัยและการควบคุมสำหรับผู้ปกครอง
-publishedAt: '2026-08-18T18:00:00.000+07:00'
+publishedAt: "2026-08-20T10:09:50.616+07:00"
 sourcePublishedAt: '2026-08-18T11:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/chatgpt-for-teens'

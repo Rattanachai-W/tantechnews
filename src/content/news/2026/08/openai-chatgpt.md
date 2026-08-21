@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI เผยข้อมูลรายประเทศเป็นครั้งแรก พบผู้ใช้ ChatGPT
   ทั่วโลกหันมาใช้ทำงานจริงมากขึ้น โดยเฉพาะการเขียน โค้ด และวิเคราะห์ข้อมูล
   ขณะภูมิภาคละตินอเมริกา แอฟริกา และโอเชียเนียไล่ตามกลุ่มผู้ใช้เดิม
-publishedAt: '2026-08-06T12:00:00.000+07:00'
+publishedAt: "2026-08-06T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-06T00:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/how-the-world-is-putting-chatgpt-to-work'
