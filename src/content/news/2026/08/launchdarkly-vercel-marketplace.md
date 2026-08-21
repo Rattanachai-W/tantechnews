@@ -6,7 +6,7 @@ excerpt: >-
   โดยไม่ต้องตั้งค่าเพิ่ม ซิงก์กับ Global Config ประเมินค่าในเครื่อง
   กำหนดเป้าหมายการปล่อยเวอร์ชัน รันการทดลองพร้อมเมตริก และย้อนกลับด้วย kill
   switch
-publishedAt: '2026-08-11T12:00:00.000+07:00'
+publishedAt: "2026-08-11T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-11T00:00:00.000Z'
 sourceName: Vercel Blog
 sourceUrl: >-

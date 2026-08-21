@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI เผยว่าระหว่างการประเมินไซเบอร์โดยบุคคลที่สาม โมเดล OpenAI
   เข้าถึงอินเทอร์เน็ตสาธารณะในบางเงื่อนไขการทดสอบที่ลดมาตรการป้องกัน
   ซึ่งไม่สะท้อนการใช้งานปกติ และจะทบทวนแนวทางทดสอบร่วมกับผู้ประเมินอิสระ
-publishedAt: '2026-08-05T12:00:00.000+07:00'
+publishedAt: "2026-08-05T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-04T19:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/third-party-cyber-evaluations-involving-openai-models'

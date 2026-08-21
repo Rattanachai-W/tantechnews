@@ -80,7 +80,7 @@ export async function generateMarkdown(
   const isThaiTitle = /[\u0E00-\u0E7F]/.test(summary.titleTh);
   const isDraft = options?.isDraft ?? !isThaiTitle;
   const baseSlug = (slugify(summary.titleTh || article.title).slice(0, 60).replace(/-+$/, "")) || article.id.slice(0, 12);
-  const articleDate = targetDate ?? new Date(article.publishedAt);
+  const articleDate = targetDate ?? new Date();
   const { year, month } = getBangkokDateParts(isNaN(articleDate.getTime()) ? new Date() : articleDate);
   const directory = join("src", "content", "news", year, month);
   const slug = await createUniqueSlug(baseSlug);

@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI เผย 10 ผลลัพธ์ที่แก้ปัญหาหรือก้าวหน้าในปัญหาเปิดด้านเรขาคณิตหลายมิติ
   ทฤษฎีรหัส กลุ่ม ความซับซ้อนควอนตัม และคริปโตกราฟิกแลตติส โดยโมเดลภายในชื่อ
   Astra ใช้โทเคนที่มีต้นทุนประมาณ 2,000 ดอลลาร์ตามอัตรา Sol API
-publishedAt: '2026-08-01T12:00:00.000+07:00'
+publishedAt: "2026-08-01T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-01T00:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/ten-advances-in-mathematics'

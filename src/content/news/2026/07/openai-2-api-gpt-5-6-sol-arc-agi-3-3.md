@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI พบว่าการเปิด retained reasoning และ compaction ใน Responses API ทำให้
   GPT-5.6 Sol ได้คะแนน 38.3% จาก 13.3% บนชุดงานสาธารณะของ ARC-AGI-3 และลด output
   tokens ลง 6 เท่า
-publishedAt: '2026-07-29T12:00:00.000+07:00'
+publishedAt: "2026-07-29T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-29T15:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores'

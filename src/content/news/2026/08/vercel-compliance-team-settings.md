@@ -6,7 +6,7 @@ excerpt: >-
   compliance เช่น SOC 2 Type 2 และนโยบายความปลอดภัยจาก Trust Center
   ได้โดยตรงในหน้าจัดการ พร้อมเลือกดาวน์โหลดเป็นไฟล์ zip
   และทุกการดูหรือดาวน์โหลดมีลายน้ำข้อมูลผู้ใช้และทีม
-publishedAt: '2026-08-19T07:00:00.000+07:00'
+publishedAt: "2026-08-20T10:12:49.356+07:00"
 sourcePublishedAt: '2026-08-19T00:00:00.000Z'
 sourceName: Vercel Blog
 sourceUrl: >-

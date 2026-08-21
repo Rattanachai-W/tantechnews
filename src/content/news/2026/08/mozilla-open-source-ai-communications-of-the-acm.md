@@ -2,7 +2,7 @@
 title: "Mozilla ร่วมเสนอกรอบ Open Source AI ใหม่ใน Communications of the ACM"
 slug: "mozilla-open-source-ai-communications-of-the-acm"
 excerpt: "Mozilla และ Columbia Institute of Global Politics เสนอกรอบ Open Source AI ใหม่ใน Communications of the ACM ชี้ความเปิดต้องมองเป็นระดับตามชั้นข้อมูล โค้ด น้ำหนักโมเดล และเอกสาร ไม่ใช่สวิตช์เดียว พร้อมให้ภาษา ร่วมสำหรับนักพัฒนา นักวิจัย และผู้กำหนดนโยบาย"
-publishedAt: "2026-08-20T22:57:30.000+07:00"
+publishedAt: "2026-08-21T09:03:20.452+07:00"
 sourcePublishedAt: "2026-08-20T15:57:30.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/mozilla/ai/open-source-ai-framework/"

@@ -5,7 +5,7 @@ excerpt: >-
   K.J. Ray Liu ประธาน IEEE ปี 2022 ได้รับรางวัล Haraden Pratt
   สำหรับภาวะผู้นำที่สร้างการเปลี่ยนแปลง โดยเขาเพิ่มพหุวัฒนธรรมของผู้เสนอชื่อ
   Fellow และปรับเขตภูมิศาสตร์ของ IEEE เพื่อตัวแทนระดับโลกที่เป็นธรรมมากขึ้น
-publishedAt: '2026-07-25T12:00:00.000+07:00'
+publishedAt: "2026-07-25T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-24T18:00:01.000Z'
 sourceName: IEEE Spectrum
 sourceUrl: 'https://spectrum.ieee.org/ieee-president-ray-liu-award'

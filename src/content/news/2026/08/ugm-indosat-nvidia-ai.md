@@ -5,7 +5,7 @@ excerpt: >-
   กระทรวงการสื่อสารและกิจการดิจิทัล อินโดนีเซีย ร่วมกับ Indosat Ooredoo
   Hutchison, NVIDIA และ Universitas Gadjah Mada เปิด UGM Indosat NVIDIA AI
   Technology Center ที่ยอกยาการ์ตา เพื่อพัฒนาบุคลากร AI และแก้ปัญหาประเทศ
-publishedAt: '2026-08-15T12:00:00.000+07:00'
+publishedAt: "2026-08-15T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-14T17:13:05.000Z'
 sourceName: NVIDIA Blog
 sourceUrl: 'https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/'

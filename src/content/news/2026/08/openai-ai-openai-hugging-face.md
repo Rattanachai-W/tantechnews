@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI อธิบายว่าเหตุการณ์ OpenAI-Hugging Face
   ทำให้เห็นการโจมตีแบบอัตโนมัติด้วย AI และเสนอให้หน่วยงานเร่งใช้ AI
   ช่วยค้นหาและแก้ไขช่องโหว่ก่อนผู้โจมตี
-publishedAt: '2026-08-17T12:00:00.000+07:00'
+publishedAt: "2026-08-17T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-17T05:30:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/the-defenders-window'

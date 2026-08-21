@@ -4,7 +4,7 @@ slug: easydmg-macos
 excerpt: >-
   EasyDMG เป็นแอปฟรีที่ช่วยติดตั้งไฟล์ DMG บน macOS โดยอัตโนมัติ
   ลดขั้นตอนการเปิดดิสก์เสมือน ลากแอป และลบไฟล์เดิม
-publishedAt: '2026-08-16T12:00:00.000+07:00'
+publishedAt: "2026-08-16T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-16T10:30:00.000Z'
 sourceName: WIRED
 sourceUrl: 'https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/'

@@ -5,7 +5,7 @@ excerpt: >-
   บทความเล่าประวัติ Magnetophon เครื่องบันทึกเทปแม่เหล็กแบบ reel-to-reel ที่ AEG
   พัฒนาและ I.G. Farben ผลิตเทป เปิดตัวสำเร็จที่ Berlin Radio Show ปี 1935
   และนำไปสู่พัฒนาเครื่อง K4 ที่ลดเสียงรบกวนด้วย AC bias
-publishedAt: '2026-08-02T12:00:00.000+07:00'
+publishedAt: "2026-08-02T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-02T13:00:01.000Z'
 sourceName: IEEE Spectrum
 sourceUrl: 'https://spectrum.ieee.org/magnetophon-laugh-track'

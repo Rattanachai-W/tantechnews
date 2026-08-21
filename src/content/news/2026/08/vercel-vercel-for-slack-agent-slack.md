@@ -5,7 +5,7 @@ excerpt: >-
   Vercel เปิดตัว Vercel for Slack ใน Public Beta สำหรับทีม Pro และ Enterprise
   ให้ผู้ใช้เรียก @Vercel ในช่อง เธรด หรือ DM เพื่อตอบคำถาม ตรวจสอบเหตุการณ์
   และเปลี่ยนการตัดสินใจของทีมเป็น Pull Request ที่ต้องอนุมัติ
-publishedAt: '2026-08-19T07:00:00.000+07:00'
+publishedAt: "2026-08-20T13:44:21.531+07:00"
 sourcePublishedAt: '2026-08-19T00:00:00.000Z'
 sourceName: Vercel Blog
 sourceUrl: 'https://vercel.com/blog/introducing-vercel-for-slack'

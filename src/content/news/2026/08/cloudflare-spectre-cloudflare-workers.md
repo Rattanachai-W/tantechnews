@@ -5,7 +5,7 @@ excerpt: >-
   Cloudflare ทดสอบการโจมตี Spectre บน Workers ใหม่ พบข้อจำกัดของ DyPrIs
   และสาธิตการรั่วข้อมูลสูงสุด 12 บิตต่อวินาทีด้วยความแม่นยำ 99%
   ในสภาพแวดล้อมการผลิต ก่อนปรับปรุงด้วย V8 Sandbox
-publishedAt: '2026-08-19T23:00:28.000+07:00'
+publishedAt: "2026-08-20T10:10:35.458+07:00"
 sourcePublishedAt: '2026-08-19T16:00:28.000Z'
 sourceName: Cloudflare Blog
 sourceUrl: 'https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/'

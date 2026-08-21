@@ -7,7 +7,7 @@ excerpt: >-
   OpenAI เปิด Zero Data Retention สำหรับลูกค้า API ที่เข้าเงื่อนไข โดยไม่เก็บ
   prompts หรือคำตอบหลังประมวลผล พร้อมเปิดให้ทดลอง Private Safety Processing
   ตรวจจับความเสี่ยงข้ามหลายครั้งโดยไม่เปิดเนื้อหาให้พนักงานเข้าถึง
-publishedAt: '2026-08-20T02:00:00.000+07:00'
+publishedAt: "2026-08-20T10:07:39.636+07:00"
 sourcePublishedAt: '2026-08-19T19:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/offering-zero-data-retention-for-frontier-models'

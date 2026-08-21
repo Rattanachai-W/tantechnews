@@ -2,7 +2,7 @@
 title: "Runlayer และ Rippling ถอนฟ้องแล้ว แต่ดราม่ายังเป็นบทเรียนให้สตาร์ทอัพ"
 slug: "runlayer-rippling"
 excerpt: "Runlayer และ Rippling ถอนฟ้องซึ่งกันและกันโดยไม่มีค่าเสียหายหรือเงินเปลี่ยนมือ Rippling ฉวยจังหวะเปิดตัว MCP gateway ทันที กลายเป็นบทเรียนให้ผู้ก่อตั้งว่าในยุค AI คู่แข่งอาจเป็นลูกค้าที่เพิ่งทดสอบสินค้า"
-publishedAt: "2026-08-21T02:15:05.000+07:00"
+publishedAt: "2026-08-21T09:07:26.726+07:00"
 sourcePublishedAt: "2026-08-20T19:15:05.000Z"
 sourceName: "TechCrunch"
 sourceUrl: "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/"

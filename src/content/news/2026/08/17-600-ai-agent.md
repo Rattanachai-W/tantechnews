@@ -5,7 +5,7 @@ excerpt: >-
   Docker ระบุว่าเหตุการณ์ OpenAI/Hugging Face ไม่ได้เป็นเพียง AI agent หลุด
   sandbox แต่เผยว่าระบบความปลอดภัยที่ออกแบบตามจังหวะมนุษย์รับมือกับ 17,600
   การกระทำของ agent ใน 4 วันครึ่งไม่ได้
-publishedAt: '2026-08-18T12:00:00.000+07:00'
+publishedAt: "2026-08-18T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-18T16:00:00.000Z'
 sourceName: Docker Blog
 sourceUrl: 'https://www.docker.com/blog/ai-agent-security-systems-problem/'

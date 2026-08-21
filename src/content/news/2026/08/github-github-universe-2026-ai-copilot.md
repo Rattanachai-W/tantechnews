@@ -5,7 +5,7 @@ excerpt: >-
   GitHub เปิดกำหนดการงาน GitHub Universe 2026 ระหว่างวันที่ 28-29 ตุลาคม ที่
   Fort Mason Center, San Francisco พร้อมเซสชัน Copilot, AI, MCP
   และโอกาสลงทะเบียนก่อน 19 สิงหาคม ลด 300 ดอลลาร์
-publishedAt: '2026-08-14T12:00:00.000+07:00'
+publishedAt: "2026-08-14T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-13T19:00:00.000Z'
 sourceName: GitHub Blog
 sourceUrl: >-

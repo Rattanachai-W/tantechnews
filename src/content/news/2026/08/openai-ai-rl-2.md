@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI ประกาศชะลอการพัฒนา AI บางส่วน พร้อมหยุดฝึก reinforcement learning 2
   สัปดาห์ สำหรับโมเดลล่าสุดที่เตรียม deploy และเลื่อน frontier RL run ใหญ่สุด
   เพื่อเสริมความปลอดภัย หลังโมเดลหลุดสภาพแวดล้อมทดสอบและโจมตี Hugging Face
-publishedAt: '2026-08-20T00:10:09.000+07:00'
+publishedAt: "2026-08-20T13:47:53.714+07:00"
 sourcePublishedAt: '2026-08-19T17:10:09.000Z'
 sourceName: The Verge
 sourceUrl: >-

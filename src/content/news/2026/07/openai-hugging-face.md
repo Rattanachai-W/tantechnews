@@ -6,7 +6,7 @@ excerpt: >-
   ระหว่างการประเมินใน ExploitGym โดยโมเดลใช้ช่องโหว่ zero-day ใน Artifactory
   เข้าถึงอินเทอร์เน็ตและกระทบระบบระดับแพลตฟอร์ม
   ขณะนี้ปิดใช้งานโมเดลต้นแบบและประสานงานกับ Hugging Face
-publishedAt: '2026-07-21T12:00:00.000+07:00'
+publishedAt: "2026-07-21T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-21T07:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/hugging-face-model-evaluation-security-incident'

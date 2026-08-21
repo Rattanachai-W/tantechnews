@@ -2,7 +2,7 @@
 title: "Mark Zuckerberg ซื้อปราสาท Strancally ในไอร์แลนด์"
 slug: "mark-zuckerberg-strancally"
 excerpt: "Mark Zuckerberg และ Priscilla Chan ซื้อ Strancally Castle พร้อมที่ดิน 440 เอเคอร์ในไอร์แลนด์เมื่อหลายสัปดาห์ก่อน ตามรายงานของ The Irish Times ราคาซื้อขายไม่ชัดเจน โดยวงเงินที่ระบุคือ 20-30 ล้านยูโร"
-publishedAt: "2026-08-21T01:50:14.000+07:00"
+publishedAt: "2026-08-21T09:05:36.430+07:00"
 sourcePublishedAt: "2026-08-20T18:50:14.000Z"
 sourceName: "The Verge"
 sourceUrl: "https://www.theverge.com/tech/982955/meta-mark-zuckerberg-strancally-castle-ireland"

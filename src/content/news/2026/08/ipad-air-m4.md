@@ -5,7 +5,7 @@ excerpt: >-
   Amazon และ Best Buy ลดราคา iPad Air 11 นิ้ว ชิป M4 รุ่นล่าสุด เหลือ 649
   ดอลลาร์ ต่ำกว่าราคาขายปลีกใหม่ 100 ดอลลาร์ พร้อมรุ่น 256GB และรุ่น Cellular
   ลดราคาด้วย
-publishedAt: '2026-08-20T00:56:15.000+07:00'
+publishedAt: "2026-08-20T13:43:11.889+07:00"
 sourcePublishedAt: '2026-08-19T17:56:15.000Z'
 sourceName: The Verge
 sourceUrl: 'https://www.theverge.com/gadgets/982242/ipad-air-m4-garmin-inreach-deal-sale'

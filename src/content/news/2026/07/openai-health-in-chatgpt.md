@@ -6,7 +6,7 @@ excerpt: >-
   บนเว็บและ iOS ให้เชื่อมต่อ Apple Health
   และเวชระเบียนทางการแพทย์ที่รองรับอย่างปลอดภัย เพื่อช่วยสรุปข้อมูลสุขภาพ
   ติดตามการเปลี่ยนแปลง และสนทนาแบบเฉพาะบุคคล โดยไม่ใช้ข้อมูลฝึกโมเดลหรือโฆษณา
-publishedAt: '2026-07-23T12:00:00.000+07:00'
+publishedAt: "2026-07-23T12:00:00.000+07:00"
 sourcePublishedAt: '2026-07-23T00:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/health-in-chatgpt'

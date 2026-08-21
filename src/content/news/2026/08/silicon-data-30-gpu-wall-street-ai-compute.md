@@ -7,7 +7,7 @@ excerpt: >-
   Silicon Data ปิดรอบ Series A 30 ล้านดอลลาร์
   เพื่อสร้างราคาอ้างอิงและการซื้อขายล่วงหน้าสำหรับ GPU rental และ AI compute บน
   CME วันที่ 5 ต.ค. รอการอนุมัติกฎระเบียบ
-publishedAt: '2026-08-20T00:26:48.000+07:00'
+publishedAt: "2026-08-20T13:42:51.405+07:00"
 sourcePublishedAt: '2026-08-19T17:26:48.000Z'
 sourceName: TechCrunch
 sourceUrl: >-

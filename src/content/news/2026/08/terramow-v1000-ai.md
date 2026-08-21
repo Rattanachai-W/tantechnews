@@ -5,7 +5,7 @@ excerpt: >-
   WIRED ทดสอบ TerraMow V1000 หุ่นยนต์ตัดหญ้าที่ใช้กล้องสามตัวและ AI
   ทำแผนที่นำทางโดยไม่ต้องใช้สายขอบหรือเสา RTK รองรับ Wi-Fi, Bluetooth และ 4G
   สำหรับอัปเดตและควบคุมระยะไกล
-publishedAt: '2026-08-16T12:00:00.000+07:00'
+publishedAt: "2026-08-16T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-16T10:30:00.000Z'
 sourceName: WIRED
 sourceUrl: 'https://www.wired.com/review/terramow-v1000/'

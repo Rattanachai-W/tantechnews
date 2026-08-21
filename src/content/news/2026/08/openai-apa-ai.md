@@ -5,7 +5,7 @@ excerpt: >-
   OpenAI ประกาศทำงานร่วมกับ American Psychological Association (APA)
   เพื่อนำวิทยาศาสตร์จิตวิทยามาใช้พัฒนาและใช้ AI อย่างรับผิดชอบสำหรับวัยรุ่น
   ครอบคลุมเครื่องมือให้ครอบครัว ผู้ดูแล และผู้เชี่ยวชาญ
-publishedAt: '2026-08-06T12:00:00.000+07:00'
+publishedAt: "2026-08-06T12:00:00.000+07:00"
 sourcePublishedAt: '2026-08-06T06:00:00.000Z'
 sourceName: OpenAI Blog
 sourceUrl: 'https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai'
