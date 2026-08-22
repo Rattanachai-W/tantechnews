@@ -629,6 +629,20 @@
       "slug": "michael-polansky-ai",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-22T11:26:08.777Z"
+    },
+    {
+      "id": "c000c6a2f06337f0951869da1081a1693cb7135e2b6aa551f9469afcf3746918",
+      "url": "https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv",
+      "slug": "amazon-echo-fire-tv-kindle-60",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-22T17:26:27.966Z"
+    },
+    {
+      "id": "1ccd186fbe54d0dba6edc4af3f99ecd682eadb4ef53776e525e38333d20fb0f8",
+      "url": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
+      "slug": "1ccd186fbe54",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-22T17:29:43.692Z"
     }
   ]
 }
