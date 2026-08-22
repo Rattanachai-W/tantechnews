@@ -601,6 +601,20 @@
       "slug": "cloudflare-bot-preference-sync-robots-txt-ai-bot",
       "sourceName": "Cloudflare Blog",
       "processedAt": "2026-08-22T05:34:05.776Z"
+    },
+    {
+      "id": "3869555e015525b801f309320726bcaf83251e9ec5e0b804f4a6e45b414b6b1e",
+      "url": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services",
+      "slug": "vercel-v0-slack-google-100-vercel-connect",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-22T06:13:08.958Z"
+    },
+    {
+      "id": "c3883509f994a9d375bec0e65adba0aedbb5ca1d7c62c6a5eaa6b4466af38368",
+      "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+      "slug": "vercel-always-on-tracing-beta-trace-traffic-production-previ",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-22T06:13:37.576Z"
     }
   ]
 }
