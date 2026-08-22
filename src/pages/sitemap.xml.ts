@@ -12,9 +12,19 @@ export const GET: APIRoute = async ({ site }) => {
   const articles = await getPublishedNews();
   const digests = await getPublishedDailyDigests();
   const now = new Date().toISOString().slice(0, 10);
-  const staticPaths = ["", "daily/", "archive/", "category/", "search/", "about/", "rss.xml"];
-  // Build entries with lastmod and priority for better crawl efficiency.
-  const staticEntries = staticPaths.map((p) => ({ path: p, priority: "1.0", lastmod: now }));
+  const staticEntries = [
+    { path: "", priority: "1.0", lastmod: now },
+    { path: "daily/", priority: "0.9", lastmod: now },
+    { path: "archive/", priority: "0.8", lastmod: now },
+    { path: "category/", priority: "0.8", lastmod: now },
+    { path: "search/", priority: "0.7", lastmod: now },
+    { path: "about-us/", priority: "0.6", lastmod: now },
+    { path: "privacy/", priority: "0.5", lastmod: now },
+    { path: "ai-policy/", priority: "0.5", lastmod: now },
+    { path: "correction-policy/", priority: "0.5", lastmod: now },
+    { path: "selection-criteria/", priority: "0.5", lastmod: now },
+    { path: "rss.xml", priority: "0.5", lastmod: now }
+  ];
   const categoryEntries = ARTICLE_CATEGORIES.map((category) => ({
     path: `category/${category.toLowerCase().replace(/\s+/g, "-")}/`,
     priority: "0.7",

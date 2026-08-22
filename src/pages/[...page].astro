@@ -22,10 +22,7 @@ const { page } = Astro.props;
 const articles = page.data;
 const isFirstPage = page.currentPage === 1;
 
-// Split articles into two balanced columns for large screens
-const half = Math.ceil(articles.length / 2);
-const leftArticles = articles.slice(0, half);
-const rightArticles = articles.slice(half);
+
 
 const pageTitle = isFirstPage
   ? undefined
@@ -118,17 +115,10 @@ const pageDescription = isFirstPage
     {
       articles.length > 0 ? (
         <div class="space-y-8">
-          <div class="grid min-w-0 gap-5 lg:grid-cols-2">
-            <div class="grid min-w-0 content-start gap-5">
-              {leftArticles.map((article) => (
-                <ArticleCard article={article} />
-              ))}
-            </div>
-            <div class="grid min-w-0 content-start gap-5">
-              {rightArticles.map((article) => (
-                <ArticleCard article={article} />
-              ))}
-            </div>
+          <div class="grid min-w-0 gap-5 md:grid-cols-2">
+            {articles.map((article) => (
+              <ArticleCard article={article} />
+            ))}
           </div>
 
           <!-- Pagination Controls -->
