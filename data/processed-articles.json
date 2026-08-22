@@ -615,6 +615,20 @@
       "slug": "vercel-always-on-tracing-beta-trace-traffic-production-previ",
       "sourceName": "Vercel Blog",
       "processedAt": "2026-08-22T06:13:37.576Z"
+    },
+    {
+      "id": "b607929854b7c2bbb73fd9cf2e8f975734323492e1500fd3baef367ff62a9df1",
+      "url": "https://www.docker.com/blog/running-ai-agents-in-github-actions-with-docker-sandboxes/",
+      "slug": "github-actions-docker-sandboxes-ai-agents-ci",
+      "sourceName": "Docker Blog",
+      "processedAt": "2026-08-22T11:25:45.334Z"
+    },
+    {
+      "id": "53db2b4d09276610fe8cbbce55576b131daa381ac94bdcdde93f77d843ff34a0",
+      "url": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+      "slug": "michael-polansky-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-22T11:26:08.777Z"
     }
   ]
 }
