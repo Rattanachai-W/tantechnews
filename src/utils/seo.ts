@@ -96,12 +96,14 @@ export function getBreadcrumbJsonLd(
   };
 }
 
-export function getCategoryJsonLd(category: string, url: string) {
+export function getCategoryJsonLd(category: string, url: string, description?: string) {
   return {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: `ข่าวหมวด ${category}`,
-    description: `รวมข่าวเทคโนโลยีหมวด ${category} จากแหล่งข่าวที่ตรวจสอบย้อนกลับได้`,
+    name: `ข่าว ${category} ล่าสุด`,
+    description:
+      description ??
+      `รวมข่าว ${category} ล่าสุด จากแหล่งข่าวที่ตรวจสอบย้อนกลับได้ อัปเดตโดย TanTech News`,
     url,
     inLanguage: "th-TH",
     isPartOf: {

@@ -3,6 +3,7 @@ import ArticleCard from "../../components/news/article-card.astro";
 import JsonLd from "../../components/seo/json-ld.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { ARTICLE_CATEGORIES } from "../../types/article";
+import { getCategorySeoDescription } from "../../utils/categories";
 import { categoryFromParam, getPublishedNews } from "../../utils/content";
 import { getBreadcrumbJsonLd, getCategoryJsonLd, seoDefaults } from "../../utils/seo";
 
@@ -21,6 +22,7 @@ const canonical = new URL(`/category/${Astro.params.category}/`, Astro.site).hre
 const articles = (await getPublishedNews()).filter((article) =>
   article.data.categories.includes(category)
 );
+const categoryDescription = getCategorySeoDescription(category);
 
 const breadcrumbs = [
   { name: "หน้าแรก", url: `${seoDefaults.siteUrl}/` },
@@ -30,11 +32,11 @@ const breadcrumbs = [
 ---
 
 <BaseLayout
-  title={`หมวด ${category}`}
-  description={`ข่าวเทคโนโลยีหมวด ${category} — รวมข่าว ${category} จากแหล่งข่าวที่ตรวจสอบย้อนกลับได้ อัปเดตล่าสุดโดยทันเทค`}
+  title={`ข่าว ${category} ล่าสุด`}
+  description={categoryDescription}
 >
   <Fragment slot="head">
-    <JsonLd data={getCategoryJsonLd(category, canonical)} />
+    <JsonLd data={getCategoryJsonLd(category, canonical, categoryDescription)} />
     <JsonLd data={getBreadcrumbJsonLd(breadcrumbs)} />
   </Fragment>
 
@@ -56,10 +58,10 @@ const breadcrumbs = [
     </nav>
 
     <header>
-      <h1 class="text-3xl font-extrabold text-ink">หมวด {category}</h1>
-      <p class="mt-3 max-w-2xl text-muted">
-        ข่าวที่เกี่ยวข้องกับ {category} จากแหล่งข่าวที่ตรวจสอบย้อนกลับได้
-        {articles.length > 0 && ` — ${articles.length} บทความ`}
+      <h1 class="text-3xl font-extrabold text-ink">ข่าว {category} ล่าสุด</h1>
+      <p class="mt-3 max-w-3xl leading-relaxed text-muted">
+        {categoryDescription}
+        {articles.length > 0 && <span class="font-medium text-ink"> — {articles.length} บทความ</span>}
       </p>
     </header>
 
