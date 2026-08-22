@@ -587,6 +587,20 @@
       "slug": "motorola-grapheneos-2027-pixel",
       "sourceName": "Ars Technica",
       "processedAt": "2026-08-21T23:29:22.133Z"
+    },
+    {
+      "id": "044a694a94622ab57709af54502be0567f5e332c52416f67f58d2e3993c52a2d",
+      "url": "https://arstechnica.com/space/2026/08/trump-admin-calls-for-more-spaceports-to-handle-surge-in-launches/",
+      "slug": "48",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-08-22T05:33:45.269Z"
+    },
+    {
+      "id": "fc72f0a2782bbfa24200aa96d14892bbb7160691a7a6224116752b1271d22f5a",
+      "url": "https://blog.cloudflare.com/bot-preference-sync/",
+      "slug": "cloudflare-bot-preference-sync-robots-txt-ai-bot",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-08-22T05:34:05.776Z"
     }
   ]
 }
