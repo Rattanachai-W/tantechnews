@@ -650,6 +650,20 @@
       "slug": "nvidia-ai",
       "sourceName": "CNBC Technology",
       "processedAt": "2026-08-23T05:34:07.885Z"
+    },
+    {
+      "id": "f9804c8312afcb9cdfcafee5e73fa7720f03f2b32da24ea02f1be9b285f22f16",
+      "url": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
+      "slug": "2-flipkart-walmart-quick-commerce",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-23T11:30:30.885Z"
+    },
+    {
+      "id": "7df972bbb6b899d3124ebf136319103788309a866d230dd6190d872808b62dc7",
+      "url": "https://techcrunch.com/2026/08/22/will-the-dojs-investigation-into-a16z-spook-other-vcs/",
+      "slug": "doj-a16z-ai-vc",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-23T11:32:58.320Z"
     }
   ]
 }
