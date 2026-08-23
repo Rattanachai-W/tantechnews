@@ -643,6 +643,13 @@
       "slug": "1ccd186fbe54",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-22T17:29:43.692Z"
+    },
+    {
+      "id": "fb5b25107b0d7bab9c10cd1cf399d0a730c08c733729b4dda27b1915e092e253",
+      "url": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html",
+      "slug": "nvidia-ai",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-08-23T05:34:07.885Z"
     }
   ]
 }
