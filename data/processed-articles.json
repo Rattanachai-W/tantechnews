@@ -664,6 +664,20 @@
       "slug": "doj-a16z-ai-vc",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-23T11:32:58.320Z"
+    },
+    {
+      "id": "736c2f98ab12883c108e293bf1768acc15cdcb347303f99bfc535ffbc1f5cb24",
+      "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "slug": "ai-2",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-23T17:25:29.555Z"
+    },
+    {
+      "id": "92ba46e363661525cff26d05b7ce00a68aebf131fbcef57b2c6e22e68be378db",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "slug": "inherent-faraday-ai-claude-opus-4-8-gpt-5-5",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-23T17:27:44.501Z"
     }
   ]
 }
