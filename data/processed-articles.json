@@ -692,6 +692,20 @@
       "slug": "uber-1-000",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-24T05:43:02.543Z"
+    },
+    {
+      "id": "26626788ee8dd95ed5b0f8625499fc6fbf12edd170c0950066a0809bde06cb32",
+      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+      "slug": "ai-instinct",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-24T23:27:35.202Z"
+    },
+    {
+      "id": "f54746c8b1fa7d0012b7b333c91e57493d33b204d5f772560fa11985daa1b1cc",
+      "url": "https://www.theverge.com/games/983822/the-witcher-4-release-window-gamescom",
+      "slug": "cd-projekt-red-the-witcher-4-2028-witcher-3-gamescom",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-24T23:28:47.570Z"
     }
   ]
 }
