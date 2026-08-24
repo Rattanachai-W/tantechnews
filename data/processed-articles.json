@@ -678,6 +678,20 @@
       "slug": "inherent-faraday-ai-claude-opus-4-8-gpt-5-5",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-23T17:27:44.501Z"
+    },
+    {
+      "id": "1538fb9c10b7b42ce2426be399b51a27ff304ad8299772e37649788b61632397",
+      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "slug": "ox-alpha-ai-stealth-openrouter",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-24T05:42:30.860Z"
+    },
+    {
+      "id": "666f473cb39cc8a9d0e399ea58a3950d7ff7faf459194d981b138ce474abdd0c",
+      "url": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
+      "slug": "uber-1-000",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-24T05:43:02.543Z"
     }
   ]
 }
