@@ -755,6 +755,27 @@
       "slug": "anthropic",
       "sourceName": "Hacker News",
       "processedAt": "2026-08-25T17:36:53.662Z"
+    },
+    {
+      "id": "a14ffe864c766b71e6320c4a20763cade5a07dc42dc4c051d594ba588bbf1034",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+      "slug": "stability-ai-stable-diffusion-76",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-25T23:29:09.332Z"
+    },
+    {
+      "id": "b041a557d8a0ea6324f9ffc21b6f1c0dfbba26fa9be9dc27f5b5f89d2a4ed0e4",
+      "url": "https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/",
+      "slug": "apple-mac-mini-m6-mac-studio-m5-ultra-2-ai",
+      "sourceName": "WIRED",
+      "processedAt": "2026-08-25T23:30:21.549Z"
+    },
+    {
+      "id": "da57ae0d0d469f4509eddb23601862baab3dd770bd878b19602bda925d5833be",
+      "url": "https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration",
+      "slug": "h-1b-103-265-big-tech",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-25T23:31:20.844Z"
     }
   ]
 }
