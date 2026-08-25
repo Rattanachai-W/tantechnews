@@ -706,6 +706,20 @@
       "slug": "cd-projekt-red-the-witcher-4-2028-witcher-3-gamescom",
       "sourceName": "The Verge",
       "processedAt": "2026-08-24T23:28:47.570Z"
+    },
+    {
+      "id": "25490c8a012f7f3d45096a4a353be8309ab0c06b6f23399ea11f5763eae6100a",
+      "url": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
+      "slug": "amazon-60",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-25T05:36:25.083Z"
+    },
+    {
+      "id": "72db16f5545cc04b9a486643ea65162c39b60eadc2ae86b69cb683f438faab19",
+      "url": "https://vercel.com/changelog/environment-variables-now-use-config-and-secret-types",
+      "slug": "vercel-environment-variables-config-secret-sensitive",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-25T05:36:48.263Z"
     }
   ]
 }
