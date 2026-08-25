@@ -734,6 +734,27 @@
       "slug": "omega-speedmaster-38-mini-moonwatch",
       "sourceName": "WIRED",
       "processedAt": "2026-08-25T11:35:46.188Z"
+    },
+    {
+      "id": "440f96257a985975bfb828e63430fe3bcedea23b064c02e5901e49f7a34290cd",
+      "url": "https://techcrunch.com/2026/08/25/whatsapp-tightens-account-security-with-stronger-two-step-verification-and-more/",
+      "slug": "whatsapp-passkey",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-25T17:35:55.553Z"
+    },
+    {
+      "id": "8c519a70d2ed15dd018ffe3ddee4b9546e46fd706ec08681d36fc28c0f69ab1f",
+      "url": "https://techcrunch.com/2026/08/25/uber-launches-live-video-streaming-for-teen-accounts/",
+      "slug": "uber",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-25T17:36:22.255Z"
+    },
+    {
+      "id": "87c1695a1d849e101124a4862ffeaa886d6211753cb6697a0918c5ed61dbf08a",
+      "url": "https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8",
+      "slug": "anthropic",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-08-25T17:36:53.662Z"
     }
   ]
 }
