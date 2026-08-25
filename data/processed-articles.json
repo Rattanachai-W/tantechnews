@@ -720,6 +720,20 @@
       "slug": "vercel-environment-variables-config-secret-sensitive",
       "sourceName": "Vercel Blog",
       "processedAt": "2026-08-25T05:36:48.263Z"
+    },
+    {
+      "id": "3e8dcc411bf6f1e41228762bfee86fdc53cccf83d472525496b24b0a1f85b826",
+      "url": "https://proofcraft.systems/news-2026/",
+      "slug": "sel4-aarch64",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-08-25T11:35:21.681Z"
+    },
+    {
+      "id": "6f34f4ada801a6a999fbd1abacfc23d3675246d73a930bc57cfc978299a9dd5c",
+      "url": "https://www.wired.com/story/omega-just-released-a-mini-moonwatch/",
+      "slug": "omega-speedmaster-38-mini-moonwatch",
+      "sourceName": "WIRED",
+      "processedAt": "2026-08-25T11:35:46.188Z"
     }
   ]
 }
