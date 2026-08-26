@@ -797,6 +797,20 @@
       "slug": "waymo-2027-3-eu",
       "sourceName": "CNBC Technology",
       "processedAt": "2026-08-26T05:39:40.965Z"
+    },
+    {
+      "id": "e50675b5254b331f7ebf16a8d0476f342c03dc5d859732a8b0f19711cd9ab897",
+      "url": "https://www.theverge.com/gadgets/984331/switch-2-price-increase-psa",
+      "slug": "nintendo-switch-2-50-1",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-26T19:16:58.085Z"
+    },
+    {
+      "id": "e8dff0d31eab9c48cb00a0d93ec85f6558f890d4d8305e670db6c101102f9192",
+      "url": "https://www.risklytics.ai/",
+      "slug": "risklytics",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-08-26T19:18:17.980Z"
     }
   ]
 }
