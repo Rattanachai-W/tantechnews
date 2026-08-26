@@ -776,6 +776,27 @@
       "slug": "h-1b-103-265-big-tech",
       "sourceName": "The Verge",
       "processedAt": "2026-08-25T23:31:20.844Z"
+    },
+    {
+      "id": "9f66add6a4dee5f4c2384abf4b14c4edc1a73c73356321655607e6a4f5cab291",
+      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "slug": "python-str-lower-idna-2003",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-08-26T05:38:48.087Z"
+    },
+    {
+      "id": "0a0a4bbb57ee71b74aacab7b294cda7261e7d35a71a8f22fce52d5c27ce8230d",
+      "url": "https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/",
+      "slug": "launchx-4",
+      "sourceName": "MIT Technology Review",
+      "processedAt": "2026-08-26T05:39:07.385Z"
+    },
+    {
+      "id": "8f5b10faf77cdd0375a8c76749a5a79281eba0c115865c9a89ed73b4503d0b02",
+      "url": "https://www.cnbc.com/2026/08/25/waymo-robotaxi-germany-2027.html",
+      "slug": "waymo-2027-3-eu",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-08-26T05:39:40.965Z"
     }
   ]
 }
