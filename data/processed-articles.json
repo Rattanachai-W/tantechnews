@@ -811,6 +811,27 @@
       "slug": "risklytics",
       "sourceName": "Hacker News",
       "processedAt": "2026-08-26T19:18:17.980Z"
+    },
+    {
+      "id": "34d4c3df211c2ebce7b67887a0048567504ce2a9385655c3754c864ad328504f",
+      "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
+      "slug": "vercel-next-js-2026",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-08-27T16:18:23.077Z"
+    },
+    {
+      "id": "cce10c352e62ce4787a590c223f44bc8268f6575b14d2f1348289287a782898e",
+      "url": "https://www.theverge.com/gadgets/985584/google-fitbit-air-pokemon-sleep",
+      "slug": "google-fitbit-air-pokemon-sleep-sleepy-blue-pikachu",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-27T16:18:51.634Z"
+    },
+    {
+      "id": "58b7bb6f4dbd3b9e9e5c001ee5d47aae5385edef2e504647632706286fc6f6c3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability",
+      "slug": "plaud-ai-plaud-one-explorer-edition",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-27T16:21:53.856Z"
     }
   ]
 }
