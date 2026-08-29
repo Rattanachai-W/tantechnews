@@ -853,6 +853,27 @@
       "slug": "19d244e9a264",
       "sourceName": "Ars Technica",
       "processedAt": "2026-08-29T04:06:09.324Z"
+    },
+    {
+      "id": "16f8bc2bcf283406a1aad3122b8f20bb03b1cd2438cd6b4dc997dfb065236318",
+      "url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
+      "slug": "16f8bc2bcf28",
+      "sourceName": "WIRED",
+      "processedAt": "2026-08-29T19:39:47.231Z"
+    },
+    {
+      "id": "a3d40848cd03fefda089033aa207044f75d9fa2864a4137adc51584fdeb139ab",
+      "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "slug": "ai-3",
+      "sourceName": "Lobsters",
+      "processedAt": "2026-08-29T19:40:11.558Z"
+    },
+    {
+      "id": "b42ac281ecaf56c08abb695644df43cc6560bb332ec6641a0a17b2c01529c31f",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "slug": "openai-cursor-openai-spacex",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-08-29T19:40:42.291Z"
     }
   ]
 }
