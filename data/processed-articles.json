@@ -832,6 +832,27 @@
       "slug": "plaud-ai-plaud-one-explorer-edition",
       "sourceName": "The Verge",
       "processedAt": "2026-08-27T16:21:53.856Z"
+    },
+    {
+      "id": "048800215c44ffe8d4b143785f33b0b52472d9c17c0bfba2c79ecbe3a901108f",
+      "url": "https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again/",
+      "slug": "apple-tv-4-4",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-29T04:05:07.355Z"
+    },
+    {
+      "id": "93fcee45c6de2b3f7f6611268fa441c14c63e5e4ee085f9ac8309e53fcb4119b",
+      "url": "https://arstechnica.com/space/2026/08/rocket-report-europe-splashes-some-cash-on-launch-startups-pallas-1-nears-debut/",
+      "slug": "esa-3-spacex-100-000",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-08-29T04:05:30.842Z"
+    },
+    {
+      "id": "19d244e9a264406dbf03cb3514515adea8bcef183d725876020da62576b25aa4",
+      "url": "https://arstechnica.com/tech-policy/2026/08/gop-heads-to-supreme-court-after-losing-case-over-tv-election-ad-prices/",
+      "slug": "19d244e9a264",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-08-29T04:06:09.324Z"
     }
   ]
 }
