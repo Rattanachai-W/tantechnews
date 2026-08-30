@@ -874,6 +874,27 @@
       "slug": "openai-cursor-openai-spacex",
       "sourceName": "OpenAI Blog",
       "processedAt": "2026-08-29T19:40:42.291Z"
+    },
+    {
+      "id": "f593ff968abe8d62086445206633723d43be74eff87f2d38e4af1486f7f9b9f2",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "slug": "sony-music-warner-chappell-anthropic",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-30T01:11:48.322Z"
+    },
+    {
+      "id": "b1084d73e30ce32d742280c376ea4d2d1b9c7b6fbeccb2a35abccdfca29a0eb8",
+      "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+      "slug": "techbbq-2026-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-30T01:12:54.429Z"
+    },
+    {
+      "id": "1c359d226297b79b7bb64335bad8bb42ec2a5991f4897ecddc696b74e5384777",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+      "slug": "vijay-pande-30-4-a16z",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-30T01:13:20.460Z"
     }
   ]
 }
