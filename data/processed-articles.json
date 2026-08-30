@@ -916,6 +916,27 @@
       "slug": "xreal-a01-oled-1080p-300",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-30T10:26:09.569Z"
+    },
+    {
+      "id": "a91447b83105d7ed5cbd39059a3e6fbac13e17cfc75e170ad7bea93f8deb83f0",
+      "url": "https://www.theverge.com/games/986302/chess-poker-expansion-gambit",
+      "slug": "chess-com-gambit",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-30T15:17:01.685Z"
+    },
+    {
+      "id": "80d0eae02fda2662b8919c9c4aa7935b2ea9e3bd0664ade17b718ecb707bb0d2",
+      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "slug": "caterpillar-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-30T15:17:19.324Z"
+    },
+    {
+      "id": "8152c5575eb2f621f72633a21ffe4ffca54497af812c133b86240536c44a68ec",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "slug": "anthropic-ai-alignment-automated-alignment-researcher",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-30T15:17:56.619Z"
     }
   ]
 }
