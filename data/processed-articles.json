@@ -937,6 +937,27 @@
       "slug": "anthropic-ai-alignment-automated-alignment-researcher",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-30T15:17:56.619Z"
+    },
+    {
+      "id": "71eb4da3b372a65ea4453a501891ac819ef18c976e7ecd0957ac1a9f729b70ba",
+      "url": "https://www.theverge.com/science/986544/nancy-grace-roman-space-telescope-launch",
+      "slug": "nancy-grace-roman",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-30T19:41:00.008Z"
+    },
+    {
+      "id": "5c2a842599fdf83c58eddf5b90322db025808e517273eca104c1e538b940e427",
+      "url": "https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals/",
+      "slug": "liux",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-30T19:41:23.983Z"
+    },
+    {
+      "id": "e9155cfa28a1673b6bb88f3d6a2c5d59c0d6a40196851bc5739708556b4f392a",
+      "url": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/",
+      "slug": "waymo-zoox-24",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-08-30T19:41:49.886Z"
     }
   ]
 }
