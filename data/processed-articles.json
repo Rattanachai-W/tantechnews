@@ -958,6 +958,27 @@
       "slug": "waymo-zoox-24",
       "sourceName": "TechCrunch",
       "processedAt": "2026-08-30T19:41:49.886Z"
+    },
+    {
+      "id": "7972dd28c790f4cf702c9f984e0d6d312c58322f2fa36c27ba07ed02e8dc1c64",
+      "url": "https://www.theverge.com/games/986552/12tb-steam-leak-half-life-2-episode-3",
+      "slug": "steam-12tb-asset-half-life-2-episode-3",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-31T01:15:03.792Z"
+    },
+    {
+      "id": "d9a617119e6a45447f5fbf94b74aceffc5fdb21173c22a021d1e6d415c4e8326",
+      "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "slug": "d9a617119e6a",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-31T01:15:33.096Z"
+    },
+    {
+      "id": "94db180b35f01cb4d86de8d3e3c37fc0ae18680d1d6ade1450c3df5b2b54f80a",
+      "url": "https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale",
+      "slug": "a-trail-tale-appalachian-trail",
+      "sourceName": "The Verge",
+      "processedAt": "2026-08-31T01:15:49.194Z"
     }
   ]
 }
