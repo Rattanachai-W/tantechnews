@@ -1021,6 +1021,20 @@
       "slug": "vercel-ai-gateway-api",
       "sourceName": "Vercel Blog",
       "processedAt": "2026-09-01T09:52:17.323Z"
+    },
+    {
+      "id": "67337d23621313e2beea42b1c304a8eb475ac7f60be66a263b9b8819b7b76a45",
+      "url": "https://www.theverge.com/tech/987436/shelly-smart-home-hd-security-camera-automation",
+      "slug": "shelly-49-99",
+      "sourceName": "The Verge",
+      "processedAt": "2026-09-01T15:26:48.943Z"
+    },
+    {
+      "id": "ea3b588f08858af0e4e0ccd6625f3191a970cf32b0a45ebfd67f805e9f183d85",
+      "url": "https://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa/",
+      "slug": "waymo",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-01T15:27:24.072Z"
     }
   ]
 }
