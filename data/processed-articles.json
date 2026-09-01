@@ -1000,6 +1000,27 @@
       "slug": "birdnet-go",
       "sourceName": "Hacker News",
       "processedAt": "2026-09-01T01:45:55.462Z"
+    },
+    {
+      "id": "0b5a688ac44522d6851141a82925ed4d52e8227256bd0c561c149a506cd396f8",
+      "url": "https://openai.com/index/polimill",
+      "slug": "polimill-ai-qommonsai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-09-01T09:51:32.817Z"
+    },
+    {
+      "id": "1e45d1b10f1436637f72d64d244e495463b07a76c63393316205181bbe9fb476",
+      "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
+      "slug": "cloudflare-adaptive-intelligence",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-09-01T09:52:01.635Z"
+    },
+    {
+      "id": "5bdea6cb815fb90f74e248981306fb9e8bd09f3ae2494b613640772565058072",
+      "url": "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway",
+      "slug": "vercel-ai-gateway-api",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-09-01T09:52:17.323Z"
     }
   ]
 }
