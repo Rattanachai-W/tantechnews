@@ -1056,6 +1056,27 @@
       "slug": "john-ternus-ceo-apple",
       "sourceName": "The Verge",
       "processedAt": "2026-09-02T00:55:38.860Z"
+    },
+    {
+      "id": "84e4d2c86a8f396718ff9ffd290315c412e07e21051bfd6b15483ed7c45ac679",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+      "slug": "anthropic-claude-fable-5-1-mythos-5-1-agentic-45",
+      "sourceName": "The Verge",
+      "processedAt": "2026-09-02T09:26:08.282Z"
+    },
+    {
+      "id": "08ce711fdb2cec04ac3e48f1248a80f455a28f05c9bfb849c5d4ab3953c2b873",
+      "url": "https://techcrunch.com/2026/09/01/waymo-goes-on-offense-ahead-of-teslas-cybercab-launch/",
+      "slug": "waymo-tesla-cybercab",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-02T09:27:14.873Z"
+    },
+    {
+      "id": "239e2a8c2c65f78d3cf7eba5e721f502841015d0d756daedf80a11e55103cea0",
+      "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+      "slug": "empirik-21-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-02T09:28:01.631Z"
     }
   ]
 }
