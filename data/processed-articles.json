@@ -1077,6 +1077,27 @@
       "slug": "empirik-21-ai",
       "sourceName": "TechCrunch",
       "processedAt": "2026-09-02T09:28:01.631Z"
+    },
+    {
+      "id": "3552ef472536170da58d829c4497d166849e804a060d2894221377aeb39ca99a",
+      "url": "https://www.wired.com/story/the-range-rover-electric-has-finally-arrived/",
+      "slug": "range-rover-electric-suv-542-10-80-22-uk-154-070",
+      "sourceName": "WIRED",
+      "processedAt": "2026-09-02T15:02:15.308Z"
+    },
+    {
+      "id": "3f1588fab5b7b0c97a5811bf47c3c93cbb6a59baf2616b4e6712d2f5f73c4764",
+      "url": "https://www.cnbc.com/2026/09/01/palo-alto-ceo-says-1-trillion-of-cybersecurity-infrastructure-isnt-ready-for-ai.html",
+      "slug": "palo-alto-networks-1-ai",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-09-02T15:03:31.605Z"
+    },
+    {
+      "id": "fac25fbfe29d15fea8d69796151cc4e3d60fbdfb93c3ed33f6d186c4838f5e98",
+      "url": "https://www.cnbc.com/2026/09/01/crypto-enters-september-with-policy-gamble-hanging-by-a-thread.html",
+      "slug": "clarity-act",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-09-02T15:04:49.603Z"
     }
   ]
 }
