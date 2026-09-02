@@ -1035,6 +1035,27 @@
       "slug": "waymo",
       "sourceName": "TechCrunch",
       "processedAt": "2026-09-01T15:27:24.072Z"
+    },
+    {
+      "id": "5c23ba73e597b8bc7be2c51b9b96cae93cf33df89472c4203ea0eb0536d01b25",
+      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
+      "slug": "nvidia-crowdstrike-safemind-cybersecurity-agentic",
+      "sourceName": "NVIDIA Blog",
+      "processedAt": "2026-09-02T00:54:57.544Z"
+    },
+    {
+      "id": "5031acfb74c4756b513b586620e4dd0c1454611e9520bbf1024b658016a62d0d",
+      "url": "https://techcrunch.com/2026/09/01/x-says-attackers-are-targeting-accounts-after-the-launch-of-x-money/",
+      "slug": "x-x-money",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-02T00:55:17.339Z"
+    },
+    {
+      "id": "e33897e5f778cdd659dff9a1f02ae06ba3e3b264691cc3b709dabcaee5d8c847",
+      "url": "https://www.theverge.com/tech/987583/apple-john-ternus-staff-memo",
+      "slug": "john-ternus-ceo-apple",
+      "sourceName": "The Verge",
+      "processedAt": "2026-09-02T00:55:38.860Z"
     }
   ]
 }
