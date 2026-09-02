@@ -1098,6 +1098,20 @@
       "slug": "clarity-act",
       "sourceName": "CNBC Technology",
       "processedAt": "2026-09-02T15:04:49.603Z"
+    },
+    {
+      "id": "9f3546f5fdeb5184f4a6383db33b24d010fbd3c42f43e229019e629a20cb93d5",
+      "url": "https://www.theverge.com/tech/988536/1password-dhh-linux-controversy",
+      "slug": "1password-300-000-linux-dhh",
+      "sourceName": "The Verge",
+      "processedAt": "2026-09-02T19:40:45.998Z"
+    },
+    {
+      "id": "b0cbef382238cdd5b88df7d9e2e972c6de79dc01f5270d52514cbb50f83a1be1",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "slug": "openai-ai-native-workflow",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-09-02T19:42:06.800Z"
     }
   ]
 }
