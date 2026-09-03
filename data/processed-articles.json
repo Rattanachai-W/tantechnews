@@ -1126,6 +1126,27 @@
       "slug": "google-gemini-3-8-flash-deepswe-cyber",
       "sourceName": "Ars Technica",
       "processedAt": "2026-09-03T01:04:30.750Z"
+    },
+    {
+      "id": "56abc7d43b055b8120e3143069666132537726224ad7b14e5d68185160e8d3c1",
+      "url": "https://news.ycombinator.com/item?id=49552616",
+      "slug": "mireye-ai-agents",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-09-03T19:42:16.079Z"
+    },
+    {
+      "id": "a1c6b5a853fafd0531c05422cb075c00cac1404963103055060e829f5c2876da",
+      "url": "https://www.virtualizor.com/blog/security-incident-bgp-hijacking/",
+      "slug": "softaculous-bgp-hijack-ip-hetzner-virtualizor",
+      "sourceName": "Lobsters",
+      "processedAt": "2026-09-03T19:42:52.098Z"
+    },
+    {
+      "id": "7c4a0bc426273da6680073a4d4526e4f2e7473085e22436b18a722632ae8c76c",
+      "url": "https://www.wired.com/story/priceline-promo-code/",
+      "slug": "wired-priceline-10-hotel-express-deals-fanfest-20",
+      "sourceName": "WIRED",
+      "processedAt": "2026-09-03T19:43:12.220Z"
     }
   ]
 }
