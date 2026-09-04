@@ -1147,6 +1147,27 @@
       "slug": "wired-priceline-10-hotel-express-deals-fanfest-20",
       "sourceName": "WIRED",
       "processedAt": "2026-09-03T19:43:12.220Z"
+    },
+    {
+      "id": "7942ad811fb68b710b5c927e1a680870249a6d506fc39043b17b26353129ec86",
+      "url": "https://arstechnica.com/health/2026/09/150-research-primates-got-diarrhea-flooding-lab-with-priceless-vaccine-data/",
+      "slug": "169",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-09-04T00:52:39.343Z"
+    },
+    {
+      "id": "fc40ddafdd41e0cc6b8e9f206273b63f31eac9928f23628f7fa12ba2cbcd62f3",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "slug": "openai-daybreak-for-frontline-defenders-1",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-09-04T00:52:50.779Z"
+    },
+    {
+      "id": "407299432d9998ec45bae38b16a7bee574e783dc0eb120e75352c37b51725346",
+      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+      "slug": "ai-loop-harness-squad-hill-climbing",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-09-04T00:53:03.104Z"
     }
   ]
 }
