@@ -1168,6 +1168,27 @@
       "slug": "ai-loop-harness-squad-hill-climbing",
       "sourceName": "GitHub Blog",
       "processedAt": "2026-09-04T00:53:03.104Z"
+    },
+    {
+      "id": "b10c3422e4fedbdf3bd8408145e10af82438bb6cb503f8491097aae879cb6633",
+      "url": "https://arstechnica.com/gaming/2026/09/valve-secretly-leaked-a-left-4-dead-2-trailer-to-dodge-the-esrb/",
+      "slug": "valve-left-4-dead-2-esrb",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-09-04T19:22:55.771Z"
+    },
+    {
+      "id": "ca18c80d6d770c7d5142c7ae666e13a1949357cf0ea04bc93fa763147e3fd211",
+      "url": "https://www.wired.com/story/casio-g-shock-casionaut-looks-like-a-patek-philippe-classic/",
+      "slug": "casio-g-shock-gmc-2500-gac-2500-patek-philippe-nautilus",
+      "sourceName": "WIRED",
+      "processedAt": "2026-09-04T19:23:22.563Z"
+    },
+    {
+      "id": "f9d8b20d2b85d15f09a329ef49c17416ee9a99dc9f3575b95fdb2e51d6187b70",
+      "url": "https://purplesyringa.moe/blog/guest/the-nx-bit-is-not-just-about-security/",
+      "slug": "nx-bit-arm64-hypervisor-bare-metal",
+      "sourceName": "Lobsters",
+      "processedAt": "2026-09-04T19:23:47.558Z"
     }
   ]
 }
