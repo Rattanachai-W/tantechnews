@@ -1189,6 +1189,20 @@
       "slug": "nx-bit-arm64-hypervisor-bare-metal",
       "sourceName": "Lobsters",
       "processedAt": "2026-09-04T19:23:47.558Z"
+    },
+    {
+      "id": "48147e9fed1be4a2477587b14931b6bc0a9d988402d915fd6412eea44b770677",
+      "url": "https://www.cnbc.com/2026/09/05/ai-cybersecurity-ciso-executive.html",
+      "slug": "ciso-ai",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-09-05T13:47:17.779Z"
+    },
+    {
+      "id": "ecddddcc43702dbb81b1b5d8ef708a5f0b21441b7587d183583991b8d8daab36",
+      "url": "https://quad9.net/",
+      "slug": "quad9-dns",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-09-05T13:47:38.939Z"
     }
   ]
 }
