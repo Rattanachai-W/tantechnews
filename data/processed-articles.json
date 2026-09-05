@@ -1203,6 +1203,27 @@
       "slug": "quad9-dns",
       "sourceName": "Hacker News",
       "processedAt": "2026-09-05T13:47:38.939Z"
+    },
+    {
+      "id": "8f7415c164b3716d5df243199c08e3d8946217b5b933aaf0b12034f6091bd1b5",
+      "url": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
+      "slug": "8f7415c164b3",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-09-05T18:55:35.373Z"
+    },
+    {
+      "id": "f333e2881aebf1b8d6ec2e3ab8b81688e9ea6672903a8d98108d6e014338fbcf",
+      "url": "https://www.wired.com/story/japan-launching-probe-to-collect-first-ever-samples-martian-moon/",
+      "slug": "mmx",
+      "sourceName": "WIRED",
+      "processedAt": "2026-09-05T18:56:31.079Z"
+    },
+    {
+      "id": "f811cada5ee199e3bc12888118e854118fd43df00061771cc9359a3213e91054",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "slug": "github-project-hydrafusion-ai",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-09-05T18:57:22.243Z"
     }
   ]
 }
