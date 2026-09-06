@@ -1238,6 +1238,20 @@
       "slug": "openai-agent-swarm",
       "sourceName": "TechCrunch",
       "processedAt": "2026-09-06T00:46:09.992Z"
+    },
+    {
+      "id": "09d8173c4081c82bd34f31ef082c43838ae366281ba867a2c98e12b5578293e4",
+      "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
+      "slug": "isar-aerospace",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-09-06T14:03:27.110Z"
+    },
+    {
+      "id": "ac4ec989a2a725dbc421186e9154cd764a7361465b7c9a82ce3fd8f8843435f0",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "slug": "nscale-3-5-ipo",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-06T14:04:19.973Z"
     }
   ]
 }
