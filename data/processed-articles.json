@@ -1224,6 +1224,20 @@
       "slug": "github-project-hydrafusion-ai",
       "sourceName": "GitHub Blog",
       "processedAt": "2026-09-05T18:57:22.243Z"
+    },
+    {
+      "id": "234d1f722727c86cc2c887df7b6a55763cfaa05c67425bf41192361ae25f0486",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "slug": "xdof-series-b-1-2-stealth-3",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-06T00:45:41.492Z"
+    },
+    {
+      "id": "c7bac135042a53c6c50eff5cd8896174479129f7ff1dd5731dabf8541f8b75ec",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "slug": "openai-agent-swarm",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-06T00:46:09.992Z"
     }
   ]
 }
