@@ -1273,6 +1273,13 @@
       "slug": "openai-wan-ifra-airppu-ai",
       "sourceName": "OpenAI Blog",
       "processedAt": "2026-09-07T16:21:06.994Z"
+    },
+    {
+      "id": "e0f75446731d598ce3aa65499f449c5b7555321e70d85cabfdb7b6f4f8659ba0",
+      "url": "https://openai.com/index/an-alien-mind",
+      "slug": "openai-4",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-09-07T20:25:02.562Z"
     }
   ]
 }
