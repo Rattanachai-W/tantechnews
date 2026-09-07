@@ -1252,6 +1252,20 @@
       "slug": "nscale-3-5-ipo",
       "sourceName": "TechCrunch",
       "processedAt": "2026-09-06T14:04:19.973Z"
+    },
+    {
+      "id": "86eb6d207ab3329f316005c5b2b83f23537c044ff21757bf027ef4d17e75c534",
+      "url": "https://rfd.shared.oxide.computer/rfd/0301",
+      "slug": "oxide-sled",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-09-07T10:02:53.890Z"
+    },
+    {
+      "id": "14ec40a9600c87eff794d20ce1a14b78489d7af9feaa48a523d0a828725d2577",
+      "url": "https://news.ycombinator.com/item?id=49577129",
+      "slug": "fable-pianodisc-protigy-python-encoder-decoder",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-09-07T10:03:43.365Z"
     }
   ]
 }
