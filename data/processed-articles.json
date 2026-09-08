@@ -1308,6 +1308,20 @@
       "slug": "nintendo-ocarina-of-time-remake-switch-2-5",
       "sourceName": "The Verge",
       "processedAt": "2026-09-08T15:03:40.949Z"
+    },
+    {
+      "id": "7948c39493cbd65ea48c44d8291ea8805b71fa184ba9ab468b25c600c015d072",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "slug": "openai-5-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-09-08T19:47:57.702Z"
+    },
+    {
+      "id": "47690fe8e1050277af6b55fdabea75019ff3adeedf8fc8963396b936a5a6bb50",
+      "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+      "slug": "chrome-2-ai",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-08T19:48:36.213Z"
     }
   ]
 }
