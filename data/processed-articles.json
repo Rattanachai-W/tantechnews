@@ -1280,6 +1280,13 @@
       "slug": "openai-4",
       "sourceName": "OpenAI Blog",
       "processedAt": "2026-09-07T20:25:02.562Z"
+    },
+    {
+      "id": "7beb9220c57daf3341e450b4907d0c6b801f58c7513abafb1a6ff75558c24484",
+      "url": "https://www.wired.com/story/to-boldly-dough-le-creuset-sent-its-new-star-trek-cooking-collection-into-space/",
+      "slug": "le-creuset-star-trek-60",
+      "sourceName": "WIRED",
+      "processedAt": "2026-09-08T01:02:49.739Z"
     }
   ]
 }
