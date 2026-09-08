@@ -1287,6 +1287,27 @@
       "slug": "le-creuset-star-trek-60",
       "sourceName": "WIRED",
       "processedAt": "2026-09-08T01:02:49.739Z"
+    },
+    {
+      "id": "e99fc08192f3cb0a088609d3d87c7eb657f9c08c4e37ad3c69e782c8f9fe46ed",
+      "url": "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch/",
+      "slug": "bluecore-energy-50-seed-2",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-08T15:01:49.990Z"
+    },
+    {
+      "id": "75c7eef49b08523b01c0c8cec967dfeb58e0efe6f6513ac5924a37612f64b984",
+      "url": "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/",
+      "slug": "apple-iphone-9",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-08T15:03:02.432Z"
+    },
+    {
+      "id": "ae02a6eef79e0ab8fda3a2f57b73c110fd560f72939553756352b26ee2a5a773",
+      "url": "https://www.theverge.com/games/991218/zelda-ocarina-of-time-remake-release-date-trailer",
+      "slug": "nintendo-ocarina-of-time-remake-switch-2-5",
+      "sourceName": "The Verge",
+      "processedAt": "2026-09-08T15:03:40.949Z"
     }
   ]
 }
