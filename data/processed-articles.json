@@ -1357,6 +1357,20 @@
       "slug": "sequoia-cymphony-30-ai-agents",
       "sourceName": "TechCrunch",
       "processedAt": "2026-09-09T15:04:03.441Z"
+    },
+    {
+      "id": "a1b72811dd254b5043b516f3ea7a8da4d179aec7a12b38de59f64e80e43d4193",
+      "url": "https://openai.com/index/1password",
+      "slug": "1password-codex-21",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-09-09T19:40:19.339Z"
+    },
+    {
+      "id": "7b627cb99b71d01f86632cc714c45ff6f0be849b1f8e707cef666af8a1d2619a",
+      "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+      "slug": "cloudflare-automatic-key-exchange-helloretryrequest-3-7-post",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-09-09T19:41:45.704Z"
     }
   ]
 }
