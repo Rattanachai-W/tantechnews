@@ -1350,6 +1350,13 @@
       "slug": "openai-navier-stokes-millennium-prize-problem-gpt-6-astra",
       "sourceName": "OpenAI Blog",
       "processedAt": "2026-09-09T09:31:01.067Z"
+    },
+    {
+      "id": "0853b7237e63274364b1c04617034ca9032290a81a14e08af256378e57bed409",
+      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+      "slug": "sequoia-cymphony-30-ai-agents",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-09T15:04:03.441Z"
     }
   ]
 }
