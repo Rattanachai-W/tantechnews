@@ -1322,6 +1322,20 @@
       "slug": "chrome-2-ai",
       "sourceName": "TechCrunch",
       "processedAt": "2026-09-08T19:48:36.213Z"
+    },
+    {
+      "id": "3f0395b6eca99d4617ef78073ef26be0c76a0c88fd1b9970d7da4f823cd58845",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+      "slug": "microsoft-972-112",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-09-09T01:08:09.513Z"
+    },
+    {
+      "id": "a00fc889a2dd293b42049381f3a99cbbead2f5c6d3c52e4e209b3057ea2e2a3b",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "slug": "openai-gpt-6-astra-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-09-09T01:09:28.061Z"
     }
   ]
 }
