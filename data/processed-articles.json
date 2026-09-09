@@ -1336,6 +1336,20 @@
       "slug": "openai-gpt-6-astra-ai",
       "sourceName": "OpenAI Blog",
       "processedAt": "2026-09-09T01:09:28.061Z"
+    },
+    {
+      "id": "4ca73037d8455bc05cbc997a6fd772345817a6585b8cbaf7c4bb2bfd46239ac1",
+      "url": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html",
+      "slug": "mistral-3-samsung-21",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-09-09T09:30:02.322Z"
+    },
+    {
+      "id": "2c827cba158d2f26e6e9908863169f3221245661ed3a7c374917498ca5d75374",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "slug": "openai-navier-stokes-millennium-prize-problem-gpt-6-astra",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-09-09T09:31:01.067Z"
     }
   ]
 }
