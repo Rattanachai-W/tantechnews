@@ -1371,6 +1371,27 @@
       "slug": "cloudflare-automatic-key-exchange-helloretryrequest-3-7-post",
       "sourceName": "Cloudflare Blog",
       "processedAt": "2026-09-09T19:41:45.704Z"
+    },
+    {
+      "id": "a7c183de5112de4747c23486d7487a321f4ddb9d54d97fdfcde71054c47a0d6e",
+      "url": "https://openai.com/index/ai-policy-window",
+      "slug": "openai-ai-4",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-09-10T00:57:26.238Z"
+    },
+    {
+      "id": "52382fedc3bec59bb47883fc0f1350f6a04bc2a87a5eb3725bba708a30dbb905",
+      "url": "https://arstechnica.com/culture/2026/09/prime-video-releases-full-trailer-for-mike-flanagans-carrie/",
+      "slug": "prime-video-carrie-mike-flanagan",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-09-10T00:57:46.227Z"
+    },
+    {
+      "id": "5f613309157198f92ae02e4f63b287a7f7b279129794978e13ffeaf1ca890940",
+      "url": "https://www.theverge.com/gadgets/993005/smartphone-price-hikes-apple-iphone-18-pro",
+      "slug": "iphone-18-pro-100",
+      "sourceName": "The Verge",
+      "processedAt": "2026-09-10T00:58:16.294Z"
     }
   ]
 }
