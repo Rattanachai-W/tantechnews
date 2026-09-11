@@ -1420,6 +1420,20 @@
       "slug": "apple-100-meta-muse",
       "sourceName": "CNBC Technology",
       "processedAt": "2026-09-11T09:28:06.549Z"
+    },
+    {
+      "id": "f5ea742cf30e7a1baf50d4914074dd3bfac1f9ee0962b61b0f02cea92662ebf2",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "slug": "anthropic-4-ai",
+      "sourceName": "The Verge",
+      "processedAt": "2026-09-11T19:30:56.702Z"
+    },
+    {
+      "id": "f6d02e7aaa82111aaa29defa088b07db9c2f78a39acdc0da7a4362b1343ea388",
+      "url": "https://www.wired.com/story/polymarket-investigations-iran-biden-google-foia/",
+      "slug": "3-polymarket",
+      "sourceName": "WIRED",
+      "processedAt": "2026-09-11T19:31:27.685Z"
     }
   ]
 }
