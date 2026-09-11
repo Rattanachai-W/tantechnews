@@ -1406,6 +1406,20 @@
       "slug": "ceo-ryanair",
       "sourceName": "CNBC Technology",
       "processedAt": "2026-09-11T00:54:57.868Z"
+    },
+    {
+      "id": "56279a2b11a43162b08afc25eea1bca165d6cb1b7949fd45b5f637aa2eaee0b9",
+      "url": "https://www.cnbc.com/2026/09/09/amazon-adds-cybersecurity-vet-ex-google-exec-kevin-mandia-to-board.html",
+      "slug": "amazon-kevin-mandia-ceo-mandiant-google-2",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-09-11T09:26:50.040Z"
+    },
+    {
+      "id": "5eae33415a69a0109adc5fa2cad076bd6a4067ee6ac96a79af85d0703ffd4be4",
+      "url": "https://www.cnbc.com/2026/09/09/5-things-to-know-before-the-stock-market-opens.html",
+      "slug": "apple-100-meta-muse",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-09-11T09:28:06.549Z"
     }
   ]
 }
