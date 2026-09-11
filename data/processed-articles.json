@@ -1392,6 +1392,20 @@
       "slug": "iphone-18-pro-100",
       "sourceName": "The Verge",
       "processedAt": "2026-09-10T00:58:16.294Z"
+    },
+    {
+      "id": "325b5817277a009d226163b302d0589270d3d1ecd2cc667223d3b97f3959a9fb",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+      "slug": "universal-music-ai-elevenlabs",
+      "sourceName": "The Verge",
+      "processedAt": "2026-09-11T00:53:40.431Z"
+    },
+    {
+      "id": "fdb1cf503ed44bde56343783c8c3974a098844d5587321cb136fbf66831a0b82",
+      "url": "https://www.cnbc.com/2026/09/10/ryanair-airfare-prices-oil-iran-war.html",
+      "slug": "ceo-ryanair",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-09-11T00:54:57.868Z"
     }
   ]
 }
