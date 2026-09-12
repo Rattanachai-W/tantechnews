@@ -1434,6 +1434,13 @@
       "slug": "3-polymarket",
       "sourceName": "WIRED",
       "processedAt": "2026-09-11T19:31:27.685Z"
+    },
+    {
+      "id": "9021d387bc62790d03226ddfb03c5300796f198579a4aa97c934d6899fe931b0",
+      "url": "https://arstechnica.com/health/2026/09/bouncy-castle-launches-horrifying-mrsa-outbreak-striking-48-kids-in-ireland/",
+      "slug": "mrsa",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-09-12T09:08:24.668Z"
     }
   ]
 }
