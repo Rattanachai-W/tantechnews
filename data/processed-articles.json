@@ -1462,6 +1462,20 @@
       "slug": "featured-374-sanity-vercel-ai-sdk-workflow-sdk-100-000-media",
       "sourceName": "Vercel Blog",
       "processedAt": "2026-09-12T19:06:34.277Z"
+    },
+    {
+      "id": "4bb7ed73f911dcda7120a484a6abb1f99ebb232c2a0dcdfa79dad1568780c0f7",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+      "slug": "anthropic-ai-metr",
+      "sourceName": "The Verge",
+      "processedAt": "2026-09-13T10:08:05.427Z"
+    },
+    {
+      "id": "97fc71751186901a8eab6099c116825c10b33badc2d2252e21ed5f0621d191b7",
+      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "slug": "revolut",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-13T10:10:05.561Z"
     }
   ]
 }
