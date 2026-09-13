@@ -1476,6 +1476,27 @@
       "slug": "revolut",
       "sourceName": "TechCrunch",
       "processedAt": "2026-09-13T10:10:05.561Z"
+    },
+    {
+      "id": "a61cc7ff2ea610fd544d4b4ccedce150f562769b61a3c830f59fa6b71ff8d5e8",
+      "url": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
+      "slug": "cbp-cpu-ram-dhs-46",
+      "sourceName": "Hacker News",
+      "processedAt": "2026-09-13T14:52:46.848Z"
+    },
+    {
+      "id": "0f1d07881205670b8594c20a9db23b882b5521242306bd9f529716e30b7ffd10",
+      "url": "https://techcrunch.com/2026/09/13/fusion-power-startups-find-new-partners-in-the-defense-world/",
+      "slug": "0f1d07881205",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-09-13T14:53:16.571Z"
+    },
+    {
+      "id": "9bb991713134ff7f24e414e901dce36c78ad28e05b8ef4003ff99781b8d5bbf5",
+      "url": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
+      "slug": "meta-facebook-instagram-ai",
+      "sourceName": "WIRED",
+      "processedAt": "2026-09-13T14:53:40.439Z"
     }
   ]
 }
