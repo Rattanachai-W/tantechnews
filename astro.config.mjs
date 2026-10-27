@@ -3,7 +3,7 @@ import vercel from "@astrojs/vercel/static";
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://tantechnews.com",
+  site: "https://www.tantechnews.com",
   output: "static",
   redirects: {
     "/news/introducing-chatgpt-for-teens-built-for-learning-backed-by-p": "/news/openai-chatgpt-for-teens/",
