@@ -8,7 +8,7 @@ export async function GET(context: APIContext) {
   return rss({
     title: "TanTech News",
     description: "สรุปข่าวเทคสำคัญ ให้คุณทันทุกวัน",
-    site: context.site ?? "https://tantechnews.com",
+    site: context.site ?? "https://www.tantechnews.com",
     items: articles.map((article) => ({
       title: article.data.title,
       description: article.data.excerpt,

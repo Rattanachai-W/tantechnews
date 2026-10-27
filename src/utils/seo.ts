@@ -1,7 +1,7 @@
 import type { NewsEntry } from "./content";
 
 const SITE_NAME = "TanTech News";
-const SITE_URL = "https://tantechnews.com";
+const SITE_URL = "https://www.tantechnews.com";
 const DEFAULT_DESCRIPTION = "สรุปข่าวเทคสำคัญ ให้คุณทันทุกวัน";
 const DEFAULT_IMAGE = `${SITE_URL}/og-default.jpg`;
 

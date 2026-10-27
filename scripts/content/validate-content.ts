@@ -18,7 +18,14 @@ const newsSchema = z.object({
   categories: z.array(z.enum(ARTICLE_CATEGORIES)).min(1).max(3),
   readingTimeMinutes: z.number().int().positive(),
   draft: z.boolean(),
-  aiGenerated: z.boolean()
+  aiGenerated: z.boolean(),
+  reviewedBy: z.string().trim().min(1).nullable().optional(),
+  reviewedAt: z.coerce.date().optional(),
+  references: z.array(z.object({
+    title: z.string().trim().min(1),
+    url: z.string().url().refine((url) => /^https?:\/\//i.test(url), "Reference must use HTTP or HTTPS"),
+    kind: z.enum(["primary", "supporting"])
+  })).default([])
 });
 
 const dailySchema = z.object({

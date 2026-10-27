@@ -8,7 +8,7 @@ import {
 } from "../utils/content";
 
 export const GET: APIRoute = async ({ site }) => {
-  const baseUrl = site ?? new URL("https://tantechnews.com");
+  const baseUrl = site ?? new URL("https://www.tantechnews.com");
   const articles = await getPublishedNews();
   const digests = await getPublishedDailyDigests();
   const now = new Date().toISOString().slice(0, 10);

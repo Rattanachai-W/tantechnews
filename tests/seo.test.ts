@@ -38,7 +38,7 @@ describe("SEO structured data", () => {
   });
 
   it("builds NewsArticle JSON-LD from article metadata", () => {
-    const jsonLd = getArticleJsonLd(article, "https://tantechnews.com/news/openai-api/");
+    const jsonLd = getArticleJsonLd(article, "https://www.tantechnews.com/news/openai-api/");
 
     assert.equal(jsonLd["@type"], "NewsArticle");
     assert.equal(jsonLd.headline, "OpenAI เปิดตัว API ใหม่");

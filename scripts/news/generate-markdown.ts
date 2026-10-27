@@ -111,7 +111,7 @@ ${summary.tantechView}
 
 ## แหล่งข่าว
 
-[อ่านต้นฉบับ](${article.url})
+[อ่านรายงานจาก ${escapeYaml(article.sourceName)}](${article.url})
 `;
 
   const publishedIso = new Date(articleDate.getTime() + 7 * 60 * 60 * 1000).toISOString().replace("Z", "+07:00");
@@ -132,7 +132,7 @@ readingTimeMinutes: ${calculateReadingTime(articleBody)}
 featured: false
 draft: ${isDraft}
 aiGenerated: true
-reviewedBy: "TanTech Editorial Desk"
+reviewedBy: null
 ---
 
 ${articleBody}`;

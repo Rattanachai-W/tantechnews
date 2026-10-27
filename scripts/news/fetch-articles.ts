@@ -44,7 +44,7 @@ const sourceConfigSchema = z.object({
 const parser = new Parser({
   timeout: 12000,
   headers: {
-    "User-Agent": "TanTechNewsBot/0.1 (+https://tantechnews.com)"
+    "User-Agent": "TanTechNewsBot/0.1 (+https://www.tantechnews.com)"
   }
 });
 
@@ -161,7 +161,7 @@ async function fetchApiSource(source: ApiNewsSource): Promise<RawArticle[]> {
         signal: AbortSignal.timeout(12000),
         headers: {
           Accept: "application/json",
-          "User-Agent": "TanTechNewsBot/0.1 (+https://tantechnews.com)",
+          "User-Agent": "TanTechNewsBot/0.1 (+https://www.tantechnews.com)",
           ...source.headers
         }
       }),

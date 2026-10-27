@@ -20,7 +20,13 @@ const news = defineCollection({
     featured: z.boolean().default(false),
     draft: z.boolean().default(true),
     aiGenerated: z.boolean(),
-    reviewedBy: z.string().nullable().optional()
+    reviewedBy: z.string().trim().min(1).nullable().optional(),
+    reviewedAt: z.coerce.date().optional(),
+    references: z.array(z.object({
+      title: z.string().trim().min(1),
+      url: z.string().url().refine((url) => /^https?:\/\//i.test(url), "Reference must use HTTP or HTTPS"),
+      kind: z.enum(["primary", "supporting"])
+    })).default([])
   })
 });
 

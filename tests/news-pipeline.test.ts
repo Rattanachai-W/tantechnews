@@ -539,6 +539,8 @@ describe("news pipeline helpers", () => {
       const existing = await readFile(join(targetDir, "openai-launches-developer-api.md"), "utf8");
       const created = await readFile(generated.filePath, "utf8");
       assert.equal(existing, "existing");
+      assert.match(created, /reviewedBy: null/);
+      assert.doesNotMatch(created, /TanTech Editorial Desk/);
       assert.match(created, /slug: "openai-launches-developer-api-2"/);
     } finally {
       process.chdir(cwd);
