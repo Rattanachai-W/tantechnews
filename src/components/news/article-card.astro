@@ -1,7 +1,7 @@
 ---
 import { Clock3 } from "lucide-astro";
 import type { NewsEntry } from "../../utils/content";
-import { formatDate } from "../../utils/format-date";
+import { formatDate, formatDateTime } from "../../utils/format-date";
 import { getArticleHref, getCategoryHref, getPrimaryCategory } from "../../utils/content";
 import { getOptimizedImageUrl } from "../../utils/image";
 import { isPartnerArticle } from "../../utils/partners";
@@ -119,7 +119,7 @@ const coverImage = getOptimizedImageUrl(
     {!compact && (
       <div
         class:list={[
-          "mt-auto border-t pt-4 text-xs",
+          "mt-auto flex flex-wrap items-center justify-between gap-3 border-t pt-4 text-xs",
           isPartner ? "border-brand/30 text-brand" : "border-line text-muted"
         ]}
       >
@@ -128,6 +128,12 @@ const coverImage = getOptimizedImageUrl(
             {isPartner ? `พันธมิตร · ${article.data.sourceName}` : article.data.sourceName}
           </span>
         </span>
+        <time
+          datetime={article.data.sourcePublishedAt.toISOString()}
+          itemprop="dateModified"
+        >
+          เผยแพร่ {formatDateTime(article.data.sourcePublishedAt)}
+        </time>
       </div>
     )}
   </div>
