@@ -1,6 +1,7 @@
 import tailwind from "@astrojs/tailwind";
 import vercel from "@astrojs/vercel/static";
 import { defineConfig } from "astro/config";
+import { rehypeStableHeadingIds } from "./src/utils/rehype-stable-heading-ids.mjs";
 
 export default defineConfig({
   site: "https://www.tantechnews.com",
@@ -26,6 +27,7 @@ export default defineConfig({
   markdown: {
     shikiConfig: {
       theme: "github-light"
-    }
+    },
+    rehypePlugins: [rehypeStableHeadingIds]
   }
 });

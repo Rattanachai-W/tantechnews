@@ -51,6 +51,7 @@ a {
   font-weight: 750;
   letter-spacing: 0;
   margin-block: 2.3rem 0.8rem;
+  scroll-margin-top: 1.5rem;
 }
 
 .prose-news h3 {

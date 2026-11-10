@@ -230,6 +230,106 @@
       "tier": 2,
       "categories": ["Business", "Startup", "AI"],
       "language": "en"
+    },
+    {
+      "id": "coindesk",
+      "name": "CoinDesk",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Business", "Startup", "Data"],
+      "language": "en"
+    },
+    {
+      "id": "the-block",
+      "name": "The Block",
+      "url": "https://www.theblock.co/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Business", "Startup", "Data"],
+      "language": "en"
+    },
+    {
+      "id": "decrypt",
+      "name": "Decrypt",
+      "url": "https://decrypt.co/feed",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Business", "Startup"],
+      "language": "en"
+    },
+    {
+      "id": "cointelegraph",
+      "name": "Cointelegraph",
+      "url": "https://cointelegraph.com/rss",
+      "type": "rss",
+      "enabled": true,
+      "tier": 3,
+      "categories": ["Business", "Startup", "Data"],
+      "language": "en"
+    },
+    {
+      "id": "the-defiant",
+      "name": "The Defiant",
+      "url": "https://thedefiant.io/feed",
+      "type": "rss",
+      "enabled": true,
+      "tier": 3,
+      "categories": ["Business", "Startup", "Data"],
+      "language": "en"
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "url": "https://www.engadget.com/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Mobile", "Hardware", "Business"],
+      "language": "en"
+    },
+    {
+      "id": "9to5google",
+      "name": "9to5Google",
+      "url": "https://9to5google.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 3,
+      "categories": ["Mobile", "Hardware"],
+      "language": "en"
+    },
+    {
+      "id": "krebs-on-security",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Cybersecurity"],
+      "language": "en"
+    },
+    {
+      "id": "the-hacker-news",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "type": "rss",
+      "enabled": true,
+      "tier": 3,
+      "categories": ["Cybersecurity"],
+      "language": "en"
+    },
+    {
+      "id": "infoq",
+      "name": "InfoQ",
+      "url": "https://feed.infoq.com/",
+      "type": "rss",
+      "enabled": true,
+      "tier": 2,
+      "categories": ["Programming", "Cloud", "Data"],
+      "language": "en"
     }
   ]
 }
