@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const title = "เกี่ยวกับทันเทค";
+const title = "เกี่ยวกับทันเทค สรุปข่าวเทคโนโลยีภาษาไทย";
 const description =
-  "ทันเทค (TanTech News) คือเว็บไซต์สรุปข่าวเทคโนโลยีภาษาไทย ขับเคลื่อนด้วย AI 100% คัดเฉพาะข่าวที่มีผลกระทบจริงต่อนักพัฒนาและผู้ประกอบการ";
+  "รู้จักทันเทค (TanTech News) สื่อสรุปข่าวเทคโนโลยีภาษาไทย คัดข่าวสำคัญด้วย AI พร้อมแหล่งอ้างอิงต้นฉบับสำหรับนักพัฒนาและผู้ประกอบการ";
 const adsMailto = `mailto:rattanachai.wp@gmail.com?subject=${encodeURIComponent("ติดต่อโฆษณา - TanTech News")}`;
 
 const partners = [
@@ -16,72 +16,166 @@ const partners = [
   }
 ];
 
-const pillars = [
-  {
-    icon: "🤖",
-    title: "ระบบ AI อัตโนมัติ",
-    desc: "ทันเทคใช้ระบบ AI ในการคัดกรอง วิเคราะห์ และสรุปข่าวเทคโนโลยีทุกชิ้น โดยไม่มีบรรณาธิการมนุษย์แทรกแซงกระบวนการ"
-  },
-  {
-    icon: "📡",
-    title: "แหล่งข่าวระดับโลก",
-    desc: "รวบรวมข่าวจากแหล่งที่น่าเชื่อถือระดับสากล เช่น TechCrunch, The Verge, Hacker News, GitHub Blog, Google Blog และอื่น ๆ"
-  },
-  {
-    icon: "🇹🇭",
-    title: "เพื่อผู้อ่านไทย",
-    desc: "สรุปเนื้อหาเป็นภาษาไทยที่เข้าใจง่าย พร้อมวิเคราะห์ผลกระทบในบริบทของผู้ใช้และธุรกิจในไทย"
-  },
-  {
-    icon: "⚡",
-    title: "ความเร็วและความถูกต้อง",
-    desc: "อัปเดตข่าวหลายรอบต่อวัน พร้อมแหล่งอ้างอิงต้นฉบับทุกชิ้น ให้คุณได้อ่านข้อมูลที่ทันสมัยและตรวจสอบได้"
-  }
+const signals = [
+  { label: "คัดเฉพาะข่าวสำคัญ", detail: "ไม่ไล่ทุกหัวข้อ โฟกัสเรื่องที่มีผลกระทบจริง" },
+  { label: "สรุปเป็นภาษาไทย", detail: "อ่านเร็ว เข้าใจง่าย ในไม่กี่นาที" },
+  { label: "มีแหล่งอ้างอิง", detail: "เปิดดูต้นฉบับและตรวจสอบย้อนกลับได้" }
 ];
 
+const whyItems = [
+  "อ่านสรุปข่าวเทคโนโลยีภาษาไทยที่คัดแล้ว ไม่ต้องไล่ฟีดข่าวต่างประเทศเองทั้งวัน",
+  "เห็นผลกระทบต่อธุรกิจและงานพัฒนา ผ่านส่วนวิเคราะห์ที่แยกจากรายงานข้อเท็จจริง",
+  "เปิดดูแหล่งข่าวต้นทางได้ทันที หากต้องการรายละเอียดเพิ่มหรือตรวจสอบข้อมูล"
+];
+
+const pillars = [
+  {
+    title: "คัดกรองด้วย AI อัตโนมัติ",
+    desc: "ทันเทคใช้ระบบ AI คัดกรอง วิเคราะห์ และสรุปข่าวเทคโนโลยีทุกชิ้น เพื่อคัดเฉพาะเรื่องที่สำคัญจริง ก่อนเผยแพร่เป็นภาษาไทย"
+  },
+  {
+    title: "แหล่งข่าวระดับโลกที่ตรวจสอบได้",
+    desc: "รวบรวมจากแหล่งที่น่าเชื่อถือ เช่น TechCrunch, The Verge, Hacker News, GitHub Blog และ Google Blog พร้อมลิงก์ต้นฉบับทุกบทความ"
+  },
+  {
+    title: "สรุปเพื่อผู้อ่านไทย",
+    desc: "เรียบเรียงเป็นภาษาไทยที่อ่านเร็ว เน้นบริบทของนักพัฒนา ผู้ประกอบการ และคนทำงานด้านเทคโนโลยีในไทย"
+  },
+  {
+    title: "อัปเดตเร็วและโปร่งใส",
+    desc: "อัปเดตหลายรอบต่อวัน แยกข้อเท็จจริงจากมุมมองของทันเทค และเปิดเผยวิธีคัดเลือกข่าวกับนโยบายการใช้ AI"
+  }
+];
 ---
 
 <BaseLayout title={title} description={description}>
-  <!-- Hero -->
-  <section class="border-b border-line bg-white">
-    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:py-20">
-      <p class="text-sm font-bold uppercase tracking-wide text-brand">เกี่ยวกับเรา</p>
-      <h1 class="mt-3 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">
-        ทันเทค คืออะไร?
-      </h1>
-      <p class="mt-6 max-w-2xl text-lg leading-8 text-muted">
-        ทันเทค (TanTech News) คือเว็บไซต์สรุปข่าวเทคโนโลยีที่สำคัญประจำวันเป็นภาษาไทย
-        ขับเคลื่อนด้วยระบบ AI อัตโนมัติ 100% ในการคัดเลือก วิเคราะห์ และสรุปเนื้อหา
-      </p>
-      <p class="mt-4 max-w-2xl text-lg leading-8 text-muted">
-        เราไม่ได้รายงานข่าวทุกข่าว — เราคัดเฉพาะข่าวที่
-        <strong class="font-semibold text-ink">มีผลกระทบจริง</strong>
-        ต่อนักพัฒนา ผู้ประกอบการ และคนที่ทำงานกับเทคโนโลยี
-        แล้วสรุปให้เข้าใจได้ภายในไม่กี่นาที
-      </p>
+  <!-- Hero: spacious peak -->
+  <section class="relative overflow-hidden border-b border-line bg-white">
+    <div class="pointer-events-none absolute inset-y-0 right-0 hidden w-1/2 bg-gradient-to-l from-brand-light/50 to-transparent lg:block" aria-hidden="true"></div>
+    <div class="relative mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.15fr_0.85fr] lg:items-end lg:py-24">
+      <div>
+        <p class="text-sm font-bold uppercase tracking-wide text-brand">เกี่ยวกับเรา</p>
+        <h1 class="mt-4 max-w-[18ch] text-4xl font-extrabold leading-[1.15] text-ink sm:text-5xl lg:text-6xl">
+          ทันเทค สรุปข่าวเทคโนโลยีภาษาไทยที่ควรรู้
+        </h1>
+        <p class="mt-6 max-w-xl text-lg leading-8 text-muted">
+          ทันเทค (TanTech News) เป็นสื่อสรุปข่าวเทคโนโลยีภาษาไทย
+          ที่คัดเฉพาะข่าวมีผลกระทบจริง แล้วสรุปให้อ่านเข้าใจได้ในไม่กี่นาที
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a
+            href="/"
+            class="inline-flex min-h-11 items-center rounded-lg bg-brand px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+          >
+            อ่านข่าวล่าสุด
+          </a>
+          <a
+            href="/selection-criteria/"
+            class="inline-flex min-h-11 items-center rounded-lg border border-line bg-white px-5 py-2.5 text-sm font-semibold text-ink transition hover:border-brand hover:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+          >
+            ดูวิธีคัดเลือกข่าว
+          </a>
+        </div>
+      </div>
+
+      <aside class="rounded-2xl border border-line bg-paper p-6 sm:p-7">
+        <p class="text-sm font-bold text-ink">สิ่งที่เราโฟกัส</p>
+        <p class="mt-3 text-sm leading-7 text-muted">
+          เราไม่ได้รวบรวมข่าวทุกชิ้น แต่โฟกัสเรื่องที่สำคัญต่อนักพัฒนา ผู้ประกอบการ
+          และคนทำงานกับเทคโนโลยี พร้อมแหล่งอ้างอิงต้นฉบับให้ตรวจสอบย้อนกลับได้
+        </p>
+        <p class="mt-4 border-t border-line pt-4 text-sm leading-7 text-muted">
+          ระบบคัดเลือก วิเคราะห์ และสรุปเนื้อหาขับเคลื่อนด้วย AI
+          โดยแยกส่วนข้อเท็จจริงออกจากมุมมองของทันเทคอย่างชัดเจน
+        </p>
+      </aside>
     </div>
   </section>
 
-  <!-- พันธมิตร -->
+  <!-- Signal strip: high-weight beat -->
+  <section class="border-b border-line bg-ink text-white" aria-label="จุดเด่นของทันเทค">
+    <div class="mx-auto grid max-w-6xl gap-8 px-6 py-12 sm:px-8 md:grid-cols-3 md:gap-8 md:py-14">
+      {signals.map((signal, index) => (
+        <div class:list={[index > 0 && "border-t border-white/15 pt-8 md:border-t-0 md:border-l md:pt-0 md:pl-8"]}>
+          <p class="text-lg font-bold leading-snug">{signal.label}</p>
+          <p class="mt-2 text-sm leading-7 text-white/75">{signal.detail}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Why: open editorial rhythm -->
+  <section class="border-b border-line bg-paper" aria-labelledby="why-heading">
+    <div class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
+      <div class="max-w-2xl">
+        <h2 id="why-heading" class="text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">
+          ทำไมต้องอ่านทันเทค
+        </h2>
+        <p class="mt-3 text-base leading-8 text-muted">
+          สำหรับคนที่ต้องการตามข่าวเทคโนโลยีสำคัญ โดยไม่เสียเวลาอ่านต้นฉบับยาวทั้งหมด
+        </p>
+      </div>
+      <ol class="mt-10 max-w-3xl space-y-0 border-t border-line">
+        {whyItems.map((item, index) => (
+          <li class="grid gap-4 border-b border-line py-6 sm:grid-cols-[4rem_1fr] sm:gap-6">
+            <span class="text-sm font-bold text-brand">0{index + 1}</span>
+            <p class="text-base leading-8 text-ink">{item}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- Method: asymmetric -->
+  <section class="border-b border-line bg-white" aria-labelledby="mission-heading">
+    <div class="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:py-20">
+      <div class="lg:sticky lg:top-8 lg:self-start">
+        <h2 id="mission-heading" class="text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">
+          วิธีทำงานของทันเทค
+        </h2>
+        <p class="mt-3 max-w-md text-base leading-8 text-muted">
+          หลักการที่เราใช้คัด เรียบเรียง และเผยแพร่สรุปข่าวเทคโนโลยีทุกวัน
+        </p>
+      </div>
+      <div class="space-y-6">
+        {pillars.map((item, index) => (
+          <div
+            class:list={[
+              index === 0
+                ? "rounded-2xl border border-brand/20 bg-brand-light/40 p-6"
+                : "border-b border-line pb-6 last:border-b-0 last:pb-0"
+            ]}
+          >
+            <h3 class="text-lg font-bold text-ink">{item.title}</h3>
+            <p class="mt-2 text-sm leading-7 text-muted">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Partner: quieter -->
   <section class="border-b border-line bg-paper" aria-labelledby="partners-heading">
-    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
-      <h2 id="partners-heading" class="text-2xl font-bold text-ink">พันธมิตรของเรา</h2>
-      <p class="mt-2 text-muted">เครือข่ายสื่อและพันธมิตรที่ร่วมงานกับทันเทค</p>
-      <ul class="mt-8 space-y-4">
+    <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+      <div class="max-w-xl">
+        <h2 id="partners-heading" class="text-2xl font-bold text-ink">พันธมิตรสื่อ</h2>
+        <p class="mt-2 text-muted">เครือข่ายสื่อที่ร่วมขยายการเข้าถึงข่าวเทคโนโลยีคุณภาพในไทย</p>
+      </div>
+      <ul class="mt-8 max-w-2xl space-y-4">
         {partners.map((partner) => (
           <li>
             <a
               href={partner.href}
               target="_blank"
               rel="noopener noreferrer"
-              class="group flex items-center gap-4 rounded-xl border border-line bg-white p-4 transition hover:border-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand sm:gap-5 sm:p-5"
+              class="group flex items-center gap-4 rounded-2xl border border-line bg-white p-5 transition hover:border-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
             >
               <img
                 src={partner.logo}
                 alt={partner.logoAlt}
                 width="64"
                 height="64"
-                class="h-14 w-14 shrink-0 rounded-full object-cover sm:h-16 sm:w-16"
+                class="h-14 w-14 shrink-0 rounded-full object-cover"
                 loading="lazy"
               />
               <div class="min-w-0 flex-1">
@@ -97,84 +191,55 @@ const pillars = [
     </div>
   </section>
 
-  <!-- พันธกิจ -->
-  <section class="border-b border-line bg-white" aria-labelledby="mission-heading">
-    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
-      <h2 id="mission-heading" class="text-2xl font-bold text-ink">พันธกิจของเรา</h2>
-      <p class="mt-2 text-muted">สิ่งที่ทันเทคมุ่งมั่นทำเพื่อผู้อ่านทุกวัน</p>
-      <div class="mt-8 grid gap-5 sm:grid-cols-2">
-        {pillars.map((item) => (
-          <div class="rounded-xl border border-line bg-paper p-6 shadow-sm">
-            <span class="text-3xl" aria-hidden="true">{item.icon}</span>
-            <h3 class="mt-4 text-base font-bold text-ink">{item.title}</h3>
-            <p class="mt-2 text-sm leading-7 text-muted">{item.desc}</p>
-          </div>
-        ))}
+  <!-- Close: strong CTA band -->
+  <section class="bg-ink text-white" aria-labelledby="ads-heading">
+    <div class="mx-auto grid max-w-6xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-20">
+      <div>
+        <h2 id="ads-heading" class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+          ติดต่อโฆษณาและสอบถาม
+        </h2>
+        <p class="mt-4 max-w-lg text-sm leading-7 text-white/75">
+          สนใจลงโฆษณา เป็นสปอนเซอร์ หรือสอบถามความร่วมมือกับทันเทค ส่งอีเมลมาได้โดยตรง
+          เนื้อหาข่าวยังคงแยกจากโฆษณาอย่างชัดเจน
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a
+            href={adsMailto}
+            class="inline-flex min-h-11 items-center justify-center rounded-lg bg-brand px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-light"
+          >
+            ส่งอีเมลโฆษณา
+          </a>
+          <a
+            href="/advertise/"
+            class="inline-flex min-h-11 items-center justify-center rounded-lg border border-white/25 bg-transparent px-5 py-2.5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-light"
+          >
+            รายละเอียดโฆษณา
+          </a>
+          <a
+            href="/contact/"
+            class="inline-flex min-h-11 items-center justify-center rounded-lg border border-white/25 bg-transparent px-5 py-2.5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-light"
+          >
+            ติดต่อทั่วไป
+          </a>
+        </div>
       </div>
-    </div>
-  </section>
 
-
-  <!-- ติดต่อโฆษณา -->
-  <section class="border-b border-line bg-paper" aria-labelledby="ads-heading">
-    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
-      <h2 id="ads-heading" class="text-2xl font-bold text-ink">ติดต่อโฆษณา</h2>
-      <p class="mt-3 max-w-2xl text-sm leading-7 text-muted">
-        สนใจลงโฆษณาหรือเป็นสปอนเซอร์กับทันเทค ส่งอีเมลมาได้โดยตรง
-      </p>
-      <div class="mt-6 flex flex-wrap gap-3">
-        <a
-          href={adsMailto}
-          class="inline-flex items-center justify-center rounded-lg bg-brand px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
-        >
-          ส่งอีเมลโฆษณา
-        </a>
-        <a
-          href="/advertise/"
-          class="inline-flex items-center justify-center rounded-lg border border-line bg-white px-4 py-2.5 text-sm font-semibold text-ink transition hover:border-brand hover:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
-        >
-          ดูรายละเอียดการติดต่อโฆษณา
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="border-t border-line bg-white">
-    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
-      <h2 class="text-2xl font-bold text-ink">ต้องการรู้จักเราเพิ่มเติม?</h2>
-      <p class="mt-2 text-muted">อ่านนโยบายและหลักการทำงานของทันเทค</p>
-      <div class="mt-8 flex flex-wrap gap-3 text-sm">
-        <a
-          href="/selection-criteria/"
-          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
-        >
-          🔍 วิธีการคัดเลือกข่าว
-        </a>
-        <a
-          href="/ai-policy/"
-          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
-        >
-          🤖 นโยบายการใช้ AI
-        </a>
-        <a
-          href="/correction-policy/"
-          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
-        >
-          ✏️ นโยบายแก้ไขข่าว
-        </a>
-        <a
-          href="/contact/"
-          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
-        >
-          📬 ติดต่อเรา
-        </a>
-        <a
-          href="/advertise/"
-          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
-        >
-          ติดต่อโฆษณา
-        </a>
+      <div class="border-t border-white/15 pt-10 lg:border-l lg:border-t-0 lg:pl-10 lg:pt-0">
+        <h3 class="text-xl font-bold">นโยบายและความโปร่งใส</h3>
+        <p class="mt-3 text-sm leading-7 text-white/75">
+          อ่านหลักการทำงานของทันเทคเพื่อเข้าใจวิธีคัดข่าวและการใช้ AI
+        </p>
+        <div class="mt-6 flex flex-col gap-3 text-sm">
+          <a class="font-semibold text-brand-light underline-offset-4 hover:underline" href="/selection-criteria/">
+            วิธีการคัดเลือกข่าว
+          </a>
+          <a class="font-semibold text-brand-light underline-offset-4 hover:underline" href="/ai-policy/">
+            นโยบายการใช้ AI
+          </a>
+          <a class="font-semibold text-brand-light underline-offset-4 hover:underline" href="/correction-policy/">
+            นโยบายแก้ไขข่าว
+          </a>
+        </div>
       </div>
     </div>
   </section>
