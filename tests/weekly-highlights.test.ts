@@ -55,7 +55,8 @@ describe("weekly highlights", () => {
       first.map((article) => article.slug),
       second.map((article) => article.slug)
     );
-    assert.equal(first.some((article) => article.slug === "old"), false);
+    const cutoff = now.getTime() - 7 * 24 * 60 * 60 * 1000;
+    assert.ok(first.every((article) => article.data.publishedAt.getTime() >= cutoff));
     assert.match(getIsoWeekSeed(now), /^2026-W\d{2}$/);
   });
 });
