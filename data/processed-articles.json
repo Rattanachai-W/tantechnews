@@ -1497,6 +1497,510 @@
       "slug": "meta-facebook-instagram-ai",
       "sourceName": "WIRED",
       "processedAt": "2026-09-13T14:53:40.439Z"
+    },
+    {
+      "id": "241a874c20aba2cd12ec187720502b0d1f82a44c4421339cab649caaa2fca5f4",
+      "url": "https://apocwire.com/th/p/11831802.90000021.html",
+      "slug": "msc-esg",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T06:28:32.985Z"
+    },
+    {
+      "id": "5f5f985acc6349bf1477c305e822e7efc8c283a5e943caee001dd44c8bf5702f",
+      "url": "https://apocwire.com/th/p/76668822.90000021.html",
+      "slug": "msc-metro-futuretech-summit-2027-enterprise-tech",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T06:28:48.732Z"
+    },
+    {
+      "id": "b773927348c071c476cab21b46aba3c467094d5ac64ff5ec38146ab36683c99f",
+      "url": "https://blog.mozilla.org/en/firefox/mozilla-mistral-partnership/",
+      "slug": "mozilla-mistral-ai-open-source-firefox",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:29:01.450Z"
+    },
+    {
+      "id": "3c4175f564caee2a3f57529154a18189055f99d9743e717d833fcd2334139b48",
+      "url": "https://apocwire.com/th/p/00000444.00000038.html",
+      "slug": "1-school-trip-2",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T06:29:16.736Z"
+    },
+    {
+      "id": "acc39d21ecbe3852e4b367cf6b1b2372470fbecc85549ec404a7d2afcfd6d0ad",
+      "url": "https://blog.mozilla.org/en/mozilla/mila-canada-open-source-ai-initiative/",
+      "slug": "mozilla-mila-ai-open-source",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:29:31.130Z"
+    },
+    {
+      "id": "7c529cb12ab3ed6556e3b90338a39da8c7162b3b9f6bc1ce4782b71c8658d84b",
+      "url": "https://blog.mozilla.org/en/firefox/stay-focused-wherever-you-work-with-firefox-mobile-browsers/",
+      "slug": "firefox-ai",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:29:42.494Z"
+    },
+    {
+      "id": "1d35da134b200a802e7893f0cfb0c81724e2daf2ba75be808e7dbf5a5eaaac89",
+      "url": "https://apocwire.com/th/p/00000451.00000306.html",
+      "slug": "muv-luv-girls-garden-mellow-days-pomodoro-3d",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T06:30:04.162Z"
+    },
+    {
+      "id": "f524e9886f009cfdc36f91d8c0cccaaf8a37289bdd16695440bc1c85582445a7",
+      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "slug": "microsoft-copilot-home-code-autopilot-ai-agent",
+      "sourceName": "Microsoft Blog",
+      "processedAt": "2026-11-10T06:30:21.603Z"
+    },
+    {
+      "id": "4143f944294fdb6aa46f3838e1629d92e703ee657357d6d6773539003aa6c1c8",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
+      "slug": "aws-enhanced-custom-event-bus-amazon-eventbridge",
+      "sourceName": "AWS News Blog",
+      "processedAt": "2026-11-10T06:30:34.192Z"
+    },
+    {
+      "id": "eba2be24b92bf235a124d47a426c52da1e7bad76b226772099b3ae9997ebdbb2",
+      "url": "https://blog.mozilla.org/en/firefox/firefox-window-types/",
+      "slug": "firefox-classic-private-smart-window",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:30:45.846Z"
+    },
+    {
+      "id": "75fb6b874935834bc7465e829468ae1f50e0e0240e40a19f7d8b2c29b618a1ba",
+      "url": "https://apocwire.com/th/p/00000464.00000171.html",
+      "slug": "sv-league",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T06:31:05.760Z"
+    },
+    {
+      "id": "09d1d4b21b6cf8f2e3436214d6eb6b2437eb3751774c8df64b0f288799eaf4f7",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
+      "slug": "aws-amazon-bedrock-gpt-6-claude-opus-5-5-cloudwatch-omni",
+      "sourceName": "AWS News Blog",
+      "processedAt": "2026-11-10T06:31:20.654Z"
+    },
+    {
+      "id": "4607b4c4468386f7d703fdc6e8f2d94f991fa6a6a1a594ce5a83f94754cdf8dc",
+      "url": "https://blogs.microsoft.com/blog/2026/09/28/new-microsoft-data-innovations-unlock-what-only-your-business-knows/",
+      "slug": "microsoft-fabric-iq-copilot-ai",
+      "sourceName": "Microsoft Blog",
+      "processedAt": "2026-11-10T06:31:31.238Z"
+    },
+    {
+      "id": "6dc177955690a9fa9f5ffa2fdf97bba4b0fd175699e761bb8194f228ffd6ab97",
+      "url": "https://apocwire.com/th/p/00000467.00000258.html",
+      "slug": "club-tourism-2027",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T06:31:45.404Z"
+    },
+    {
+      "id": "18cc151346c4be036b3ee12c58fc659d1813b982c06ce92039800de9eb179a56",
+      "url": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
+      "slug": "aws-aws-heroes-2026",
+      "sourceName": "AWS News Blog",
+      "processedAt": "2026-11-10T06:31:57.031Z"
+    },
+    {
+      "id": "01e99749322cbcc2d105dfed50895a28601deabf67552821c284d59ff3fcc48c",
+      "url": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update/",
+      "slug": "microsoft-linkedin-microsoft-365-ryan-roslansky",
+      "sourceName": "Microsoft Blog",
+      "processedAt": "2026-11-10T06:32:08.623Z"
+    },
+    {
+      "id": "824370ef4e6b960008bd015df1e412a1f31940762e3db96292ee2638a33fa4c1",
+      "url": "https://blog.mozilla.org/en/firefox/firefox-ai/prompt-tuning-firefox-shake-to-summarize-recipes/",
+      "slug": "prompt-firefox-shake-to-summarize",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:32:22.371Z"
+    },
+    {
+      "id": "c38af6e5cae43e23a64c1d509c6a587da67c166f4c093fc7e47ef57f26c07a7c",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "slug": "openai-gpt-6",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:32:36.113Z"
+    },
+    {
+      "id": "d2b5b29b4c815525619915dcf133df4d932068a91ccef332cbfb8777febef4ef",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "slug": "openai-textgrain-eu-ai-act",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:32:51.315Z"
+    },
+    {
+      "id": "2d8e70fb45cef7470a5baf361c95df26b5ff7249933c340d169f562e1258ded9",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "slug": "openai-chatgpt-2",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:33:05.933Z"
+    },
+    {
+      "id": "752a5e2ef480fb759599ff80149539304f8f2bf1ed8307f005c936d2427b9503",
+      "url": "https://blog.mozilla.org/en/firefox/free-firefox-cybersecurity-features/",
+      "slug": "firefox",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:33:17.314Z"
+    },
+    {
+      "id": "a0313a2096c1a901b8bb2bd6b9902084c1c252e24f2342226bfcadeaa7f924bc",
+      "url": "https://apocwire.com/th/p/16201858.90000021.html",
+      "slug": "msc-lenovo-daikin-thailand-ai",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T06:33:31.422Z"
+    },
+    {
+      "id": "2896758265cec81d95898858cf3558ac9cdd51e4e22038c8fc6ca0aa5193f521",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "slug": "atlassian-openai-gpt-6",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:33:45.153Z"
+    },
+    {
+      "id": "9c5df66e78863875966249a2a6fb887db14433be79b4c344da5ea1aa98dea9c7",
+      "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
+      "slug": "amazon-prime-day-2026-aws",
+      "sourceName": "AWS News Blog",
+      "processedAt": "2026-11-10T06:33:59.877Z"
+    },
+    {
+      "id": "ebb413cc5359756bf9234b81256f87104efa96c0b88df88826702769f053f0a0",
+      "url": "https://openai.com/index/jump-trading",
+      "slug": "jump-trading-quant-gpt-6-astra-agentic-workflow",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:34:14.001Z"
+    },
+    {
+      "id": "00427e47df5ef3064509e152a77372922244883355c7072ea1ab24de41848a25",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "slug": "openai-5",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:34:26.890Z"
+    },
+    {
+      "id": "f57eff9c23a4454b476bbb268bd95c2d23fd7e230b5d7db7db7e5bb00c25353b",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "slug": "openai-ironclad-gpt-6-astra-ai-agent",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:34:41.444Z"
+    },
+    {
+      "id": "4e324623ab7ca6fee0e142410ae1fff634372bb9b83078fd1d25f73483da7134",
+      "url": "https://openai.com/index/radisson",
+      "slug": "radisson-hotel-group-chatgpt-organic-search-1-5",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:34:53.920Z"
+    },
+    {
+      "id": "661f64ddb5f472a2675ed75a0fb09828b0ce7323472abe119ea9528dee004ac6",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "slug": "openai-chatgpt-for-teens-college-planner",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:35:07.718Z"
+    },
+    {
+      "id": "f35990bf22b64bbf762d0ef4dd851425e7436f25f8a3b2968dd5d84a24c45456",
+      "url": "https://blog.mozilla.org/en/mozilla/over-the-edge-2-100-days-later/",
+      "slug": "mozilla-microsoft-windows-edge-100",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:35:20.293Z"
+    },
+    {
+      "id": "a097ef0d441a7216b7cd0e2333e660cab42270878853c22c33f188284ed638d5",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "slug": "openai-gpt-6-intelligent-ui",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:35:32.212Z"
+    },
+    {
+      "id": "45d6a2b79938283a07ca47b39fd2409f4bc34d8465757047a15ff56c4f0b15f8",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "slug": "legalon-codex",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:35:46.012Z"
+    },
+    {
+      "id": "d9e485b409fe8517ac6e3a5ba39a5770caf1a72ddba21f80f7ddf66c5e1760f2",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "slug": "openai-io-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:36:02.897Z"
+    },
+    {
+      "id": "29450e808979af835320f342c7c3f3c0c53a3492f83d3412f4503fa2ee1202ea",
+      "url": "https://blog.mozilla.org/en/firefox/firefox-aeg-uber-arena-partnership/",
+      "slug": "firefox-aeg-uber-arena-fast-lane",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:36:15.555Z"
+    },
+    {
+      "id": "1489239118bc8656b5503461d896b9306d0df4c0d2a34153fefad11456a7ed4a",
+      "url": "https://blog.mozilla.org/en/mozilla/palaniappan-parry-jones/",
+      "slug": "mozilla-jambu-palaniappan-david-parry-jones",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:36:26.905Z"
+    },
+    {
+      "id": "e93904a7f4c1ca5bb4d7c59af534d3e69b3775a721a8abef7132af195f656eaf",
+      "url": "https://apocwire.com/th/p/14086331.90000021.html",
+      "slug": "core-insurance-ibm-power11",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T06:36:40.826Z"
+    },
+    {
+      "id": "bdd2ead3a6c434b3f216a85d6e318565fb3889555972b42a11c0fc62dee5b3d7",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
+      "slug": "aws-prime-day-2026-claude-haiku-5-5",
+      "sourceName": "AWS News Blog",
+      "processedAt": "2026-11-10T06:37:01.691Z"
+    },
+    {
+      "id": "8d45898e533e591d4241f4c1821bbb7b4d6f05ca764b796c7fbe29eb68dd7bc4",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "slug": "higgsfield-ai-1-10-gpt-6-astra",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:37:19.236Z"
+    },
+    {
+      "id": "25225b4d295ce8f7feb5fb28caf41ffcaa7c9ec173aa5803a91f2ec5a5aea629",
+      "url": "https://blog.mozilla.org/en/firefox/introducing-firefox-enterprise/",
+      "slug": "mozilla-firefox-enterprise",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:37:31.123Z"
+    },
+    {
+      "id": "a8b8c31de898145e14c82e5a132c6ade438a779372caca6da84483874bea0325",
+      "url": "https://openai.com/index/third-moment-research",
+      "slug": "third-moment-research-ai-agent-10-000-36-gpt-6",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:38:00.995Z"
+    },
+    {
+      "id": "200a5d3dd39c6bfb7a20192865ba844eee2602b52233f3070983235051951aad",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "slug": "openai-eu-agentic-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:38:16.686Z"
+    },
+    {
+      "id": "a60f4a701f887ae8f46b94e06646a5fb82b2851c561d6cf99f41823c6f66011d",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "slug": "openai-study-mode-ai-for-educators",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:38:29.165Z"
+    },
+    {
+      "id": "94eadcab22c41e356a1d9bf1e35dbdb6491d04804b7eea5ceec3829024496784",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "slug": "sullivan-cromwell-agreement-analyzer-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:38:42.607Z"
+    },
+    {
+      "id": "17838fd5b30ff9df9ad4aac10bbdeb6c3f09503207701802f80ddea55dbf33cb",
+      "url": "https://blog.mozilla.org/en/firefox/new-firefox-sounds/",
+      "slug": "mozilla-firefox-open-source",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:38:53.627Z"
+    },
+    {
+      "id": "86dbfdb5b436c283839e74a6048a322413f28482bebe74ed7ba4a0c505aad443",
+      "url": "https://openai.com/index/grupo-boticario",
+      "slug": "grupo-boticario-ai-openai-lovetech",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:39:07.264Z"
+    },
+    {
+      "id": "d3b9ba6f7bd01af06315d29c49e1c46aec299d60d23b626afa8e8db74404734d",
+      "url": "https://openai.com/index/localiza-generative-ai",
+      "slug": "localiza-ai-native-3",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:39:20.427Z"
+    },
+    {
+      "id": "b6756c0a180ee554226c332b456c2b3fe634b3c508ea217138686c0c0ae92870",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "slug": "benefit-street-partners-codex-gpt-6-astra",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:39:35.984Z"
+    },
+    {
+      "id": "32165ee6af8945a5bd83e4231d3e052413905bc21e8455b93c147e03ace99490",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "slug": "openai-rosalind-academic-plan",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:39:52.489Z"
+    },
+    {
+      "id": "6cc3f18ead7915e2871dfd07457378fda55178e4c3064f55475f25882cb81eb6",
+      "url": "https://blog.mozilla.org/en/mozilla/ai/trustworthy-ai-map/",
+      "slug": "mozilla-trustworthy-ai-map-ai",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:40:06.653Z"
+    },
+    {
+      "id": "9732b2763df5a67ab9455b8255aee23064fe436ed165bb52468ec0f54969accf",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "slug": "itau-70-generative-ai-openai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:40:21.169Z"
+    },
+    {
+      "id": "0a2d4eaf6989f173264290a162b67ed7665d6c18694f333bc132a53a53a5acf7",
+      "url": "https://spectrum.ieee.org/ieee-smart-cities-new-services",
+      "slug": "ieee-smart-cities",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:40:33.151Z"
+    },
+    {
+      "id": "33216f8cfc71284845c2b752808789deff4887b1d218383909498af85a9eeb21",
+      "url": "https://spectrum.ieee.org/variable-frequency-drives",
+      "slug": "vfd",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:40:51.089Z"
+    },
+    {
+      "id": "1dbe22633003a2af4fddcdba3c780b2ba9f507be061699ce02dd407e5165c7ab",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "slug": "openai-ai-low-resource-cobol-fortran",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:41:09.880Z"
+    },
+    {
+      "id": "3917e17d2e227fd7bd992241feb254f67e761f537b47a4679f318cbdbcaeddaa",
+      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+      "slug": "microsoft-agentic-insider-ai-agent",
+      "sourceName": "Microsoft Blog",
+      "processedAt": "2026-11-10T06:41:22.598Z"
+    },
+    {
+      "id": "cab93e09dbd2f0dc396c17a8ae196a1a708c44bfada33f3c36e8818ad18b2e78",
+      "url": "https://vercel.com/changelog/deploy-with-vercel-drop-without-an-account",
+      "slug": "vercel-deploy-vercel-drop",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:41:38.681Z"
+    },
+    {
+      "id": "17ce3d1b8e7836b62a9cb4c04e3c521c49c3b50d0c0ea5d3610094fceb1adb17",
+      "url": "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/",
+      "slug": "smart-city-cognitive-city-edge-ai-physical-ai",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:41:56.187Z"
+    },
+    {
+      "id": "974b525b99ba821782e7f2d54511f6c75c9cdc0310808a9e9d1f745580cdb6e1",
+      "url": "https://vercel.com/blog/making-every-harness-durable",
+      "slug": "vercel-durable-harness-coding-agent-cloud",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:42:10.938Z"
+    },
+    {
+      "id": "0de158413b07a5b4e496b2993224668cd4505fb096fb308c7624b757f791916f",
+      "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+      "slug": "agility-robotics-digit-5",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:42:28.232Z"
+    },
+    {
+      "id": "aa8847d44cbae3328f3c5cbb65bcffcd3b77355e99faf584c20aa718f2bc61fa",
+      "url": "https://openai.com/index/terminal-x",
+      "slug": "terminal-x-gpt-6-1",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:42:45.351Z"
+    },
+    {
+      "id": "1cfb6291fa158d05a5bad0e638547e0ff07dabd8e5700299a43b136146616242",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "slug": "openai-orchestra-bio-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:42:57.798Z"
+    },
+    {
+      "id": "9d60322d2e5e538a3ddfe7351ca30e7687404b534b44e61212a466fa160301ca",
+      "url": "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service",
+      "slug": "vercel-tos-hobby-pro",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:43:10.232Z"
+    },
+    {
+      "id": "bc34cbec3dd5a0fb15f0ace0f613a78b58436776b49ab807749ac614aa772c9a",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "slug": "cloudflare-tsrs-typescript-rust",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T06:43:21.488Z"
+    },
+    {
+      "id": "02ab68be675b3bf67984aadc2776a5827ddbd419baae861c23d6f5717069a91a",
+      "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+      "slug": "microsoft-digital-sovereignty",
+      "sourceName": "Microsoft Blog",
+      "processedAt": "2026-11-10T06:43:32.484Z"
+    },
+    {
+      "id": "806b1f92932cb66421abf1c573b091d67845d4674665905edfbee959e74fa881",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "slug": "github-copilot-java-champions",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-11-10T06:44:06.621Z"
+    },
+    {
+      "id": "d4eba7e91314d185055f1e5ea4bef474938dc4f4a67cefac380295b793a1cf44",
+      "url": "https://blog.mozilla.org/en/mozilla/internet-policy/uk-cma-browser-choice-screens/",
+      "slug": "mozilla-cma-browser-search-engine",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:44:19.540Z"
+    },
+    {
+      "id": "4a59615041b968ae61d1e0514f732a8cd998e846e1d4ee2576a73830be986a25",
+      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+      "slug": "cloudflare-php2shell-php",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T06:44:35.761Z"
+    },
+    {
+      "id": "e270f5ba4688033de075906df89466646eb9f009fa8bcee5c8b60ee62cebab43",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "slug": "openai-ai-5",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:44:54.124Z"
+    },
+    {
+      "id": "95dedf578de78f3ec264f66e37a7c309d1f2cf3d8987fe8b4de9182187d1ff7b",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "slug": "openai-google-cloud-frontier-codex-model-garden",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:45:10.192Z"
+    },
+    {
+      "id": "59c87ea544e0e5db59d19998a57cc391f2351cbfc49124f48e90cb98b0d6c169",
+      "url": "https://blog.cloudflare.com/full-transaction-waf/",
+      "slug": "cloudflare-waf-full-transaction-request-response",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T06:45:27.335Z"
+    },
+    {
+      "id": "3ddc9d0953d217adf58b7f0574014b7bb8e687b0ad6ed599f21b10a223b73ac9",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+      "slug": "amazon-ecs-gateway-ingress-fully-managed-ecs",
+      "sourceName": "AWS News Blog",
+      "processedAt": "2026-11-10T06:45:39.485Z"
+    },
+    {
+      "id": "62b196023aed654cc7d53b21a2f37d092d129e9efc42e3b09d87819b6e27dd7c",
+      "url": "https://vercel.com/changelog/skipped-monorepo-deployments-no-longer-count-against-limits",
+      "slug": "vercel-deployment-monorepo-skip",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:45:51.169Z"
+    },
+    {
+      "id": "b1798641ec1a6ce275b957d4e450a3eb367e68c0015a7c217c9106af40806883",
+      "url": "https://blog.mozilla.org/en/firefox/5-reasons-to-choose-firefox/",
+      "slug": "5-firefox-open-source",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:46:04.147Z"
     }
   ]
 }
