@@ -1,7 +1,7 @@
 ---
 import { Clock3 } from "lucide-astro";
 import type { NewsEntry } from "../../utils/content";
-import { formatDate, formatDateTime } from "../../utils/format-date";
+import { formatDate } from "../../utils/format-date";
 import { getArticleHref, getCategoryHref, getPrimaryCategory } from "../../utils/content";
 import { getOptimizedImageUrl } from "../../utils/image";
 import { isPartnerArticle } from "../../utils/partners";
@@ -25,7 +25,7 @@ const coverImage = getOptimizedImageUrl(
   class:list={[
     "flex flex-col overflow-hidden rounded-lg border shadow-sm transition hover:-translate-y-0.5 hover:shadow-md",
     isPartner
-      ? "border-accent bg-accent-light shadow-accent/20"
+      ? "border-brand bg-brand-light shadow-brand/20"
       : "border-line bg-white",
     compact && "h-full"
   ]}
@@ -34,38 +34,13 @@ const coverImage = getOptimizedImageUrl(
   data-partner={isPartner ? "true" : undefined}
 >
   {
-    isPartner ? (
-      <a
-        href={getArticleHref(article)}
-        class:list={[
-          "block bg-accent text-white transition-colors hover:bg-accent/90",
-          compact ? "px-4 py-3" : "px-5 py-4",
-          prominent && !compact && "md:px-7 md:py-5"
-        ]}
-        itemprop="url"
-      >
-        <p class="text-[11px] font-bold uppercase tracking-wide text-white/85">พันธมิตร</p>
-        <h2
-          class:list={[
-            "mt-1 break-words font-bold leading-snug text-white",
-            compact ? "text-base" : prominent ? "text-2xl sm:text-3xl" : "text-xl"
-          ]}
-          itemprop="headline"
-        >
-          {article.data.title}
-        </h2>
-      </a>
-    ) : null
-  }
-
-  {
     coverImage && (
       <a
         href={getArticleHref(article)}
         class:list={[
           "block w-full overflow-hidden bg-paper",
           compact ? "aspect-[16/10]" : "aspect-[16/9]",
-          isPartner ? "border-b border-accent/40" : "border-b border-line"
+          isPartner ? "border-b border-brand/30" : "border-b border-line"
         ]}
       >
         <img
@@ -87,20 +62,20 @@ const coverImage = getOptimizedImageUrl(
       "flex flex-1 flex-col",
       compact ? "p-4" : "p-5",
       prominent && !compact && "md:p-7",
-      isPartner && "bg-accent-light"
+      isPartner && "bg-brand-light"
     ]}
   >
     <div class="flex flex-wrap items-center gap-2 text-xs font-semibold text-muted">
       {
         isPartner && (
-          <span class="rounded-md bg-accent px-2.5 py-1 text-white">พันธมิตร</span>
+          <span class="rounded-md bg-brand px-2.5 py-1 text-white">พันธมิตร</span>
         )
       }
       <a
         class:list={[
           "rounded-md px-2.5 py-1 transition-colors",
           isPartner
-            ? "border border-accent/30 bg-white text-accent hover:bg-accent hover:text-white"
+            ? "border border-brand/30 bg-white text-brand hover:bg-brand hover:text-white"
             : "bg-brand-light text-brand-dark hover:bg-brand hover:text-white"
         ]}
         href={getCategoryHref(primaryCategory)}
@@ -121,19 +96,15 @@ const coverImage = getOptimizedImageUrl(
       )}
     </div>
 
-    {
-      !isPartner && (
-        <h2
-          class:list={[
-            "mt-3 break-words font-bold leading-snug text-ink",
-            compact ? "line-clamp-2 text-base" : prominent ? "mt-4 text-2xl sm:text-3xl" : "mt-4 text-xl"
-          ]}
-          itemprop="headline"
-        >
-          <a href={getArticleHref(article)} itemprop="url">{article.data.title}</a>
-        </h2>
-      )
-    }
+    <h2
+      class:list={[
+        "mt-3 break-words font-bold leading-snug text-ink",
+        compact ? "line-clamp-2 text-base" : prominent ? "mt-4 text-2xl sm:text-3xl" : "mt-4 text-xl"
+      ]}
+      itemprop="headline"
+    >
+      <a href={getArticleHref(article)} itemprop="url">{article.data.title}</a>
+    </h2>
 
     <p
       class:list={[
@@ -148,8 +119,8 @@ const coverImage = getOptimizedImageUrl(
     {!compact && (
       <div
         class:list={[
-          "mt-auto flex flex-wrap items-center justify-between gap-3 border-t pt-4 text-xs",
-          isPartner ? "border-accent/30 text-accent" : "border-line text-muted"
+          "mt-auto border-t pt-4 text-xs",
+          isPartner ? "border-brand/30 text-brand" : "border-line text-muted"
         ]}
       >
         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
@@ -157,12 +128,6 @@ const coverImage = getOptimizedImageUrl(
             {isPartner ? `พันธมิตร · ${article.data.sourceName}` : article.data.sourceName}
           </span>
         </span>
-        <time
-          datetime={article.data.sourcePublishedAt.toISOString()}
-          itemprop="dateModified"
-        >
-          เผยแพร่ {formatDateTime(article.data.sourcePublishedAt)}
-        </time>
       </div>
     )}
   </div>
