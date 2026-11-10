@@ -17,13 +17,14 @@ interface Props {
 }
 
 const { article, relatedArticles = [] } = Astro.props;
-const { Content } = await article.render();
+const { Content, headings } = await article.render();
 const canonical = new URL(
   `/news/${encodeURIComponent(article.slug)}/`,
   Astro.site,
 ).href;
 const primaryCategory = article.data.categories[0] ?? "AI";
 const categoryHref = `/category/${primaryCategory.toLowerCase().replace(/\s+/g, "-")}/`;
+const tocItems = headings.filter((heading) => heading.depth === 2);
 
 const breadcrumbs = [
   { name: "หน้าแรก", url: `${seoDefaults.siteUrl}/` },
@@ -75,31 +76,38 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
     itemtype="https://schema.org/NewsArticle"
   >
     <div class="mx-auto max-w-3xl px-4 sm:px-6">
-    <!-- Breadcrumb navigation -->
-    <nav aria-label="Breadcrumb" class="mb-6">
-      <ol class="flex flex-wrap items-center gap-1.5 text-sm text-muted">
-        {
-          breadcrumbs.map((crumb, index) => (
-            <li class="flex items-center gap-1.5">
-              {index > 0 && (
-                <span aria-hidden="true" class="text-line">
-                  /
-                </span>
-              )}
-              {index < breadcrumbs.length - 1 ? (
-                <a class="font-medium hover:text-brand" href={crumb.url}>
-                  {crumb.name}
-                </a>
-              ) : (
-                <span class="font-semibold text-ink" aria-current="page">
-                  {crumb.name}
-                </span>
-              )}
-            </li>
-          ))
-        }
-      </ol>
-    </nav>
+    <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+      <nav aria-label="Breadcrumb">
+        <ol class="flex flex-wrap items-center gap-1.5 text-sm text-muted">
+          {
+            breadcrumbs.map((crumb, index) => (
+              <li class="flex min-w-0 items-center gap-1.5">
+                {index > 0 && (
+                  <span aria-hidden="true" class="text-line">
+                    /
+                  </span>
+                )}
+                {index < breadcrumbs.length - 1 ? (
+                  <a class="font-medium hover:text-brand" href={crumb.url}>
+                    {crumb.name}
+                  </a>
+                ) : (
+                  <span class="line-clamp-1 font-semibold text-ink" aria-current="page">
+                    {crumb.name}
+                  </span>
+                )}
+              </li>
+            ))
+          }
+        </ol>
+      </nav>
+      <a
+        href={categoryHref}
+        class="inline-flex min-h-11 items-center rounded-md border border-line bg-white px-3 py-2 text-sm font-semibold text-muted transition hover:border-brand hover:text-brand"
+      >
+        กลับหมวด {primaryCategory}
+      </a>
+    </div>
 
     <header class="mb-7 border-b border-line pb-7">
       <div class="flex flex-wrap gap-2 text-xs font-semibold text-muted">
@@ -211,7 +219,58 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
         <meta itemprop="name" content="TanTech News" />
       </span>
       <link itemprop="mainEntityOfPage" href={canonical} />
+
+      <div class="mt-6 flex flex-wrap gap-2" data-pagefind-ignore>
+        <button
+          type="button"
+          class="inline-flex min-h-11 items-center rounded-md border border-line bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:border-brand hover:text-brand"
+          data-copy-link
+          data-copy-url={canonical}
+        >
+          คัดลอกลิงก์
+        </button>
+        <a
+          href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(canonical)}&text=${encodeURIComponent(article.data.title)}`}
+          class="inline-flex min-h-11 items-center rounded-md border border-line bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:border-brand hover:text-brand"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          แชร์ X
+        </a>
+        <a
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonical)}`}
+          class="inline-flex min-h-11 items-center rounded-md border border-line bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:border-brand hover:text-brand"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          แชร์ Facebook
+        </a>
+      </div>
     </header>
+
+    {
+      tocItems.length > 1 && (
+        <nav
+          class="mb-8 rounded-xl border border-line bg-paper p-5"
+          aria-labelledby="toc-heading"
+          data-pagefind-ignore
+        >
+          <h2 id="toc-heading" class="text-sm font-bold text-ink">
+            สารบัญ
+          </h2>
+          <ol class="mt-3 space-y-2 text-sm text-muted">
+            {tocItems.map((item) => (
+              <li>
+                <a class="font-medium hover:text-brand" href={`#${item.slug}`}>
+                  {item.text}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )
+    }
+
     <div class="prose-news" itemprop="articleBody">
       <Content />
     </div>
@@ -253,3 +312,23 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
     </footer>
   </article>
 </BaseLayout>
+
+<script>
+  const copyButton = document.querySelector<HTMLButtonElement>("[data-copy-link]");
+
+  copyButton?.addEventListener("click", async () => {
+    const url = copyButton.dataset.copyUrl || window.location.href;
+    const original = copyButton.textContent ?? "คัดลอกลิงก์";
+
+    try {
+      await navigator.clipboard.writeText(url);
+      copyButton.textContent = "คัดลอกแล้ว";
+    } catch {
+      copyButton.textContent = "คัดลอกไม่สำเร็จ";
+    }
+
+    window.setTimeout(() => {
+      copyButton.textContent = original;
+    }, 2000);
+  });
+</script>

@@ -1,4 +1,5 @@
 ---
+import { ChevronLeft, ChevronRight } from "lucide-astro";
 import ArticleCard from "./article-card.astro";
 import type { NewsEntry } from "../../utils/content";
 
@@ -17,26 +18,49 @@ const { articles } = Astro.props;
       data-pagefind-ignore
     >
       <div class="related-news__inner mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:py-12">
-        <div class="max-w-3xl">
-          <h2 id="related-news-heading" class="text-2xl font-bold text-ink">
-            ข่าวแนะนำ
-          </h2>
-          <p class="mt-2 text-sm text-muted md:hidden">
-            เลื่อนดูข่าวที่เกี่ยวข้องหรือน่าสนใจต่อ
-          </p>
-          <p class="mt-2 hidden text-sm text-muted md:block">
-            ข่าวที่เกี่ยวข้องหรือน่าสนใจให้อ่านต่อ
-          </p>
+        <div class="flex items-end justify-between gap-3">
+          <div class="max-w-3xl">
+            <h2 id="related-news-heading" class="text-2xl font-bold text-ink">
+              ข่าวแนะนำ
+            </h2>
+            <p class="mt-2 text-sm text-muted md:hidden">
+              เลื่อนดูข่าวที่เกี่ยวข้องหรือน่าสนใจต่อ
+            </p>
+            <p class="mt-2 hidden text-sm text-muted md:block">
+              ข่าวที่เกี่ยวข้องหรือน่าสนใจให้อ่านต่อ
+            </p>
+          </div>
+
+          <div class="flex shrink-0 gap-2 md:hidden">
+            <button
+              type="button"
+              class="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-line bg-white text-ink transition hover:border-brand hover:text-brand"
+              aria-label="เลื่อนข่าวแนะนำไปทางซ้าย"
+              data-related-prev
+            >
+              <ChevronLeft size={18} aria-hidden="true" />
+            </button>
+            <button
+              type="button"
+              class="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-line bg-white text-ink transition hover:border-brand hover:text-brand"
+              aria-label="เลื่อนข่าวแนะนำไปทางขวา"
+              data-related-next
+            >
+              <ChevronRight size={18} aria-hidden="true" />
+            </button>
+          </div>
         </div>
 
         <div
           class="related-news__list mt-6"
           role="list"
-          aria-label="รายการข่าวแนะนำ"
+          tabindex="0"
+          aria-label="รายการข่าวแนะนำ เลื่อนซ้ายขวาเพื่อดูเพิ่ม"
+          data-related-scroller
         >
           {articles.map((article) => (
             <div class="related-news__item" role="listitem">
-              <ArticleCard article={article} />
+              <ArticleCard article={article} compact />
             </div>
           ))}
         </div>
@@ -57,7 +81,7 @@ const { articles } = Astro.props;
   }
 
   .related-news__item {
-    width: min(85%, 18.5rem);
+    width: min(78%, 16.5rem);
     flex-shrink: 0;
     scroll-snap-align: start;
   }
@@ -104,3 +128,29 @@ const { articles } = Astro.props;
     }
   }
 </style>
+
+<script>
+  const scroller = document.querySelector<HTMLElement>("[data-related-scroller]");
+  const prev = document.querySelector<HTMLButtonElement>("[data-related-prev]");
+  const next = document.querySelector<HTMLButtonElement>("[data-related-next]");
+
+  function scrollByCard(direction: 1 | -1) {
+    if (!scroller) return;
+    const amount = Math.max(scroller.clientWidth * 0.8, 240);
+    scroller.scrollBy({ left: amount * direction, behavior: "smooth" });
+  }
+
+  prev?.addEventListener("click", () => scrollByCard(-1));
+  next?.addEventListener("click", () => scrollByCard(1));
+
+  scroller?.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      scrollByCard(1);
+    }
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      scrollByCard(-1);
+    }
+  });
+</script>

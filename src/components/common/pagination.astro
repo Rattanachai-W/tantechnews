@@ -4,11 +4,13 @@ import type { Page } from "astro";
 interface Props {
   page: Page<any>;
   class?: string;
+  /** Base path ending with `/`, e.g. `/` or `/category/ai/` */
+  basePath?: string;
 }
 
-const { page, class: className = "" } = Astro.props;
+const { page, class: className = "", basePath = "/" } = Astro.props;
+const normalizedBase = basePath.endsWith("/") ? basePath : `${basePath}/`;
 
-// Generate array of page numbers to display with smart ellipsis
 function getPageNumbers(current: number, total: number): Array<number | "..."> {
   if (total <= 7) {
     return Array.from({ length: total }, (_, i) => i + 1);
@@ -28,9 +30,19 @@ function getPageNumbers(current: number, total: number): Array<number | "..."> {
 const pageNumbers = getPageNumbers(page.currentPage, page.lastPage);
 
 function getPageUrl(targetPage: number): string {
-  if (targetPage === 1) return "/";
-  return `/${targetPage}/`;
+  if (targetPage === 1) return normalizedBase;
+  if (normalizedBase === "/") return `/${targetPage}/`;
+  return `${normalizedBase}${targetPage}/`;
 }
+
+function normalizePagerUrl(url: string | undefined): string | undefined {
+  if (!url) return undefined;
+  if (url === "/1" || url === "/1/") return "/";
+  return url.endsWith("/") ? url : `${url}/`;
+}
+
+const prevUrl = normalizePagerUrl(page.url.prev);
+const nextUrl = normalizePagerUrl(page.url.next);
 ---
 
 {
@@ -39,40 +51,36 @@ function getPageUrl(targetPage: number): string {
       class={`flex flex-col items-center justify-between gap-4 border-t border-line pt-8 sm:flex-row ${className}`}
       aria-label="การแบ่งหน้าบทความ"
     >
-      <!-- Summary Info -->
       <p class="text-sm text-muted">
         แสดงหน้าที่ <span class="font-bold text-ink">{page.currentPage}</span> จากทั้งหมด{" "}
         <span class="font-bold text-ink">{page.lastPage}</span> หน้า{" "}
-        <span class="text-xs text-muted-light">({page.total} บทความ)</span>
+        <span class="text-xs">({page.total} บทความ)</span>
       </p>
 
-      <!-- Pagination Buttons -->
       <div class="flex items-center gap-1.5">
-        <!-- Previous Page Button -->
-        {page.url.prev ? (
+        {prevUrl ? (
           <a
-            href={page.url.prev === "/1" ? "/" : page.url.prev}
-            class="inline-flex items-center gap-1 rounded-lg border border-line bg-white px-3 py-2 text-sm font-semibold text-ink shadow-sm transition hover:border-brand hover:text-brand"
+            href={prevUrl}
+            class="inline-flex min-h-11 items-center gap-1 rounded-lg border border-line bg-white px-3 py-2 text-sm font-semibold text-ink shadow-sm transition hover:border-brand hover:text-brand"
             aria-label="หน้าก่อนหน้า"
           >
-            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
             <span class="hidden sm:inline">ก่อนหน้า</span>
           </a>
         ) : (
           <span
-            class="inline-flex cursor-not-allowed items-center gap-1 rounded-lg border border-line/60 bg-paper px-3 py-2 text-sm font-semibold text-muted-light/60"
+            class="inline-flex min-h-11 cursor-not-allowed items-center gap-1 rounded-lg border border-line/60 bg-paper px-3 py-2 text-sm font-semibold text-muted"
             aria-disabled="true"
           >
-            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
             <span class="hidden sm:inline">ก่อนหน้า</span>
           </span>
         )}
 
-        <!-- Numbered Buttons -->
         <div class="flex items-center gap-1">
           {pageNumbers.map((p) => {
             if (p === "...") {
@@ -88,7 +96,7 @@ function getPageUrl(targetPage: number): string {
 
             return isCurrent ? (
               <span
-                class="flex h-9 w-9 items-center justify-center rounded-lg bg-brand text-sm font-bold text-white shadow-sm"
+                class="flex h-11 w-11 items-center justify-center rounded-lg bg-brand text-sm font-bold text-white shadow-sm"
                 aria-current="page"
               >
                 {p}
@@ -96,7 +104,7 @@ function getPageUrl(targetPage: number): string {
             ) : (
               <a
                 href={targetUrl}
-                class="flex h-9 w-9 items-center justify-center rounded-lg border border-line bg-white text-sm font-semibold text-ink transition hover:border-brand hover:text-brand"
+                class="flex h-11 w-11 items-center justify-center rounded-lg border border-line bg-white text-sm font-semibold text-ink transition hover:border-brand hover:text-brand"
                 aria-label={`ไปที่หน้าที่ ${p}`}
               >
                 {p}
@@ -105,25 +113,24 @@ function getPageUrl(targetPage: number): string {
           })}
         </div>
 
-        <!-- Next Page Button -->
-        {page.url.next ? (
+        {nextUrl ? (
           <a
-            href={page.url.next}
-            class="inline-flex items-center gap-1 rounded-lg border border-line bg-white px-3 py-2 text-sm font-semibold text-ink shadow-sm transition hover:border-brand hover:text-brand"
+            href={nextUrl}
+            class="inline-flex min-h-11 items-center gap-1 rounded-lg border border-line bg-white px-3 py-2 text-sm font-semibold text-ink shadow-sm transition hover:border-brand hover:text-brand"
             aria-label="หน้าถัดไป"
           >
             <span class="hidden sm:inline">ถัดไป</span>
-            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
           </a>
         ) : (
           <span
-            class="inline-flex cursor-not-allowed items-center gap-1 rounded-lg border border-line/60 bg-paper px-3 py-2 text-sm font-semibold text-muted-light/60"
+            class="inline-flex min-h-11 cursor-not-allowed items-center gap-1 rounded-lg border border-line/60 bg-paper px-3 py-2 text-sm font-semibold text-muted"
             aria-disabled="true"
           >
             <span class="hidden sm:inline">ถัดไป</span>
-            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
           </span>

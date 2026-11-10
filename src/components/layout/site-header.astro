@@ -47,14 +47,14 @@ const currentPath = Astro.url.pathname;
 
     <div class="flex items-center gap-2">
       <a
-        class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-line bg-white text-ink hover:bg-paper transition-colors"
+        class="inline-flex h-11 w-11 items-center justify-center rounded-md border border-line bg-white text-ink transition-colors hover:bg-paper"
         href="/search/"
         aria-label="ค้นหาข่าว"
       >
         <Search size={18} aria-hidden="true" />
       </a>
       <button
-        class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-line bg-white text-ink md:hidden transition-colors hover:bg-paper"
+        class="inline-flex h-11 w-11 items-center justify-center rounded-md border border-line bg-white text-ink transition-colors hover:bg-paper md:hidden"
         type="button"
         aria-label="เปิดเมนู"
         aria-expanded="false"
@@ -81,7 +81,7 @@ const currentPath = Astro.url.pathname;
             <li>
               <a
                 class:list={[
-                  "block rounded-md px-3 py-2.5 text-sm font-semibold transition-colors",
+                  "block rounded-md px-3 py-3 text-sm font-semibold transition-colors",
                   isActive
                     ? "bg-brand-light text-brand-dark"
                     : "text-muted hover:bg-paper hover:text-ink"
@@ -100,16 +100,72 @@ const currentPath = Astro.url.pathname;
 </header>
 
 <script>
-  const button = document.querySelector("[data-menu-button]");
-  const menu = document.querySelector("[data-mobile-menu]");
+  const button = document.querySelector<HTMLButtonElement>("[data-menu-button]");
+  const menu = document.querySelector<HTMLElement>("[data-mobile-menu]");
   const iconOpen = button?.querySelector(".icon-open");
   const iconClose = button?.querySelector(".icon-close");
+  let previouslyFocused: HTMLElement | null = null;
+
+  function getFocusable(): HTMLElement[] {
+    if (!menu) return [];
+    return Array.from(
+      menu.querySelectorAll<HTMLElement>('a[href], button:not([disabled])')
+    );
+  }
+
+  function setOpen(open: boolean) {
+    if (!button || !menu) return;
+
+    menu.classList.toggle("hidden", !open);
+    iconOpen?.classList.toggle("hidden", open);
+    iconClose?.classList.toggle("hidden", !open);
+    button.setAttribute("aria-expanded", String(open));
+    button.setAttribute("aria-label", open ? "ปิดเมนู" : "เปิดเมนู");
+    document.body.classList.toggle("overflow-hidden", open);
+
+    if (open) {
+      previouslyFocused = document.activeElement as HTMLElement | null;
+      const focusable = getFocusable();
+      (focusable[0] ?? menu).focus();
+    } else if (previouslyFocused) {
+      previouslyFocused.focus();
+      previouslyFocused = null;
+    }
+  }
+
+  function isOpen() {
+    return button?.getAttribute("aria-expanded") === "true";
+  }
 
   button?.addEventListener("click", () => {
-    const isHidden = menu?.classList.contains("hidden");
-    menu?.classList.toggle("hidden");
-    iconOpen?.classList.toggle("hidden");
-    iconClose?.classList.toggle("hidden");
-    button.setAttribute("aria-expanded", String(isHidden));
+    setOpen(!isOpen());
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (!isOpen()) return;
+
+    if (event.key === "Escape") {
+      event.preventDefault();
+      setOpen(false);
+      button?.focus();
+      return;
+    }
+
+    if (event.key !== "Tab" || !menu) return;
+
+    const focusable = getFocusable();
+    if (focusable.length === 0) return;
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    const active = document.activeElement;
+
+    if (event.shiftKey && active === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && active === last) {
+      event.preventDefault();
+      first.focus();
+    }
   });
 </script>

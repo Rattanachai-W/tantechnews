@@ -10,36 +10,72 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   <section class="mx-auto max-w-4xl px-4 py-10 sm:px-6" data-pagefind-ignore>
     <h1 class="text-3xl font-extrabold text-ink">ค้นหาข่าว</h1>
-    <p class="mt-3 text-muted">ค้นหาจากหน้าข่าว หมวดหมู่</p>
+    <p class="mt-3 text-muted">ค้นหาจากหน้าข่าวและหมวดหมู่</p>
     <div class="mt-6 rounded-lg border border-line bg-white p-4">
       <div id="search" class="pagefind-ui"></div>
     </div>
   </section>
 
   <script is:inline>
-    function initSearch() {
-      if (typeof PagefindUI !== "undefined") {
-        const searchEl = document.querySelector("#search");
-        if (searchEl && !searchEl.hasChildNodes()) {
-          new PagefindUI({
-            element: "#search",
-            showSubResults: true,
-            translations: {
-              placeholder: "ค้นหาข่าว เช่น AI, Cloud, Startup",
-              clear_search: "ล้างคำค้นหา",
-              load_more: "แสดงผลเพิ่ม",
-              search_label: "ค้นหาข่าว",
-              filters_label: "ตัวกรอง",
-              zero_results: "ไม่พบข่าวที่ตรงกับคำค้นหา"
-            }
-          });
-        }
+    function getInitialQuery() {
+      try {
+        return new URLSearchParams(window.location.search).get("q")?.trim() || "";
+      } catch {
+        return "";
+      }
+    }
+
+    function syncQueryToUrl(query) {
+      const url = new URL(window.location.href);
+      if (query) {
+        url.searchParams.set("q", query);
       } else {
-        const search = document.querySelector("#search");
-        if (search) {
-          search.innerHTML =
-            '<p class="rounded-md border border-dashed border-line bg-paper p-4 text-sm text-muted">Search index จะพร้อมใช้งานหลังรัน production build.</p>';
+        url.searchParams.delete("q");
+      }
+      window.history.replaceState({}, "", url);
+    }
+
+    function initSearch() {
+      const searchEl = document.querySelector("#search");
+      if (!searchEl) return;
+
+      if (typeof PagefindUI === "undefined") {
+        searchEl.innerHTML =
+          '<p class="rounded-md border border-dashed border-line bg-paper p-4 text-sm text-muted">Search index จะพร้อมใช้งานหลังรัน production build. ลองรัน <code class="font-semibold">npm run build</code> แล้วเปิด preview</p>';
+        return;
+      }
+
+      if (searchEl.hasChildNodes()) return;
+
+      const initialQuery = getInitialQuery();
+      const ui = new PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        autofocus: true,
+        translations: {
+          placeholder: "ค้นหาข่าว เช่น AI, Cloud, Startup",
+          clear_search: "ล้างคำค้นหา",
+          load_more: "แสดงผลเพิ่ม",
+          search_label: "ค้นหาข่าว",
+          filters_label: "ตัวกรอง",
+          zero_results: "ไม่พบข่าวที่ตรงกับคำค้นหา"
         }
+      });
+
+      if (initialQuery && typeof ui.triggerSearch === "function") {
+        ui.triggerSearch(initialQuery);
+      }
+
+      const input = searchEl.querySelector(".pagefind-ui__search-input");
+      if (input instanceof HTMLInputElement) {
+        if (initialQuery && !input.value) {
+          input.value = initialQuery;
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+        }
+
+        input.addEventListener("input", () => {
+          syncQueryToUrl(input.value.trim());
+        });
       }
     }
 
