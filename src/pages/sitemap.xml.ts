@@ -19,6 +19,8 @@ export const GET: APIRoute = async ({ site }) => {
     { path: "category/", priority: "0.8", lastmod: now },
     { path: "search/", priority: "0.7", lastmod: now },
     { path: "about-us/", priority: "0.6", lastmod: now },
+    { path: "contact/", priority: "0.6", lastmod: now },
+    { path: "advertise/", priority: "0.6", lastmod: now },
     { path: "privacy/", priority: "0.5", lastmod: now },
     { path: "ai-policy/", priority: "0.5", lastmod: now },
     { path: "correction-policy/", priority: "0.5", lastmod: now },

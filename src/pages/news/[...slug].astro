@@ -1,6 +1,7 @@
 ---
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
 import { getArticleHref, getPublishedNews } from "../../utils/content";
+import { getRelatedNews } from "../../utils/related-news";
 
 export async function getStaticPaths() {
     const articles = await getPublishedNews();
@@ -10,21 +11,25 @@ export async function getStaticPaths() {
         const date = article.data.publishedAt;
         const year = String(date.getFullYear());
         const month = String(date.getMonth() + 1).padStart(2, "0");
+        const relatedArticles = getRelatedNews(article, articles, 6);
 
         // short slug: /news/<slug>/
-        paths.push({ params: { slug: article.slug }, props: { article } });
+        paths.push({
+            params: { slug: article.slug },
+            props: { article, relatedArticles },
+        });
 
         // dated slug: /news/YYYY/MM/<slug>/ (as a string param)
         paths.push({
             params: { slug: `${year}/${month}/${article.slug}` },
-            props: { article },
+            props: { article, relatedArticles },
         });
     }
 
     return paths;
 }
 
-const { article } = Astro.props;
+const { article, relatedArticles } = Astro.props;
 const requestedPath = `/news/${Astro.params.slug}/`;
 
 if (getArticleHref(article) !== requestedPath) {
@@ -32,4 +37,4 @@ if (getArticleHref(article) !== requestedPath) {
 }
 ---
 
-<ArticleLayout article={article} />
+<ArticleLayout article={article} relatedArticles={relatedArticles} />

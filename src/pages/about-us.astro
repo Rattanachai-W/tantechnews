@@ -4,6 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const title = "เกี่ยวกับทันเทค";
 const description =
   "ทันเทค (TanTech News) คือเว็บไซต์สรุปข่าวเทคโนโลยีภาษาไทย ขับเคลื่อนด้วย AI 100% คัดเฉพาะข่าวที่มีผลกระทบจริงต่อนักพัฒนาและผู้ประกอบการ";
+const adsMailto = `mailto:rattanachai.wp@gmail.com?subject=${encodeURIComponent("ติดต่อโฆษณา - TanTech News")}`;
 
 const partners = [
   {
@@ -114,8 +115,32 @@ const pillars = [
   </section>
 
 
+  <!-- ติดต่อโฆษณา -->
+  <section class="border-b border-line bg-paper" aria-labelledby="ads-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="ads-heading" class="text-2xl font-bold text-ink">ติดต่อโฆษณา</h2>
+      <p class="mt-3 max-w-2xl text-sm leading-7 text-muted">
+        สนใจลงโฆษณาหรือเป็นสปอนเซอร์กับทันเทค ส่งอีเมลมาได้โดยตรง
+      </p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a
+          href={adsMailto}
+          class="inline-flex items-center justify-center rounded-lg bg-brand px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+        >
+          ส่งอีเมลโฆษณา
+        </a>
+        <a
+          href="/advertise/"
+          class="inline-flex items-center justify-center rounded-lg border border-line bg-white px-4 py-2.5 text-sm font-semibold text-ink transition hover:border-brand hover:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+        >
+          ดูรายละเอียดการติดต่อโฆษณา
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA -->
-  <section class="border-t border-line bg-paper">
+  <section class="border-t border-line bg-white">
     <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
       <h2 class="text-2xl font-bold text-ink">ต้องการรู้จักเราเพิ่มเติม?</h2>
       <p class="mt-2 text-muted">อ่านนโยบายและหลักการทำงานของทันเทค</p>
@@ -143,6 +168,12 @@ const pillars = [
           class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
         >
           📬 ติดต่อเรา
+        </a>
+        <a
+          href="/advertise/"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+        >
+          ติดต่อโฆษณา
         </a>
       </div>
     </div>

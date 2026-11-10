@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import JsonLd from "../components/seo/json-ld.astro";
+import RelatedNews from "../components/news/related-news.astro";
 import { formatDateTime } from "../utils/format-date";
 import type { NewsEntry } from "../utils/content";
 import {
@@ -12,9 +13,10 @@ import { getOptimizedImageUrl } from "../utils/image";
 
 interface Props {
   article: NewsEntry;
+  relatedArticles?: NewsEntry[];
 }
 
-const { article } = Astro.props;
+const { article, relatedArticles = [] } = Astro.props;
 const { Content } = await article.render();
 const canonical = new URL(
   `/news/${encodeURIComponent(article.slug)}/`,
@@ -68,10 +70,11 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
   </Fragment>
 
   <article
-    class="mx-auto max-w-3xl px-4 py-10 sm:px-6"
+    class="py-10"
     itemscope
     itemtype="https://schema.org/NewsArticle"
   >
+    <div class="mx-auto max-w-3xl px-4 sm:px-6">
     <!-- Breadcrumb navigation -->
     <nav aria-label="Breadcrumb" class="mb-6">
       <ol class="flex flex-wrap items-center gap-1.5 text-sm text-muted">
@@ -212,7 +215,19 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
     <div class="prose-news" itemprop="articleBody">
       <Content />
     </div>
-    <footer class="mt-10 space-y-5 border-t border-line pt-6" data-pagefind-ignore>
+    </div>
+
+    <RelatedNews articles={relatedArticles} />
+
+    <footer
+      class:list={[
+        "mx-auto max-w-3xl space-y-5 px-4 sm:px-6",
+        relatedArticles.length > 0
+          ? "pt-8"
+          : "mt-10 border-t border-line pt-6"
+      ]}
+      data-pagefind-ignore
+    >
       <section aria-labelledby="article-sources-heading">
         <h2 id="article-sources-heading" class="text-lg font-bold text-ink">ที่มาและเอกสารอ้างอิง</h2>
         <ul class="mt-3 space-y-3 text-sm leading-7 text-muted">

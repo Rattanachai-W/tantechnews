@@ -1,0 +1,106 @@
+---
+import ArticleCard from "./article-card.astro";
+import type { NewsEntry } from "../../utils/content";
+
+interface Props {
+  articles: NewsEntry[];
+}
+
+const { articles } = Astro.props;
+---
+
+{
+  articles.length > 0 && (
+    <section
+      class="related-news mt-10 border-y border-line bg-paper"
+      aria-labelledby="related-news-heading"
+      data-pagefind-ignore
+    >
+      <div class="related-news__inner mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:py-12">
+        <div class="max-w-3xl">
+          <h2 id="related-news-heading" class="text-2xl font-bold text-ink">
+            ข่าวแนะนำ
+          </h2>
+          <p class="mt-2 text-sm text-muted md:hidden">
+            เลื่อนดูข่าวที่เกี่ยวข้องหรือน่าสนใจต่อ
+          </p>
+          <p class="mt-2 hidden text-sm text-muted md:block">
+            ข่าวที่เกี่ยวข้องหรือน่าสนใจให้อ่านต่อ
+          </p>
+        </div>
+
+        <div
+          class="related-news__list mt-6"
+          role="list"
+          aria-label="รายการข่าวแนะนำ"
+        >
+          {articles.map((article) => (
+            <div class="related-news__item" role="listitem">
+              <ArticleCard article={article} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .related-news__list {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 0.75rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+  }
+
+  .related-news__item {
+    width: min(85%, 18.5rem);
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+
+  .related-news__list:focus-visible {
+    outline: 3px solid #0f766e;
+    outline-offset: 3px;
+    border-radius: 0.5rem;
+  }
+
+  .related-news__list::-webkit-scrollbar {
+    height: 0.5rem;
+  }
+
+  .related-news__list::-webkit-scrollbar-thumb {
+    background: #d9e0e8;
+    border-radius: 999px;
+  }
+
+  .related-news__list::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  @media (min-width: 768px) {
+    .related-news__list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.25rem;
+      overflow: visible;
+      padding-bottom: 0;
+      scroll-snap-type: none;
+    }
+
+    .related-news__item {
+      width: auto;
+      min-width: 0;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .related-news__list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.5rem;
+    }
+  }
+</style>
