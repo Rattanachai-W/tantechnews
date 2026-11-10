@@ -78,7 +78,7 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
     itemtype="https://schema.org/NewsArticle"
   >
     <div class="mx-auto max-w-3xl px-4 sm:px-6">
-    <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+    <div class="mb-6">
       <nav aria-label="Breadcrumb">
         <ol class="flex flex-wrap items-center gap-1.5 text-sm text-muted">
           {
@@ -103,12 +103,6 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
           }
         </ol>
       </nav>
-      <a
-        href={categoryHref}
-        class="inline-flex min-h-11 items-center rounded-md border border-line bg-white px-3 py-2 text-sm font-semibold text-muted transition hover:border-brand hover:text-brand"
-      >
-        กลับหมวด {primaryCategory}
-      </a>
     </div>
 
     <header class="mb-7 border-b border-line pb-7">
