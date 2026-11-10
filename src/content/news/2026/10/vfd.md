@@ -6,6 +6,7 @@ publishedAt: "2026-10-17T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-17T13:00:02.000Z"
 sourceName: "IEEE Spectrum"
 sourceUrl: "https://spectrum.ieee.org/variable-frequency-drives"
+imageUrl: "https://spectrum.ieee.org/media-library/image.jpg?id=68442945&width=1200&height=600&coordinates=0%2C355%2C0%2C356"
 
 author: "TanTech AI Desk"
 categories:

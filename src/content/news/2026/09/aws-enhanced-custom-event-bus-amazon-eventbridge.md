@@ -6,6 +6,7 @@ publishedAt: "2026-09-25T12:00:00.000+07:00"
 sourcePublishedAt: "2026-09-24T20:58:46.000Z"
 sourceName: "AWS News Blog"
 sourceUrl: "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/"
+imageUrl: "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/24/News-Blog-Featured-Images-14.png"
 
 author: "TanTech AI Desk"
 categories:

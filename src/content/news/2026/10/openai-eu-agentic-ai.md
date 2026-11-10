@@ -6,6 +6,7 @@ publishedAt: "2026-10-14T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-14T00:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/6xrAX2ILJHXpMMsuHeU637/30512c9697f4e9214c5466e5a7ddda75/the-eus-next-chapter-in-ai-is-agentic-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

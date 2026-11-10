@@ -6,6 +6,7 @@ publishedAt: "2026-10-19T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-19T00:00:00.000Z"
 sourceName: "Vercel Blog"
 sourceUrl: "https://vercel.com/changelog/deploy-with-vercel-drop-without-an-account"
+imageUrl: "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/5oNoD0UnW2Hv7ZGvOmFRlK/7ec502dbd28920f3aab13bde14b40357/image__8_.png"
 
 author: "TanTech AI Desk"
 categories:

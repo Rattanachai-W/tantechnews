@@ -6,6 +6,7 @@ publishedAt: "2026-10-19T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-19T10:00:04.000Z"
 sourceName: "IEEE Spectrum"
 sourceUrl: "https://content.knowledgehub.wiley.com/edge-ai-for-smart-cities-from-real-time-insights-to-cognitive-urban-systems/"
+imageUrl: "https://content.knowledgehub.wiley.com/wp-content/uploads/2026/10/AdobeStock_818455478-500x280.jpeg"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-05T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-05T15:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/eu-text-provenance"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

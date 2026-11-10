@@ -6,6 +6,7 @@ publishedAt: "2026-10-22T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-21T17:00:00.000Z"
 sourceName: "Vercel Blog"
 sourceUrl: "https://vercel.com/changelog/routing-middleware-now-supports-python"
+imageUrl: "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/4giPCUqtvtLRTx9ZZMIeqC/67a02a8b478aba2fc54a010d296c1b95/image__48_.png"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-08T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-08T00:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/59gWIyg4DMtitwWO9AW6Af/9c66b1544d2b8d55f98703da82eeb5cf/false-front-operations-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

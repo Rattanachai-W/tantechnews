@@ -5,6 +5,16 @@ const title = "เกี่ยวกับทันเทค";
 const description =
   "ทันเทค (TanTech News) คือเว็บไซต์สรุปข่าวเทคโนโลยีภาษาไทย ขับเคลื่อนด้วย AI 100% คัดเฉพาะข่าวที่มีผลกระทบจริงต่อนักพัฒนาและผู้ประกอบการ";
 
+const partners = [
+  {
+    name: "APOC Wire",
+    role: "สื่อพันธมิตรในประเทศไทย",
+    href: "https://apocwire.com/th/",
+    logo: "/apoc-wire.jpg",
+    logoAlt: "โลโก้ APOC Wire News"
+  }
+];
+
 const pillars = [
   {
     icon: "🤖",
@@ -51,14 +61,49 @@ const pillars = [
     </div>
   </section>
 
+  <!-- พันธมิตร -->
+  <section class="border-b border-line bg-paper" aria-labelledby="partners-heading">
+    <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+      <h2 id="partners-heading" class="text-2xl font-bold text-ink">พันธมิตรของเรา</h2>
+      <p class="mt-2 text-muted">เครือข่ายสื่อและพันธมิตรที่ร่วมงานกับทันเทค</p>
+      <ul class="mt-8 space-y-4">
+        {partners.map((partner) => (
+          <li>
+            <a
+              href={partner.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group flex items-center gap-4 rounded-xl border border-line bg-white p-4 transition hover:border-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand sm:gap-5 sm:p-5"
+            >
+              <img
+                src={partner.logo}
+                alt={partner.logoAlt}
+                width="64"
+                height="64"
+                class="h-14 w-14 shrink-0 rounded-full object-cover sm:h-16 sm:w-16"
+                loading="lazy"
+              />
+              <div class="min-w-0 flex-1">
+                <p class="text-base font-bold text-ink group-hover:text-brand">{partner.name}</p>
+                <p class="mt-1 text-sm text-muted">{partner.role}</p>
+              </div>
+              <span class="shrink-0 text-sm font-semibold text-brand" aria-hidden="true">ดูเว็บไซต์</span>
+              <span class="sr-only"> (เปิดในแท็บใหม่)</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
   <!-- พันธกิจ -->
-  <section class="border-b border-line bg-paper" aria-labelledby="mission-heading">
+  <section class="border-b border-line bg-white" aria-labelledby="mission-heading">
     <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
       <h2 id="mission-heading" class="text-2xl font-bold text-ink">พันธกิจของเรา</h2>
       <p class="mt-2 text-muted">สิ่งที่ทันเทคมุ่งมั่นทำเพื่อผู้อ่านทุกวัน</p>
       <div class="mt-8 grid gap-5 sm:grid-cols-2">
         {pillars.map((item) => (
-          <div class="rounded-xl border border-line bg-white p-6 shadow-sm">
+          <div class="rounded-xl border border-line bg-paper p-6 shadow-sm">
             <span class="text-3xl" aria-hidden="true">{item.icon}</span>
             <h3 class="mt-4 text-base font-bold text-ink">{item.title}</h3>
             <p class="mt-2 text-sm leading-7 text-muted">{item.desc}</p>
@@ -70,32 +115,32 @@ const pillars = [
 
 
   <!-- CTA -->
-  <section class="bg-white">
+  <section class="border-t border-line bg-paper">
     <div class="mx-auto max-w-4xl px-4 py-14 sm:px-6">
       <h2 class="text-2xl font-bold text-ink">ต้องการรู้จักเราเพิ่มเติม?</h2>
       <p class="mt-2 text-muted">อ่านนโยบายและหลักการทำงานของทันเทค</p>
       <div class="mt-8 flex flex-wrap gap-3 text-sm">
         <a
           href="/selection-criteria/"
-          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
         >
           🔍 วิธีการคัดเลือกข่าว
         </a>
         <a
           href="/ai-policy/"
-          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
         >
           🤖 นโยบายการใช้ AI
         </a>
         <a
           href="/correction-policy/"
-          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
         >
           ✏️ นโยบายแก้ไขข่าว
         </a>
         <a
           href="/contact/"
-          class="inline-flex items-center gap-2 rounded-lg border border-line bg-paper px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
+          class="inline-flex items-center gap-2 rounded-lg border border-line bg-white px-5 py-3 font-semibold text-muted transition hover:border-brand hover:text-brand"
         >
           📬 ติดต่อเรา
         </a>

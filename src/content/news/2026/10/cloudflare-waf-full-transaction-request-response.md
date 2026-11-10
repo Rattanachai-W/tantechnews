@@ -6,6 +6,7 @@ publishedAt: "2026-10-21T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-21T14:10:42.000Z"
 sourceName: "Cloudflare Blog"
 sourceUrl: "https://blog.cloudflare.com/full-transaction-waf/"
+imageUrl: "https://blog.cloudflare.com/_emdash/api/media/file/01M5E1HV25GV2PKJHWP2MM8HGH.png"
 
 author: "TanTech AI Desk"
 categories:

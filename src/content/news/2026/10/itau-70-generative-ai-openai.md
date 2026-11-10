@@ -6,6 +6,7 @@ publishedAt: "2026-10-17T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-16T19:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/itau-generative-ai"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/5f6g1v0mGiFwS4OuWQJpZ/ea1b571975a4668874331d6d068bfdcb/itau-social-optical-r2.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

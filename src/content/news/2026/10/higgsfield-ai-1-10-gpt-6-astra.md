@@ -6,6 +6,7 @@ publishedAt: "2026-10-13T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-13T12:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/higgsfield-longer-videos-voice"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/6QmB7YuFllKCVKPoWn7vnJ/6f3ac19d1e10d2a864481a174813c7f7/higgsfield-longer-videos-voice-seo-open-graph-1920x1080.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

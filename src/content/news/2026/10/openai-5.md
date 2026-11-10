@@ -6,6 +6,7 @@ publishedAt: "2026-10-06T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-06T12:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/sharing-ai-progress-in-mathematics"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

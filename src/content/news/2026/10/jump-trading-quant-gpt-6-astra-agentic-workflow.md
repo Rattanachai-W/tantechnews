@@ -6,6 +6,7 @@ publishedAt: "2026-10-06T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-06T12:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/jump-trading"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/01Nd05HjeHRiEqwJXFhr6Q/5441b03dbcdabb27917814ff14b1374c/og.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

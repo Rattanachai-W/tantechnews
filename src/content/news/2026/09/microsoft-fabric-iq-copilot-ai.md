@@ -6,6 +6,7 @@ publishedAt: "2026-09-29T12:00:00.000+07:00"
 sourcePublishedAt: "2026-09-29T06:30:04.000Z"
 sourceName: "Microsoft Blog"
 sourceUrl: "https://blogs.microsoft.com/blog/2026/09/28/new-microsoft-data-innovations-unlock-what-only-your-business-knows/"
+imageUrl: "https://blogs.microsoft.com/wp-content/uploads/2026/09/OMB-FabCon-26-Final-Hero-9_24-1024x683.jpg"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-16T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-15T19:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/introducing-the-rosalind-academic-plan"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/g91SfQ7YxvtosiWacUxkg/47162ea17967b74890a6ef14a8c9fa78/rosalind-academic-plan-seo.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

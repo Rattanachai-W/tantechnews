@@ -6,6 +6,7 @@ publishedAt: "2026-10-19T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-19T13:00:02.000Z"
 sourceName: "Microsoft Blog"
 sourceUrl: "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
+imageUrl: "https://blogs.microsoft.com/wp-content/uploads/2026/10/OMB-Secure-AI-Hero-1024x576.png"
 
 author: "TanTech AI Desk"
 categories:

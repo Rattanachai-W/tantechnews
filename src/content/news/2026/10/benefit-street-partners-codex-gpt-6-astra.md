@@ -6,6 +6,7 @@ publishedAt: "2026-10-16T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-16T00:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/benefit-street-partners"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/2Km2vOVvFRvxGl6hZqWOTQ/2073bb541740640de3d215ee6e36b28e/og.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

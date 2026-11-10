@@ -6,6 +6,7 @@ publishedAt: "2026-10-21T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-21T12:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/openai-models-google-cloud"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

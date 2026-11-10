@@ -6,6 +6,7 @@ publishedAt: "2026-10-19T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-19T13:00:00.000Z"
 sourceName: "Vercel Blog"
 sourceUrl: "https://vercel.com/blog/making-every-harness-durable"
+imageUrl: "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/30zZgLs8jb3Rb8g9jfx6cq/df68e6cab0350e919a36a21f605232cb/image.png"
 
 author: "TanTech AI Desk"
 categories:

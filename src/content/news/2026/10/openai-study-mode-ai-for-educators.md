@@ -6,6 +6,7 @@ publishedAt: "2026-10-15T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-15T13:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/16A5mkf828KStF68ijvmN1/2f720d42bb308b9c1ab0edc26a047a17/teaching-students-to-think-and-learn-through-questions-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

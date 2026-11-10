@@ -6,6 +6,7 @@ publishedAt: "2026-10-20T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-19T18:39:47.247Z"
 sourceName: "Vercel Blog"
 sourceUrl: "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service"
+imageUrl: "https://vercel.com/api/dynamic-og?title=Updates%20to%20Hobby%20and%20Pro%20Terms%20of%20Service&format=changelog"
 
 author: "TanTech AI Desk"
 categories:

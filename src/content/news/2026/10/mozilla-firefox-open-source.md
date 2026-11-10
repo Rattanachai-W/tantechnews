@@ -6,6 +6,7 @@ publishedAt: "2026-10-15T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-15T16:00:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/firefox/new-firefox-sounds/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/09/Sonic-BP-header-1080x720.png"
 
 author: "TanTech AI Desk"
 categories:

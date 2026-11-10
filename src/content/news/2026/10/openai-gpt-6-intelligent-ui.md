@@ -6,6 +6,7 @@ publishedAt: "2026-10-07T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-07T00:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/gpt-6-for-everyone"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-06T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-06T16:09:36.000Z"
 sourceName: "AWS News Blog"
 sourceUrl: "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/"
+imageUrl: "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/08/10/about-amazon-hero-pd-2026-tabletop-blue-thum.jpg"
 
 author: "TanTech AI Desk"
 categories:

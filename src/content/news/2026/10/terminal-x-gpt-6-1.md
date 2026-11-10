@@ -6,6 +6,7 @@ publishedAt: "2026-10-20T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-20T07:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/terminal-x"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/7btnUEAESJNvgHmdUPxexp/ac70fe93d02f52002ca5f146af8c7caf/Terminal-X-A-SEO-social-1920x1080.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

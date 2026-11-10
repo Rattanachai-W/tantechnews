@@ -6,6 +6,7 @@ publishedAt: "2026-10-01T12:00:00.000+07:00"
 sourcePublishedAt: "2026-09-30T17:04:05.000Z"
 sourceName: "AWS News Blog"
 sourceUrl: "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/"
+imageUrl: "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/11/10/AWS-Heroes-program_RGB_Social-blog.png"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-07T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-07T12:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/teens-learn-and-plan"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/48q2nDNP9Gj81cxL5sCOFv/e0692d4bcad2b81fad9b62b5bea904b7/teens-learn-and-plan-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

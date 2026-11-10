@@ -6,6 +6,7 @@ publishedAt: "2026-10-21T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-21T13:56:45.000Z"
 sourceName: "Cloudflare Blog"
 sourceUrl: "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/"
+imageUrl: "https://blog.cloudflare.com/_emdash/api/media/file/01M5FBPSP6GA0RRJ5FDQ68S476.png"
 
 author: "TanTech AI Desk"
 categories:

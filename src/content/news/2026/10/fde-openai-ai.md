@@ -6,6 +6,7 @@ publishedAt: "2026-10-22T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-22T06:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/forward-deployed-engineering-means"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/avyxVkYFTgBKxOXiHxw1C/ab86099b3fc9ac1fa3fc3c13ff36c0c0/forward-deployed-engineering-means-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

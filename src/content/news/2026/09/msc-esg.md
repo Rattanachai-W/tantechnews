@@ -6,6 +6,7 @@ publishedAt: "2026-09-14T12:00:00.000+07:00"
 sourcePublishedAt: "2026-09-14T06:50:05.000Z"
 sourceName: "APOC Wire Thailand"
 sourceUrl: "https://apocwire.com/th/p/11831802.90000021.html"
+imageUrl: "https://apocwire.com/api/storage/objects/account/c6f8084b-88ff-49f2-bfcf-5affa4a24fb1/580bbfdd-ce25-406f-a0db-a46e1fb76568.jpg"
 
 author: "TanTech AI Desk"
 categories:

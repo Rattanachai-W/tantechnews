@@ -6,6 +6,7 @@ publishedAt: "2026-10-21T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-21T16:00:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/firefox/5-reasons-to-choose-firefox/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/10/Blog-Option-2-2-1080x720.png"
 
 author: "TanTech AI Desk"
 categories:

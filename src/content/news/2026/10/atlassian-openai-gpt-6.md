@@ -6,6 +6,7 @@ publishedAt: "2026-10-06T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-06T16:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/atlassian-partnership"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/6QbNTCFAGpVGjDLSMfKf9M/e571659e9694e08b73f5e73a01a0682c/atlassian-social-official.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

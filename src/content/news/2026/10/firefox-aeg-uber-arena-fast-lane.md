@@ -6,6 +6,7 @@ publishedAt: "2026-10-08T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-08T07:00:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/firefox/firefox-aeg-uber-arena-partnership/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/10/Firefox_Distilled_AEG_Header-1-1080x720.jpg"
 
 author: "TanTech AI Desk"
 categories:

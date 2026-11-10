@@ -6,6 +6,7 @@ publishedAt: "2026-10-08T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-08T12:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/legalon-halves-codex-costs"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/2P8XYqMKsOiY9IUl1H3YfF/d737379b5aebd51ab8cf5962a82ac429/legalon-codex-customer-story-seo-open-graph-1920x1080.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

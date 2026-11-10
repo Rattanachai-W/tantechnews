@@ -6,6 +6,7 @@ publishedAt: "2026-09-22T12:00:00.000+07:00"
 sourcePublishedAt: "2026-09-21T17:00:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/firefox/stay-focused-wherever-you-work-with-firefox-mobile-browsers/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/09/Android-TabGroups2-1080x719.png"
 
 author: "TanTech AI Desk"
 categories:

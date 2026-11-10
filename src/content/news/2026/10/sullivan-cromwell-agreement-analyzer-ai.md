@@ -6,6 +6,7 @@ publishedAt: "2026-10-15T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-15T00:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/sullivan-cromwell"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/4UO3B0RlmvGz3hIUiiFyJl/262aca81008e886c7d750c18ee33c0aa/sullivan-cromwell-seo.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-17T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-16T18:00:03.000Z"
 sourceName: "IEEE Spectrum"
 sourceUrl: "https://spectrum.ieee.org/ieee-smart-cities-new-services"
+imageUrl: "https://spectrum.ieee.org/media-library/three-by-three-grid-featuring-illustrations-of-different-eco-friendly-energy-sources.jpg?id=68429573&width=1200&height=600&coordinates=0%2C625%2C0%2C625"
 
 author: "TanTech AI Desk"
 categories:

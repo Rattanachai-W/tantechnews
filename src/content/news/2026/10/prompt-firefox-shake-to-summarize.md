@@ -6,6 +6,7 @@ publishedAt: "2026-10-01T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-01T16:00:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/firefox/firefox-ai/prompt-tuning-firefox-shake-to-summarize-recipes/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/07/Media_AIEnabled_D-1080x720.png"
 
 author: "TanTech AI Desk"
 categories:

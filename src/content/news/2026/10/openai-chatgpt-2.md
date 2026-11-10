@@ -6,6 +6,7 @@ publishedAt: "2026-10-05T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-05T10:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/rK0Bn1sDSa03vTiJvEqEk/e693b91273247f332181de385845fa52/building-advertising-for-the-way-people-use-ai-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

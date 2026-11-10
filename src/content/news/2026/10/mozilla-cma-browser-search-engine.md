@@ -6,6 +6,7 @@ publishedAt: "2026-10-20T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-20T07:00:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/mozilla/internet-policy/uk-cma-browser-choice-screens/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/10/Internet_Policy_1920x1080-1080x720.jpeg"
 
 author: "TanTech AI Desk"
 categories:

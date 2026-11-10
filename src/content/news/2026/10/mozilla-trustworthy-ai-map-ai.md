@@ -6,6 +6,7 @@ publishedAt: "2026-10-16T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-16T13:00:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/mozilla/ai/trustworthy-ai-map/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/10/Resized-globe-if-needed1-1080x720.png"
 
 author: "TanTech AI Desk"
 categories:

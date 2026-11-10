@@ -6,6 +6,7 @@ publishedAt: "2026-10-22T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-22T04:00:00.000Z"
 sourceName: "Vercel Blog"
 sourceUrl: "https://vercel.com/blog/death-to-long-lived-static-credentials"
+imageUrl: "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/4uDkSSA0pg2MjjoecBZkEn/13267551d5cc5dde67b857df686ab474/eliminating_long-lived_static_credentials_og_card.jpg"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-21T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-21T00:00:00.000Z"
 sourceName: "Vercel Blog"
 sourceUrl: "https://vercel.com/changelog/skipped-monorepo-deployments-no-longer-count-against-limits"
+imageUrl: "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/2baD4s8r5p3SnOpcA1NM6P/5c0c09a93028b23c5fddce7a888a26f0/image.png"
 
 author: "TanTech AI Desk"
 categories:

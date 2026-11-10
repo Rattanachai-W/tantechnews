@@ -6,6 +6,7 @@ publishedAt: "2026-10-20T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-20T16:05:03.000Z"
 sourceName: "GitHub Blog"
 sourceUrl: "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"
+imageUrl: "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png"
 
 author: "TanTech AI Desk"
 categories:

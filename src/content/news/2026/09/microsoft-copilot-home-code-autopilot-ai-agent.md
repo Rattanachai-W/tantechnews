@@ -6,6 +6,7 @@ publishedAt: "2026-09-25T12:00:00.000+07:00"
 sourcePublishedAt: "2026-09-25T12:03:50.000Z"
 sourceName: "Microsoft Blog"
 sourceUrl: "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
+imageUrl: "https://blogs.microsoft.com/wp-content/uploads/2026/09/OMB-Copilot-9-25-Hero-9_22_26-1024x576.png"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-22T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-21T21:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/broad-access-through-consistent-standards"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/7hrvP09oiCE5WV3cXxae4u/7154e71ae6c6e9d4c8306c4d1843e5bf/broad-access-through-consistent-standards-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

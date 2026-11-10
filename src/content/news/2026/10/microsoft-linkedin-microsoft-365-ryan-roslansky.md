@@ -6,6 +6,7 @@ publishedAt: "2026-10-01T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-01T15:03:27.000Z"
 sourceName: "Microsoft Blog"
 sourceUrl: "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update/"
+imageUrl: "https://blogs.microsoft.com/wp-content/uploads/2026/03/MicrosoftLogo_social-1024x576.png"
 
 author: "TanTech AI Desk"
 categories:

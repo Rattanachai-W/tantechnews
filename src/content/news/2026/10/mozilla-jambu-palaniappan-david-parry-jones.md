@@ -6,6 +6,7 @@ publishedAt: "2026-10-08T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-07T18:37:41.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/mozilla/palaniappan-parry-jones/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/10/blog-david-jambu-header1-1080x720.png"
 
 author: "TanTech AI Desk"
 categories:

@@ -61,6 +61,26 @@ async function fetchArticleHtml(url: string): Promise<string> {
   return response.text();
 }
 
+function parseCoverImageUrl(html: string, url: string): string | undefined {
+  const cleanedHtml = html
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<noscript[\s\S]*?<\/noscript>/gi, "");
+
+  const dom = new JSDOM(cleanedHtml, { url });
+  const doc = dom.window.document;
+  const ogImage =
+    doc.querySelector('meta[property="og:image"]')?.getAttribute("content") ||
+    doc.querySelector('meta[name="twitter:image"]')?.getAttribute("content") ||
+    doc.querySelector('meta[property="twitter:image"]')?.getAttribute("content");
+
+  if (ogImage && /^https?:\/\//i.test(ogImage.trim())) {
+    return ogImage.trim();
+  }
+
+  return undefined;
+}
+
 export async function extractArticle(url: string): Promise<ExtractedArticle | null> {
   try {
     const html = await withRetry(() => fetchArticleHtml(url), {
@@ -82,5 +102,23 @@ export async function extractArticle(url: string): Promise<ExtractedArticle | nu
       error: error instanceof Error ? error.message : String(error)
     });
     return null;
+  }
+}
+
+/** Fetch only the cover image from a page (for repairing articles missing imageUrl). */
+export async function extractCoverImage(url: string): Promise<string | undefined> {
+  try {
+    const html = await withRetry(() => fetchArticleHtml(url), {
+      attempts: 2,
+      label: `cover:${url}`,
+      delayMs: 800
+    });
+    return parseCoverImageUrl(html, url);
+  } catch (error) {
+    logger.warn("Failed to extract cover image", {
+      url,
+      error: error instanceof Error ? error.message : String(error)
+    });
+    return undefined;
   }
 }

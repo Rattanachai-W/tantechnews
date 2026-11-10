@@ -6,6 +6,7 @@ publishedAt: "2026-10-19T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-19T12:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/low-resource-programming-languages"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/1wQpFFie9sKfVWvApPYyn5/db28adb6a2dfdfdef39fb548fca8913d/low_resource_programming__SEO_Card__3_.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

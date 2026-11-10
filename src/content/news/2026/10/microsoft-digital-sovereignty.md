@@ -6,6 +6,7 @@ publishedAt: "2026-10-20T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-20T08:20:02.000Z"
 sourceName: "Microsoft Blog"
 sourceUrl: "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/"
+imageUrl: "https://blogs.microsoft.com/wp-content/uploads/2026/10/OMB-Digital-Sovereignty-Hero-10_19-1024x576.jpg"
 
 author: "TanTech AI Desk"
 categories:

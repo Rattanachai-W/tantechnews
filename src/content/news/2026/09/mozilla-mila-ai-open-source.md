@@ -6,6 +6,7 @@ publishedAt: "2026-09-18T12:00:00.000+07:00"
 sourcePublishedAt: "2026-09-17T19:30:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/mozilla/mila-canada-open-source-ai-initiative/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/06/Screenshot-2026-06-23-at-08-57-20-Illustration-Visual-Elements-Mozilla-Brand-936x624.png"
 
 author: "TanTech AI Desk"
 categories:

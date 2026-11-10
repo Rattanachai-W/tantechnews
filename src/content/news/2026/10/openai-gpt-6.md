@@ -6,6 +6,7 @@ publishedAt: "2026-10-02T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-02T16:15:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/practical-guide-building-gpt-6"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/30yfQUtDoZo9YOON0QB57H/7c53ac242cc32ab9a9dc05930bdc2034/6tbusrroo8ljxic8ceybig-seo.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

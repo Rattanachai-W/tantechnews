@@ -6,6 +6,7 @@ publishedAt: "2026-09-25T12:00:00.000+07:00"
 sourcePublishedAt: "2026-09-24T17:00:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/firefox/firefox-window-types/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/09/Firefox-Smart-Window-1920x1080-1-1080x720.png"
 
 author: "TanTech AI Desk"
 categories:

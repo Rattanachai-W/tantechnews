@@ -6,6 +6,7 @@ publishedAt: "2026-09-28T12:00:00.000+07:00"
 sourcePublishedAt: "2026-09-28T16:14:54.000Z"
 sourceName: "AWS News Blog"
 sourceUrl: "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/"
+imageUrl: "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/28/2025-deepseek-r1-on-aws-1-andy-keynote.jpg"
 
 author: "TanTech AI Desk"
 categories:

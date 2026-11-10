@@ -6,6 +6,7 @@ publishedAt: "2026-10-20T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-20T13:00:00.000Z"
 sourceName: "Cloudflare Blog"
 sourceUrl: "https://blog.cloudflare.com/typescript-rust-port/"
+imageUrl: "https://blog.cloudflare.com/_emdash/api/media/file/01M5C82XAYSWX571T82A8AZRKS.png"
 
 author: "TanTech AI Desk"
 categories:

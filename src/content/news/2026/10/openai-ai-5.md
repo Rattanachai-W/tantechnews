@@ -6,6 +6,7 @@ publishedAt: "2026-10-21T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-21T00:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/empowering-cyber-defenders"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/4fQCOyqbS5WVftYzLdd8UX/260b8061c6c8641dd0102042cb1acc32/empowering-cyber-defenders-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-16T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-16T00:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/grupo-boticario"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/626geK6h5EKqCFSWg0YLPk/f8dd261042306e6eb8a87f543103d381/grupo-boticario-social.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

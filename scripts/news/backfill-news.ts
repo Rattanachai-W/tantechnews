@@ -44,7 +44,12 @@ async function processArticle(article: ScoredArticle, date: Date): Promise<{ slu
       return null;
     }
 
-    const generated = await generateMarkdown(article, validation.data as import("../../src/types/article").ArticleSummary, date);
+    const articleWithImage: ScoredArticle = {
+      ...article,
+      imageUrl: article.imageUrl || extracted.imageUrl
+    };
+
+    const generated = await generateMarkdown(articleWithImage, validation.data as import("../../src/types/article").ArticleSummary, date);
     logger.info("Generated article", { filePath: generated.filePath, titleTh: summary.titleTh });
 
     return {

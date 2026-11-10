@@ -6,6 +6,7 @@ publishedAt: "2026-10-14T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-14T07:00:00.000Z"
 sourceName: "OpenAI Blog"
 sourceUrl: "https://openai.com/index/third-moment-research"
+imageUrl: "https://images.ctfassets.net/kftzwdyauwt9/m0YDNMUPfmBJYf8nw2LGR/202c3cb46da0506d77cce90027c1ef9c/third-moment-research-first-light-social-1920x1080.png?w=1600&h=900&fit=fill"
 
 author: "TanTech AI Desk"
 categories:

@@ -6,6 +6,7 @@ publishedAt: "2026-10-13T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-13T04:01:00.000Z"
 sourceName: "Mozilla Blog"
 sourceUrl: "https://blog.mozilla.org/en/firefox/introducing-firefox-enterprise/"
+imageUrl: "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/10/Enterprise-Distilled-Thumbnail1-1080x720.png"
 
 author: "TanTech AI Desk"
 categories:

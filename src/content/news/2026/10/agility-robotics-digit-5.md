@@ -6,6 +6,7 @@ publishedAt: "2026-10-19T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-19T13:00:03.000Z"
 sourceName: "IEEE Spectrum"
 sourceUrl: "https://spectrum.ieee.org/agility-robotics-digit-5-redesign"
+imageUrl: "https://spectrum.ieee.org/media-library/image.jpg?id=68441166&width=1200&height=600&coordinates=0%2C1537%2C0%2C1538"
 
 author: "TanTech AI Desk"
 categories:

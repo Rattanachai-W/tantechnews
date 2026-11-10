@@ -6,6 +6,7 @@ publishedAt: "2026-10-13T12:00:00.000+07:00"
 sourcePublishedAt: "2026-10-13T15:59:06.000Z"
 sourceName: "AWS News Blog"
 sourceUrl: "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/"
+imageUrl: "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
 
 author: "TanTech AI Desk"
 categories:

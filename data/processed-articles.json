@@ -2001,6 +2001,748 @@
       "slug": "5-firefox-open-source",
       "sourceName": "Mozilla Blog",
       "processedAt": "2026-11-10T06:46:04.147Z"
+    },
+    {
+      "id": "6400feb681472530a689e8c59132cfe6d13f5863532ecd60e409a4825c59746b",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "slug": "fde-openai-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:46:19.214Z"
+    },
+    {
+      "id": "3f1a11956436b167380065dcbfb11acfb4b7400895eeef122ae6e9ec1be674ee",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "slug": "openai-6",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:46:33.171Z"
+    },
+    {
+      "id": "405699f87f1c074465d96a7bd5299548c7b22b192d1f065e168ff9f727dffb1e",
+      "url": "https://blog.cloudflare.com/k-isms/",
+      "slug": "cloudflare-isms",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T06:46:46.989Z"
+    },
+    {
+      "id": "c46b92f3bb80db56921bb323c10636bc63550dddd17a03887cf75b97fa3f2c39",
+      "url": "https://vercel.com/blog/death-to-long-lived-static-credentials",
+      "slug": "vercel-static-credentials-oidc",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:47:00.303Z"
+    },
+    {
+      "id": "0098e0bdcb294121365c7d5b97715f78618f3a4eae0f527dc32fa37bfdcc3640",
+      "url": "https://vercel.com/changelog/routing-middleware-now-supports-python",
+      "slug": "vercel-python-routing-middleware",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:47:11.198Z"
+    },
+    {
+      "id": "99eebbfdd627365938737449d9ff723d294e34c18c6e90131baa86172ff44050",
+      "url": "https://spectrum.ieee.org/schindler-2027-ieee-president-elect",
+      "slug": "manfred-fred-j-schindler-ieee-2027",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:47:22.366Z"
+    },
+    {
+      "id": "9375e067bcefe2d4158e4e7d3505e52ecef00e5f19710a17c16247af4f1279eb",
+      "url": "https://spectrum.ieee.org/engineers-lobbying-congress",
+      "slug": "9375e067bcef",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:47:35.384Z"
+    },
+    {
+      "id": "1a543055a02f9816518cc03996b6a0ed89e5e65a847f479103d96112c902ed21",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "slug": "openai-nask-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:47:48.609Z"
+    },
+    {
+      "id": "c10dae251e66227047ef337fa0991940a380f36f7fd843af6b0ced15ecadc1dc",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+      "slug": "github-bug-bounty",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-11-10T06:48:03.474Z"
+    },
+    {
+      "id": "b32cba0c79e6406518341e73a345473a684642b739263846a71ab971f4350c0f",
+      "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+      "slug": "interfaze-50-request-vercel-fluid-compute-ai-gateway",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:48:17.790Z"
+    },
+    {
+      "id": "6ee4d4ff47e4763c0747944fed76e71560cce85452130b10c98290d43a7acadc",
+      "url": "https://spectrum.ieee.org/engineering-jobs-that-ai-cant-replace",
+      "slug": "ai-4",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:48:32.534Z"
+    },
+    {
+      "id": "2cc502820f324a57ed5462ab7806d67748fd0181a57c6fcd5144464c0c9206fe",
+      "url": "https://www.docker.com/blog/php2shell-and-emudhra-patched/",
+      "slug": "docker-php2shell-emudhra",
+      "sourceName": "Docker Blog",
+      "processedAt": "2026-11-10T06:49:47.909Z"
+    },
+    {
+      "id": "2f91b6a570c5f179b39ff6c95aa3707d9cb562b1741ca4e81292e8bdb69e77ff",
+      "url": "https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers/",
+      "slug": "docker-php2shell",
+      "sourceName": "Docker Blog",
+      "processedAt": "2026-11-10T06:50:04.626Z"
+    },
+    {
+      "id": "70bdd870b2ac82df6eafbba336af5e0c7c5acd04d9f0476168b76204a3125b8a",
+      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+      "slug": "cloudflare-pq-geokey-manager",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T06:50:22.545Z"
+    },
+    {
+      "id": "60f970e1df3b48e38265db737abe11772a7c8930a9f8ad2515f54314527e2733",
+      "url": "https://blog.cloudflare.com/origin-range-requests/",
+      "slug": "cloudflare-origin-range-requests",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T06:50:37.231Z"
+    },
+    {
+      "id": "3eb20557c19026667694f571bd8eb0482aa4e0aa0150ae68ccc8535f3541c126",
+      "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+      "slug": "vercel-connect-stripe-api-key-agent",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:50:53.279Z"
+    },
+    {
+      "id": "2d33ef1ca08dbea85dd4f1b81dfe32368c94f3e6b27bce1c3821030ef557f426",
+      "url": "https://vercel.com/changelog/vercel-cli-adds-spend-management",
+      "slug": "vercel-cli",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:51:07.454Z"
+    },
+    {
+      "id": "d91d3fc9b564d6b5052439dc575781c699ed07f93ed754687d595566219b082b",
+      "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+      "slug": "vercel-vercel-agent-production",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:51:19.600Z"
+    },
+    {
+      "id": "632d0687a37b3389f77e04d7a537678640cd8bc888a7c504d0bbbef089b8ffc3",
+      "url": "https://spectrum.ieee.org/preethi-ashwath-chip-designer",
+      "slug": "wearable",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:51:36.985Z"
+    },
+    {
+      "id": "9a3815c4d8adf63ce48920263d915ef6dcbd8d903f3d4af526790e50dfc9ecb7",
+      "url": "https://vercel.com/changelog/deployments-now-show-build-cache-size",
+      "slug": "vercel-build-cache-deployment",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:51:47.527Z"
+    },
+    {
+      "id": "12a6910c38bf261d823bb8eebe45c6cf4bd89f3be0ecbff3b06c58a0878cf4cc",
+      "url": "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine",
+      "slug": "ibm",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:51:59.308Z"
+    },
+    {
+      "id": "e9ecdc106c9a86fb2cab7fd50f5b509a2103e683bcdb625187b6af4c82be8ab3",
+      "url": "https://blog.mozilla.org/en/firefox/come-back-to-firefox/",
+      "slug": "firefox-nostalgia-big-tech",
+      "sourceName": "Mozilla Blog",
+      "processedAt": "2026-11-10T06:52:13.633Z"
+    },
+    {
+      "id": "fd1eae458d1ee719951b272480c9f30451bfd5dc9f403bad456fd2854145da15",
+      "url": "https://apocwire.com/th/p/77537548.90000021.html",
+      "slug": "metro-systems-canva",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T06:52:30.515Z"
+    },
+    {
+      "id": "8eb6001a836a6e50b8fb133e1590f182de0e7997306db3a54dcb8d2c2e5a6daa",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "slug": "openai-ai-6",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:52:49.162Z"
+    },
+    {
+      "id": "7e73eebe3e909303c4c59a7dc0b734e92c38bcdbedd7db32071af67e1885bb5c",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "slug": "fanatics-openai-ai-shop-the-look",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:53:05.384Z"
+    },
+    {
+      "id": "742d30efdc4090c11a97794f6a72e90c1243857798823aeed51fe879a1c3fcd7",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "slug": "openai-ultrafast-codex",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:53:22.268Z"
+    },
+    {
+      "id": "8f5082d843e3a2e0104b95f9d377581a3d69ef45257555f942b052aacc7dd237",
+      "url": "https://vercel.com/changelog/customizable-widgets-for-project-cards",
+      "slug": "vercel-widget-project-card-metric",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:53:35.321Z"
+    },
+    {
+      "id": "f3ab16cd49d1ff1d8b64a1eb79bcba35902768c9c5b96e85d590d6d04b5323d4",
+      "url": "https://vercel.com/changelog/faster-pnpm-installs",
+      "slug": "vercel-pnpm-build-reuse-verification",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:53:50.295Z"
+    },
+    {
+      "id": "9433a7d5973542d70cabc4ec38bcd004b3df76bb8d703c20237b1488f785cbdc",
+      "url": "https://spectrum.ieee.org/magnetic",
+      "slug": "9433a7d59735",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:54:06.227Z"
+    },
+    {
+      "id": "c44dc9ed271ff418b14ac5c964f0f9272d3413bd0c2b38b09efd327bf214a17d",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "slug": "check-point-openai-daybreak",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:54:26.290Z"
+    },
+    {
+      "id": "b98b75e5e3efe8c183df01d945b82e00f068026e8ce092f02783d5dd7c462f8a",
+      "url": "https://blog.cloudflare.com/php-ctf/",
+      "slug": "cloudflare-php-ctf-waf",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T06:54:41.717Z"
+    },
+    {
+      "id": "008512bdedf0ef9123b65e1b554683bceba76773a7f069bf749fbd5b945c2acf",
+      "url": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
+      "slug": "vercel-elevenlabs-14-ai-ai-gateway",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:55:16.580Z"
+    },
+    {
+      "id": "c4eaf4da5bef855b1cf2533d1b01bdce2d297905bdc102b93bff8426af17efc8",
+      "url": "https://vercel.com/changelog/deploy-a-container-from-a-plain-dockerfile",
+      "slug": "vercel-deploy-dockerfile",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:55:32.095Z"
+    },
+    {
+      "id": "2570f42f169f442514b764afc900c92d073b7f2a496cb6b935b3b7a253986c98",
+      "url": "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier/",
+      "slug": "microsoft-platform-approach-frontier-transformation",
+      "sourceName": "Microsoft Blog",
+      "processedAt": "2026-11-10T06:55:50.145Z"
+    },
+    {
+      "id": "1411959d9265bc3d70550fad129814073f1884c47cfd955f1237a1e3ab20dc5f",
+      "url": "https://vercel.com/blog/introducing-vercel-ci",
+      "slug": "vercel-vercel-ci-beta-compute",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:56:15.471Z"
+    },
+    {
+      "id": "e2ed7680c50ae3f074e04f962f033e8bab070f352fa8087e45258e537064a005",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "slug": "ai-5",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:56:27.748Z"
+    },
+    {
+      "id": "d65abdeddeb47aa1424784815cb980192ff30c650a420cf84356816872913dee",
+      "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+      "slug": "vercel-virtual-models-ai-gateway-ai",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:56:39.554Z"
+    },
+    {
+      "id": "99cd20ecddd14bdb9ff4ca4bdbcf4eae8da07f7bd29486c3e18afe833dec6188",
+      "url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox",
+      "slug": "paseo-ai-agents-vercel-sandbox",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:56:51.607Z"
+    },
+    {
+      "id": "9fa8e4999dc547768cea2d0e8770644fb87b13bf896ca5138744b6991c417066",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "slug": "nvidia-rtx-spark-windows-ai-gpu",
+      "sourceName": "NVIDIA Blog",
+      "processedAt": "2026-11-10T06:57:06.656Z"
+    },
+    {
+      "id": "9dde41a2a325c57c634144ef269dd9fdcd870b911291697a9af77c227562fd18",
+      "url": "https://spectrum.ieee.org/beta-technologies-electric-aircraft",
+      "slug": "beta-technologies",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T06:57:22.803Z"
+    },
+    {
+      "id": "0f01adb2acab0a67ba71c0b077a856b8d5e6ddb0aecdbfc3051cca05fba1e4d6",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "slug": "openai-ai-frontier-model",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:57:48.791Z"
+    },
+    {
+      "id": "d948735545c20cf3072195dbbc120386d43c1319abb3514dc8f0d2f4f07f9bdc",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "slug": "ropes-gray-openai-ai-due-diligence",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:58:03.947Z"
+    },
+    {
+      "id": "14a8146a83d0b4ce7660d3cc33d61df9572f84973b1ada5bdccd74366b02dcb9",
+      "url": "https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration",
+      "slug": "vercel-flags-sdk-7-function",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:58:17.045Z"
+    },
+    {
+      "id": "68dcb801f302cbcae04bf915f24c7e85874217fbe720844b3d97c6c55abddfad",
+      "url": "https://vercel.com/changelog/block-ai-crawlers-and-assistants-independently-with-managed-rules",
+      "slug": "vercel-firewall-ai-crawlers-ai-assistants",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:58:30.672Z"
+    },
+    {
+      "id": "3b6251909818d39b11195bd87c53a19b4a66ab96a56261a07adca213e7a273ef",
+      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/",
+      "slug": "coding-agent-ai-cve",
+      "sourceName": "Docker Blog",
+      "processedAt": "2026-11-10T06:58:46.871Z"
+    },
+    {
+      "id": "16681fd606d5f6994d06073668f13da45fdc558aafe8e5ccae389d49d9dc4f1f",
+      "url": "https://openai.com/ads/customers/evernote",
+      "slug": "evernote-chatgpt-ads-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:59:01.057Z"
+    },
+    {
+      "id": "84abd1857de5dfd951d90dcfdd8cecc910571c46b00c6ecbe7661909d42cb5b5",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "slug": "openai-robots-txt-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:59:13.890Z"
+    },
+    {
+      "id": "a86d24c59c826150d16deb117d5d2c5c4ade94e1abd42be5bfff46adde0bd560",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "slug": "openai-7",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T06:59:27.753Z"
+    },
+    {
+      "id": "68e46c97cf014f4373c6d5874f79a5b35684d1dfa1ebe68bdf070a44787c2403",
+      "url": "https://vercel.com/blog/introducing-geist-serif",
+      "slug": "vercel-geist-serif-editorial",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:59:39.381Z"
+    },
+    {
+      "id": "a33d0e7954deadc62c528a80082909e2a20c690c8ae854082d536e25d7632c4e",
+      "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
+      "slug": "vercel-data-cache-runtime-cache-framework-api",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T06:59:50.398Z"
+    },
+    {
+      "id": "0a74f24e4054460b51a22bacc9cf29f2692db4676ef911dbb196970eb5bce664",
+      "url": "https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache",
+      "slug": "vercel-data-cache-runtime-cache",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:00:02.505Z"
+    },
+    {
+      "id": "a3ca6b57de5bc9fd5101150858c5e0de1f789a7e6741ba0b04f07bbc087475ef",
+      "url": "https://vercel.com/changelog/add-liveness-checks-to-your-daemons",
+      "slug": "vercel-liveness-checks-daemons",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:00:14.306Z"
+    },
+    {
+      "id": "8247b13c581ec5a10eb05283cf20e68f1909c13533d90b31e3e9b52c6c2c57f2",
+      "url": "https://vercel.com/changelog/improved-ip-geolocation-data",
+      "slug": "vercel-ip-geolocation",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:00:29.796Z"
+    },
+    {
+      "id": "46377df52764d6fd77d39f313bac4821bd2987e8fb4d2c9bf5b9d4d048590b1b",
+      "url": "https://blog.cloudflare.com/emudhra-patching/",
+      "slug": "cloudflare-emudhra",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T07:01:02.504Z"
+    },
+    {
+      "id": "d7bd184b6cae6d4d7d33543ea9f13ea8e9c6da688e357eb628291f0ed253f391",
+      "url": "https://spectrum.ieee.org/early-electric-vehicles",
+      "slug": "ev",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T07:01:27.529Z"
+    },
+    {
+      "id": "4c980086af9425ed7c62632af62075b19febc258c12459190cfecb16c0e673ab",
+      "url": "https://spectrum.ieee.org/ai-slop-trust-science",
+      "slug": "ai-slop",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T07:02:05.258Z"
+    },
+    {
+      "id": "945f879ef3a469b4aebe760cf27598de5ac153aec5be30239cc23bf038b35a21",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "slug": "openai-dan-driscoll-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:02:29.401Z"
+    },
+    {
+      "id": "a2ca823e1f220916ee172f51689247628c8477ef4b395134bccf9071f9f02dc5",
+      "url": "https://vercel.com/blog/vercel-security-review",
+      "slug": "vercel-security-review-public-beta",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:02:41.839Z"
+    },
+    {
+      "id": "4094d4340f9e66f9e2fcbdf55d52c8459c6b02d6daa5c6c2ae592ebcd92aa22f",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "slug": "qodo-codex-ai-code-review",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:02:57.158Z"
+    },
+    {
+      "id": "277870ffc8d71544c0465c137654062f6f2bf7e7d7a1ec8af9071c966d86edc3",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "slug": "openai-pando-backend-git-monorepo",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:03:12.262Z"
+    },
+    {
+      "id": "9a97986aa28bfe347b092679d2e647ff7e6086ad1773bdb92c5a097383408cd4",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+      "slug": "github-game-off-2026-shift",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-11-10T07:03:22.909Z"
+    },
+    {
+      "id": "e8b338dcfb56e8b35de5cf171e737c135730b617231d31238a5ed525fda90cc0",
+      "url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+      "slug": "vercel-flags-explorer-feature-flag-override",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:03:32.083Z"
+    },
+    {
+      "id": "3017d51cc49fa391b0804c3739591d18acfafc05fa4cd66def1e4c135d412f63",
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "slug": "cloudflare-dns-85",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T07:03:44.534Z"
+    },
+    {
+      "id": "34e7d62615202d0de65fe802c6c6ca14703e67df603d58e71ec501e575fe9eda",
+      "url": "https://openai.com/index/cisco-cyber",
+      "slug": "cisco-openai-machine-speed",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:03:57.488Z"
+    },
+    {
+      "id": "fc87a45dcfbf03d417250555e1df3237ca0ef7928116e265a011dfff6b14fbc2",
+      "url": "https://openai.com/index/heimstaden",
+      "slug": "heimstaden-ai-openai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:04:12.229Z"
+    },
+    {
+      "id": "410a92595886a074fe4f04a77b92ccea85c6babca3b5d43ec94d975df0d521cc",
+      "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+      "slug": "arnis-open-source-minecraft",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-11-10T07:08:39.923Z"
+    },
+    {
+      "id": "e581154108f523de51d2d0abf31d5f2db06d658bf228471d5dc2d0179c638d13",
+      "url": "https://blog.cloudflare.com/zero-wire/",
+      "slug": "cloudflare-zero-wire",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T07:09:05.498Z"
+    },
+    {
+      "id": "052ecc9fd4745c9e9f6602d2f62b3442f7a5ed67b76093dbcfa4b737b226c2a1",
+      "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+      "slug": "openevidence-vercel-6-5",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:09:23.251Z"
+    },
+    {
+      "id": "a1f188a54934b92ff9a39c460f49ddf3cfa7963c4a663e58cd66738c595e2bea",
+      "url": "https://apocwire.com/th/p/71493217.90000021.html",
+      "slug": "msc-cgr-5-7-esg",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-10T07:09:43.439Z"
+    },
+    {
+      "id": "a44af420774e4554014ca4178e10e1dc1c1827f981dac263f4bba849018c18b9",
+      "url": "https://vercel.com/changelog/vercel-security-review-public-beta",
+      "slug": "vercel-security-review-public-beta-2",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:09:58.349Z"
+    },
+    {
+      "id": "1be4fdd8e6ca80f0ec0127711bf05d7cfcd7194eac7f7e3b9f6a7d04824358c9",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "slug": "openai-pierre-computer-company-source-control-ai-agent",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:10:16.841Z"
+    },
+    {
+      "id": "fbaa86a829ad59fd10c58d013d5956116602b056ae7817da772b6c91267e6908",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "slug": "openai-pipeline-ai-linux-kernel-root",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:10:36.429Z"
+    },
+    {
+      "id": "d13fbfe75d78ae195ccfdcf78356d3039de126e7992bf5608cc202f12759f701",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+      "slug": "cloudflare-personal-agents-ai",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T07:10:56.523Z"
+    },
+    {
+      "id": "b2dc36e13c44a6e4145d7cabe8c3c4ab038300f5b5f6ade39f1ba464cf3d211f",
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "slug": "data-center-ai",
+      "sourceName": "MIT Technology Review",
+      "processedAt": "2026-11-10T07:11:15.398Z"
+    },
+    {
+      "id": "db9792e954d447010915e606e8fdb998d92778fb38af9f5ff78336a8db2d0092",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "slug": "merge-openai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:11:29.454Z"
+    },
+    {
+      "id": "2d1d326185a62641bed05bf7f26ce7de70018d67127b0626b6b2080acbead4c8",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "slug": "flipsnack-conversion-optimization-chatgpt-ads",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:11:45.865Z"
+    },
+    {
+      "id": "1558c78d072630b6166d2a4ee784e6959b5164e18745c4f60ab077a2c022b5ac",
+      "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+      "slug": "github-accessibility-md-open-source",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-11-10T07:11:57.755Z"
+    },
+    {
+      "id": "9c7e0f9ef29e94e204d1d98ed38be2b8069fd30d160e51a4f6f42f32dc820727",
+      "url": "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk",
+      "slug": "workflow-sdk-atomic-start-idempotency",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:12:11.109Z"
+    },
+    {
+      "id": "c38349f00863334ecd6e87f2e9436cf9d9d214b773d4151cd5bb1140b2016d60",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+      "slug": "hogwarts-legacy-geforce-now-nvidia-dlss-5",
+      "sourceName": "NVIDIA Blog",
+      "processedAt": "2026-11-10T07:12:29.216Z"
+    },
+    {
+      "id": "d8ec69625831a52374d5e2f2e64c49a019d7f1482b94fa4dd55d96a2f294dbfe",
+      "url": "https://spectrum.ieee.org/2026-solar-eclipse",
+      "slug": "d8ec69625831",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T07:12:44.225Z"
+    },
+    {
+      "id": "806e32dbedfa7e5e89c9784655cfce45ff96ea14badd7a3ef437cf88f59ed803",
+      "url": "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway",
+      "slug": "vercel-ampersand-ai-ai-gateway",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:12:56.693Z"
+    },
+    {
+      "id": "a0a44ed09dc9a1089b4e099f4e0fbf8e71ea906b8e386a1df3e114e9f9678292",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "slug": "openai-hacktron",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:13:24.595Z"
+    },
+    {
+      "id": "c33a47990bb435ee9c7d8db03db90070bcf90287c0264dceac84a180b4c38b82",
+      "url": "https://spectrum.ieee.org/mmx-mission-to-phobos",
+      "slug": "mmx-2",
+      "sourceName": "IEEE Spectrum",
+      "processedAt": "2026-11-10T07:13:39.922Z"
+    },
+    {
+      "id": "51dc1d2f6b3bd6dfbc4a53cc4b4d725abfa420061e306ee01bd50ffdd4b46fd8",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "slug": "git-github",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-11-10T07:14:01.384Z"
+    },
+    {
+      "id": "5f721228af3682c2417b4131d4680ee3211f1024fcf682ecae1568fe5c5140e2",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "slug": "openai-biobasicsbench-ai",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:14:29.891Z"
+    },
+    {
+      "id": "f4b095a86cca5a1af31bf42c05de670f070a70566cedcd1341c62c197edb8bfd",
+      "url": "https://www.cnbc.com/2026/11/07/josh-gottheimer-ai-stocks-congress-trading-ban.html",
+      "slug": "ai-6",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-11-10T07:14:51.085Z"
+    },
+    {
+      "id": "aff32afb63af01e7ea9a5edd6e9ce2176c4c0480a7ddc9a75c80bd3cfb4c037f",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "slug": "agentic-engineering",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-11-10T07:15:27.037Z"
+    },
+    {
+      "id": "1b4254c65d9be0ff84bf7a0bd48115389883b6fa0ef6dbc891fc32cb760cca95",
+      "url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents",
+      "slug": "vercel-json-render-chat-sdk-agent-generative-ui-streaming",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:15:47.321Z"
+    },
+    {
+      "id": "962a4f2c23f3f19d660a5b528935ff0ac60a3edeeafea926adf4e3a44b61142e",
+      "url": "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/",
+      "slug": "iot",
+      "sourceName": "WIRED",
+      "processedAt": "2026-11-10T07:16:23.338Z"
+    },
+    {
+      "id": "1e1e08b31b1dfdc07899b8bf31d7eabb08bab939edb13ee3f7b7884d8a4b3c2f",
+      "url": "https://www.wired.com/gallery/best-computer-speakers/",
+      "slug": "2026-30",
+      "sourceName": "WIRED",
+      "processedAt": "2026-11-10T07:16:42.499Z"
+    },
+    {
+      "id": "30544039ab2b1feb0e6ed6600a35a91a8b589c80cd498da99eef29ba433336e4",
+      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+      "slug": "nyt-cooking-ai",
+      "sourceName": "WIRED",
+      "processedAt": "2026-11-10T07:16:57.653Z"
+    },
+    {
+      "id": "915a70ec87b7255bf82f578db0da28c2843c9713fec70eefe1c83d7e9694928f",
+      "url": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html",
+      "slug": "ai-agent",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-11-10T07:17:12.063Z"
+    },
+    {
+      "id": "0ade9c5f427362c187208ca20714b4defb50b5f9980a64d7423f63b0ac41e730",
+      "url": "https://www.wired.com/story/how-to-remind-your-boss-about-your-vacation/",
+      "slug": "0ade9c5f4273",
+      "sourceName": "WIRED",
+      "processedAt": "2026-11-10T07:17:29.642Z"
+    },
+    {
+      "id": "9c058ef70495dcd0adc413f22911bce6e7555495be41f72189b7d990a86b359f",
+      "url": "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html",
+      "slug": "cathie-wood-ai-bull-market",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-11-10T07:17:43.731Z"
+    },
+    {
+      "id": "cda2c2efa5a755a5fad12ed2a9b631d026f676143716b06faa9b9bc67235c50c",
+      "url": "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html",
+      "slug": "ai-7",
+      "sourceName": "CNBC Technology",
+      "processedAt": "2026-11-10T07:18:00.624Z"
+    },
+    {
+      "id": "f27ad28b0c4db975ac36ad67a95706cf4883b8374418989f96e09d43c632f3a9",
+      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+      "slug": "cloudflare-vite-ecosystem-fund-open-source",
+      "sourceName": "Cloudflare Blog",
+      "processedAt": "2026-11-10T07:18:16.769Z"
+    },
+    {
+      "id": "952d2516af2e905436adea3bc1ec3df5f6a7559eef98c6b3c275da646bdd61ac",
+      "url": "https://openai.com/index/control-room",
+      "slug": "openai-control-room",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:18:40.981Z"
+    },
+    {
+      "id": "02e9abf47eaf3fa01f98fe0d8703230a8e6faa4dd4f2fb401bd0d8381c4ff554",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "slug": "coderabbit-ai-agent-20",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:18:54.349Z"
+    },
+    {
+      "id": "2e34e84f0999c607fcd026638ba274edf1639ff07c6ab06d851f57d1a6442eba",
+      "url": "https://openai.com/index/kuken",
+      "slug": "kuken-industries-ai-70-90",
+      "sourceName": "OpenAI Blog",
+      "processedAt": "2026-11-10T07:19:09.226Z"
+    },
+    {
+      "id": "684c94612e164b636853ca1f0415dd1347fc6eaaadc29f2e75316e8665baa624",
+      "url": "https://vercel.com/changelog/build-disk-space-on-vercel-increased-to-64-gb",
+      "slug": "vercel-disk-space-build-64-gb",
+      "sourceName": "Vercel Blog",
+      "processedAt": "2026-11-10T07:19:18.927Z"
+    },
+    {
+      "id": "f701b8b81b94f95be487d7cadca824888ef00a8f50bc1d16a384533172fc4e7f",
+      "url": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+      "slug": "wyndham-hardcoded-password-android",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-11-10T07:19:38.492Z"
+    },
+    {
+      "id": "730323ba6c06bee9681a10473c3eb468214ce39f372362f39231ae8f2583dd3d",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "slug": "meta-muse-ember-ai-agent",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-11-10T07:19:54.106Z"
+    },
+    {
+      "id": "fc938db516a592fcb08088c8c7dcd7f6caf06d10cde262594272b27be41fcca5",
+      "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+      "slug": "uber-spothero-robotaxi",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-11-10T07:20:08.523Z"
+    },
+    {
+      "id": "161d7e10cf58471f462b0c015b18f47b098a7bebe96f4ee2a952d7d4021c772d",
+      "url": "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/",
+      "slug": "proposition-40",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-11-10T07:20:29.470Z"
+    },
+    {
+      "id": "46993df858fed8e9f9e13460e638b9a43676e362d4ee01273ff14698fbfe3dbc",
+      "url": "https://techcrunch.com/2026/11/09/youtube-streaming-data-returns-to-billboard-charts-ending-major-disagreement/",
+      "slug": "youtube-billboard",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-11-10T07:20:48.730Z"
+    },
+    {
+      "id": "63271ce2eb02cf1358be7fbadd0bfabfef087317351ab3e18ca0b883e7614549",
+      "url": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/",
+      "slug": "nominal-ai-3-8",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-11-10T07:21:05.793Z"
     }
   ]
 }
