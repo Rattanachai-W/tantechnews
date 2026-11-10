@@ -7,6 +7,7 @@ import JsonLd from "../components/seo/json-ld.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { ARTICLE_CATEGORIES } from "../types/article";
 import { getCategoryHref, getPublishedNews, type NewsEntry } from "../utils/content";
+import { getOptimizedImageUrl } from "../utils/image";
 import { getOrganizationJsonLd, getSiteJsonLd } from "../utils/seo";
 import { getWeeklyHighlightArticles } from "../utils/weekly-highlights";
 
@@ -31,13 +32,27 @@ const weeklyHighlights = isFirstPage
 
 const pageTitle = isFirstPage
   ? undefined
-  : `ข่าวเทคโนโลยีล่าสุด — หน้า ${page.currentPage} | ทันเทค`;
+  : `ข่าวเทคโนโลยีล่าสุด หน้า ${page.currentPage}`;
 const pageDescription = isFirstPage
   ? undefined
   : `รวมข่าวเทคโนโลยีล่าสุดหน้าที่ ${page.currentPage} จากทั้งหมด ${page.lastPage} หน้า อัปเดตและวิเคราะห์โดยทีมทันเทค`;
+const weeklyPreloadImage = weeklyHighlights[0]
+  ? getOptimizedImageUrl(weeklyHighlights[0].data.imageUrl, 1400)
+  : null;
+const normalizePagerUrl = (url?: string) => {
+  if (!url) return null;
+  if (url === "/1" || url === "/1/") return "/";
+  return url.endsWith("/") ? url : `${url}/`;
+};
 ---
 
-<BaseLayout title={pageTitle} description={pageDescription}>
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  prevUrl={normalizePagerUrl(page.url.prev)}
+  nextUrl={normalizePagerUrl(page.url.next)}
+  preloadImage={isFirstPage ? weeklyPreloadImage : null}
+>
   <Fragment slot="head">
     <JsonLd data={getSiteJsonLd()} />
     <JsonLd data={getOrganizationJsonLd()} />

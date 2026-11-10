@@ -1,6 +1,11 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
-import { getArticleJsonLd, getOrganizationJsonLd, getSiteJsonLd } from "../src/utils/seo";
+import {
+  getArticleJsonLd,
+  getArticleModifiedAt,
+  getOrganizationJsonLd,
+  getSiteJsonLd
+} from "../src/utils/seo";
 import { shouldIncludeDraftContent } from "../src/utils/drafts";
 import type { NewsEntry } from "../src/utils/content";
 
@@ -13,6 +18,7 @@ const article = {
     title: "OpenAI เปิดตัว API ใหม่",
     excerpt: "สรุปข่าว API ใหม่",
     publishedAt: new Date("2026-08-01T00:00:00Z"),
+    updatedAt: new Date("2026-08-03T00:00:00Z"),
     sourceUrl: "https://example.com/openai-api",
     categories: ["AI", "Programming"],
     tags: ["OpenAI", "API"],
@@ -34,7 +40,7 @@ describe("SEO structured data", () => {
 
     assert.equal(jsonLd["@type"], "Organization");
     assert.equal(typeof jsonLd.logo, "object");
-    assert.match(jsonLd.logo.url, /\/logo\.svg$/);
+    assert.match(jsonLd.logo.url, /\/logo\.png$/);
   });
 
   it("builds NewsArticle JSON-LD from article metadata", () => {
@@ -45,6 +51,15 @@ describe("SEO structured data", () => {
     assert.equal(jsonLd.citation, "https://example.com/openai-api");
     assert.deepEqual(jsonLd.articleSection, ["AI", "Programming"]);
     assert.equal(jsonLd.isAccessibleForFree, true);
+    assert.equal(jsonLd.dateModified, "2026-08-03T00:00:00.000Z");
+    assert.match(jsonLd.publisher.logo.url, /\/logo\.png$/);
+  });
+
+  it("prefers updatedAt then reviewedAt for dateModified", () => {
+    assert.equal(
+      getArticleModifiedAt(article).toISOString(),
+      "2026-08-03T00:00:00.000Z"
+    );
   });
 });
 

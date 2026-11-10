@@ -4,6 +4,17 @@ const SITE_NAME = "TanTech News";
 const SITE_URL = "https://www.tantechnews.com";
 const DEFAULT_DESCRIPTION = "สรุปข่าวเทคสำคัญ ให้คุณทันทุกวัน";
 const DEFAULT_IMAGE = `${SITE_URL}/og-default.jpg`;
+const PUBLISHER_LOGO = `${SITE_URL}/logo.png`;
+
+export function getArticleModifiedAt(article: NewsEntry): Date {
+  const candidates = [
+    article.data.updatedAt,
+    article.data.reviewedAt,
+    article.data.publishedAt
+  ].filter((value): value is Date => value instanceof Date);
+
+  return new Date(Math.max(...candidates.map((value) => value.getTime())));
+}
 
 export function getSiteJsonLd() {
   return {
@@ -31,7 +42,7 @@ export function getOrganizationJsonLd() {
     url: SITE_URL,
     logo: {
       "@type": "ImageObject",
-      url: `${SITE_URL}/logo.svg`,
+      url: PUBLISHER_LOGO,
       width: "512",
       height: "512"
     },
@@ -40,6 +51,9 @@ export function getOrganizationJsonLd() {
 }
 
 export function getArticleJsonLd(article: NewsEntry, url: string) {
+  const modifiedAt = getArticleModifiedAt(article);
+  const imageUrl = article.data.imageUrl ?? DEFAULT_IMAGE;
+
   return {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -51,7 +65,7 @@ export function getArticleJsonLd(article: NewsEntry, url: string) {
       "@id": url
     },
     datePublished: article.data.publishedAt.toISOString(),
-    dateModified: article.data.publishedAt.toISOString(),
+    dateModified: modifiedAt.toISOString(),
     author: {
       "@type": "Organization",
       name: article.data.author ?? "TanTech AI Desk",
@@ -63,10 +77,15 @@ export function getArticleJsonLd(article: NewsEntry, url: string) {
       url: SITE_URL,
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/logo.svg`
+        url: PUBLISHER_LOGO,
+        width: "512",
+        height: "512"
       }
     },
-    image: article.data.imageUrl ?? DEFAULT_IMAGE,
+    image: {
+      "@type": "ImageObject",
+      url: imageUrl
+    },
     articleSection: article.data.categories,
     keywords: article.data.tags.join(", "),
     inLanguage: "th-TH",
@@ -152,5 +171,6 @@ export const seoDefaults = {
   siteName: SITE_NAME,
   defaultDescription: DEFAULT_DESCRIPTION,
   defaultImage: DEFAULT_IMAGE,
-  siteUrl: SITE_URL
+  siteUrl: SITE_URL,
+  publisherLogo: PUBLISHER_LOGO
 };

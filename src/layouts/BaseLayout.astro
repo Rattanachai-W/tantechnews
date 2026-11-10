@@ -4,6 +4,7 @@ import SiteFooter from "../components/layout/site-footer.astro";
 import SiteHeader from "../components/layout/site-header.astro";
 import { shouldIncludeDraftContent } from "../utils/drafts";
 import { seoDefaults } from "../utils/seo";
+import { formatPageTitle } from "../utils/title";
 import "../styles/global.css";
 
 interface Props {
@@ -12,6 +13,9 @@ interface Props {
   ogType?: "website" | "article";
   image?: string;
   noindex?: boolean;
+  prevUrl?: string | null;
+  nextUrl?: string | null;
+  preloadImage?: string | null;
 }
 
 const siteName = "ทันเทค | TanTech News";
@@ -20,11 +24,17 @@ const {
   description = seoDefaults.defaultDescription,
   ogType = "website",
   image = seoDefaults.defaultImage,
-  noindex = false
+  noindex = false,
+  prevUrl = null,
+  nextUrl = null,
+  preloadImage = null
 } = Astro.props;
-const pageTitle = title === siteName ? title : `${title} | TanTech News`;
+const pageTitle = formatPageTitle(title);
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const imageUrl = new URL(image, Astro.site).href;
+const preloadHref = preloadImage
+  ? new URL(preloadImage, Astro.site).href
+  : null;
 const includeDrafts = shouldIncludeDraftContent();
 const shouldNoindex = noindex || includeDrafts;
 ---
@@ -39,8 +49,13 @@ const shouldNoindex = noindex || includeDrafts;
     {shouldNoindex && <meta name="robots" content="noindex,nofollow" />}
     {!shouldNoindex && <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />}
     <link rel="canonical" href={canonical.href} />
+    {prevUrl && <link rel="prev" href={new URL(prevUrl, Astro.site).href} />}
+    {nextUrl && <link rel="next" href={new URL(nextUrl, Astro.site).href} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="application/rss+xml" title="TanTech News RSS" href="/rss.xml" />
+    {preloadHref && (
+      <link rel="preload" as="image" href={preloadHref} fetchpriority="high" />
+    )}
     <meta property="og:type" content={ogType} />
     <meta property="og:locale" content="th_TH" />
     <meta property="og:site_name" content={seoDefaults.siteName} />

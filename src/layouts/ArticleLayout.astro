@@ -6,6 +6,7 @@ import { formatDateTime } from "../utils/format-date";
 import type { NewsEntry } from "../utils/content";
 import {
   getArticleJsonLd,
+  getArticleModifiedAt,
   getBreadcrumbJsonLd,
   seoDefaults,
 } from "../utils/seo";
@@ -25,6 +26,7 @@ const canonical = new URL(
 const primaryCategory = article.data.categories[0] ?? "AI";
 const categoryHref = `/category/${primaryCategory.toLowerCase().replace(/\s+/g, "-")}/`;
 const tocItems = headings.filter((heading) => heading.depth === 2);
+const modifiedAt = getArticleModifiedAt(article);
 
 const breadcrumbs = [
   { name: "หน้าแรก", url: `${seoDefaults.siteUrl}/` },
@@ -42,6 +44,7 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
   description={article.data.excerpt}
   ogType="article"
   image={article.data.imageUrl}
+  preloadImage={heroImage}
 >
   <Fragment slot="head">
     <meta
@@ -50,7 +53,7 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
     />
     <meta
       property="article:modified_time"
-      content={article.data.publishedAt.toISOString()}
+      content={modifiedAt.toISOString()}
     />
     <meta
       property="article:author"
@@ -186,6 +189,7 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
               alt={article.data.title}
               class="aspect-[16/9] w-full object-cover"
               loading="eager"
+              fetchpriority="high"
               width="1200"
               height="675"
               itemprop="image"
@@ -197,7 +201,7 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
       <!-- Hidden structured data fields -->
       <meta
         itemprop="dateModified"
-        content={article.data.publishedAt.toISOString()}
+        content={modifiedAt.toISOString()}
       />
       <span
         itemprop="author"

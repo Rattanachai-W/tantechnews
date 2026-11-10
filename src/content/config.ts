@@ -9,6 +9,7 @@ const news = defineCollection({
     title: z.string().min(1),
     excerpt: z.string().min(1),
     publishedAt: z.coerce.date(),
+    updatedAt: z.coerce.date().optional(),
     sourcePublishedAt: z.coerce.date(),
     sourceName: z.string().min(1),
     sourceUrl: z.string().url(),

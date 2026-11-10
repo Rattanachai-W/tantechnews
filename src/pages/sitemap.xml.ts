@@ -7,6 +7,20 @@ import {
   getPublishedNews
 } from "../utils/content";
 
+const HOME_PAGE_SIZE = 10;
+const CATEGORY_PAGE_SIZE = 10;
+
+function paginationPaths(basePath: string, totalItems: number, pageSize: number) {
+  const lastPage = Math.max(1, Math.ceil(totalItems / pageSize));
+  const paths: string[] = [];
+
+  for (let page = 2; page <= lastPage; page += 1) {
+    paths.push(basePath === "" ? `${page}/` : `${basePath}${page}/`);
+  }
+
+  return paths;
+}
+
 export const GET: APIRoute = async ({ site }) => {
   const baseUrl = site ?? new URL("https://www.tantechnews.com");
   const articles = await getPublishedNews();
@@ -27,11 +41,28 @@ export const GET: APIRoute = async ({ site }) => {
     { path: "selection-criteria/", priority: "0.5", lastmod: now },
     { path: "rss.xml", priority: "0.5", lastmod: now }
   ];
-  const categoryEntries = ARTICLE_CATEGORIES.map((category) => ({
-    path: `category/${category.toLowerCase().replace(/\s+/g, "-")}/`,
-    priority: "0.7",
-    lastmod: now
-  }));
+
+  const homePaginationEntries = paginationPaths("", articles.length, HOME_PAGE_SIZE).map(
+    (path) => ({ path, priority: "0.6", lastmod: now })
+  );
+
+  const categoryEntries = ARTICLE_CATEGORIES.flatMap((category) => {
+    const slug = category.toLowerCase().replace(/\s+/g, "-");
+    const basePath = `category/${slug}/`;
+    const filteredCount = articles.filter((article) =>
+      article.data.categories.includes(category)
+    ).length;
+
+    return [
+      { path: basePath, priority: "0.7", lastmod: now },
+      ...paginationPaths(basePath, filteredCount, CATEGORY_PAGE_SIZE).map((path) => ({
+        path,
+        priority: "0.5",
+        lastmod: now
+      }))
+    ];
+  });
+
   const dailyEntries = digests.map((digest) => ({
     path: getDailyHref(digest).slice(1),
     priority: "0.8",
@@ -40,9 +71,17 @@ export const GET: APIRoute = async ({ site }) => {
   const articleEntries = articles.map((article) => ({
     path: getArticleHref(article).slice(1),
     priority: "0.9",
-    lastmod: article.data.publishedAt.toISOString().slice(0, 10)
+    lastmod: (article.data.updatedAt ?? article.data.publishedAt)
+      .toISOString()
+      .slice(0, 10)
   }));
-  const entries = [...staticEntries, ...categoryEntries, ...dailyEntries, ...articleEntries];
+  const entries = [
+    ...staticEntries,
+    ...homePaginationEntries,
+    ...categoryEntries,
+    ...dailyEntries,
+    ...articleEntries
+  ];
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

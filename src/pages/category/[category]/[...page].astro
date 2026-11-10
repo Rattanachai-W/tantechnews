@@ -51,13 +51,23 @@ const breadcrumbs = [
 
 const title = isFirstPage
   ? `ข่าว ${category} ล่าสุด`
-  : `ข่าว ${category} ล่าสุด — หน้า ${page.currentPage}`;
+  : `ข่าว ${category} ล่าสุด หน้า ${page.currentPage}`;
 const description = isFirstPage
   ? categoryDescription
   : `${categoryDescription} หน้าที่ ${page.currentPage} จาก ${page.lastPage}`;
+
+function normalizePagerUrl(url?: string) {
+  if (!url) return null;
+  return url.endsWith("/") ? url : `${url}/`;
+}
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout
+  title={title}
+  description={description}
+  prevUrl={normalizePagerUrl(page.url.prev)}
+  nextUrl={normalizePagerUrl(page.url.next)}
+>
   <Fragment slot="head">
     <JsonLd data={getCategoryJsonLd(category, canonical, categoryDescription)} />
     <JsonLd data={getBreadcrumbJsonLd(breadcrumbs)} />
