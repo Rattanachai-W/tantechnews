@@ -63,7 +63,9 @@ export function scoreArticleWithRules(article: RawArticle): ScoredArticle {
     : 5;
   const novelty = 6;
   const credibility = credibilityFromTier(article);
-  const totalScore = importance * 0.4 + relevance * 0.3 + novelty * 0.2 + credibility * 0.1;
+  const priorityBoost = Math.max(0, article.priorityBoost ?? 0);
+  const totalScore =
+    importance * 0.4 + relevance * 0.3 + novelty * 0.2 + credibility * 0.1 + priorityBoost;
 
   return {
     ...article,
@@ -74,7 +76,10 @@ export function scoreArticleWithRules(article: RawArticle): ScoredArticle {
       credibility,
       totalScore,
       category: inferCategory(article),
-      reason: "Rule-based MVP score; replace with structured AI scoring after API setup."
+      reason:
+        priorityBoost > 0
+          ? `Rule-based score with partner priorityBoost +${priorityBoost}.`
+          : "Rule-based MVP score; replace with structured AI scoring after API setup."
     }
   };
 }
@@ -99,6 +104,19 @@ export async function scoreArticlesWithAi(articles: RawArticle[]): Promise<Score
 
   return ruleBasedScores.map((article) => {
     const score = aiScores.get(article.id);
-    return score ? { ...article, score } : article;
+    if (!score) return article;
+
+    const priorityBoost = Math.max(0, article.priorityBoost ?? 0);
+    return {
+      ...article,
+      score: {
+        ...score,
+        totalScore: score.totalScore + priorityBoost,
+        reason:
+          priorityBoost > 0
+            ? `${score.reason} Partner priorityBoost +${priorityBoost}.`
+            : score.reason
+      }
+    };
   });
 }

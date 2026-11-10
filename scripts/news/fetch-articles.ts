@@ -13,6 +13,7 @@ const baseSourceSchema = z.object({
   url: z.string().url(),
   enabled: z.boolean(),
   tier: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+  priorityBoost: z.number().min(0).max(10).optional(),
   categories: z.array(z.enum(ARTICLE_CATEGORIES)).min(1).max(3),
   language: z.string()
 });

@@ -31,8 +31,6 @@ const breadcrumbs = [
 
 const breadcrumbJsonLd = getBreadcrumbJsonLd(breadcrumbs);
 const articleJsonLd = getArticleJsonLd(article, canonical);
-const reviewer = article.data.reviewedBy?.trim();
-const hasReview = Boolean(reviewer && article.data.reviewedAt);
 const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
 ---
 
@@ -169,15 +167,6 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
           </dd>
         </div>
       </dl>
-      <div class="mt-5 space-y-2 text-sm leading-7 text-muted" data-pagefind-ignore>
-        <p>ผู้เรียบเรียง: <span class="font-semibold text-ink">{article.data.author ?? "TanTech AI Desk"}</span></p>
-        <p>{article.data.aiGenerated ? "ใช้ AI ช่วยสรุปและวิเคราะห์จากแหล่งข่าวที่ระบุ" : "เรียบเรียงจากแหล่งข่าวที่ระบุ"} · <a href="/ai-policy/" class="text-brand underline underline-offset-2">วิธีใช้ AI ของทันเทค</a></p>
-        {hasReview ? (
-          <p>ผู้ตรวจสอบ: <span class="font-semibold text-ink">{reviewer}</span> · <time datetime={article.data.reviewedAt!.toISOString()}>{formatDateTime(article.data.reviewedAt!)}</time></p>
-        ) : (
-          <p>ยังไม่มีข้อมูลชื่อและวันที่ตรวจสอบโดยบรรณาธิการในบทความนี้</p>
-        )}
-      </div>
       {
         heroImage && (
           <div class="mt-6 overflow-hidden rounded-xl border border-line bg-paper">

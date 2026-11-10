@@ -21,6 +21,7 @@ export interface RawArticle {
   sourceName: string;
   sourceType: "rss" | "api" | "manual";
   sourceTier?: 1 | 2 | 3;
+  priorityBoost?: number;
   publishedAt: string;
   description?: string;
   author?: string;

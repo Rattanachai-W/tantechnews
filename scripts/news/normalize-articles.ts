@@ -47,6 +47,7 @@ export function normalizeArticle(input: {
     sourceName: input.source.name,
     sourceType: input.source.type,
     sourceTier: input.source.tier,
+    priorityBoost: input.source.priorityBoost,
     publishedAt: new Date(input.publishedAt).toISOString(),
     description: input.description ? normalizeText(input.description) : undefined,
     author: input.author ? normalizeText(input.author) : undefined,

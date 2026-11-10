@@ -300,6 +300,16 @@ describe("news pipeline helpers", () => {
     assert.ok(primary.score.totalScore > discovery.score.totalScore);
   });
 
+  it("applies partner priorityBoost on top of tier scoring", () => {
+    const [partner, peer] = scoreArticles([
+      rawArticle({ id: "partner", sourceTier: 1, priorityBoost: 3 }),
+      rawArticle({ id: "peer", sourceTier: 1 })
+    ]);
+
+    assert.ok(partner.score.totalScore > peer.score.totalScore);
+    assert.ok(Math.abs(partner.score.totalScore - peer.score.totalScore - 3) < 1e-9);
+  });
+
   it("parses readable article HTML and rejects very short content", () => {
     const readable = parseArticleHtml(
       `<!doctype html>

@@ -15,6 +15,8 @@ export interface BaseNewsSource {
   name: string;
   enabled: boolean;
   tier: 1 | 2 | 3;
+  /** Extra ranking weight for partner / priority sources. Added to totalScore. */
+  priorityBoost?: number;
   categories: ArticleCategory[];
   language: string;
 }
