@@ -1,6 +1,16 @@
 {
   "sources": [
     {
+      "id": "apocwire-th",
+      "name": "APOC Wire Thailand",
+      "url": "https://apocwire.com/th/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "tier": 1,
+      "categories": ["Business", "AI"],
+      "language": "th"
+    },
+    {
       "id": "openai-blog",
       "name": "OpenAI Blog",
       "url": "https://openai.com/news/rss.xml",
