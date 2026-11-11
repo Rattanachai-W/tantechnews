@@ -2743,6 +2743,27 @@
       "slug": "nominal-ai-3-8",
       "sourceName": "TechCrunch",
       "processedAt": "2026-11-10T07:21:05.793Z"
+    },
+    {
+      "id": "2c15f23ac7aa344ce6cd1173afbcf4c3c28e36855eab12ff0029cdf51586908b",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "slug": "git-6",
+      "sourceName": "GitHub Blog",
+      "processedAt": "2026-11-11T06:12:49.101Z"
+    },
+    {
+      "id": "6861ada54d72cff29bd333b6f175b6ce8d038abb4f37eac99be6835e97572ad8",
+      "url": "https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch/",
+      "slug": "stoke-space-rocket-lab",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-11-11T06:13:03.921Z"
+    },
+    {
+      "id": "349d314923b43129e801e4382c8c47f420c254bc4f3484fedda8f81e737646bc",
+      "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
+      "slug": "100-god-tier",
+      "sourceName": "WIRED",
+      "processedAt": "2026-11-11T06:13:17.720Z"
     }
   ]
 }
