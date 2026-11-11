@@ -155,7 +155,8 @@ export function validateNewsMarkdownStructure(content: string, sourceUrl: string
     }
   }
 
-  if (!content.includes(`[อ่านต้นฉบับ](${sourceUrl})`)) {
+  // Accept both legacy "[อ่านต้นฉบับ](url)" and current "[อ่านรายงานจาก Source](url)".
+  if (!content.includes(`](${sourceUrl})`)) {
     errors.push("source link does not match frontmatter sourceUrl");
   }
 

@@ -55,6 +55,15 @@ describe("content validation", () => {
     assert.ok(errors.some((error) => error.includes("source link does not match")));
   });
 
+  it("accepts the current source link label format", () => {
+    const body = validArticleBody.replace(
+      "[อ่านต้นฉบับ](https://example.com/source)",
+      "[อ่านรายงานจาก Example Source](https://example.com/source)"
+    );
+
+    assert.deepEqual(validateNewsMarkdownStructure(body, sourceUrl), []);
+  });
+
   it("rejects empty top-level sections", () => {
     const errors = validateNewsMarkdownStructure(
       validArticleBody.replace("ข่าวนี้มีผลต่อผู้อ่านด้านเทคโนโลยีและควรติดตามต่อ.", ""),
