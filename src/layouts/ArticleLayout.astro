@@ -117,7 +117,7 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
         {
           article.data.categories.map((category) => (
             <a
-              class="rounded-md bg-brand-light px-2.5 py-1 text-brand-dark hover:bg-brand hover:text-white transition-colors"
+              class="inline-flex min-h-11 items-center rounded-md bg-brand-light px-3 py-2 text-brand-dark transition-colors hover:bg-brand hover:text-white"
               href={`/category/${category.toLowerCase().replace(/\s+/g, "-")}/`}
             >
               {category}

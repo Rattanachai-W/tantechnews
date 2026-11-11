@@ -2,8 +2,11 @@
 const year = new Date().getFullYear();
 ---
 
-<footer class="border-t border-line bg-white" role="contentinfo">
-  <div class="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+<footer
+  class="border-t border-line bg-white pb-[env(safe-area-inset-bottom)]"
+  role="contentinfo"
+>
+  <div class="mx-auto max-w-6xl px-4 py-8 pl-[max(1rem,env(safe-area-inset-left))] pr-[max(1rem,env(safe-area-inset-right))] sm:px-6 sm:pl-[max(1.5rem,env(safe-area-inset-left))] sm:pr-[max(1.5rem,env(safe-area-inset-right))]">
     <div class="grid gap-6 md:grid-cols-[1fr_auto]">
       <div>
         <p class="text-lg font-bold text-ink">ทันเทค</p>
@@ -12,30 +15,24 @@ const year = new Date().getFullYear();
           พร้อมวิเคราะห์ผลกระทบ ขับเคลื่อนด้วยระบบ AI อัตโนมัติ 100%
         </p>
       </div>
-      <nav aria-label="ลิงก์ท้ายเว็บ" class="flex flex-wrap gap-4 text-sm md:justify-end">
-        <a class="font-semibold text-muted hover:text-ink transition-colors" href="/rss.xml">RSS</a>
-        <a class="font-semibold text-muted hover:text-ink transition-colors" href="/sitemap.xml">Sitemap</a>
-        <a class="font-semibold text-muted hover:text-ink transition-colors" href="/archive/">คลังข่าว</a>
-        <a class="font-semibold text-muted hover:text-ink transition-colors" href="/category/">หมวดหมู่</a>
-        <a class="font-semibold text-muted hover:text-ink transition-colors" href="/advertise/">ติดต่อโฆษณา</a>
+      <nav aria-label="ลิงก์ท้ายเว็บ" class="flex flex-wrap gap-2 text-sm md:justify-end">
+        <a class="inline-flex min-h-11 items-center px-2 font-semibold text-muted transition-colors hover:text-ink" href="/rss.xml">RSS</a>
+        <a class="inline-flex min-h-11 items-center px-2 font-semibold text-muted transition-colors hover:text-ink" href="/sitemap.xml">Sitemap</a>
+        <a class="inline-flex min-h-11 items-center px-2 font-semibold text-muted transition-colors hover:text-ink" href="/archive/">คลังข่าว</a>
+        <a class="inline-flex min-h-11 items-center px-2 font-semibold text-muted transition-colors hover:text-ink" href="/category/">หมวดหมู่</a>
+        <a class="inline-flex min-h-11 items-center px-2 font-semibold text-muted transition-colors hover:text-ink" href="/advertise/">ติดต่อโฆษณา</a>
       </nav>
     </div>
 
     <!-- Trust Links -->
-    <nav aria-label="ลิงก์ความโปร่งใส" class="mt-5 flex flex-wrap gap-x-4 gap-y-2 text-xs text-muted border-t border-line pt-5">
-      <a class="hover:text-ink transition-colors" href="/about-us/">เกี่ยวกับทันเทค</a>
-      <span aria-hidden="true">·</span>
-      <a class="hover:text-ink transition-colors" href="/selection-criteria/">วิธีการคัดเลือกข่าว</a>
-      <span aria-hidden="true">·</span>
-      <a class="hover:text-ink transition-colors" href="/ai-policy/">นโยบายการใช้ AI</a>
-      <span aria-hidden="true">·</span>
-      <a class="hover:text-ink transition-colors" href="/correction-policy/">นโยบายแก้ไขข่าว</a>
-      <span aria-hidden="true">·</span>
-      <a class="hover:text-ink transition-colors" href="/contact/">ติดต่อเรา</a>
-      <span aria-hidden="true">·</span>
-      <a class="hover:text-ink transition-colors" href="/advertise/">ติดต่อโฆษณา</a>
-      <span aria-hidden="true">·</span>
-      <a class="hover:text-ink transition-colors" href="/privacy/">Privacy</a>
+    <nav aria-label="ลิงก์ความโปร่งใส" class="mt-5 flex flex-wrap gap-x-1 gap-y-1 border-t border-line pt-5 text-xs text-muted">
+      <a class="inline-flex min-h-11 items-center px-2 transition-colors hover:text-ink" href="/about-us/">เกี่ยวกับทันเทค</a>
+      <a class="inline-flex min-h-11 items-center px-2 transition-colors hover:text-ink" href="/selection-criteria/">วิธีการคัดเลือกข่าว</a>
+      <a class="inline-flex min-h-11 items-center px-2 transition-colors hover:text-ink" href="/ai-policy/">นโยบายการใช้ AI</a>
+      <a class="inline-flex min-h-11 items-center px-2 transition-colors hover:text-ink" href="/correction-policy/">นโยบายแก้ไขข่าว</a>
+      <a class="inline-flex min-h-11 items-center px-2 transition-colors hover:text-ink" href="/contact/">ติดต่อเรา</a>
+      <a class="inline-flex min-h-11 items-center px-2 transition-colors hover:text-ink" href="/advertise/">ติดต่อโฆษณา</a>
+      <a class="inline-flex min-h-11 items-center px-2 transition-colors hover:text-ink" href="/privacy/">Privacy</a>
     </nav>
 
     <div class="mt-4 border-t border-line pt-4">

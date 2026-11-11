@@ -57,7 +57,7 @@ const nextUrl = normalizePagerUrl(page.url.next);
         <span class="text-xs">({page.total} บทความ)</span>
       </p>
 
-      <div class="flex items-center gap-1.5">
+      <div class="flex max-w-full flex-wrap items-center justify-center gap-1.5">
         {prevUrl ? (
           <a
             href={prevUrl}
@@ -81,7 +81,14 @@ const nextUrl = normalizePagerUrl(page.url.next);
           </span>
         )}
 
-        <div class="flex items-center gap-1">
+        <span
+          class="inline-flex min-h-11 items-center rounded-lg bg-brand px-3 text-sm font-bold text-white shadow-sm sm:hidden"
+          aria-current="page"
+        >
+          {page.currentPage} / {page.lastPage}
+        </span>
+
+        <div class="hidden items-center gap-1 sm:flex">
           {pageNumbers.map((p) => {
             if (p === "...") {
               return (

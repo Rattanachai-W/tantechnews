@@ -62,7 +62,10 @@ const slides = articles.map((article) => {
           </div>
         </div>
 
-        <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+        <div
+          class="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 touch-pan-y"
+          data-weekly-viewport
+        >
           <div class="weekly-highlights__track flex" data-weekly-track>
             {slides.map((slide, index) => (
               <article
@@ -109,16 +112,21 @@ const slides = articles.map((article) => {
         </div>
 
         <div class="mt-4 flex flex-wrap items-center justify-between gap-3">
-          <div class="flex flex-wrap gap-2" role="tablist" aria-label="เลือกสไลด์ไฮไลต์">
+          <div class="flex flex-wrap gap-1" role="tablist" aria-label="เลือกสไลด์ไฮไลต์">
             {slides.map((_, index) => (
               <button
                 type="button"
-                class="h-2.5 w-2.5 rounded-full bg-white/30 transition hover:bg-white/60 data-[active=true]:w-6 data-[active=true]:bg-brand-light"
+                class="inline-flex h-11 min-w-11 items-center justify-center rounded-md transition hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-light"
                 aria-label={`ไปที่สไลด์ ${index + 1}`}
                 data-weekly-dot
                 data-index={index}
                 data-active={index === 0 ? "true" : "false"}
-              />
+              >
+                <span
+                  class="block h-2.5 w-2.5 rounded-full bg-white/30 transition-[width,background-color]"
+                  data-weekly-dot-mark
+                />
+              </button>
             ))}
           </div>
           <p class="text-xs text-white/70" data-weekly-status aria-live="polite">
@@ -135,6 +143,11 @@ const slides = articles.map((article) => {
     transition: transform 0.45s ease;
   }
 
+  [data-weekly-dot][data-active="true"] [data-weekly-dot-mark] {
+    width: 1.5rem;
+    background-color: #5eead4;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .weekly-highlights__track {
       transition: none;
@@ -146,6 +159,7 @@ const slides = articles.map((article) => {
   const root = document.querySelector<HTMLElement>("[data-weekly-carousel]");
   if (root) {
     const track = root.querySelector<HTMLElement>("[data-weekly-track]");
+    const viewport = root.querySelector<HTMLElement>("[data-weekly-viewport]");
     const slides = Array.from(root.querySelectorAll<HTMLElement>("[data-weekly-slide]"));
     const dots = Array.from(root.querySelectorAll<HTMLButtonElement>("[data-weekly-dot]"));
     const status = root.querySelector<HTMLElement>("[data-weekly-status]");
@@ -155,6 +169,9 @@ const slides = articles.map((article) => {
 
     let index = 0;
     let timer: number | null = null;
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchActive = false;
 
     function render() {
       if (!track) return;
@@ -198,6 +215,44 @@ const slides = articles.map((article) => {
         startAutoplay();
       });
     });
+
+    viewport?.addEventListener(
+      "touchstart",
+      (event) => {
+        if (event.touches.length !== 1) return;
+        touchActive = true;
+        touchStartX = event.touches[0].clientX;
+        touchStartY = event.touches[0].clientY;
+        stopAutoplay();
+      },
+      { passive: true }
+    );
+
+    viewport?.addEventListener(
+      "touchend",
+      (event) => {
+        if (!touchActive || event.changedTouches.length !== 1) return;
+        touchActive = false;
+        const deltaX = event.changedTouches[0].clientX - touchStartX;
+        const deltaY = event.changedTouches[0].clientY - touchStartY;
+        if (Math.abs(deltaX) < 48 || Math.abs(deltaX) < Math.abs(deltaY)) {
+          startAutoplay();
+          return;
+        }
+        goTo(deltaX < 0 ? index + 1 : index - 1);
+        startAutoplay();
+      },
+      { passive: true }
+    );
+
+    viewport?.addEventListener(
+      "touchcancel",
+      () => {
+        touchActive = false;
+        startAutoplay();
+      },
+      { passive: true }
+    );
 
     root.addEventListener("mouseenter", stopAutoplay);
     root.addEventListener("mouseleave", startAutoplay);

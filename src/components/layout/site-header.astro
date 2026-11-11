@@ -13,8 +13,11 @@ const navItems = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="border-b border-line bg-white" role="banner">
-  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
+<header
+  class="border-b border-line bg-white pt-[env(safe-area-inset-top)]"
+  role="banner"
+>
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 pl-[max(1rem,env(safe-area-inset-left))] pr-[max(1rem,env(safe-area-inset-right))] sm:px-6 sm:pl-[max(1.5rem,env(safe-area-inset-left))] sm:pr-[max(1.5rem,env(safe-area-inset-right))]">
     <a href="/" class="flex items-center gap-3" aria-label="TanTech News — หน้าแรก">
       <img src="/logo.svg" alt="โลโก้ทันเทค" class="h-10 w-10" width="40" height="40" loading="eager" />
       <div>
@@ -71,7 +74,10 @@ const currentPath = Astro.url.pathname;
     class="hidden overflow-hidden border-t border-line bg-white md:hidden"
     data-mobile-menu
   >
-    <nav class="mx-auto max-w-6xl px-4 py-3 sm:px-6" aria-label="เมนูมือถือ">
+    <nav
+      class="mx-auto max-w-6xl px-4 py-3 pl-[max(1rem,env(safe-area-inset-left))] pr-[max(1rem,env(safe-area-inset-right))] sm:px-6"
+      aria-label="เมนูมือถือ"
+    >
       <ul class="flex flex-col gap-1">
         {navItems.map((item) => {
           const isActive = item.href === "/"
@@ -107,10 +113,10 @@ const currentPath = Astro.url.pathname;
   let previouslyFocused: HTMLElement | null = null;
 
   function getFocusable(): HTMLElement[] {
-    if (!menu) return [];
-    return Array.from(
-      menu.querySelectorAll<HTMLElement>('a[href], button:not([disabled])')
-    );
+    const menuItems = menu
+      ? Array.from(menu.querySelectorAll<HTMLElement>('a[href], button:not([disabled])'))
+      : [];
+    return button ? [button, ...menuItems] : menuItems;
   }
 
   function setOpen(open: boolean) {
@@ -126,7 +132,8 @@ const currentPath = Astro.url.pathname;
     if (open) {
       previouslyFocused = document.activeElement as HTMLElement | null;
       const focusable = getFocusable();
-      (focusable[0] ?? menu).focus();
+      const firstLink = focusable.find((el) => el !== button);
+      (firstLink ?? button).focus();
     } else if (previouslyFocused) {
       previouslyFocused.focus();
       previouslyFocused = null;
@@ -139,6 +146,14 @@ const currentPath = Astro.url.pathname;
 
   button?.addEventListener("click", () => {
     setOpen(!isOpen());
+  });
+
+  document.addEventListener("pointerdown", (event) => {
+    if (!isOpen() || !button || !menu) return;
+    const target = event.target as Node | null;
+    if (!target) return;
+    if (menu.contains(target) || button.contains(target)) return;
+    setOpen(false);
   });
 
   document.addEventListener("keydown", (event) => {
