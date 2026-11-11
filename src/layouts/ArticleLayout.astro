@@ -78,28 +78,40 @@ const heroImage = getOptimizedImageUrl(article.data.imageUrl, 1200);
     itemtype="https://schema.org/NewsArticle"
   >
     <div class="mx-auto max-w-3xl px-4 sm:px-6">
-    <div class="mb-6">
-      <nav aria-label="Breadcrumb">
-        <ol class="flex flex-wrap items-center gap-1.5 text-sm text-muted">
+    <div class="mb-6 min-w-0">
+      <nav aria-label="Breadcrumb" class="min-w-0 overflow-hidden">
+        <ol class="flex min-w-0 items-center gap-1.5 text-sm text-muted">
           {
-            breadcrumbs.map((crumb, index) => (
-              <li class="flex min-w-0 items-center gap-1.5">
-                {index > 0 && (
-                  <span aria-hidden="true" class="text-line">
-                    /
-                  </span>
-                )}
-                {index < breadcrumbs.length - 1 ? (
-                  <a class="font-medium hover:text-brand" href={crumb.url}>
-                    {crumb.name}
-                  </a>
-                ) : (
-                  <span class="line-clamp-1 font-semibold text-ink" aria-current="page">
-                    {crumb.name}
-                  </span>
-                )}
-              </li>
-            ))
+            breadcrumbs.map((crumb, index) => {
+              const isLast = index === breadcrumbs.length - 1;
+              return (
+                <li
+                  class:list={[
+                    "flex items-center gap-1.5",
+                    isLast ? "min-w-0 flex-1 overflow-hidden" : "shrink-0"
+                  ]}
+                >
+                  {index > 0 && (
+                    <span aria-hidden="true" class="shrink-0 text-line">
+                      /
+                    </span>
+                  )}
+                  {isLast ? (
+                    <span
+                      class="min-w-0 flex-1 truncate font-semibold text-ink"
+                      aria-current="page"
+                      title={crumb.name}
+                    >
+                      {crumb.name}
+                    </span>
+                  ) : (
+                    <a class="font-medium hover:text-brand" href={crumb.url} title={crumb.name}>
+                      {crumb.name}
+                    </a>
+                  )}
+                </li>
+              );
+            })
           }
         </ol>
       </nav>
