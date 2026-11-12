@@ -2764,6 +2764,27 @@
       "slug": "100-god-tier",
       "sourceName": "WIRED",
       "processedAt": "2026-11-11T06:13:17.720Z"
+    },
+    {
+      "id": "5e287749a052919098f3627ae362c411129cdb934558dd7b9854c2daaeec1c6e",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "slug": "nectar-ai-agent-creator",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-11-12T22:39:29.919Z"
+    },
+    {
+      "id": "23cd30b64977508809340ec615aae500a4ff8058d4d5e74bddcca27d24711abc",
+      "url": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/",
+      "slug": "whoop-whoop-humans",
+      "sourceName": "TechCrunch",
+      "processedAt": "2026-11-12T22:39:50.812Z"
+    },
+    {
+      "id": "c4fd060896ac1c215c9711c288022e11c7541ceb50a33c2848ec9da2ccaa1f9a",
+      "url": "https://arstechnica.com/culture/2026/11/netflix-releases-new-trailer-for-ray-gunn/",
+      "slug": "netflix-ray-gunn-pixar",
+      "sourceName": "Ars Technica",
+      "processedAt": "2026-11-12T22:40:08.131Z"
     }
   ]
 }
