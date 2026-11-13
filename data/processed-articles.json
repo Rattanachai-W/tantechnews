@@ -2785,6 +2785,27 @@
       "slug": "netflix-ray-gunn-pixar",
       "sourceName": "Ars Technica",
       "processedAt": "2026-11-12T22:40:08.131Z"
+    },
+    {
+      "id": "dd62360cdb55684548b933d3167392023265ac357145129d43f04a3f64bbaa9a",
+      "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
+      "slug": "whoop-humans",
+      "sourceName": "The Verge",
+      "processedAt": "2026-11-13T12:55:48.678Z"
+    },
+    {
+      "id": "c400f183ce528620b20d75d1470ae19787b91819cafbd92061886de5fee36009",
+      "url": "https://cointelegraph.com/magazine/are-alt-l1s-over-security-costs-drive-smaller-chains-to-ethereum",
+      "slug": "alt-l1-ethereum",
+      "sourceName": "Cointelegraph",
+      "processedAt": "2026-11-13T12:56:23.511Z"
+    },
+    {
+      "id": "44e59598ae730947c2be3ccaf5b10fefa31e1163ee80f99598dde8d7b5a37c76",
+      "url": "https://9to5google.com/2026/11/12/the-iphone-duos-rocky-launch-is-a-reminder-of-how-far-android-foldables-have-come/",
+      "slug": "iphone-duo-android-foldables",
+      "sourceName": "9to5Google",
+      "processedAt": "2026-11-13T12:56:55.131Z"
     }
   ]
 }
