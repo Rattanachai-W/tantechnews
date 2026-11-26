@@ -2813,6 +2813,27 @@
       "slug": "inchem-tokyo-2027",
       "sourceName": "APOC Wire Thailand",
       "processedAt": "2026-11-19T23:27:23.025Z"
+    },
+    {
+      "id": "bf2f6da01a4d81576a3004c41cf92e992d5b2f83d9b3d62d347a26e4c88cd37d",
+      "url": "https://apocwire.com/th/p/93162634.00000171.html",
+      "slug": "sv-league-2570",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-26T14:48:49.884Z"
+    },
+    {
+      "id": "cdad797fc6154dd083bfed0e7af56d483681f142ae80b4a9f176708bfacacb2e",
+      "url": "https://apocwire.com/th/p/67562915.90000100.html",
+      "slug": "glamour-rental-line-700",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-26T14:48:54.119Z"
+    },
+    {
+      "id": "0127a21aa4561ccb15bd2b8da8795d22a44877c7a2b4fba20caa777ab70b3df4",
+      "url": "https://apocwire.com/th/p/19015122.90000097.html",
+      "slug": "messagespring-qasaliving",
+      "sourceName": "APOC Wire Thailand",
+      "processedAt": "2026-11-26T14:48:57.991Z"
     }
   ]
 }
